@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>摄影点评归档看板</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Photography Archive</p>
+        <h1>摄影点评归档看板</h1>
+      </div>
+      <div class="stats" id="stats">读取中</div>
+    </header>
+
+    <nav class="mode-tabs" aria-label="看板模式">
+      <button class="mode-tab active" type="button" data-mode="single">单张模式</button>
+      <button class="mode-tab" type="button" data-mode="compare">对比模式</button>
+      <button class="mode-tab" type="button" data-mode="guide">使用说明</button>
+      <button class="mode-tab" type="button" data-mode="overview">总览</button>
+    </nav>
+
+    <main class="layout mode-panel active" id="singleMode">
+      <nav class="date-panel" aria-label="归档日期">
+        <div class="panel-title">
+          <span>日期</span>
+          <strong id="dateCount">0</strong>
+        </div>
+        <div class="date-list" id="dateList"></div>
+      </nav>
+
+      <section class="thumb-panel" aria-label="日期下的图片">
+        <div class="panel-title">
+          <span id="activeDateTitle">图片</span>
+          <strong id="photoCount">0</strong>
+        </div>
+        <div class="thumb-list" id="thumbList"></div>
+      </section>
+
+      <section class="viewer" aria-label="照片和点评">
+        <div class="photo-stage">
+          <img id="mainImage" alt="归档照片大图" />
+          <div class="empty" id="emptyState">没有可显示的归档</div>
+        </div>
+        <article class="critique" id="critique"></article>
+      </section>
+    </main>
+
+    <section class="compare-layout mode-panel" id="compareMode" aria-label="对比模式">
+      <div class="compare-photos" id="comparePhotos">
+        <div class="compare-empty">点击左下角“开始评分”后随机抽取两张照片。</div>
+      </div>
+      <aside class="compare-panel">
+        <div class="panel-title">
+          <span>维度比较</span>
+          <strong id="compareCount">0</strong>
+        </div>
+        <div class="compare-controls" id="compareControls"></div>
+      </aside>
+    </section>
+
+    <section class="guide-layout mode-panel" id="guideMode" aria-label="使用说明">
+      <article class="guide-content">
+        <p class="eyebrow">Guide</p>
+        <h2>使用说明</h2>
+
+        <section class="guide-section">
+          <h3>单张模式</h3>
+          <ol>
+            <li>切换到“单张模式”。</li>
+            <li>点击左下角“开始评分”。</li>
+            <li>左侧按日期选择照片。</li>
+            <li>查看右侧五个评分：技术、构图、光线、叙事、总体。</li>
+            <li>如果你认为某个分数偏低，点“↑”；如果认为偏高，点“↓”。</li>
+            <li>可以在“评分反馈”输入框写下对这张照片评分或点评的整体看法。</li>
+            <li>可以只评价部分照片、部分维度，不需要每一项都点。</li>
+            <li>完成后点击左下角“结束评分”，浏览器会导出本轮 JSON 文件。</li>
+          </ol>
+        </section>
+
+        <section class="guide-section">
+          <h3>对比模式</h3>
+          <ol>
+            <li>切换到“对比模式”。</li>
+            <li>点击左下角“开始评分”，页面会随机抽取两张归档照片。</li>
+            <li>这个模式不会显示原来的模型分数。</li>
+            <li>在五个维度里选择“左图更高”“右图更高”或“难说”。</li>
+            <li>可以只选择你有判断的维度，不需要五项都选。</li>
+            <li>点击“换一组”会随机抽取下一组照片。</li>
+            <li>完成后点击左下角“结束评分”，浏览器会导出本轮 JSON 文件。</li>
+          </ol>
+        </section>
+
+        <section class="guide-section">
+          <h3>导出文件</h3>
+          <p>导出的 JSON 会记录你的点击轨迹、对应照片 ID、评分维度、选择时间，以及单张模式下填写的文字反馈。</p>
+          <p>把这个 JSON 文件发给我，就可以分析你认为当前评分系统在哪些维度偏高、偏低，或者和你的照片判断习惯有什么差异。</p>
+        </section>
+      </article>
+    </section>
+
+    <section class="overview-layout mode-panel" id="overviewMode" aria-label="总览">
+      <div class="overview-content">
+        <div class="overview-heading">
+          <div>
+            <p class="eyebrow">Overview</p>
+            <h2>分数分布</h2>
+          </div>
+          <div class="overview-meta" id="overviewMeta"></div>
+        </div>
+        <div class="overview-grid" id="overviewGrid"></div>
+      </div>
+    </section>
+
+    <div class="session-dock" aria-label="评分会话控制">
+      <button class="session-button start" id="startSession" type="button">开始评分</button>
+      <button class="session-button end" id="endSession" type="button" disabled>结束评分</button>
+      <span class="session-status" id="sessionStatus">未开始</span>
+    </div>
+
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

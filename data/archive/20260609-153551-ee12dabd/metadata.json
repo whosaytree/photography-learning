@@ -1,0 +1,21 @@
+{
+  "archive_id": "20260609-153551-ee12dabd",
+  "created_at": "2026-06-09T15:35:51+08:00",
+  "trigger": "摄影点评",
+  "image_source": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-06/9e20f478899dc29eb19741386f9343c8/ee12dabde0c0b2e21f49fac64c8e2bac.jpg",
+  "image_file_saved": true,
+  "saved_image": "original.jpg",
+  "image_format": "jpg",
+  "image_dimensions": "1280x1920",
+  "scores": {
+    "technical": 6.5,
+    "composition": 6.0,
+    "lighting": 5.5,
+    "story": 5.5,
+    "overall": 6.0
+  },
+  "main_subject": "天桥楼梯和上方枯枝共同构成的几何楼梯与自然枝条关系",
+  "genre": "城市街景 / 线条构图 / 环境观察",
+  "basic_problem_tier": "轻微基础问题",
+  "cap_rule": "普通记录照倾向仍然存在，总体按 6.0 封顶；主体主次不够明确和边缘干扰限制构图上限"
+}

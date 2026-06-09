@@ -1,0 +1,21 @@
+{
+  "archive_id": "20260609-153041-44eac2d4",
+  "created_at": "2026-06-09T15:30:41+08:00",
+  "trigger": "摄影点评",
+  "image_source": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-06/9e20f478899dc29eb19741386f9343c8/44eac2d45039c891bc27066205b6412c.jpg",
+  "image_file_saved": true,
+  "saved_image": "original.jpg",
+  "image_format": "jpg",
+  "image_dimensions": "1920x1280",
+  "scores": {
+    "technical": 5.0,
+    "composition": 4.0,
+    "lighting": 4.5,
+    "story": 4.0,
+    "overall": 4.0
+  },
+  "main_subject": "不明确，可能是树林、树干纹理、围栏后的环境或光影，但没有任何一个被建立为主角",
+  "genre": "树林环境 / 街边绿地记录",
+  "basic_problem_tier": "基础问题偏重",
+  "cap_rule": "主体存在但不清楚或较弱，构图、叙事、总体按 5.0 封顶；显著背景干扰、普通记录照倾向和光线平淡故事弱叠加，整体按 4.0 处理"
+}

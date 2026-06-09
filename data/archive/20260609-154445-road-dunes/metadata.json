@@ -1,0 +1,23 @@
+{
+  "archive_id": "20260609-154445-road-dunes",
+  "created_at": "2026-06-09T15:44:45+08:00",
+  "trigger": "摄影点评",
+  "image_source": "/Users/bytedance/Downloads/max-bohme-5mujrYJDDQI-unsplash.jpg",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "source_image_dimensions": {
+    "width": 5115,
+    "height": 7672
+  },
+  "subject": "通向沙丘的道路",
+  "genre": "风景 / 旅行路景",
+  "basic_problem_tier": "基础问题",
+  "hard_cap": "光线平淡且叙事弱：总体分、光线分、叙事分封顶到 6 以内",
+  "scores": {
+    "technical": 6.5,
+    "composition": 6,
+    "lighting": 5.5,
+    "story": 5.5,
+    "overall": 6
+  }
+}

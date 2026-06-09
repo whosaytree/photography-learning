@@ -1,0 +1,17 @@
+{
+  "archive_id": "20260609-154458-43507fd8",
+  "source_image_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-06/9e20f478899dc29eb19741386f9343c8/43507fd87ae1f120129f1f568c0f07cf.jpg",
+  "image_source": "local_path",
+  "image_file_saved": true,
+  "saved_image": "original.jpg",
+  "created_at": "2026-06-09",
+  "scores": {
+    "technical": 6.5,
+    "composition": 6.0,
+    "lighting": 5.5,
+    "story": 5.0,
+    "overall": 6.0
+  },
+  "basic_problem_tier": "基础问题",
+  "hard_flaw_cap": "光线平淡且叙事弱：光线、叙事、总体分最高按 6.0 处理"
+}

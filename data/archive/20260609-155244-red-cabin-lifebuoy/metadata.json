@@ -1,0 +1,27 @@
+{
+  "archive_id": "20260609-155244-red-cabin-lifebuoy",
+  "created_at": "2026-06-09T15:52:44+08:00",
+  "trigger": "摄影点评",
+  "image_source": "/Users/bytedance/Downloads/max-bohme-_JFedyCltqg-unsplash.jpg",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "source_image_dimensions": {
+    "width": 4937,
+    "height": 7405
+  },
+  "subject": "红色海边小屋和右侧救生圈",
+  "genre": "海岸风景 / 建筑环境照 / 旅行小景",
+  "basic_problem_tier": "无",
+  "hard_cap": "无",
+  "intentional_effects": [
+    "大面积天空负空间",
+    "左右主体平衡"
+  ],
+  "scores": {
+    "technical": 7.5,
+    "composition": 7.5,
+    "lighting": 6.5,
+    "story": 7,
+    "overall": 7.5
+  }
+}

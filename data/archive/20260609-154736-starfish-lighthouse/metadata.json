@@ -1,0 +1,27 @@
+{
+  "archive_id": "20260609-154736-starfish-lighthouse",
+  "created_at": "2026-06-09T15:47:36+08:00",
+  "trigger": "摄影点评",
+  "image_source": "/Users/bytedance/Downloads/max-bohme-eMt1mH7o80I-unsplash.jpg",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "source_image_dimensions": {
+    "width": 4960,
+    "height": 7440
+  },
+  "subject": "前景海星",
+  "genre": "海边旅行细节 / 风景小品",
+  "basic_problem_tier": "无",
+  "hard_cap": "无",
+  "intentional_effects": [
+    "背景灯塔虚化",
+    "低机位浅景深"
+  ],
+  "scores": {
+    "technical": 7.5,
+    "composition": 7.5,
+    "lighting": 6.5,
+    "story": 7,
+    "overall": 7.5
+  }
+}
