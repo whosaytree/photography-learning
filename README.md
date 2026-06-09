@@ -87,6 +87,12 @@ original.<ext>    # 聊天附件或本地图片路径可复制时会存在
 gallery/index.html
 ```
 
+在线看板入口：
+
+```text
+https://whosaytree.github.io/photography-learning/
+```
+
 每次归档有新增后，重新生成看板数据：
 
 ```bash
