@@ -80,8 +80,8 @@ function groupByDate(items) {
 
 function setMode(mode) {
   if (mode === state.mode) return;
-  if (state.session.active) {
-    renderSessionControls("请先结束当前评分");
+  if (state.session.active && isScoringMode(mode) && mode !== state.session.mode) {
+    renderSessionControls(`请先结束当前${getModeLabel(state.session.mode)}评分`);
     return;
   }
 
@@ -579,7 +579,16 @@ function endScoreSession() {
   }
 
   if (!state.session.actions.length && !countSessionNotes()) {
-    renderSessionControls("本轮还没有记录任何点击或文字反馈");
+    state.session.active = false;
+    state.session.endedAt = new Date().toISOString();
+    state.session.selections = {};
+    state.session.compareSelections = {};
+    state.session.notes = {};
+    state.comparePair = null;
+    clearSavedSession();
+    renderSessionControls("本轮没有记录，已结束");
+    renderViewer();
+    renderCompare();
     return;
   }
 
@@ -645,6 +654,10 @@ function getModeLabel(mode) {
   if (mode === "overview") return "总览";
   if (mode === "guide") return "使用说明";
   return mode === "compare" ? "对比模式" : "单张模式";
+}
+
+function isScoringMode(mode) {
+  return mode === "single" || mode === "compare";
 }
 
 function countSessionNotes() {
