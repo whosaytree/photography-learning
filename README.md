@@ -75,9 +75,11 @@ data/archive/<归档ID>/
 critique.md
 metadata.json
 original.<ext>    # 聊天附件或本地图片路径可复制时会存在
+thumb.jpg         # 看板目录缩略图
+preview.jpg       # 看板展示预览图
 ```
 
-`data/archive/` 已加入 `.gitignore`，默认不会把照片提交进 Git。
+当前 GitHub 仓库会包含 `data/archive/`，线上看板才能直接读取已经归档的图片和点评。
 
 ## 静态看板
 
@@ -96,10 +98,11 @@ https://whosaytree.github.io/photography-learning/
 每次归档有新增后，重新生成看板数据：
 
 ```bash
+node scripts/generate-gallery-images.mjs
 node scripts/build-gallery.mjs
 ```
 
-看板会读取生成的 `gallery/data.js`，按日期分组展示归档。点击日期后选择图片，可以查看大图和完整摄影点评。
+看板会读取生成的 `gallery/data.js`，按日期分组展示归档。点击日期后选择图片，可以查看预览图和完整摄影点评。`thumb.jpg` 用于左侧目录，`preview.jpg` 用于单张展示和对比模式，避免线上页面一次性加载大量原图。
 
 ### 评分模式
 

@@ -8,6 +8,7 @@ const archiveRoot = path.join(root, "data", "archive");
 const galleryDir = path.join(root, "gallery");
 const outputFile = path.join(galleryDir, "data.js");
 const imageExtensions = new Set([".jpg", ".jpeg", ".png", ".webp"]);
+const generatedImageNames = new Set(["thumb.jpg", "preview.jpg"]);
 
 await mkdir(galleryDir, { recursive: true });
 
@@ -24,11 +25,9 @@ for (const dirent of archiveDirs) {
   if (!critique) continue;
 
   const files = await readdir(dir).catch(() => []);
-  const configuredImage = metadata?.saved_image || metadata?.image_file;
-  const imageFile =
-    configuredImage && files.includes(configuredImage)
-      ? configuredImage
-      : files.find((file) => imageExtensions.has(path.extname(file).toLowerCase()));
+  const imageFile = findArchiveImage(files, metadata);
+  const thumbFile = files.includes("thumb.jpg") ? "thumb.jpg" : "";
+  const previewFile = files.includes("preview.jpg") ? "preview.jpg" : "";
 
   const createdAt = metadata?.created_at || metadata?.createdAt || inferDateFromId(id);
 
@@ -37,7 +36,9 @@ for (const dirent of archiveDirs) {
     title: metadata?.title || extractTitle(critique) || id,
     createdAt,
     dateKey: createdAt.slice(0, 10),
-    imageSrc: imageFile ? `../data/archive/${id}/${imageFile}` : "",
+    imageSrc: imageFile ? archiveUrl(id, imageFile) : "",
+    thumbSrc: thumbFile ? archiveUrl(id, thumbFile) : imageFile ? archiveUrl(id, imageFile) : "",
+    previewSrc: previewFile ? archiveUrl(id, previewFile) : imageFile ? archiveUrl(id, imageFile) : "",
     imageFile: imageFile || "",
     dimensions: metadata?.image_dimensions || null,
     imageSaved: Boolean(imageFile),
@@ -76,6 +77,23 @@ async function readText(file) {
   } catch {
     return "";
   }
+}
+
+function findArchiveImage(files, metadata) {
+  const configuredImage = metadata?.saved_image || metadata?.image_file;
+  if (configuredImage && files.includes(configuredImage)) return configuredImage;
+
+  const original = files.find((file) => /^original\./i.test(file) && imageExtensions.has(path.extname(file).toLowerCase()));
+  if (original) return original;
+
+  return files.find((file) => {
+    const lower = file.toLowerCase();
+    return imageExtensions.has(path.extname(lower)) && !generatedImageNames.has(lower);
+  });
+}
+
+function archiveUrl(id, file) {
+  return `../data/archive/${id}/${file}`;
 }
 
 function inferDateFromId(id) {

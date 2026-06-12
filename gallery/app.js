@@ -126,7 +126,7 @@ function renderThumbs() {
       return `
         <button class="thumb-button${active}" type="button" data-id="${escapeHtml(entry.id)}">
           <span class="thumb">
-            ${entry.imageSrc ? `<img src="${escapeHtml(entry.imageSrc)}" alt="" loading="lazy" />` : ""}
+            ${entry.imageSrc ? `<img src="${escapeHtml(getImageSrc(entry, "thumb"))}" alt="" loading="lazy" decoding="async" />` : ""}
           </span>
           <span>
             <span class="thumb-title">${escapeHtml(entry.title)}</span>
@@ -148,7 +148,7 @@ function renderViewer() {
   if (entry.imageSrc) {
     els.mainImage.hidden = false;
     els.emptyState.hidden = true;
-    els.mainImage.src = entry.imageSrc;
+    els.mainImage.src = getImageSrc(entry, "preview");
   } else {
     els.mainImage.hidden = true;
     els.emptyState.hidden = false;
@@ -281,7 +281,7 @@ function renderComparePhoto(side, label, entry) {
   return `
     <article class="compare-photo ${side}">
       <div class="compare-image">
-        <img src="${escapeHtml(entry.imageSrc)}" alt="${escapeHtml(label)}：${escapeHtml(entry.title)}" />
+        <img src="${escapeHtml(getImageSrc(entry, "preview"))}" alt="${escapeHtml(label)}：${escapeHtml(entry.title)}" loading="lazy" decoding="async" />
       </div>
       <div class="compare-caption">
         <strong>${label}</strong>
@@ -383,6 +383,12 @@ function summarizeEntry(entry) {
     title: entry.title,
     createdAt: entry.createdAt
   };
+}
+
+function getImageSrc(entry, usage) {
+  if (usage === "thumb") return entry.thumbSrc || entry.previewSrc || entry.imageSrc || "";
+  if (usage === "preview") return entry.previewSrc || entry.thumbSrc || entry.imageSrc || "";
+  return entry.imageSrc || entry.previewSrc || entry.thumbSrc || "";
 }
 
 function renderOverview() {
