@@ -12,7 +12,7 @@ The scale must have working low and high ends:
 - A severe basic failure usually belongs in the 3-4.5 range.
 - A normal basic failure usually caps the photo at 5. A mostly ordinary documentation photo usually belongs around 4.5-5.5, and may approach 6 only when it has a clear photographic strength beyond record value.
 - If a basic failure exists but the image has unusually strong expression, light, composition, or moment, it may reach 5-5.5, or approach 6 only when the compensating strength is clearly visible.
-- Good beginner photos can and should reach 7.5 or 8 when evidence supports it.
+- Good beginner photos can and should reach 7.5, 8, or 8.5 when evidence supports it. Do not hold a clearly strong image at 7.5 only because minor fixable issues can be found.
 
 | Score | Meaning |
 | --- | --- |
@@ -22,7 +22,8 @@ The scale must have working low and high ends:
 | 5 | Ordinary record photo or basic-problem photo. It can be understood, but the image is mostly documentation, or a basic flaw caps it. |
 | 5.5-6 | Useful beginner attempt or stronger-than-average record photo. There must be at least one visible photographic strength, such as cleaner composition, useful light, mood, subject relationship, or a controlled moment; clarity alone is not enough. |
 | 6.5-7 | Shareable beginner photo. Subject is clear, basic technique holds, background and edges are mostly controlled, and either composition or light shows deliberate intent. Still has fixable weaknesses. |
-| 7.5-8 | Strong beginner photo. At least two of composition, light, timing/story, and technical control are clearly good; weaknesses are secondary. |
+| 7.5 | Strong beginner photo with at least two clearly good dimensions, but one visible limitation still meaningfully holds it back. |
+| 8-8.5 | Clearly strong photo. At least two of composition, light, timing/story, and technical control are clearly strong; weaknesses are secondary and do not break viewing. Use 8.5 only when the image has a memorable visual idea, moment, mood, or formal control beyond ordinary strong beginner work. |
 | 9 | Portfolio-level photo. Strong intent, strong execution, and no obvious beginner flaw. Rare. |
 | 10 | Reference-level photo. Exceptional and nearly flawless. Almost never use for normal learning critique. |
 
@@ -129,7 +130,9 @@ Do not raise a basic-flaw or ordinary-documentation photo above 6 unless the fla
 
 ## High-Score Eligibility
 
-Before giving 7.5 or 8, confirm the photo meets all of these:
+Apply hard-flaw caps before this section. A real cap cannot be bypassed because the photo has mood, lines, story, or interesting subject matter.
+
+Before giving 7.5, 8, or 8.5, confirm the photo meets all of these:
 
 - subject is immediately clear;
 - no severe technical hard flaw;
@@ -137,13 +140,15 @@ Before giving 7.5 or 8, confirm the photo meets all of these:
 - background, edges, crop, and visual weight are controlled enough that distractions are secondary, and images relying on lines, symmetry, or negative space have a clear landing point;
 - the image has visual intention beyond record value.
 
-Use 7.5 when the image is strong but still has a visible fixable issue. Use 8 when the image is strong across at least two dimensions and would be worth sharing as one of the better outputs from a beginner set.
+Use 7.5 when the image is strong but still has one visible limitation that meaningfully holds it back. Use 8 when the image is strong across at least two dimensions and the remaining flaws are minor and fixable. Use 8.5 when the image has a clear memory point: a strong moment, mood, subject relationship, light, composition, or visual idea that makes it stand out from ordinary strong beginner work.
+
+If the image meets the high-score conditions but you stop at 7.5, name the specific limitation that prevents 8. Do not treat every minor fixable issue as equal weight: a small crop improvement, mild highlight control issue, or secondary edge cleanup should not automatically prevent 8 when the main visual effect is already strong.
 
 If a cap applies, mention it briefly in the critique. Example: `由于主体明显虚焦，技术分和总体分被封顶。`
 
 ## Intentional Effects vs Accidental Flaws
 
-Do not punish intentional blur, intentional darkness, intentional high contrast, or unusual framing as a hard flaw if the image provides enough evidence that the choice is deliberate and effective.
+Do not punish intentional blur, intentional darkness, high-key brightness, intentional high contrast, unusual framing, small subject placement, negative space, backlit silhouette, emotional direct flash, rough documentary texture, or collage/sequence structure as a hard flaw if the image provides enough evidence that the choice is deliberate and effective.
 
 Treat an effect as intentional only when at least two of these are true:
 
@@ -151,7 +156,7 @@ Treat an effect as intentional only when at least two of these are true:
 - There is another sharp or visually stable anchor in the frame.
 - The composition appears controlled: edges, subject placement, and visual path still work.
 - The effect is selective rather than accidental-looking across the whole frame.
-- The image contains a recognizable genre convention, such as panning, long exposure water, light trails, silhouette, abstract motion, or deliberate shallow depth of field.
+- The image contains a recognizable genre convention, such as panning, long exposure water, light trails, silhouette, abstract motion, deliberate shallow depth of field, high-key minimalism, low-key mood, direct-flash snapshot, or collage/sequence storytelling.
 - The user's prompt explicitly says the effect was intentional, and the image result supports that claim.
 
 If fewer than two are true, treat it as an accidental beginner flaw.
@@ -164,6 +169,10 @@ Examples:
 - Accidental missed focus: background or random foreground is sharper than the intended subject.
 - Good low-key image: important subject contour remains readable and darkness creates mood.
 - Accidental underexposure: important subject detail is lost and the darkness does not add meaning.
+- Good negative space or small-subject image: the small subject has a clear relationship to the surrounding space, scale, mood, or motion.
+- Accidental small subject: the subject is merely lost, with no clear visual relationship or landing point.
+- Good direct-flash or rough snapshot: the flash, closeness, gesture, or sequence strengthens the mood, intimacy, or event energy.
+- Accidental harsh flash: the flash flattens the subject or creates glare without adding mood, relationship, or story.
 
 When uncertain, say so and score conservatively: do not give high scores just because a flaw might have been intentional.
 
@@ -174,7 +183,7 @@ When uncertain, say so and score conservatively: do not give high scores just be
 - For beginner work, 5 is not an insult; it means the photo is understandable but mostly record-level.
 - Do not let serious basic failures sit at 5 by default; use 3-4.5 when focus, shake, exposure, direction, or subject readability is badly broken.
 - Do not use 6.5 as the default safe score, and do not give 6+ merely because the subject is clear, exposure is usable, lines are present, or the photo has practical record value.
-- Give 7.5 or 8 when the image has clear strengths in at least two dimensions and no severe hard flaw.
+- Give 7.5, 8, or 8.5 when the image has clear strengths in at least two dimensions and no severe hard flaw; use minor limitations to choose within that range, not to automatically cap strong images at 7.5.
 - Give 9 only for portfolio-level images.
 - Do not give 10 unless the image is exceptional.
 - Scores may use one decimal place when the image evidence supports that level of distinction. This applies to technical, composition, lighting, story, and overall scores.
