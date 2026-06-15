@@ -42,13 +42,13 @@ Evaluate exposure, focus, motion blur, sharpness, noise, white balance, and basi
 
 ### Composition
 
-Evaluate subject clarity, simplification, edge control, horizon/verticals, layers, visual path, crop, and intentional use of center/symmetry/negative space.
+Evaluate subject clarity, simplification, edge control, horizon/verticals, crop, visual balance, layers, visual path and landing point, and intentional use of center/symmetry/negative space.
 
 - 1-2: No readable subject or chaotic framing.
 - 3-4: Subject exists but is badly blocked, too small, cut awkwardly, or surrounded by dominant distractions.
 - 5: Record-level framing; subject is present but not visually controlled.
-- 6: Clear subject with some visual organization, but still a noticeable composition weakness. A merely centered or readable subject stays around 5.
-- 7: Deliberate framing with acceptable edge/background control; the image should feel intentionally organized, not just legible.
+- 6: Clear subject with some visual organization, but crop, edge control, visual balance, or landing point is visibly weak. A merely centered/readable subject or line without clear destination stays around 5.
+- 7: Deliberate framing with acceptable edge/background control, stable visual weight, and a clear visual path or landing point; the image should feel intentionally organized, not just legible.
 - 8: Strong visual organization, depth, and eye guidance.
 - 9-10: Highly refined composition; every major element feels intentional.
 
@@ -109,7 +109,7 @@ Only treat rotation as a hard flaw when the correctly oriented display still has
 | Severe overexposure clips important subject detail | Technical max 4.5; Lighting max 4.5; Overall max 5.0 |
 | Severe underexposure hides important subject detail | Technical max 4.5; Lighting max 4.5; Overall max 5.0 |
 | Horizon/verticals are unintentionally tilted and visible | Composition max 6.0; Overall max 6.5 |
-| Dominant background distraction competes with the subject | Composition max 5.5; Overall max 6.0 |
+| Dominant distraction, awkward crop, edge cut, or visual imbalance competes with the subject | Composition max 5.5; Overall max 6.0 |
 | Subject is too small and cannot be recovered by crop | Composition max 5.5; Story max 5.5; Overall max 6.0 |
 | Photo is mostly ordinary documentation with no clear photographic intent | Story max 5.0; Overall max 5.5 |
 | Light is flat/ordinary and story is weak | Lighting max 5.5; Story max 5.5; Overall max 5.5 |
@@ -134,7 +134,7 @@ Before giving 7.5 or 8, confirm the photo meets all of these:
 - subject is immediately clear;
 - no severe technical hard flaw;
 - at least two dimensions are clearly strong, not merely acceptable;
-- background and edges are controlled enough that distractions are secondary;
+- background, edges, crop, and visual weight are controlled enough that distractions are secondary, and images relying on lines, symmetry, or negative space have a clear landing point;
 - the image has visual intention beyond record value.
 
 Use 7.5 when the image is strong but still has a visible fixable issue. Use 8 when the image is strong across at least two dimensions and would be worth sharing as one of the better outputs from a beginner set.
@@ -173,7 +173,7 @@ When uncertain, say so and score conservatively: do not give high scores just be
 - Score each image independently from visual evidence and this rubric; do not apply post-hoc distribution correction, score remapping, forced curves, or batch normalization.
 - For beginner work, 5 is not an insult; it means the photo is understandable but mostly record-level.
 - Do not let serious basic failures sit at 5 by default; use 3-4.5 when focus, shake, exposure, direction, or subject readability is badly broken.
-- Do not use 6.5 as the default safe score, and do not give 6+ merely because the subject is clear, exposure is usable, or the photo has practical record value.
+- Do not use 6.5 as the default safe score, and do not give 6+ merely because the subject is clear, exposure is usable, lines are present, or the photo has practical record value.
 - Give 7.5 or 8 when the image has clear strengths in at least two dimensions and no severe hard flaw.
 - Give 9 only for portfolio-level images.
 - Do not give 10 unless the image is exceptional.
