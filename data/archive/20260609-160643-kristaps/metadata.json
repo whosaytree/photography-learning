@@ -6,23 +6,12 @@
   "saved_image": "original.jpg",
   "created_at": "2026-06-09",
   "scores": {
-    "technical": 7.3,
+    "technical": 7.5,
     "composition": 8,
-    "lighting": 7.2,
-    "story": 8,
-    "overall": 8
+    "lighting": 7,
+    "story": 7.5,
+    "overall": 7.5
   },
   "basic_problem_tier": "无",
-  "hard_flaw_cap": "无",
-  "title": "摄影点评：极简海面风筝冲浪",
-  "caps_applied": [],
-  "direction_judgment": "correct; no orientation error under current EXIF/display-aware flow",
-  "reevaluated_with_current_flow_at": "2026-06-15T03:22:31.001Z",
-  "current_flow": {
-    "skill": "/Users/bytedance/Documents/skill/skills/collected/afrexai-photography-mastery/SKILL.md",
-    "rubric": "/Users/bytedance/Documents/摄影学习/SCORING_RUBRIC.md",
-    "mode": "manual per-image critique",
-    "orientation_rule": "Respect EXIF orientation or correctly oriented gallery/user display before judging rotation errors.",
-    "note": "Re-evaluated one image at a time; no distribution correction."
-  }
+  "hard_flaw_cap": "无"
 }
