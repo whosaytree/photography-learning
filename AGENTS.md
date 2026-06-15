@@ -37,13 +37,14 @@ Before writing the final scores, explicitly perform a scoring pass:
 
 1. Identify the main subject and intended genre.
 2. Decide the basic-problem tier: `无`, `基础问题`, or `严重基础问题`.
-3. Check hard-flaw caps from `SCORING_RUBRIC.md` one by one.
-4. Decide whether any blur, darkness, unusual framing, or high contrast is intentional using the rubric's intentional-effect tests.
-5. Apply the low-end rule: severe basic failures normally score 3-4.5 overall; normal basic failures normally cap at 5 overall.
-6. Apply the escape rule only when the image has strong compensating expression, light, composition, moment, or subject interest; escaped basic-flaw photos may reach 5-6, but not higher unless the flaw is minor and at least two strengths are clear.
-7. Apply the high-score check: actively consider 7.5 or 8 when the subject is clear, there is no severe hard flaw, and at least two dimensions are clearly strong.
-8. Assign each score independently from this single image only.
-9. Do not adjust scores to match any desired distribution.
+3. Before judging any rotation/orientation problem, use the image's EXIF orientation when available or the correctly oriented user/gallery display. Do not treat raw-pixel sideways display as a photographic direction error when EXIF orientation would make the image upright.
+4. Check hard-flaw caps from `SCORING_RUBRIC.md` one by one.
+5. Decide whether any blur, darkness, unusual framing, or high contrast is intentional using the rubric's intentional-effect tests.
+6. Apply the low-end rule: severe basic failures normally score 3-4.5 overall; normal basic failures normally cap at 5 overall.
+7. Apply the escape rule only when the image has strong compensating expression, light, composition, moment, or subject interest; escaped basic-flaw photos may reach 5-6, but not higher unless the flaw is minor and at least two strengths are clear.
+8. Apply the high-score check: actively consider 7.5 or 8 when the subject is clear, there is no severe hard flaw, and at least two dimensions are clearly strong.
+9. Assign each score independently from this single image only.
+10. Do not adjust scores to match any desired distribution.
 
 If no hard-flaw cap applies, say `封顶规则：无` in the critique. If a cap applies, name the cap and keep the affected score at or below the cap.
 

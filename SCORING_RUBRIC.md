@@ -92,6 +92,12 @@ Prioritize:
 
 Apply these caps strictly for beginner photos. A hard flaw is a basic issue that blocks normal viewing or prevents the subject from working.
 
+### Orientation Handling
+
+Before applying any direction, rotation, or tilted-frame cap, first respect the image's EXIF orientation when available. If a raw-pixel view appears sideways but the EXIF-corrected image or gallery/user display is upright, do not count this as a photographic orientation error.
+
+Only treat rotation as a hard flaw when the correctly oriented display still has clear evidence that normal viewing is blocked: people, buildings, waterlines, text, furniture, or other gravity-dependent subjects remain sideways/upside down, and rotating the image would make the scene logic clearly more natural. Mild tilt, perspective distortion, unusual framing, or intentional abstract rotation are not rotation-error caps; evaluate them under composition or intentional-effect rules instead.
+
 | Condition | Required cap |
 | --- | --- |
 | Main subject is unreadable | Overall max 4.0; Composition max 4.0; Story max 4.0 |

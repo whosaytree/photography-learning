@@ -1,0 +1,3100 @@
+{
+  "type": "photography-score-action-session",
+  "version": 2,
+  "mode": "compare",
+  "sessionId": "compare-score-session-20260609-201347",
+  "startedAt": "2026-06-09T12:13:47.747Z",
+  "endedAt": "2026-06-09T12:19:40.580Z",
+  "generatedAt": "2026-06-09T12:19:40.580Z",
+  "source": {
+    "galleryGeneratedAt": "2026-06-09T09:48:54.377Z",
+    "totalEntries": 154
+  },
+  "actionCount": 123,
+  "noteCount": 0,
+  "legend": {
+    "low": "用户认为原评分偏低，可以更高，对应界面 ↑",
+    "high": "用户认为原评分偏高，可以更低，对应界面 ↓",
+    "tie": "对比模式下用户认为两边差不多，或者难以评价",
+    "set": "本次点击设置该项反馈",
+    "clear": "本次点击取消该项反馈"
+  },
+  "actions": [
+    {
+      "index": 1,
+      "timestamp": "2026-06-09T12:13:51.941Z",
+      "mode": "compare",
+      "pairId": "20260604-215130-overhead-cat-yard__20260608-170511-56238241__1781007227747",
+      "scoreKey": "technical",
+      "scoreLabel": "技术",
+      "leftEntry": {
+        "id": "20260604-215130-overhead-cat-yard",
+        "title": "摄影点评：俯拍院子里的猫",
+        "createdAt": "2026-06-04T21:51:30+08:00"
+      },
+      "rightEntry": {
+        "id": "20260608-170511-56238241",
+        "title": "摄影点评：旧墙前的红花",
+        "createdAt": "2026-06-08T17:05:11+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260608-170511-56238241",
+      "selectedLowerEntryId": "20260604-215130-overhead-cat-yard",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 2,
+      "timestamp": "2026-06-09T12:13:53.734Z",
+      "mode": "compare",
+      "pairId": "20260604-215130-overhead-cat-yard__20260608-170511-56238241__1781007227747",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260604-215130-overhead-cat-yard",
+        "title": "摄影点评：俯拍院子里的猫",
+        "createdAt": "2026-06-04T21:51:30+08:00"
+      },
+      "rightEntry": {
+        "id": "20260608-170511-56238241",
+        "title": "摄影点评：旧墙前的红花",
+        "createdAt": "2026-06-08T17:05:11+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260608-170511-56238241",
+      "selectedLowerEntryId": "20260604-215130-overhead-cat-yard",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 3,
+      "timestamp": "2026-06-09T12:13:59.305Z",
+      "mode": "compare",
+      "pairId": "20260604-215130-overhead-cat-yard__20260608-170511-56238241__1781007227747",
+      "scoreKey": "lighting",
+      "scoreLabel": "光线",
+      "leftEntry": {
+        "id": "20260604-215130-overhead-cat-yard",
+        "title": "摄影点评：俯拍院子里的猫",
+        "createdAt": "2026-06-04T21:51:30+08:00"
+      },
+      "rightEntry": {
+        "id": "20260608-170511-56238241",
+        "title": "摄影点评：旧墙前的红花",
+        "createdAt": "2026-06-08T17:05:11+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260608-170511-56238241",
+      "selectedLowerEntryId": "20260604-215130-overhead-cat-yard",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 4,
+      "timestamp": "2026-06-09T12:14:02.988Z",
+      "mode": "compare",
+      "pairId": "20260604-215130-overhead-cat-yard__20260608-170511-56238241__1781007227747",
+      "scoreKey": "story",
+      "scoreLabel": "叙事",
+      "leftEntry": {
+        "id": "20260604-215130-overhead-cat-yard",
+        "title": "摄影点评：俯拍院子里的猫",
+        "createdAt": "2026-06-04T21:51:30+08:00"
+      },
+      "rightEntry": {
+        "id": "20260608-170511-56238241",
+        "title": "摄影点评：旧墙前的红花",
+        "createdAt": "2026-06-08T17:05:11+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260608-170511-56238241",
+      "selectedLowerEntryId": "20260604-215130-overhead-cat-yard",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 5,
+      "timestamp": "2026-06-09T12:14:04.550Z",
+      "mode": "compare",
+      "pairId": "20260604-215130-overhead-cat-yard__20260608-170511-56238241__1781007227747",
+      "scoreKey": "overall",
+      "scoreLabel": "总体",
+      "leftEntry": {
+        "id": "20260604-215130-overhead-cat-yard",
+        "title": "摄影点评：俯拍院子里的猫",
+        "createdAt": "2026-06-04T21:51:30+08:00"
+      },
+      "rightEntry": {
+        "id": "20260608-170511-56238241",
+        "title": "摄影点评：旧墙前的红花",
+        "createdAt": "2026-06-08T17:05:11+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260608-170511-56238241",
+      "selectedLowerEntryId": "20260604-215130-overhead-cat-yard",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 6,
+      "timestamp": "2026-06-09T12:14:11.717Z",
+      "mode": "compare",
+      "pairId": "20260608-165815-bbc39e31__20260604-215737-d0d1ab97__1781007245659",
+      "scoreKey": "technical",
+      "scoreLabel": "技术",
+      "leftEntry": {
+        "id": "20260608-165815-bbc39e31",
+        "title": "摄影点评：暮色电线杆剪影",
+        "createdAt": "2026-06-08T16:58:15+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-215737-d0d1ab97",
+        "title": "摄影点评：柳荫湖面园林",
+        "createdAt": "2026-06-04T21:57:37+0800"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 7,
+      "timestamp": "2026-06-09T12:14:14.426Z",
+      "mode": "compare",
+      "pairId": "20260608-165815-bbc39e31__20260604-215737-d0d1ab97__1781007245659",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260608-165815-bbc39e31",
+        "title": "摄影点评：暮色电线杆剪影",
+        "createdAt": "2026-06-08T16:58:15+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-215737-d0d1ab97",
+        "title": "摄影点评：柳荫湖面园林",
+        "createdAt": "2026-06-04T21:57:37+0800"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 8,
+      "timestamp": "2026-06-09T12:14:16.051Z",
+      "mode": "compare",
+      "pairId": "20260608-165815-bbc39e31__20260604-215737-d0d1ab97__1781007245659",
+      "scoreKey": "lighting",
+      "scoreLabel": "光线",
+      "leftEntry": {
+        "id": "20260608-165815-bbc39e31",
+        "title": "摄影点评：暮色电线杆剪影",
+        "createdAt": "2026-06-08T16:58:15+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-215737-d0d1ab97",
+        "title": "摄影点评：柳荫湖面园林",
+        "createdAt": "2026-06-04T21:57:37+0800"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-215737-d0d1ab97",
+      "selectedLowerEntryId": "20260608-165815-bbc39e31",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 9,
+      "timestamp": "2026-06-09T12:14:20.117Z",
+      "mode": "compare",
+      "pairId": "20260608-165815-bbc39e31__20260604-215737-d0d1ab97__1781007245659",
+      "scoreKey": "story",
+      "scoreLabel": "叙事",
+      "leftEntry": {
+        "id": "20260608-165815-bbc39e31",
+        "title": "摄影点评：暮色电线杆剪影",
+        "createdAt": "2026-06-08T16:58:15+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-215737-d0d1ab97",
+        "title": "摄影点评：柳荫湖面园林",
+        "createdAt": "2026-06-04T21:57:37+0800"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 10,
+      "timestamp": "2026-06-09T12:14:23.163Z",
+      "mode": "compare",
+      "pairId": "20260608-165815-bbc39e31__20260604-215737-d0d1ab97__1781007245659",
+      "scoreKey": "overall",
+      "scoreLabel": "总体",
+      "leftEntry": {
+        "id": "20260608-165815-bbc39e31",
+        "title": "摄影点评：暮色电线杆剪影",
+        "createdAt": "2026-06-08T16:58:15+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-215737-d0d1ab97",
+        "title": "摄影点评：柳荫湖面园林",
+        "createdAt": "2026-06-04T21:57:37+0800"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 11,
+      "timestamp": "2026-06-09T12:14:27.551Z",
+      "mode": "compare",
+      "pairId": "20260604-132919-0b81aa07__20260609-113103__1781007264572",
+      "scoreKey": "technical",
+      "scoreLabel": "技术",
+      "leftEntry": {
+        "id": "20260604-132919-0b81aa07",
+        "title": "粉色花枝与松针背景",
+        "createdAt": "2026-06-04T13:29:19+0800"
+      },
+      "rightEntry": {
+        "id": "20260609-113103",
+        "title": "摄影点评：仓储长纸箱记录",
+        "createdAt": "2026-06-09T11:31:03+08:00"
+      },
+      "clickedSide": "left",
+      "previousValue": null,
+      "resultingValue": "left",
+      "selectedHigherEntryId": "20260604-132919-0b81aa07",
+      "selectedLowerEntryId": "20260609-113103",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 12,
+      "timestamp": "2026-06-09T12:14:28.459Z",
+      "mode": "compare",
+      "pairId": "20260604-132919-0b81aa07__20260609-113103__1781007264572",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260604-132919-0b81aa07",
+        "title": "粉色花枝与松针背景",
+        "createdAt": "2026-06-04T13:29:19+0800"
+      },
+      "rightEntry": {
+        "id": "20260609-113103",
+        "title": "摄影点评：仓储长纸箱记录",
+        "createdAt": "2026-06-09T11:31:03+08:00"
+      },
+      "clickedSide": "left",
+      "previousValue": null,
+      "resultingValue": "left",
+      "selectedHigherEntryId": "20260604-132919-0b81aa07",
+      "selectedLowerEntryId": "20260609-113103",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 13,
+      "timestamp": "2026-06-09T12:14:29.710Z",
+      "mode": "compare",
+      "pairId": "20260604-132919-0b81aa07__20260609-113103__1781007264572",
+      "scoreKey": "lighting",
+      "scoreLabel": "光线",
+      "leftEntry": {
+        "id": "20260604-132919-0b81aa07",
+        "title": "粉色花枝与松针背景",
+        "createdAt": "2026-06-04T13:29:19+0800"
+      },
+      "rightEntry": {
+        "id": "20260609-113103",
+        "title": "摄影点评：仓储长纸箱记录",
+        "createdAt": "2026-06-09T11:31:03+08:00"
+      },
+      "clickedSide": "left",
+      "previousValue": null,
+      "resultingValue": "left",
+      "selectedHigherEntryId": "20260604-132919-0b81aa07",
+      "selectedLowerEntryId": "20260609-113103",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 14,
+      "timestamp": "2026-06-09T12:14:32.105Z",
+      "mode": "compare",
+      "pairId": "20260604-132919-0b81aa07__20260609-113103__1781007264572",
+      "scoreKey": "story",
+      "scoreLabel": "叙事",
+      "leftEntry": {
+        "id": "20260604-132919-0b81aa07",
+        "title": "粉色花枝与松针背景",
+        "createdAt": "2026-06-04T13:29:19+0800"
+      },
+      "rightEntry": {
+        "id": "20260609-113103",
+        "title": "摄影点评：仓储长纸箱记录",
+        "createdAt": "2026-06-09T11:31:03+08:00"
+      },
+      "clickedSide": "left",
+      "previousValue": null,
+      "resultingValue": "left",
+      "selectedHigherEntryId": "20260604-132919-0b81aa07",
+      "selectedLowerEntryId": "20260609-113103",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 15,
+      "timestamp": "2026-06-09T12:14:36.401Z",
+      "mode": "compare",
+      "pairId": "20260604-132919-0b81aa07__20260609-113103__1781007264572",
+      "scoreKey": "overall",
+      "scoreLabel": "总体",
+      "leftEntry": {
+        "id": "20260604-132919-0b81aa07",
+        "title": "粉色花枝与松针背景",
+        "createdAt": "2026-06-04T13:29:19+0800"
+      },
+      "rightEntry": {
+        "id": "20260609-113103",
+        "title": "摄影点评：仓储长纸箱记录",
+        "createdAt": "2026-06-09T11:31:03+08:00"
+      },
+      "clickedSide": "left",
+      "previousValue": null,
+      "resultingValue": "left",
+      "selectedHigherEntryId": "20260604-132919-0b81aa07",
+      "selectedLowerEntryId": "20260609-113103",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 16,
+      "timestamp": "2026-06-09T12:14:40.134Z",
+      "mode": "compare",
+      "pairId": "20260609-115830-8d0d518d__20260609-155507-dining-room-interior__1781007277548",
+      "scoreKey": "technical",
+      "scoreLabel": "技术",
+      "leftEntry": {
+        "id": "20260609-115830-8d0d518d",
+        "title": "商场外立面标识",
+        "createdAt": "2026-06-09T11:58:30+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-155507-dining-room-interior",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09T15:55:07+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260609-155507-dining-room-interior",
+      "selectedLowerEntryId": "20260609-115830-8d0d518d",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 17,
+      "timestamp": "2026-06-09T12:14:41.068Z",
+      "mode": "compare",
+      "pairId": "20260609-115830-8d0d518d__20260609-155507-dining-room-interior__1781007277548",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260609-115830-8d0d518d",
+        "title": "商场外立面标识",
+        "createdAt": "2026-06-09T11:58:30+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-155507-dining-room-interior",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09T15:55:07+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260609-155507-dining-room-interior",
+      "selectedLowerEntryId": "20260609-115830-8d0d518d",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 18,
+      "timestamp": "2026-06-09T12:14:41.940Z",
+      "mode": "compare",
+      "pairId": "20260609-115830-8d0d518d__20260609-155507-dining-room-interior__1781007277548",
+      "scoreKey": "lighting",
+      "scoreLabel": "光线",
+      "leftEntry": {
+        "id": "20260609-115830-8d0d518d",
+        "title": "商场外立面标识",
+        "createdAt": "2026-06-09T11:58:30+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-155507-dining-room-interior",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09T15:55:07+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260609-155507-dining-room-interior",
+      "selectedLowerEntryId": "20260609-115830-8d0d518d",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 19,
+      "timestamp": "2026-06-09T12:14:42.700Z",
+      "mode": "compare",
+      "pairId": "20260609-115830-8d0d518d__20260609-155507-dining-room-interior__1781007277548",
+      "scoreKey": "story",
+      "scoreLabel": "叙事",
+      "leftEntry": {
+        "id": "20260609-115830-8d0d518d",
+        "title": "商场外立面标识",
+        "createdAt": "2026-06-09T11:58:30+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-155507-dining-room-interior",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09T15:55:07+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260609-155507-dining-room-interior",
+      "selectedLowerEntryId": "20260609-115830-8d0d518d",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 20,
+      "timestamp": "2026-06-09T12:14:43.447Z",
+      "mode": "compare",
+      "pairId": "20260609-115830-8d0d518d__20260609-155507-dining-room-interior__1781007277548",
+      "scoreKey": "overall",
+      "scoreLabel": "总体",
+      "leftEntry": {
+        "id": "20260609-115830-8d0d518d",
+        "title": "商场外立面标识",
+        "createdAt": "2026-06-09T11:58:30+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-155507-dining-room-interior",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09T15:55:07+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260609-155507-dining-room-interior",
+      "selectedLowerEntryId": "20260609-115830-8d0d518d",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 21,
+      "timestamp": "2026-06-09T12:14:48.806Z",
+      "mode": "compare",
+      "pairId": "20260604-1326da7c__20260604-134421-bda1e66d__1781007284084",
+      "scoreKey": "technical",
+      "scoreLabel": "技术",
+      "leftEntry": {
+        "id": "20260604-1326da7c",
+        "title": "楼梯通向红门",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-134421-bda1e66d",
+        "title": "雨窗水滴",
+        "createdAt": "2026-06-04T13:44:21+0800"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 22,
+      "timestamp": "2026-06-09T12:14:52.118Z",
+      "mode": "compare",
+      "pairId": "20260604-1326da7c__20260604-134421-bda1e66d__1781007284084",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260604-1326da7c",
+        "title": "楼梯通向红门",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-134421-bda1e66d",
+        "title": "雨窗水滴",
+        "createdAt": "2026-06-04T13:44:21+0800"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 23,
+      "timestamp": "2026-06-09T12:14:54.872Z",
+      "mode": "compare",
+      "pairId": "20260604-1326da7c__20260604-134421-bda1e66d__1781007284084",
+      "scoreKey": "lighting",
+      "scoreLabel": "光线",
+      "leftEntry": {
+        "id": "20260604-1326da7c",
+        "title": "楼梯通向红门",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-134421-bda1e66d",
+        "title": "雨窗水滴",
+        "createdAt": "2026-06-04T13:44:21+0800"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 24,
+      "timestamp": "2026-06-09T12:14:56.864Z",
+      "mode": "compare",
+      "pairId": "20260604-1326da7c__20260604-134421-bda1e66d__1781007284084",
+      "scoreKey": "story",
+      "scoreLabel": "叙事",
+      "leftEntry": {
+        "id": "20260604-1326da7c",
+        "title": "楼梯通向红门",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-134421-bda1e66d",
+        "title": "雨窗水滴",
+        "createdAt": "2026-06-04T13:44:21+0800"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-134421-bda1e66d",
+      "selectedLowerEntryId": "20260604-1326da7c",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 25,
+      "timestamp": "2026-06-09T12:14:59.543Z",
+      "mode": "compare",
+      "pairId": "20260604-1326da7c__20260604-134421-bda1e66d__1781007284084",
+      "scoreKey": "overall",
+      "scoreLabel": "总体",
+      "leftEntry": {
+        "id": "20260604-1326da7c",
+        "title": "楼梯通向红门",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-134421-bda1e66d",
+        "title": "雨窗水滴",
+        "createdAt": "2026-06-04T13:44:21+0800"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 26,
+      "timestamp": "2026-06-09T12:15:04.443Z",
+      "mode": "compare",
+      "pairId": "20260604-215136-e2aaa52b__20260604-047a29d3__1781007300260",
+      "scoreKey": "technical",
+      "scoreLabel": "技术",
+      "leftEntry": {
+        "id": "20260604-215136-e2aaa52b",
+        "title": "摄影点评：藤蔓覆盖的老建筑",
+        "createdAt": "2026-06-04T21:51:36+0800"
+      },
+      "rightEntry": {
+        "id": "20260604-047a29d3",
+        "title": "树冠下的园林桥",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-047a29d3",
+      "selectedLowerEntryId": "20260604-215136-e2aaa52b",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 27,
+      "timestamp": "2026-06-09T12:15:05.914Z",
+      "mode": "compare",
+      "pairId": "20260604-215136-e2aaa52b__20260604-047a29d3__1781007300260",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260604-215136-e2aaa52b",
+        "title": "摄影点评：藤蔓覆盖的老建筑",
+        "createdAt": "2026-06-04T21:51:36+0800"
+      },
+      "rightEntry": {
+        "id": "20260604-047a29d3",
+        "title": "树冠下的园林桥",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-047a29d3",
+      "selectedLowerEntryId": "20260604-215136-e2aaa52b",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 28,
+      "timestamp": "2026-06-09T12:15:08.651Z",
+      "mode": "compare",
+      "pairId": "20260604-215136-e2aaa52b__20260604-047a29d3__1781007300260",
+      "scoreKey": "lighting",
+      "scoreLabel": "光线",
+      "leftEntry": {
+        "id": "20260604-215136-e2aaa52b",
+        "title": "摄影点评：藤蔓覆盖的老建筑",
+        "createdAt": "2026-06-04T21:51:36+0800"
+      },
+      "rightEntry": {
+        "id": "20260604-047a29d3",
+        "title": "树冠下的园林桥",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 29,
+      "timestamp": "2026-06-09T12:15:11.801Z",
+      "mode": "compare",
+      "pairId": "20260604-215136-e2aaa52b__20260604-047a29d3__1781007300260",
+      "scoreKey": "story",
+      "scoreLabel": "叙事",
+      "leftEntry": {
+        "id": "20260604-215136-e2aaa52b",
+        "title": "摄影点评：藤蔓覆盖的老建筑",
+        "createdAt": "2026-06-04T21:51:36+0800"
+      },
+      "rightEntry": {
+        "id": "20260604-047a29d3",
+        "title": "树冠下的园林桥",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-047a29d3",
+      "selectedLowerEntryId": "20260604-215136-e2aaa52b",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 30,
+      "timestamp": "2026-06-09T12:15:12.581Z",
+      "mode": "compare",
+      "pairId": "20260604-215136-e2aaa52b__20260604-047a29d3__1781007300260",
+      "scoreKey": "overall",
+      "scoreLabel": "总体",
+      "leftEntry": {
+        "id": "20260604-215136-e2aaa52b",
+        "title": "摄影点评：藤蔓覆盖的老建筑",
+        "createdAt": "2026-06-04T21:51:36+0800"
+      },
+      "rightEntry": {
+        "id": "20260604-047a29d3",
+        "title": "树冠下的园林桥",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-047a29d3",
+      "selectedLowerEntryId": "20260604-215136-e2aaa52b",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 31,
+      "timestamp": "2026-06-09T12:15:16.118Z",
+      "mode": "compare",
+      "pairId": "20260604-215430-5bf121d1__20260609-155643-antonin-__1781007313285",
+      "scoreKey": "technical",
+      "scoreLabel": "技术",
+      "leftEntry": {
+        "id": "20260604-215430-5bf121d1",
+        "title": "摄影点评：林中石阶",
+        "createdAt": "2026-06-04T21:54:30+0800"
+      },
+      "rightEntry": {
+        "id": "20260609-155643-antonin-",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260609-155643-antonin-",
+      "selectedLowerEntryId": "20260604-215430-5bf121d1",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 32,
+      "timestamp": "2026-06-09T12:15:17.576Z",
+      "mode": "compare",
+      "pairId": "20260604-215430-5bf121d1__20260609-155643-antonin-__1781007313285",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260604-215430-5bf121d1",
+        "title": "摄影点评：林中石阶",
+        "createdAt": "2026-06-04T21:54:30+0800"
+      },
+      "rightEntry": {
+        "id": "20260609-155643-antonin-",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260609-155643-antonin-",
+      "selectedLowerEntryId": "20260604-215430-5bf121d1",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 33,
+      "timestamp": "2026-06-09T12:15:18.704Z",
+      "mode": "compare",
+      "pairId": "20260604-215430-5bf121d1__20260609-155643-antonin-__1781007313285",
+      "scoreKey": "lighting",
+      "scoreLabel": "光线",
+      "leftEntry": {
+        "id": "20260604-215430-5bf121d1",
+        "title": "摄影点评：林中石阶",
+        "createdAt": "2026-06-04T21:54:30+0800"
+      },
+      "rightEntry": {
+        "id": "20260609-155643-antonin-",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260609-155643-antonin-",
+      "selectedLowerEntryId": "20260604-215430-5bf121d1",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 34,
+      "timestamp": "2026-06-09T12:15:19.681Z",
+      "mode": "compare",
+      "pairId": "20260604-215430-5bf121d1__20260609-155643-antonin-__1781007313285",
+      "scoreKey": "story",
+      "scoreLabel": "叙事",
+      "leftEntry": {
+        "id": "20260604-215430-5bf121d1",
+        "title": "摄影点评：林中石阶",
+        "createdAt": "2026-06-04T21:54:30+0800"
+      },
+      "rightEntry": {
+        "id": "20260609-155643-antonin-",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260609-155643-antonin-",
+      "selectedLowerEntryId": "20260604-215430-5bf121d1",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 35,
+      "timestamp": "2026-06-09T12:15:20.417Z",
+      "mode": "compare",
+      "pairId": "20260604-215430-5bf121d1__20260609-155643-antonin-__1781007313285",
+      "scoreKey": "overall",
+      "scoreLabel": "总体",
+      "leftEntry": {
+        "id": "20260604-215430-5bf121d1",
+        "title": "摄影点评：林中石阶",
+        "createdAt": "2026-06-04T21:54:30+0800"
+      },
+      "rightEntry": {
+        "id": "20260609-155643-antonin-",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260609-155643-antonin-",
+      "selectedLowerEntryId": "20260604-215430-5bf121d1",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 36,
+      "timestamp": "2026-06-09T12:15:27.635Z",
+      "mode": "compare",
+      "pairId": "20260604-81f3504f__20260609-155244-red-cabin-lifebuoy__1781007321143",
+      "scoreKey": "technical",
+      "scoreLabel": "技术",
+      "leftEntry": {
+        "id": "20260604-81f3504f",
+        "title": "摄影点评：拼接对比人像",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-155244-red-cabin-lifebuoy",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09T15:52:44+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260609-155244-red-cabin-lifebuoy",
+      "selectedLowerEntryId": "20260604-81f3504f",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 37,
+      "timestamp": "2026-06-09T12:15:29.018Z",
+      "mode": "compare",
+      "pairId": "20260604-81f3504f__20260609-155244-red-cabin-lifebuoy__1781007321143",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260604-81f3504f",
+        "title": "摄影点评：拼接对比人像",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-155244-red-cabin-lifebuoy",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09T15:52:44+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260609-155244-red-cabin-lifebuoy",
+      "selectedLowerEntryId": "20260604-81f3504f",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 38,
+      "timestamp": "2026-06-09T12:15:30.255Z",
+      "mode": "compare",
+      "pairId": "20260604-81f3504f__20260609-155244-red-cabin-lifebuoy__1781007321143",
+      "scoreKey": "lighting",
+      "scoreLabel": "光线",
+      "leftEntry": {
+        "id": "20260604-81f3504f",
+        "title": "摄影点评：拼接对比人像",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-155244-red-cabin-lifebuoy",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09T15:52:44+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260609-155244-red-cabin-lifebuoy",
+      "selectedLowerEntryId": "20260604-81f3504f",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 39,
+      "timestamp": "2026-06-09T12:15:31.214Z",
+      "mode": "compare",
+      "pairId": "20260604-81f3504f__20260609-155244-red-cabin-lifebuoy__1781007321143",
+      "scoreKey": "story",
+      "scoreLabel": "叙事",
+      "leftEntry": {
+        "id": "20260604-81f3504f",
+        "title": "摄影点评：拼接对比人像",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-155244-red-cabin-lifebuoy",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09T15:52:44+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 40,
+      "timestamp": "2026-06-09T12:15:32.192Z",
+      "mode": "compare",
+      "pairId": "20260604-81f3504f__20260609-155244-red-cabin-lifebuoy__1781007321143",
+      "scoreKey": "overall",
+      "scoreLabel": "总体",
+      "leftEntry": {
+        "id": "20260604-81f3504f",
+        "title": "摄影点评：拼接对比人像",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-155244-red-cabin-lifebuoy",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09T15:52:44+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260609-155244-red-cabin-lifebuoy",
+      "selectedLowerEntryId": "20260604-81f3504f",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 41,
+      "timestamp": "2026-06-09T12:15:38.631Z",
+      "mode": "compare",
+      "pairId": "20260604-211036-garden-bridge-river__20260604-210553-lake-mountain-sky__1781007332664",
+      "scoreKey": "technical",
+      "scoreLabel": "技术",
+      "leftEntry": {
+        "id": "20260604-211036-garden-bridge-river",
+        "title": "摄影点评：花园河道与石桥",
+        "createdAt": "2026-06-04T21:10:36+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-210553-lake-mountain-sky",
+        "title": "摄影点评：湖面与雪山蓝天",
+        "createdAt": "2026-06-04T21:05:53+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 42,
+      "timestamp": "2026-06-09T12:15:43.664Z",
+      "mode": "compare",
+      "pairId": "20260604-211036-garden-bridge-river__20260604-210553-lake-mountain-sky__1781007332664",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260604-211036-garden-bridge-river",
+        "title": "摄影点评：花园河道与石桥",
+        "createdAt": "2026-06-04T21:10:36+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-210553-lake-mountain-sky",
+        "title": "摄影点评：湖面与雪山蓝天",
+        "createdAt": "2026-06-04T21:05:53+08:00"
+      },
+      "clickedSide": "left",
+      "previousValue": null,
+      "resultingValue": "left",
+      "selectedHigherEntryId": "20260604-211036-garden-bridge-river",
+      "selectedLowerEntryId": "20260604-210553-lake-mountain-sky",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 43,
+      "timestamp": "2026-06-09T12:15:46.031Z",
+      "mode": "compare",
+      "pairId": "20260604-211036-garden-bridge-river__20260604-210553-lake-mountain-sky__1781007332664",
+      "scoreKey": "lighting",
+      "scoreLabel": "光线",
+      "leftEntry": {
+        "id": "20260604-211036-garden-bridge-river",
+        "title": "摄影点评：花园河道与石桥",
+        "createdAt": "2026-06-04T21:10:36+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-210553-lake-mountain-sky",
+        "title": "摄影点评：湖面与雪山蓝天",
+        "createdAt": "2026-06-04T21:05:53+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 44,
+      "timestamp": "2026-06-09T12:15:52.364Z",
+      "mode": "compare",
+      "pairId": "20260604-211036-garden-bridge-river__20260604-210553-lake-mountain-sky__1781007332664",
+      "scoreKey": "story",
+      "scoreLabel": "叙事",
+      "leftEntry": {
+        "id": "20260604-211036-garden-bridge-river",
+        "title": "摄影点评：花园河道与石桥",
+        "createdAt": "2026-06-04T21:10:36+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-210553-lake-mountain-sky",
+        "title": "摄影点评：湖面与雪山蓝天",
+        "createdAt": "2026-06-04T21:05:53+08:00"
+      },
+      "clickedSide": "left",
+      "previousValue": null,
+      "resultingValue": "left",
+      "selectedHigherEntryId": "20260604-211036-garden-bridge-river",
+      "selectedLowerEntryId": "20260604-210553-lake-mountain-sky",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 45,
+      "timestamp": "2026-06-09T12:15:55.344Z",
+      "mode": "compare",
+      "pairId": "20260604-211036-garden-bridge-river__20260604-210553-lake-mountain-sky__1781007332664",
+      "scoreKey": "overall",
+      "scoreLabel": "总体",
+      "leftEntry": {
+        "id": "20260604-211036-garden-bridge-river",
+        "title": "摄影点评：花园河道与石桥",
+        "createdAt": "2026-06-04T21:10:36+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-210553-lake-mountain-sky",
+        "title": "摄影点评：湖面与雪山蓝天",
+        "createdAt": "2026-06-04T21:05:53+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 46,
+      "timestamp": "2026-06-09T12:16:00.319Z",
+      "mode": "compare",
+      "pairId": "20260604-135215-0365a6d2__20260604-2e64f969__1781007355922",
+      "scoreKey": "technical",
+      "scoreLabel": "技术",
+      "leftEntry": {
+        "id": "20260604-135215-0365a6d2",
+        "title": "摄影点评：方向异常的下午茶静物",
+        "createdAt": "2026-06-04T13:51:45+0800"
+      },
+      "rightEntry": {
+        "id": "20260604-2e64f969",
+        "title": "摄影点评：树荫下的园林小桥",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 47,
+      "timestamp": "2026-06-09T12:16:05.003Z",
+      "mode": "compare",
+      "pairId": "20260604-135215-0365a6d2__20260604-2e64f969__1781007355922",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260604-135215-0365a6d2",
+        "title": "摄影点评：方向异常的下午茶静物",
+        "createdAt": "2026-06-04T13:51:45+0800"
+      },
+      "rightEntry": {
+        "id": "20260604-2e64f969",
+        "title": "摄影点评：树荫下的园林小桥",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 48,
+      "timestamp": "2026-06-09T12:16:06.936Z",
+      "mode": "compare",
+      "pairId": "20260604-135215-0365a6d2__20260604-2e64f969__1781007355922",
+      "scoreKey": "lighting",
+      "scoreLabel": "光线",
+      "leftEntry": {
+        "id": "20260604-135215-0365a6d2",
+        "title": "摄影点评：方向异常的下午茶静物",
+        "createdAt": "2026-06-04T13:51:45+0800"
+      },
+      "rightEntry": {
+        "id": "20260604-2e64f969",
+        "title": "摄影点评：树荫下的园林小桥",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 49,
+      "timestamp": "2026-06-09T12:16:07.782Z",
+      "mode": "compare",
+      "pairId": "20260604-135215-0365a6d2__20260604-2e64f969__1781007355922",
+      "scoreKey": "story",
+      "scoreLabel": "叙事",
+      "leftEntry": {
+        "id": "20260604-135215-0365a6d2",
+        "title": "摄影点评：方向异常的下午茶静物",
+        "createdAt": "2026-06-04T13:51:45+0800"
+      },
+      "rightEntry": {
+        "id": "20260604-2e64f969",
+        "title": "摄影点评：树荫下的园林小桥",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-2e64f969",
+      "selectedLowerEntryId": "20260604-135215-0365a6d2",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 50,
+      "timestamp": "2026-06-09T12:16:17.277Z",
+      "mode": "compare",
+      "pairId": "20260604-135215-0365a6d2__20260604-2e64f969__1781007355922",
+      "scoreKey": "overall",
+      "scoreLabel": "总体",
+      "leftEntry": {
+        "id": "20260604-135215-0365a6d2",
+        "title": "摄影点评：方向异常的下午茶静物",
+        "createdAt": "2026-06-04T13:51:45+0800"
+      },
+      "rightEntry": {
+        "id": "20260604-2e64f969",
+        "title": "摄影点评：树荫下的园林小桥",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-2e64f969",
+      "selectedLowerEntryId": "20260604-135215-0365a6d2",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 51,
+      "timestamp": "2026-06-09T12:16:26.840Z",
+      "mode": "compare",
+      "pairId": "20260604-1f350ca6__20260609-113544-2ae2bf47__1781007377936",
+      "scoreKey": "technical",
+      "scoreLabel": "技术",
+      "leftEntry": {
+        "id": "20260604-1f350ca6",
+        "title": "摄影点评：方向异常的室内圣诞树",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-113544-2ae2bf47",
+        "title": "摄影点评：湖面游船与远山古建",
+        "createdAt": "2026-06-09T11:35:44+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 52,
+      "timestamp": "2026-06-09T12:16:27.707Z",
+      "mode": "compare",
+      "pairId": "20260604-1f350ca6__20260609-113544-2ae2bf47__1781007377936",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260604-1f350ca6",
+        "title": "摄影点评：方向异常的室内圣诞树",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-113544-2ae2bf47",
+        "title": "摄影点评：湖面游船与远山古建",
+        "createdAt": "2026-06-09T11:35:44+08:00"
+      },
+      "clickedSide": "left",
+      "previousValue": null,
+      "resultingValue": "left",
+      "selectedHigherEntryId": "20260604-1f350ca6",
+      "selectedLowerEntryId": "20260609-113544-2ae2bf47",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 53,
+      "timestamp": "2026-06-09T12:16:30.078Z",
+      "mode": "compare",
+      "pairId": "20260604-1f350ca6__20260609-113544-2ae2bf47__1781007377936",
+      "scoreKey": "lighting",
+      "scoreLabel": "光线",
+      "leftEntry": {
+        "id": "20260604-1f350ca6",
+        "title": "摄影点评：方向异常的室内圣诞树",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-113544-2ae2bf47",
+        "title": "摄影点评：湖面游船与远山古建",
+        "createdAt": "2026-06-09T11:35:44+08:00"
+      },
+      "clickedSide": "left",
+      "previousValue": null,
+      "resultingValue": "left",
+      "selectedHigherEntryId": "20260604-1f350ca6",
+      "selectedLowerEntryId": "20260609-113544-2ae2bf47",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 54,
+      "timestamp": "2026-06-09T12:16:33.182Z",
+      "mode": "compare",
+      "pairId": "20260604-1f350ca6__20260609-113544-2ae2bf47__1781007377936",
+      "scoreKey": "story",
+      "scoreLabel": "叙事",
+      "leftEntry": {
+        "id": "20260604-1f350ca6",
+        "title": "摄影点评：方向异常的室内圣诞树",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-113544-2ae2bf47",
+        "title": "摄影点评：湖面游船与远山古建",
+        "createdAt": "2026-06-09T11:35:44+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 55,
+      "timestamp": "2026-06-09T12:16:34.569Z",
+      "mode": "compare",
+      "pairId": "20260604-1f350ca6__20260609-113544-2ae2bf47__1781007377936",
+      "scoreKey": "overall",
+      "scoreLabel": "总体",
+      "leftEntry": {
+        "id": "20260604-1f350ca6",
+        "title": "摄影点评：方向异常的室内圣诞树",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-113544-2ae2bf47",
+        "title": "摄影点评：湖面游船与远山古建",
+        "createdAt": "2026-06-09T11:35:44+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 56,
+      "timestamp": "2026-06-09T12:16:38.594Z",
+      "mode": "compare",
+      "pairId": "20260609-104934-c6286df4__20260604-133429-f47c12fc__1781007395368",
+      "scoreKey": "technical",
+      "scoreLabel": "技术",
+      "leftEntry": {
+        "id": "20260609-104934-c6286df4",
+        "title": "摄影点评：韩国旅游展陈装置",
+        "createdAt": "2026-06-09T10:49:34+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-133429-f47c12fc",
+        "title": "失焦的枝叶与天空",
+        "createdAt": "2026-06-04T13:34:38+0800"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-133429-f47c12fc",
+      "selectedLowerEntryId": "20260609-104934-c6286df4",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 57,
+      "timestamp": "2026-06-09T12:16:41.982Z",
+      "mode": "compare",
+      "pairId": "20260609-104934-c6286df4__20260604-133429-f47c12fc__1781007395368",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260609-104934-c6286df4",
+        "title": "摄影点评：韩国旅游展陈装置",
+        "createdAt": "2026-06-09T10:49:34+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-133429-f47c12fc",
+        "title": "失焦的枝叶与天空",
+        "createdAt": "2026-06-04T13:34:38+0800"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-133429-f47c12fc",
+      "selectedLowerEntryId": "20260609-104934-c6286df4",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 58,
+      "timestamp": "2026-06-09T12:16:42.678Z",
+      "mode": "compare",
+      "pairId": "20260609-104934-c6286df4__20260604-133429-f47c12fc__1781007395368",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260609-104934-c6286df4",
+        "title": "摄影点评：韩国旅游展陈装置",
+        "createdAt": "2026-06-09T10:49:34+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-133429-f47c12fc",
+        "title": "失焦的枝叶与天空",
+        "createdAt": "2026-06-04T13:34:38+0800"
+      },
+      "clickedSide": "right",
+      "previousValue": "right",
+      "resultingValue": null,
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": false,
+      "action": "clear"
+    },
+    {
+      "index": 59,
+      "timestamp": "2026-06-09T12:16:44.007Z",
+      "mode": "compare",
+      "pairId": "20260609-104934-c6286df4__20260604-133429-f47c12fc__1781007395368",
+      "scoreKey": "lighting",
+      "scoreLabel": "光线",
+      "leftEntry": {
+        "id": "20260609-104934-c6286df4",
+        "title": "摄影点评：韩国旅游展陈装置",
+        "createdAt": "2026-06-09T10:49:34+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-133429-f47c12fc",
+        "title": "失焦的枝叶与天空",
+        "createdAt": "2026-06-04T13:34:38+0800"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-133429-f47c12fc",
+      "selectedLowerEntryId": "20260609-104934-c6286df4",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 60,
+      "timestamp": "2026-06-09T12:16:45.148Z",
+      "mode": "compare",
+      "pairId": "20260609-104934-c6286df4__20260604-133429-f47c12fc__1781007395368",
+      "scoreKey": "story",
+      "scoreLabel": "叙事",
+      "leftEntry": {
+        "id": "20260609-104934-c6286df4",
+        "title": "摄影点评：韩国旅游展陈装置",
+        "createdAt": "2026-06-09T10:49:34+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-133429-f47c12fc",
+        "title": "失焦的枝叶与天空",
+        "createdAt": "2026-06-04T13:34:38+0800"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-133429-f47c12fc",
+      "selectedLowerEntryId": "20260609-104934-c6286df4",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 61,
+      "timestamp": "2026-06-09T12:16:46.332Z",
+      "mode": "compare",
+      "pairId": "20260609-104934-c6286df4__20260604-133429-f47c12fc__1781007395368",
+      "scoreKey": "overall",
+      "scoreLabel": "总体",
+      "leftEntry": {
+        "id": "20260609-104934-c6286df4",
+        "title": "摄影点评：韩国旅游展陈装置",
+        "createdAt": "2026-06-09T10:49:34+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-133429-f47c12fc",
+        "title": "失焦的枝叶与天空",
+        "createdAt": "2026-06-04T13:34:38+0800"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 62,
+      "timestamp": "2026-06-09T12:16:47.549Z",
+      "mode": "compare",
+      "pairId": "20260609-104934-c6286df4__20260604-133429-f47c12fc__1781007395368",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260609-104934-c6286df4",
+        "title": "摄影点评：韩国旅游展陈装置",
+        "createdAt": "2026-06-09T10:49:34+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-133429-f47c12fc",
+        "title": "失焦的枝叶与天空",
+        "createdAt": "2026-06-04T13:34:38+0800"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-133429-f47c12fc",
+      "selectedLowerEntryId": "20260609-104934-c6286df4",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 63,
+      "timestamp": "2026-06-09T12:16:52.769Z",
+      "mode": "compare",
+      "pairId": "20260609-110023-d97bc8e2__20260609-113259__1781007408515",
+      "scoreKey": "technical",
+      "scoreLabel": "技术",
+      "leftEntry": {
+        "id": "20260609-110023-d97bc8e2",
+        "title": "摄影点评：隔窗住宅楼窗格",
+        "createdAt": "2026-06-09T11:00:23+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-113259",
+        "title": "摄影点评：开箱损坏记录",
+        "createdAt": "2026-06-09T11:32:59+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 64,
+      "timestamp": "2026-06-09T12:16:53.682Z",
+      "mode": "compare",
+      "pairId": "20260609-110023-d97bc8e2__20260609-113259__1781007408515",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260609-110023-d97bc8e2",
+        "title": "摄影点评：隔窗住宅楼窗格",
+        "createdAt": "2026-06-09T11:00:23+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-113259",
+        "title": "摄影点评：开箱损坏记录",
+        "createdAt": "2026-06-09T11:32:59+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 65,
+      "timestamp": "2026-06-09T12:16:58.266Z",
+      "mode": "compare",
+      "pairId": "20260609-110023-d97bc8e2__20260609-113259__1781007408515",
+      "scoreKey": "lighting",
+      "scoreLabel": "光线",
+      "leftEntry": {
+        "id": "20260609-110023-d97bc8e2",
+        "title": "摄影点评：隔窗住宅楼窗格",
+        "createdAt": "2026-06-09T11:00:23+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-113259",
+        "title": "摄影点评：开箱损坏记录",
+        "createdAt": "2026-06-09T11:32:59+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 66,
+      "timestamp": "2026-06-09T12:17:01.178Z",
+      "mode": "compare",
+      "pairId": "20260609-110023-d97bc8e2__20260609-113259__1781007408515",
+      "scoreKey": "story",
+      "scoreLabel": "叙事",
+      "leftEntry": {
+        "id": "20260609-110023-d97bc8e2",
+        "title": "摄影点评：隔窗住宅楼窗格",
+        "createdAt": "2026-06-09T11:00:23+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-113259",
+        "title": "摄影点评：开箱损坏记录",
+        "createdAt": "2026-06-09T11:32:59+08:00"
+      },
+      "clickedSide": "left",
+      "previousValue": null,
+      "resultingValue": "left",
+      "selectedHigherEntryId": "20260609-110023-d97bc8e2",
+      "selectedLowerEntryId": "20260609-113259",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 67,
+      "timestamp": "2026-06-09T12:17:02.487Z",
+      "mode": "compare",
+      "pairId": "20260609-110023-d97bc8e2__20260609-113259__1781007408515",
+      "scoreKey": "overall",
+      "scoreLabel": "总体",
+      "leftEntry": {
+        "id": "20260609-110023-d97bc8e2",
+        "title": "摄影点评：隔窗住宅楼窗格",
+        "createdAt": "2026-06-09T11:00:23+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-113259",
+        "title": "摄影点评：开箱损坏记录",
+        "createdAt": "2026-06-09T11:32:59+08:00"
+      },
+      "clickedSide": "left",
+      "previousValue": null,
+      "resultingValue": "left",
+      "selectedHigherEntryId": "20260609-110023-d97bc8e2",
+      "selectedLowerEntryId": "20260609-113259",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 68,
+      "timestamp": "2026-06-09T12:17:07.269Z",
+      "mode": "compare",
+      "pairId": "20260604-214853-23346515__20260604-220722-c0fa3761__1781007423233",
+      "scoreKey": "technical",
+      "scoreLabel": "技术",
+      "leftEntry": {
+        "id": "20260604-214853-23346515",
+        "title": "摄影点评：树下的老建筑屋檐",
+        "createdAt": "2026-06-04T21:48:53+0800"
+      },
+      "rightEntry": {
+        "id": "20260604-220722-c0fa3761",
+        "title": "摄影点评：树木中的老建筑立面",
+        "createdAt": "2026-06-04T22:07:22+0800"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 69,
+      "timestamp": "2026-06-09T12:17:17.295Z",
+      "mode": "compare",
+      "pairId": "20260604-214853-23346515__20260604-220722-c0fa3761__1781007423233",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260604-214853-23346515",
+        "title": "摄影点评：树下的老建筑屋檐",
+        "createdAt": "2026-06-04T21:48:53+0800"
+      },
+      "rightEntry": {
+        "id": "20260604-220722-c0fa3761",
+        "title": "摄影点评：树木中的老建筑立面",
+        "createdAt": "2026-06-04T22:07:22+0800"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-220722-c0fa3761",
+      "selectedLowerEntryId": "20260604-214853-23346515",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 70,
+      "timestamp": "2026-06-09T12:17:20.278Z",
+      "mode": "compare",
+      "pairId": "20260604-214853-23346515__20260604-220722-c0fa3761__1781007423233",
+      "scoreKey": "lighting",
+      "scoreLabel": "光线",
+      "leftEntry": {
+        "id": "20260604-214853-23346515",
+        "title": "摄影点评：树下的老建筑屋檐",
+        "createdAt": "2026-06-04T21:48:53+0800"
+      },
+      "rightEntry": {
+        "id": "20260604-220722-c0fa3761",
+        "title": "摄影点评：树木中的老建筑立面",
+        "createdAt": "2026-06-04T22:07:22+0800"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 71,
+      "timestamp": "2026-06-09T12:17:21.811Z",
+      "mode": "compare",
+      "pairId": "20260604-214853-23346515__20260604-220722-c0fa3761__1781007423233",
+      "scoreKey": "story",
+      "scoreLabel": "叙事",
+      "leftEntry": {
+        "id": "20260604-214853-23346515",
+        "title": "摄影点评：树下的老建筑屋檐",
+        "createdAt": "2026-06-04T21:48:53+0800"
+      },
+      "rightEntry": {
+        "id": "20260604-220722-c0fa3761",
+        "title": "摄影点评：树木中的老建筑立面",
+        "createdAt": "2026-06-04T22:07:22+0800"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-220722-c0fa3761",
+      "selectedLowerEntryId": "20260604-214853-23346515",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 72,
+      "timestamp": "2026-06-09T12:17:24.087Z",
+      "mode": "compare",
+      "pairId": "20260604-214853-23346515__20260604-220722-c0fa3761__1781007423233",
+      "scoreKey": "overall",
+      "scoreLabel": "总体",
+      "leftEntry": {
+        "id": "20260604-214853-23346515",
+        "title": "摄影点评：树下的老建筑屋檐",
+        "createdAt": "2026-06-04T21:48:53+0800"
+      },
+      "rightEntry": {
+        "id": "20260604-220722-c0fa3761",
+        "title": "摄影点评：树木中的老建筑立面",
+        "createdAt": "2026-06-04T22:07:22+0800"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 73,
+      "timestamp": "2026-06-09T12:17:29.415Z",
+      "mode": "compare",
+      "pairId": "20260609-104732-888d0148__20260609-154445-road-dunes__1781007444869",
+      "scoreKey": "technical",
+      "scoreLabel": "技术",
+      "leftEntry": {
+        "id": "20260609-104732-888d0148",
+        "title": "摄影点评：联名餐垫与角色甜品",
+        "createdAt": "2026-06-09T10:47:32+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-154445-road-dunes",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09T15:44:45+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260609-154445-road-dunes",
+      "selectedLowerEntryId": "20260609-104732-888d0148",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 74,
+      "timestamp": "2026-06-09T12:17:31.578Z",
+      "mode": "compare",
+      "pairId": "20260609-104732-888d0148__20260609-154445-road-dunes__1781007444869",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260609-104732-888d0148",
+        "title": "摄影点评：联名餐垫与角色甜品",
+        "createdAt": "2026-06-09T10:47:32+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-154445-road-dunes",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09T15:44:45+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260609-154445-road-dunes",
+      "selectedLowerEntryId": "20260609-104732-888d0148",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 75,
+      "timestamp": "2026-06-09T12:17:33.079Z",
+      "mode": "compare",
+      "pairId": "20260609-104732-888d0148__20260609-154445-road-dunes__1781007444869",
+      "scoreKey": "lighting",
+      "scoreLabel": "光线",
+      "leftEntry": {
+        "id": "20260609-104732-888d0148",
+        "title": "摄影点评：联名餐垫与角色甜品",
+        "createdAt": "2026-06-09T10:47:32+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-154445-road-dunes",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09T15:44:45+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260609-154445-road-dunes",
+      "selectedLowerEntryId": "20260609-104732-888d0148",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 76,
+      "timestamp": "2026-06-09T12:17:35.986Z",
+      "mode": "compare",
+      "pairId": "20260609-104732-888d0148__20260609-154445-road-dunes__1781007444869",
+      "scoreKey": "story",
+      "scoreLabel": "叙事",
+      "leftEntry": {
+        "id": "20260609-104732-888d0148",
+        "title": "摄影点评：联名餐垫与角色甜品",
+        "createdAt": "2026-06-09T10:47:32+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-154445-road-dunes",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09T15:44:45+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 77,
+      "timestamp": "2026-06-09T12:17:37.074Z",
+      "mode": "compare",
+      "pairId": "20260609-104732-888d0148__20260609-154445-road-dunes__1781007444869",
+      "scoreKey": "overall",
+      "scoreLabel": "总体",
+      "leftEntry": {
+        "id": "20260609-104732-888d0148",
+        "title": "摄影点评：联名餐垫与角色甜品",
+        "createdAt": "2026-06-09T10:47:32+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-154445-road-dunes",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09T15:44:45+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260609-154445-road-dunes",
+      "selectedLowerEntryId": "20260609-104732-888d0148",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 78,
+      "timestamp": "2026-06-09T12:17:43.120Z",
+      "mode": "compare",
+      "pairId": "20260604-212244-city-skyline-clouds-window__20260604-c4088f85__1781007457528",
+      "scoreKey": "technical",
+      "scoreLabel": "技术",
+      "leftEntry": {
+        "id": "20260604-212244-city-skyline-clouds-window",
+        "title": "摄影点评：隔窗拍摄的阴云城市",
+        "createdAt": "2026-06-04T21:22:44+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-c4088f85",
+        "title": "摄影点评：电脑前的小熊玩偶",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 79,
+      "timestamp": "2026-06-09T12:17:46.441Z",
+      "mode": "compare",
+      "pairId": "20260604-212244-city-skyline-clouds-window__20260604-c4088f85__1781007457528",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260604-212244-city-skyline-clouds-window",
+        "title": "摄影点评：隔窗拍摄的阴云城市",
+        "createdAt": "2026-06-04T21:22:44+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-c4088f85",
+        "title": "摄影点评：电脑前的小熊玩偶",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 80,
+      "timestamp": "2026-06-09T12:17:51.733Z",
+      "mode": "compare",
+      "pairId": "20260604-212244-city-skyline-clouds-window__20260604-c4088f85__1781007457528",
+      "scoreKey": "lighting",
+      "scoreLabel": "光线",
+      "leftEntry": {
+        "id": "20260604-212244-city-skyline-clouds-window",
+        "title": "摄影点评：隔窗拍摄的阴云城市",
+        "createdAt": "2026-06-04T21:22:44+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-c4088f85",
+        "title": "摄影点评：电脑前的小熊玩偶",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-c4088f85",
+      "selectedLowerEntryId": "20260604-212244-city-skyline-clouds-window",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 81,
+      "timestamp": "2026-06-09T12:17:52.704Z",
+      "mode": "compare",
+      "pairId": "20260604-212244-city-skyline-clouds-window__20260604-c4088f85__1781007457528",
+      "scoreKey": "story",
+      "scoreLabel": "叙事",
+      "leftEntry": {
+        "id": "20260604-212244-city-skyline-clouds-window",
+        "title": "摄影点评：隔窗拍摄的阴云城市",
+        "createdAt": "2026-06-04T21:22:44+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-c4088f85",
+        "title": "摄影点评：电脑前的小熊玩偶",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-c4088f85",
+      "selectedLowerEntryId": "20260604-212244-city-skyline-clouds-window",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 82,
+      "timestamp": "2026-06-09T12:17:56.895Z",
+      "mode": "compare",
+      "pairId": "20260604-212244-city-skyline-clouds-window__20260604-c4088f85__1781007457528",
+      "scoreKey": "overall",
+      "scoreLabel": "总体",
+      "leftEntry": {
+        "id": "20260604-212244-city-skyline-clouds-window",
+        "title": "摄影点评：隔窗拍摄的阴云城市",
+        "createdAt": "2026-06-04T21:22:44+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-c4088f85",
+        "title": "摄影点评：电脑前的小熊玩偶",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 83,
+      "timestamp": "2026-06-09T12:18:01.391Z",
+      "mode": "compare",
+      "pairId": "20260609-113544-2ae2bf47__20260604-047a29d3__1781007477511",
+      "scoreKey": "technical",
+      "scoreLabel": "技术",
+      "leftEntry": {
+        "id": "20260609-113544-2ae2bf47",
+        "title": "摄影点评：湖面游船与远山古建",
+        "createdAt": "2026-06-09T11:35:44+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-047a29d3",
+        "title": "树冠下的园林桥",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-047a29d3",
+      "selectedLowerEntryId": "20260609-113544-2ae2bf47",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 84,
+      "timestamp": "2026-06-09T12:18:03.200Z",
+      "mode": "compare",
+      "pairId": "20260609-113544-2ae2bf47__20260604-047a29d3__1781007477511",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260609-113544-2ae2bf47",
+        "title": "摄影点评：湖面游船与远山古建",
+        "createdAt": "2026-06-09T11:35:44+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-047a29d3",
+        "title": "树冠下的园林桥",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-047a29d3",
+      "selectedLowerEntryId": "20260609-113544-2ae2bf47",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 85,
+      "timestamp": "2026-06-09T12:18:04.078Z",
+      "mode": "compare",
+      "pairId": "20260609-113544-2ae2bf47__20260604-047a29d3__1781007477511",
+      "scoreKey": "lighting",
+      "scoreLabel": "光线",
+      "leftEntry": {
+        "id": "20260609-113544-2ae2bf47",
+        "title": "摄影点评：湖面游船与远山古建",
+        "createdAt": "2026-06-09T11:35:44+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-047a29d3",
+        "title": "树冠下的园林桥",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-047a29d3",
+      "selectedLowerEntryId": "20260609-113544-2ae2bf47",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 86,
+      "timestamp": "2026-06-09T12:18:05.144Z",
+      "mode": "compare",
+      "pairId": "20260609-113544-2ae2bf47__20260604-047a29d3__1781007477511",
+      "scoreKey": "story",
+      "scoreLabel": "叙事",
+      "leftEntry": {
+        "id": "20260609-113544-2ae2bf47",
+        "title": "摄影点评：湖面游船与远山古建",
+        "createdAt": "2026-06-09T11:35:44+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-047a29d3",
+        "title": "树冠下的园林桥",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-047a29d3",
+      "selectedLowerEntryId": "20260609-113544-2ae2bf47",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 87,
+      "timestamp": "2026-06-09T12:18:06.102Z",
+      "mode": "compare",
+      "pairId": "20260609-113544-2ae2bf47__20260604-047a29d3__1781007477511",
+      "scoreKey": "overall",
+      "scoreLabel": "总体",
+      "leftEntry": {
+        "id": "20260609-113544-2ae2bf47",
+        "title": "摄影点评：湖面游船与远山古建",
+        "createdAt": "2026-06-09T11:35:44+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-047a29d3",
+        "title": "树冠下的园林桥",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-047a29d3",
+      "selectedLowerEntryId": "20260609-113544-2ae2bf47",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 88,
+      "timestamp": "2026-06-09T12:18:12.856Z",
+      "mode": "compare",
+      "pairId": "20260609-115408-f9cad06f__20260604-4c1cd91e__1781007487454",
+      "scoreKey": "technical",
+      "scoreLabel": "技术",
+      "leftEntry": {
+        "id": "20260609-115408-f9cad06f",
+        "title": "摄影点评：广场步道与城市建筑",
+        "createdAt": "2026-06-09T11:54:08+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-4c1cd91e",
+        "title": "摄影点评：园林小桥与倒影",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-4c1cd91e",
+      "selectedLowerEntryId": "20260609-115408-f9cad06f",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 89,
+      "timestamp": "2026-06-09T12:18:13.773Z",
+      "mode": "compare",
+      "pairId": "20260609-115408-f9cad06f__20260604-4c1cd91e__1781007487454",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260609-115408-f9cad06f",
+        "title": "摄影点评：广场步道与城市建筑",
+        "createdAt": "2026-06-09T11:54:08+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-4c1cd91e",
+        "title": "摄影点评：园林小桥与倒影",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-4c1cd91e",
+      "selectedLowerEntryId": "20260609-115408-f9cad06f",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 90,
+      "timestamp": "2026-06-09T12:18:14.627Z",
+      "mode": "compare",
+      "pairId": "20260609-115408-f9cad06f__20260604-4c1cd91e__1781007487454",
+      "scoreKey": "lighting",
+      "scoreLabel": "光线",
+      "leftEntry": {
+        "id": "20260609-115408-f9cad06f",
+        "title": "摄影点评：广场步道与城市建筑",
+        "createdAt": "2026-06-09T11:54:08+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-4c1cd91e",
+        "title": "摄影点评：园林小桥与倒影",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-4c1cd91e",
+      "selectedLowerEntryId": "20260609-115408-f9cad06f",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 91,
+      "timestamp": "2026-06-09T12:18:15.433Z",
+      "mode": "compare",
+      "pairId": "20260609-115408-f9cad06f__20260604-4c1cd91e__1781007487454",
+      "scoreKey": "story",
+      "scoreLabel": "叙事",
+      "leftEntry": {
+        "id": "20260609-115408-f9cad06f",
+        "title": "摄影点评：广场步道与城市建筑",
+        "createdAt": "2026-06-09T11:54:08+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-4c1cd91e",
+        "title": "摄影点评：园林小桥与倒影",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-4c1cd91e",
+      "selectedLowerEntryId": "20260609-115408-f9cad06f",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 92,
+      "timestamp": "2026-06-09T12:18:16.153Z",
+      "mode": "compare",
+      "pairId": "20260609-115408-f9cad06f__20260604-4c1cd91e__1781007487454",
+      "scoreKey": "overall",
+      "scoreLabel": "总体",
+      "leftEntry": {
+        "id": "20260609-115408-f9cad06f",
+        "title": "摄影点评：广场步道与城市建筑",
+        "createdAt": "2026-06-09T11:54:08+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-4c1cd91e",
+        "title": "摄影点评：园林小桥与倒影",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-4c1cd91e",
+      "selectedLowerEntryId": "20260609-115408-f9cad06f",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 93,
+      "timestamp": "2026-06-09T12:18:26.287Z",
+      "mode": "compare",
+      "pairId": "20260609-115634-31475a4e__20260604-c4088f85__1781007496666",
+      "scoreKey": "technical",
+      "scoreLabel": "技术",
+      "leftEntry": {
+        "id": "20260609-115634-31475a4e",
+        "title": "摄影点评：树影中的城市高楼",
+        "createdAt": "2026-06-09T11:56:34+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-c4088f85",
+        "title": "摄影点评：电脑前的小熊玩偶",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 94,
+      "timestamp": "2026-06-09T12:18:28.961Z",
+      "mode": "compare",
+      "pairId": "20260609-115634-31475a4e__20260604-c4088f85__1781007496666",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260609-115634-31475a4e",
+        "title": "摄影点评：树影中的城市高楼",
+        "createdAt": "2026-06-09T11:56:34+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-c4088f85",
+        "title": "摄影点评：电脑前的小熊玩偶",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-c4088f85",
+      "selectedLowerEntryId": "20260609-115634-31475a4e",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 95,
+      "timestamp": "2026-06-09T12:18:30.592Z",
+      "mode": "compare",
+      "pairId": "20260609-115634-31475a4e__20260604-c4088f85__1781007496666",
+      "scoreKey": "lighting",
+      "scoreLabel": "光线",
+      "leftEntry": {
+        "id": "20260609-115634-31475a4e",
+        "title": "摄影点评：树影中的城市高楼",
+        "createdAt": "2026-06-09T11:56:34+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-c4088f85",
+        "title": "摄影点评：电脑前的小熊玩偶",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-c4088f85",
+      "selectedLowerEntryId": "20260609-115634-31475a4e",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 96,
+      "timestamp": "2026-06-09T12:18:32.396Z",
+      "mode": "compare",
+      "pairId": "20260609-115634-31475a4e__20260604-c4088f85__1781007496666",
+      "scoreKey": "story",
+      "scoreLabel": "叙事",
+      "leftEntry": {
+        "id": "20260609-115634-31475a4e",
+        "title": "摄影点评：树影中的城市高楼",
+        "createdAt": "2026-06-09T11:56:34+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-c4088f85",
+        "title": "摄影点评：电脑前的小熊玩偶",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 97,
+      "timestamp": "2026-06-09T12:18:34.096Z",
+      "mode": "compare",
+      "pairId": "20260609-115634-31475a4e__20260604-c4088f85__1781007496666",
+      "scoreKey": "overall",
+      "scoreLabel": "总体",
+      "leftEntry": {
+        "id": "20260609-115634-31475a4e",
+        "title": "摄影点评：树影中的城市高楼",
+        "createdAt": "2026-06-09T11:56:34+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-c4088f85",
+        "title": "摄影点评：电脑前的小熊玩偶",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 98,
+      "timestamp": "2026-06-09T12:18:37.600Z",
+      "mode": "compare",
+      "pairId": "20260604-2e5db055__20260604-133618-b07fc03a__1781007514758",
+      "scoreKey": "technical",
+      "scoreLabel": "技术",
+      "leftEntry": {
+        "id": "20260604-2e5db055",
+        "title": "摄影点评：城市背景下的应援物记录",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-133618-b07fc03a",
+        "title": "树影里的老房子",
+        "createdAt": "2026-06-04T13:36:18+0800"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-133618-b07fc03a",
+      "selectedLowerEntryId": "20260604-2e5db055",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 99,
+      "timestamp": "2026-06-09T12:18:38.867Z",
+      "mode": "compare",
+      "pairId": "20260604-2e5db055__20260604-133618-b07fc03a__1781007514758",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260604-2e5db055",
+        "title": "摄影点评：城市背景下的应援物记录",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-133618-b07fc03a",
+        "title": "树影里的老房子",
+        "createdAt": "2026-06-04T13:36:18+0800"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-133618-b07fc03a",
+      "selectedLowerEntryId": "20260604-2e5db055",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 100,
+      "timestamp": "2026-06-09T12:18:40.866Z",
+      "mode": "compare",
+      "pairId": "20260604-2e5db055__20260604-133618-b07fc03a__1781007514758",
+      "scoreKey": "lighting",
+      "scoreLabel": "光线",
+      "leftEntry": {
+        "id": "20260604-2e5db055",
+        "title": "摄影点评：城市背景下的应援物记录",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-133618-b07fc03a",
+        "title": "树影里的老房子",
+        "createdAt": "2026-06-04T13:36:18+0800"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-133618-b07fc03a",
+      "selectedLowerEntryId": "20260604-2e5db055",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 101,
+      "timestamp": "2026-06-09T12:18:42.466Z",
+      "mode": "compare",
+      "pairId": "20260604-2e5db055__20260604-133618-b07fc03a__1781007514758",
+      "scoreKey": "story",
+      "scoreLabel": "叙事",
+      "leftEntry": {
+        "id": "20260604-2e5db055",
+        "title": "摄影点评：城市背景下的应援物记录",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-133618-b07fc03a",
+        "title": "树影里的老房子",
+        "createdAt": "2026-06-04T13:36:18+0800"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 102,
+      "timestamp": "2026-06-09T12:18:44.813Z",
+      "mode": "compare",
+      "pairId": "20260604-2e5db055__20260604-133618-b07fc03a__1781007514758",
+      "scoreKey": "overall",
+      "scoreLabel": "总体",
+      "leftEntry": {
+        "id": "20260604-2e5db055",
+        "title": "摄影点评：城市背景下的应援物记录",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-133618-b07fc03a",
+        "title": "树影里的老房子",
+        "createdAt": "2026-06-04T13:36:18+0800"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-133618-b07fc03a",
+      "selectedLowerEntryId": "20260604-2e5db055",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 103,
+      "timestamp": "2026-06-09T12:18:48.686Z",
+      "mode": "compare",
+      "pairId": "20260609-121101-98097144__20260609-163417-yuri-kru__1781007525582",
+      "scoreKey": "technical",
+      "scoreLabel": "技术",
+      "leftEntry": {
+        "id": "20260609-121101-98097144",
+        "title": "红粉花簇近摄",
+        "createdAt": "2026-06-09T12:11:01+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-163417-yuri-kru",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260609-163417-yuri-kru",
+      "selectedLowerEntryId": "20260609-121101-98097144",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 104,
+      "timestamp": "2026-06-09T12:18:49.907Z",
+      "mode": "compare",
+      "pairId": "20260609-121101-98097144__20260609-163417-yuri-kru__1781007525582",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260609-121101-98097144",
+        "title": "红粉花簇近摄",
+        "createdAt": "2026-06-09T12:11:01+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-163417-yuri-kru",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260609-163417-yuri-kru",
+      "selectedLowerEntryId": "20260609-121101-98097144",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 105,
+      "timestamp": "2026-06-09T12:18:51.055Z",
+      "mode": "compare",
+      "pairId": "20260609-121101-98097144__20260609-163417-yuri-kru__1781007525582",
+      "scoreKey": "lighting",
+      "scoreLabel": "光线",
+      "leftEntry": {
+        "id": "20260609-121101-98097144",
+        "title": "红粉花簇近摄",
+        "createdAt": "2026-06-09T12:11:01+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-163417-yuri-kru",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260609-163417-yuri-kru",
+      "selectedLowerEntryId": "20260609-121101-98097144",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 106,
+      "timestamp": "2026-06-09T12:18:51.989Z",
+      "mode": "compare",
+      "pairId": "20260609-121101-98097144__20260609-163417-yuri-kru__1781007525582",
+      "scoreKey": "story",
+      "scoreLabel": "叙事",
+      "leftEntry": {
+        "id": "20260609-121101-98097144",
+        "title": "红粉花簇近摄",
+        "createdAt": "2026-06-09T12:11:01+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-163417-yuri-kru",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260609-163417-yuri-kru",
+      "selectedLowerEntryId": "20260609-121101-98097144",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 107,
+      "timestamp": "2026-06-09T12:18:52.875Z",
+      "mode": "compare",
+      "pairId": "20260609-121101-98097144__20260609-163417-yuri-kru__1781007525582",
+      "scoreKey": "overall",
+      "scoreLabel": "总体",
+      "leftEntry": {
+        "id": "20260609-121101-98097144",
+        "title": "红粉花簇近摄",
+        "createdAt": "2026-06-09T12:11:01+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-163417-yuri-kru",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260609-163417-yuri-kru",
+      "selectedLowerEntryId": "20260609-121101-98097144",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 108,
+      "timestamp": "2026-06-09T12:18:56.291Z",
+      "mode": "compare",
+      "pairId": "20260604-c4088f85__20260604-215130-overhead-cat-yard__1781007533700",
+      "scoreKey": "technical",
+      "scoreLabel": "技术",
+      "leftEntry": {
+        "id": "20260604-c4088f85",
+        "title": "摄影点评：电脑前的小熊玩偶",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-215130-overhead-cat-yard",
+        "title": "摄影点评：俯拍院子里的猫",
+        "createdAt": "2026-06-04T21:51:30+08:00"
+      },
+      "clickedSide": "left",
+      "previousValue": null,
+      "resultingValue": "left",
+      "selectedHigherEntryId": "20260604-c4088f85",
+      "selectedLowerEntryId": "20260604-215130-overhead-cat-yard",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 109,
+      "timestamp": "2026-06-09T12:18:56.988Z",
+      "mode": "compare",
+      "pairId": "20260604-c4088f85__20260604-215130-overhead-cat-yard__1781007533700",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260604-c4088f85",
+        "title": "摄影点评：电脑前的小熊玩偶",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-215130-overhead-cat-yard",
+        "title": "摄影点评：俯拍院子里的猫",
+        "createdAt": "2026-06-04T21:51:30+08:00"
+      },
+      "clickedSide": "left",
+      "previousValue": null,
+      "resultingValue": "left",
+      "selectedHigherEntryId": "20260604-c4088f85",
+      "selectedLowerEntryId": "20260604-215130-overhead-cat-yard",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 110,
+      "timestamp": "2026-06-09T12:18:57.621Z",
+      "mode": "compare",
+      "pairId": "20260604-c4088f85__20260604-215130-overhead-cat-yard__1781007533700",
+      "scoreKey": "lighting",
+      "scoreLabel": "光线",
+      "leftEntry": {
+        "id": "20260604-c4088f85",
+        "title": "摄影点评：电脑前的小熊玩偶",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-215130-overhead-cat-yard",
+        "title": "摄影点评：俯拍院子里的猫",
+        "createdAt": "2026-06-04T21:51:30+08:00"
+      },
+      "clickedSide": "left",
+      "previousValue": null,
+      "resultingValue": "left",
+      "selectedHigherEntryId": "20260604-c4088f85",
+      "selectedLowerEntryId": "20260604-215130-overhead-cat-yard",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 111,
+      "timestamp": "2026-06-09T12:18:58.307Z",
+      "mode": "compare",
+      "pairId": "20260604-c4088f85__20260604-215130-overhead-cat-yard__1781007533700",
+      "scoreKey": "story",
+      "scoreLabel": "叙事",
+      "leftEntry": {
+        "id": "20260604-c4088f85",
+        "title": "摄影点评：电脑前的小熊玩偶",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-215130-overhead-cat-yard",
+        "title": "摄影点评：俯拍院子里的猫",
+        "createdAt": "2026-06-04T21:51:30+08:00"
+      },
+      "clickedSide": "left",
+      "previousValue": null,
+      "resultingValue": "left",
+      "selectedHigherEntryId": "20260604-c4088f85",
+      "selectedLowerEntryId": "20260604-215130-overhead-cat-yard",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 112,
+      "timestamp": "2026-06-09T12:18:58.974Z",
+      "mode": "compare",
+      "pairId": "20260604-c4088f85__20260604-215130-overhead-cat-yard__1781007533700",
+      "scoreKey": "overall",
+      "scoreLabel": "总体",
+      "leftEntry": {
+        "id": "20260604-c4088f85",
+        "title": "摄影点评：电脑前的小熊玩偶",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-215130-overhead-cat-yard",
+        "title": "摄影点评：俯拍院子里的猫",
+        "createdAt": "2026-06-04T21:51:30+08:00"
+      },
+      "clickedSide": "left",
+      "previousValue": null,
+      "resultingValue": "left",
+      "selectedHigherEntryId": "20260604-c4088f85",
+      "selectedLowerEntryId": "20260604-215130-overhead-cat-yard",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 113,
+      "timestamp": "2026-06-09T12:19:00.637Z",
+      "mode": "compare",
+      "pairId": "20260604-c4088f85__20260604-215130-overhead-cat-yard__1781007533700",
+      "scoreKey": "story",
+      "scoreLabel": "叙事",
+      "leftEntry": {
+        "id": "20260604-c4088f85",
+        "title": "摄影点评：电脑前的小熊玩偶",
+        "createdAt": "2026-06-04T00:00:00+08:00"
+      },
+      "rightEntry": {
+        "id": "20260604-215130-overhead-cat-yard",
+        "title": "摄影点评：俯拍院子里的猫",
+        "createdAt": "2026-06-04T21:51:30+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": "left",
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 114,
+      "timestamp": "2026-06-09T12:19:10.655Z",
+      "mode": "compare",
+      "pairId": "20260604-211212-palm-palace-garden__20260609-120411-ccd28855__1781007541586",
+      "scoreKey": "technical",
+      "scoreLabel": "技术",
+      "leftEntry": {
+        "id": "20260604-211212-palm-palace-garden",
+        "title": "摄影点评：棕榈树前的白色宫殿",
+        "createdAt": "2026-06-04T21:12:12+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-120411-ccd28855",
+        "title": "竖幅黄花近摄",
+        "createdAt": "2026-06-09T12:04:11+08:00"
+      },
+      "clickedSide": "left",
+      "previousValue": null,
+      "resultingValue": "left",
+      "selectedHigherEntryId": "20260604-211212-palm-palace-garden",
+      "selectedLowerEntryId": "20260609-120411-ccd28855",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 115,
+      "timestamp": "2026-06-09T12:19:12.188Z",
+      "mode": "compare",
+      "pairId": "20260604-211212-palm-palace-garden__20260609-120411-ccd28855__1781007541586",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260604-211212-palm-palace-garden",
+        "title": "摄影点评：棕榈树前的白色宫殿",
+        "createdAt": "2026-06-04T21:12:12+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-120411-ccd28855",
+        "title": "竖幅黄花近摄",
+        "createdAt": "2026-06-09T12:04:11+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 116,
+      "timestamp": "2026-06-09T12:19:13.642Z",
+      "mode": "compare",
+      "pairId": "20260604-211212-palm-palace-garden__20260609-120411-ccd28855__1781007541586",
+      "scoreKey": "lighting",
+      "scoreLabel": "光线",
+      "leftEntry": {
+        "id": "20260604-211212-palm-palace-garden",
+        "title": "摄影点评：棕榈树前的白色宫殿",
+        "createdAt": "2026-06-04T21:12:12+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-120411-ccd28855",
+        "title": "竖幅黄花近摄",
+        "createdAt": "2026-06-09T12:04:11+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 117,
+      "timestamp": "2026-06-09T12:19:15.588Z",
+      "mode": "compare",
+      "pairId": "20260604-211212-palm-palace-garden__20260609-120411-ccd28855__1781007541586",
+      "scoreKey": "story",
+      "scoreLabel": "叙事",
+      "leftEntry": {
+        "id": "20260604-211212-palm-palace-garden",
+        "title": "摄影点评：棕榈树前的白色宫殿",
+        "createdAt": "2026-06-04T21:12:12+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-120411-ccd28855",
+        "title": "竖幅黄花近摄",
+        "createdAt": "2026-06-09T12:04:11+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 118,
+      "timestamp": "2026-06-09T12:19:17.688Z",
+      "mode": "compare",
+      "pairId": "20260604-211212-palm-palace-garden__20260609-120411-ccd28855__1781007541586",
+      "scoreKey": "overall",
+      "scoreLabel": "总体",
+      "leftEntry": {
+        "id": "20260604-211212-palm-palace-garden",
+        "title": "摄影点评：棕榈树前的白色宫殿",
+        "createdAt": "2026-06-04T21:12:12+08:00"
+      },
+      "rightEntry": {
+        "id": "20260609-120411-ccd28855",
+        "title": "竖幅黄花近摄",
+        "createdAt": "2026-06-09T12:04:11+08:00"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 119,
+      "timestamp": "2026-06-09T12:19:26.830Z",
+      "mode": "compare",
+      "pairId": "20260609-155124-4a149d61__20260604-135047-7cd48bcf__1781007558767",
+      "scoreKey": "technical",
+      "scoreLabel": "技术",
+      "leftEntry": {
+        "id": "20260609-155124-4a149d61",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09"
+      },
+      "rightEntry": {
+        "id": "20260604-135047-7cd48bcf",
+        "title": "摄影点评：夜市灯笼街景",
+        "createdAt": "2026-06-04T13:49:58+0800"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 120,
+      "timestamp": "2026-06-09T12:19:29.267Z",
+      "mode": "compare",
+      "pairId": "20260609-155124-4a149d61__20260604-135047-7cd48bcf__1781007558767",
+      "scoreKey": "composition",
+      "scoreLabel": "构图",
+      "leftEntry": {
+        "id": "20260609-155124-4a149d61",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09"
+      },
+      "rightEntry": {
+        "id": "20260604-135047-7cd48bcf",
+        "title": "摄影点评：夜市灯笼街景",
+        "createdAt": "2026-06-04T13:49:58+0800"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-135047-7cd48bcf",
+      "selectedLowerEntryId": "20260609-155124-4a149d61",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 121,
+      "timestamp": "2026-06-09T12:19:31.055Z",
+      "mode": "compare",
+      "pairId": "20260609-155124-4a149d61__20260604-135047-7cd48bcf__1781007558767",
+      "scoreKey": "lighting",
+      "scoreLabel": "光线",
+      "leftEntry": {
+        "id": "20260609-155124-4a149d61",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09"
+      },
+      "rightEntry": {
+        "id": "20260604-135047-7cd48bcf",
+        "title": "摄影点评：夜市灯笼街景",
+        "createdAt": "2026-06-04T13:49:58+0800"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-135047-7cd48bcf",
+      "selectedLowerEntryId": "20260609-155124-4a149d61",
+      "isTieOrUnclear": false,
+      "action": "set"
+    },
+    {
+      "index": 122,
+      "timestamp": "2026-06-09T12:19:33.422Z",
+      "mode": "compare",
+      "pairId": "20260609-155124-4a149d61__20260604-135047-7cd48bcf__1781007558767",
+      "scoreKey": "story",
+      "scoreLabel": "叙事",
+      "leftEntry": {
+        "id": "20260609-155124-4a149d61",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09"
+      },
+      "rightEntry": {
+        "id": "20260604-135047-7cd48bcf",
+        "title": "摄影点评：夜市灯笼街景",
+        "createdAt": "2026-06-04T13:49:58+0800"
+      },
+      "clickedSide": "tie",
+      "previousValue": null,
+      "resultingValue": "tie",
+      "selectedHigherEntryId": null,
+      "selectedLowerEntryId": null,
+      "isTieOrUnclear": true,
+      "action": "set"
+    },
+    {
+      "index": 123,
+      "timestamp": "2026-06-09T12:19:36.488Z",
+      "mode": "compare",
+      "pairId": "20260609-155124-4a149d61__20260604-135047-7cd48bcf__1781007558767",
+      "scoreKey": "overall",
+      "scoreLabel": "总体",
+      "leftEntry": {
+        "id": "20260609-155124-4a149d61",
+        "title": "摄影点评",
+        "createdAt": "2026-06-09"
+      },
+      "rightEntry": {
+        "id": "20260604-135047-7cd48bcf",
+        "title": "摄影点评：夜市灯笼街景",
+        "createdAt": "2026-06-04T13:49:58+0800"
+      },
+      "clickedSide": "right",
+      "previousValue": null,
+      "resultingValue": "right",
+      "selectedHigherEntryId": "20260604-135047-7cd48bcf",
+      "selectedLowerEntryId": "20260609-155124-4a149d61",
+      "isTieOrUnclear": false,
+      "action": "set"
+    }
+  ],
+  "notes": []
+}
