@@ -126,7 +126,13 @@ function renderThumbs() {
       return `
         <button class="thumb-button${active}" type="button" data-id="${escapeHtml(entry.id)}">
           <span class="thumb">
-            ${entry.imageSrc ? `<img src="${escapeHtml(getImageSrc(entry, "thumb"))}" alt="" loading="lazy" decoding="async" />` : ""}
+            ${
+              entry.imageSrc
+                ? `<img src="${escapeHtml(getImageSrc(entry, "thumb"))}" data-fallback-src="${escapeHtml(
+                    getFallbackImageSrc(entry, "thumb")
+                  )}" alt="" loading="lazy" decoding="async" />`
+                : ""
+            }
           </span>
           <span>
             <span class="thumb-title">${escapeHtml(entry.title)}</span>
@@ -149,10 +155,12 @@ function renderViewer() {
     els.mainImage.hidden = false;
     els.emptyState.hidden = true;
     els.mainImage.src = getImageSrc(entry, "preview");
+    els.mainImage.dataset.fallbackSrc = getFallbackImageSrc(entry, "preview");
   } else {
     els.mainImage.hidden = true;
     els.emptyState.hidden = false;
     els.emptyState.textContent = "这条归档没有可显示的原图";
+    els.mainImage.removeAttribute("data-fallback-src");
   }
 
   els.critique.innerHTML = renderCritique(entry);
@@ -281,7 +289,9 @@ function renderComparePhoto(side, label, entry) {
   return `
     <article class="compare-photo ${side}">
       <div class="compare-image">
-        <img src="${escapeHtml(getImageSrc(entry, "preview"))}" alt="${escapeHtml(label)}：${escapeHtml(entry.title)}" loading="lazy" decoding="async" />
+        <img src="${escapeHtml(getImageSrc(entry, "preview"))}" data-fallback-src="${escapeHtml(
+          getFallbackImageSrc(entry, "preview")
+        )}" alt="${escapeHtml(label)}：${escapeHtml(entry.title)}" loading="lazy" decoding="async" />
       </div>
       <div class="compare-caption">
         <strong>${label}</strong>
@@ -389,6 +399,23 @@ function getImageSrc(entry, usage) {
   if (usage === "thumb") return entry.thumbSrc || entry.previewSrc || entry.imageSrc || "";
   if (usage === "preview") return entry.previewSrc || entry.thumbSrc || entry.imageSrc || "";
   return entry.imageSrc || entry.previewSrc || entry.thumbSrc || "";
+}
+
+function getFallbackImageSrc(entry, usage) {
+  const current = getImageSrc(entry, usage);
+  const fallback = usage === "thumb" ? entry.previewSrc || entry.imageSrc || "" : entry.imageSrc || "";
+  return fallback && fallback !== current ? fallback : "";
+}
+
+function handleImageError(event) {
+  const image = event.target;
+  if (!(image instanceof HTMLImageElement)) return;
+
+  const fallbackSrc = image.dataset.fallbackSrc || "";
+  if (!fallbackSrc) return;
+
+  image.dataset.fallbackSrc = "";
+  image.src = fallbackSrc;
 }
 
 function renderOverview() {
@@ -832,6 +859,8 @@ els.critique.addEventListener("input", (event) => {
 els.modeTabs.forEach((button) => {
   button.addEventListener("click", () => setMode(button.dataset.mode));
 });
+
+document.addEventListener("error", handleImageError, true);
 
 els.compareControls.addEventListener("click", (event) => {
   const choiceButton = event.target.closest("[data-compare-choice]");
