@@ -67,14 +67,16 @@ Evaluate quality, direction, contrast, dynamic range, color temperature, atmosph
 
 ### Story
 
-Evaluate whether the photo gives the viewer a reason to look: moment, relationship, gesture, scale, mood, contrast, place, or visual idea. Practical record value, product information, damage evidence, readable signage, or location identification is not the same as photographic story.
+Evaluate whether the photo gives the viewer a reason to look from visible image evidence: moment, relationship, gesture, scale, mood, contrast, place, or visual idea. Separate three levels of evidence: record information, scene/mood, and relationship/moment/visual idea. Practical record value, product information, damage evidence, readable signage, object usefulness, event explanation, or location identification is not the same as photographic story.
+
+No people does not mean no story: light, scale, space, negative space, weather, color, or formal relationships can create visual narrative. People or objects also do not automatically create story: there must be visible gesture, expression, relationship, mood, conflict, contrast, or a clear visual idea.
 
 - 1-2: No subject or no meaningful viewing reason.
 - 3-4: Subject is present but the image says very little.
-- 5: Basic record value only.
-- 6: A readable mood, place, or subject relationship exists beyond simple information value.
-- 7: Clear visual idea or moment.
-- 8: Strong mood, relationship, timing, or narrative tension.
+- 5: Basic record value only: the image identifies an object, place, product, damage, sign, or event, but has no clear visible mood, relationship, moment, or visual idea.
+- 6: A readable mood, place, scale relationship, atmosphere, or simple subject relationship exists beyond simple information value.
+- 7: Clear visual idea, gesture, relationship, contrast, spatial scale, or moment.
+- 8: Strong mood, relationship, timing, narrative tension, or memorable visual idea from the image itself.
 - 9-10: Memorable story or visual idea; rare.
 
 ### Overall
@@ -112,7 +114,7 @@ Only treat rotation as a hard flaw when the correctly oriented display still has
 | Horizon/verticals are unintentionally tilted and visible | Composition max 6.0; Overall max 6.5 |
 | Dominant distraction, awkward crop, edge cut, or visual imbalance competes with the subject | Composition max 5.5; Overall max 6.0 |
 | Subject is too small and cannot be recovered by crop | Composition max 5.5; Story max 5.5; Overall max 6.0 |
-| Photo is mostly ordinary documentation with no clear photographic intent | Story max 5.0; Overall max 5.5 |
+| Photo is mostly ordinary documentation, evidence, product/signage record, damage/usefulness record, or event explanation with no visible photographic story | Story max 5.0; Overall max 5.5 |
 | Light is flat/ordinary and story is weak | Lighting max 5.5; Story max 5.5; Overall max 5.5 |
 | Multiple major flaws from different dimensions appear together | Overall max 4.5 |
 

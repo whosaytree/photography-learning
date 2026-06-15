@@ -35,16 +35,17 @@ Use the rubric's 5/10 baseline, hard-flaw caps, intentional-effect tests, basic-
 
 Before writing the final scores, explicitly perform a scoring pass:
 
-1. Identify the main subject, intended genre, and whether the image is mainly ordinary documentation, evidence, product/signage record, or a photograph with clear visual intent.
+1. Identify the main subject, intended genre, and whether the image is mainly ordinary documentation, evidence, product/signage record, damage/usefulness record, or a photograph with clear visual intent.
 2. Decide the basic-problem tier: `无`, `基础问题`, or `严重基础问题`.
 3. Before judging any rotation/orientation problem, use the image's EXIF orientation when available or the correctly oriented user/gallery display. Do not treat raw-pixel sideways display as a photographic direction error when EXIF orientation would make the image upright.
 4. Check hard-flaw caps from `SCORING_RUBRIC.md` one by one, including dominant distractions, awkward crops, edge cuts, visual imbalance, and unclear landing points.
 5. Decide whether any blur, darkness, high-key brightness, unusual framing, high contrast, small subject placement, negative space, backlit silhouette, direct flash, rough documentary texture, or collage/sequence structure is intentional using the rubric's intentional-effect tests.
 6. Apply the low-end rule: severe basic failures normally score 3-4.5 overall; normal basic failures normally cap at 5 overall; ordinary documentation normally stays around 4.5-5.5 unless a clear photographic strength is visible.
 7. Apply the escape rule only when the image has strong compensating expression, light, composition, moment, or subject interest; escaped basic-flaw or ordinary-documentation photos may reach 5-5.5, or approach 6 only when the compensating strength is clearly visible, but not higher unless the flaw is minor and at least two strengths are clear.
-8. Apply the high-score check after caps: when the subject is clear, there is no severe hard flaw, edge/background/crop/visual balance are controlled, the visual path has a clear landing point when relevant, and at least two dimensions are clearly strong, actively decide whether the image belongs at 7.5, 8, or 8.5. If stopping at 7.5, name the specific limitation that prevents 8. Do not treat minor fixable flaws as equal to hard flaws.
-9. Assign each score independently from this single image only.
-10. Do not adjust scores to match any desired distribution.
+8. Identify story evidence as one of three levels: `记录信息`, `场景/情绪`, or `关系/瞬间/视觉想法`. If the evidence is only product information, damage evidence, readable signage, object usefulness, event explanation, or location identification, story normally stays at 5 or below. If visible mood, scale, atmosphere, gesture, relationship, contrast, moment, or visual idea exists, score story from that image evidence even when no people are present.
+9. Apply the high-score check after caps: when the subject is clear, there is no severe hard flaw, edge/background/crop/visual balance are controlled, the visual path has a clear landing point when relevant, and at least two dimensions are clearly strong, actively decide whether the image belongs at 7.5, 8, or 8.5. If stopping at 7.5, name the specific limitation that prevents 8. Do not treat minor fixable flaws as equal to hard flaws.
+10. Assign each score independently from this single image only.
+11. Do not adjust scores to match any desired distribution.
 
 If no hard-flaw cap applies, say `封顶规则：无` in the critique. If a cap applies, name the cap and keep the affected score at or below the cap.
 
