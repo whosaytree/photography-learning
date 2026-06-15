@@ -97,7 +97,9 @@ Apply these caps strictly for beginner photos. A hard flaw is a basic issue that
 
 ### Orientation Handling
 
-Before applying any direction, rotation, or tilted-frame cap, first respect the image's EXIF orientation when available. If a raw-pixel view appears sideways but the EXIF-corrected image or gallery/user display is upright, do not count this as a photographic orientation error.
+Before applying any direction, rotation, or tilted-frame cap, first respect the image's EXIF orientation when it is actually available from the file or metadata. If EXIF orientation is not available, use the correctly oriented user/gallery display. If a raw-pixel view appears sideways but the EXIF-corrected image or gallery/user display is upright, do not count this as a photographic orientation error.
+
+Orientation handling is an internal scoring check. Do not state a specific EXIF orientation value, camera metadata, or file metadata in the critique unless it was actually read from the file or metadata. If no verified EXIF value is available, describe only the visible result, such as whether the displayed image appears upright or whether rotation visibly blocks normal viewing.
 
 Only treat rotation as a hard flaw when the correctly oriented display still has clear evidence that normal viewing is blocked: people, buildings, waterlines, text, furniture, or other gravity-dependent subjects remain sideways/upside down, and rotating the image would make the scene logic clearly more natural. Mild tilt, perspective distortion, unusual framing, or intentional abstract rotation are not rotation-error caps; evaluate them under composition or intentional-effect rules instead.
 
