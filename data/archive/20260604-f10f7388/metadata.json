@@ -10,23 +10,28 @@
   "pixel_width": 4032,
   "pixel_height": 3024,
   "scores": {
-    "technical": 6.5,
-    "composition": 6.2,
-    "lighting": 6.4,
-    "story": 7.1,
+    "technical": 6.8,
+    "composition": 6.4,
+    "lighting": 6.3,
+    "story": 6.8,
     "overall": 6.6
   },
   "basic_problem_tier": "无",
   "caps_applied": [],
+  "cap_summary": "无",
+  "orientation_cap_applied": false,
+  "direction_judgment": "visible viewing direction is normal after available orientation/display checks; no rotation cap applied",
+  "story_evidence_level": "场景/情绪",
+  "high_score_check": "Not eligible for 7.5 because the still-life elements are spread out and the background/empty table area weakens subject cohesion.",
   "notes": "EXIF camera model, lens, shutter, aperture, ISO, and location were not inferred.",
   "title": "摄影点评：秋日咖啡静物",
-  "reevaluated_with_current_flow_at": "2026-06-15T03:51:17.570Z",
+  "reevaluated_with_current_flow_at": "2026-06-16T09:37:32+08:00",
   "current_flow": {
     "skill": "/Users/bytedance/Documents/skill/skills/collected/afrexai-photography-mastery/SKILL.md",
     "rubric": "/Users/bytedance/Documents/摄影学习/SCORING_RUBRIC.md",
     "mode": "manual per-image critique",
     "orientation_rule": "Respect EXIF orientation or correctly oriented gallery/user display before judging rotation errors.",
-    "note": "Re-evaluated one image at a time; no distribution correction."
-  },
-  "direction_judgment": "correct; no orientation error under current EXIF/display-aware flow"
+    "note": "Re-generated from the archive original image only; no script, batch template, old critique preservation, or distribution correction was used.",
+    "scoring_precision": "Scores may use one decimal place when the visual evidence supports it."
+  }
 }

@@ -12,25 +12,34 @@
     "height": 3024
   },
   "exif_used": false,
-  "orientation_note": "File reports EXIF orientation upper-right; critique is based on the image as displayed and recommends correcting orientation first.",
   "notes": "No camera model, lens, exposure settings, or location were inferred.",
   "title": "摄影点评：清真寺拱廊水景",
   "scores": {
-    "technical": 7.1,
-    "composition": 7.5,
-    "lighting": 7.4,
-    "story": 7.2,
-    "overall": 7.4
+    "technical": 7.2,
+    "composition": 7.8,
+    "lighting": 7.1,
+    "story": 7.3,
+    "overall": 7.6
   },
   "basic_problem_tier": "无",
+  "story_evidence_level": "关系/瞬间/视觉想法",
   "caps_applied": [],
-  "reevaluated_with_current_flow_at": "2026-06-15T03:51:17.570Z",
+  "cap_summary": "无。",
+  "orientation_check": {
+    "metadata_json_checked": true,
+    "original_metadata_checked": true,
+    "visible_display_checked": true,
+    "judged_after_visible_orientation": true,
+    "orientation_related_cap": false,
+    "summary": "Visible viewing direction does not block normal viewing."
+  },
+  "direction_judgment": "correct; no orientation error under current EXIF/display-aware flow",
+  "reevaluated_with_current_flow_at": "2026-06-16T09:28:08+08:00",
   "current_flow": {
     "skill": "/Users/bytedance/Documents/skill/skills/collected/afrexai-photography-mastery/SKILL.md",
     "rubric": "/Users/bytedance/Documents/摄影学习/SCORING_RUBRIC.md",
     "mode": "manual per-image critique",
-    "orientation_rule": "Respect EXIF orientation or correctly oriented gallery/user display before judging rotation errors.",
-    "note": "Re-evaluated one image at a time; no distribution correction."
-  },
-  "direction_judgment": "correct; no orientation error under current EXIF/display-aware flow"
+    "orientation_rule": "Respect EXIF orientation or trusted visible display before judging rotation errors.",
+    "note": "Re-evaluated from the archived original image; no distribution correction."
+  }
 }

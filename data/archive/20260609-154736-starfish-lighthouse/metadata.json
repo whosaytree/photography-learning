@@ -1,6 +1,7 @@
 {
   "archive_id": "20260609-154736-starfish-lighthouse",
   "created_at": "2026-06-09T15:47:36+08:00",
+  "reprocessed_at": "2026-06-16T10:02:29+08:00",
   "trigger": "摄影点评",
   "image_source": "/Users/bytedance/Downloads/max-bohme-eMt1mH7o80I-unsplash.jpg",
   "image_file_saved": true,
@@ -9,13 +10,18 @@
     "width": 4960,
     "height": 7440
   },
-  "subject": "前景海星",
+  "subject": "前景海星与远处灯塔",
   "genre": "海边旅行细节 / 风景小品",
+  "image_type": "有明确视觉意图的风景小品",
   "basic_problem_tier": "无",
+  "story_evidence_level": "关系/瞬间/视觉想法",
   "hard_cap": "无",
+  "cap_summary": "无",
+  "orientation_rotation_cap": false,
   "intentional_effects": [
     "背景灯塔虚化",
-    "低机位浅景深"
+    "低机位浅景深",
+    "前景主体强调"
   ],
   "scores": {
     "technical": 7.5,

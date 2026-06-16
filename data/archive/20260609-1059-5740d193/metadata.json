@@ -13,18 +13,22 @@
   },
   "scores": {
     "technical": 6,
-    "composition": 5,
-    "lighting": 5.5,
+    "composition": 5.2,
+    "lighting": 5.3,
     "story": 5,
-    "overall": 5.5
+    "overall": 5.4
   },
+  "basic_problem_tier": "基础问题",
+  "story_evidence": "记录信息",
   "caps_applied": [
-    "dominant background and hand distractions compete with the snack-package subject",
-    "mostly ordinary documentation with limited photographic intent"
+    "包装边缘裁切、手指和背景杂物影响主体完整度",
+    "主要是产品信息记录，摄影故事有限"
   ],
-  "exif_observed": false,
+  "cap_summary": "边缘/背景干扰与普通产品记录封顶；无方向或旋转相关封顶。",
+  "direction_rotation_cap_applied": false,
+  "visible_orientation_blocks_viewing": false,
   "title": "摄影点评：冰淇淋包装近拍",
-  "reevaluated_with_current_flow_at": "2026-06-09T12:00:00+08:00",
+  "reevaluated_with_current_flow_at": "2026-06-16T09:45:22+08:00",
   "current_flow": {
     "skill": "/Users/bytedance/Documents/skill/skills/collected/afrexai-photography-mastery/SKILL.md",
     "rubric": "/Users/bytedance/Documents/摄影学习/SCORING_RUBRIC.md",

@@ -16,15 +16,18 @@
   "notes": "EXIF, camera model, lens, settings, and location were not inferred.",
   "title": "摄影点评：路边白鹅",
   "scores": {
-    "technical": 6.2,
-    "composition": 5.6,
-    "light": 5.8,
-    "story": 6.1,
-    "overall": 5.9
+    "technical": 6.0,
+    "composition": 5.3,
+    "light": 5.2,
+    "story": 5.8,
+    "overall": 5.6
   },
-  "basic_problem_tier": "minor",
-  "caps_applied": "No severe basic flaw cap. Overall limited near 6 by distracting road background and visible watermark.",
-  "reevaluated_with_current_flow_at": "2026-06-09T13:16:11+08:00",
+  "basic_problem_tier": "基础问题",
+  "story_evidence_level": "场景/情绪",
+  "caps_applied": "主导干扰和视觉失衡封顶：道路横线、杂乱地面和右下角水印与白鹅竞争注意力，构图分不宜超过 5.5，总体不宜超过 6。",
+  "orientation_rotation_cap_applied": false,
+  "visible_orientation_blocks_normal_viewing": false,
+  "reevaluated_with_current_flow_at": "2026-06-16T09:35:46+08:00",
   "current_flow": {
     "skill": "/Users/bytedance/Documents/skill/skills/collected/afrexai-photography-mastery/SKILL.md",
     "rubric": "/Users/bytedance/Documents/摄影学习/SCORING_RUBRIC.md",

@@ -16,15 +16,18 @@
   "notes": "EXIF, camera model, lens, settings, and location were not inferred.",
   "title": "摄影点评：树木中的老建筑立面",
   "scores": {
-    "technical": 6.2,
-    "composition": 6.1,
-    "light": 5.8,
-    "story": 6.3,
-    "overall": 6.1
+    "technical": 5.9,
+    "composition": 5.5,
+    "light": 5.5,
+    "story": 6.0,
+    "overall": 5.8
   },
-  "basic_problem_tier": "none",
-  "caps_applied": "No basic flaw cap. Overall limited by excessive foreground obstruction and visible watermark.",
-  "reevaluated_with_current_flow_at": "2026-06-09T13:14:49+08:00",
+  "basic_problem_tier": "基础问题",
+  "story_evidence_level": "场景/情绪",
+  "caps_applied": "主导干扰和视觉失衡封顶：前景枝叶、右侧粗树干和右下角水印与建筑主体竞争注意力，构图分封顶在 5.5，总体不宜超过 6。",
+  "orientation_rotation_cap_applied": false,
+  "visible_orientation_blocks_normal_viewing": false,
+  "reevaluated_with_current_flow_at": "2026-06-16T09:35:46+08:00",
   "current_flow": {
     "skill": "/Users/bytedance/Documents/skill/skills/collected/afrexai-photography-mastery/SKILL.md",
     "rubric": "/Users/bytedance/Documents/摄影学习/SCORING_RUBRIC.md",

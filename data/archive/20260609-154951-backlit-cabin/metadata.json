@@ -1,6 +1,7 @@
 {
   "archive_id": "20260609-154951-backlit-cabin",
   "created_at": "2026-06-09T15:49:51+08:00",
+  "reprocessed_at": "2026-06-16T10:02:29+08:00",
   "trigger": "摄影点评",
   "image_source": "/Users/bytedance/Downloads/max-bohme-wiCvZtTu79Q-unsplash.jpg",
   "image_file_saved": true,
@@ -9,20 +10,24 @@
     "width": 4916,
     "height": 7374
   },
-  "subject": "左侧海岸小屋和木栏",
+  "subject": "逆光海岸小屋和木栏",
   "genre": "海岸风景 / 建筑环境照",
+  "image_type": "有明确视觉意图的逆光风景照片",
   "basic_problem_tier": "无",
+  "story_evidence_level": "场景/情绪",
   "hard_cap": "无",
+  "cap_summary": "无",
+  "orientation_rotation_cap": false,
   "intentional_effects": [
     "逆光",
     "高反差",
     "暗部压黑"
   ],
   "scores": {
-    "technical": 6.5,
-    "composition": 7,
-    "lighting": 7,
-    "story": 6.5,
-    "overall": 7
+    "technical": 7,
+    "composition": 7.5,
+    "lighting": 7.5,
+    "story": 7,
+    "overall": 7.5
   }
 }

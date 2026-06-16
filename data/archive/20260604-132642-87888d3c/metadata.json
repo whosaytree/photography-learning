@@ -15,16 +15,17 @@
   "notes": "EXIF, camera model, lens, settings, and location were not inferred.",
   "title": "云雾山谷",
   "scores": {
-    "technical": 7.3,
-    "composition": 7.6,
-    "lighting": 7.1,
-    "story": 7.5,
-    "overall": 7.5
+    "technical": 7.4,
+    "composition": 7.8,
+    "lighting": 7.5,
+    "story": 7.7,
+    "overall": 7.8
   },
-  "basic_problem_tier": "无严重基础硬伤；构图层次和天气氛围明显成立。",
+  "basic_problem_tier": "无。画面可读，主体明确，没有明显虚焦、严重抖动或曝光毁损。",
   "caps_applied": [],
-  "reevaluated_with_current_flow_at": "2026-06-09T15:58:22+0800",
+  "reevaluated_with_current_flow_at": "2026-06-16T08:58:58+0800",
   "current_flow": {
+    "agents": "/Users/bytedance/Documents/摄影学习/AGENTS.md",
     "skill": "/Users/bytedance/Documents/skill/skills/collected/afrexai-photography-mastery/SKILL.md",
     "rubric": "/Users/bytedance/Documents/摄影学习/SCORING_RUBRIC.md",
     "mode": "manual per-image critique",

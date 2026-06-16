@@ -15,19 +15,19 @@
   "notes": "EXIF, camera model, lens, settings, and location were not inferred.",
   "title": "树木前的灰砖窗墙",
   "scores": {
-    "technical": 6.2,
-    "composition": 5.6,
-    "lighting": 5.5,
+    "technical": 5.7,
+    "composition": 5.5,
+    "lighting": 5.3,
     "story": 5.8,
-    "overall": 5.8
+    "overall": 5.6
   },
-  "basic_problem_tier": "主体存在但偏弱；遮挡和普通光线限制表达。",
+  "basic_problem_tier": "基础问题。主体可读，但遮挡和平均构图削弱主次，顶部亮部和偏绿颜色影响质感。",
   "caps_applied": [
-    "Main subject is present but unclear or weak",
-    "Light is flat/ordinary and story is weak"
+    "Dominant distraction, awkward crop, edge cut, or visual imbalance competes with the subject"
   ],
-  "reevaluated_with_current_flow_at": "2026-06-09T15:45:13+0800",
+  "reevaluated_with_current_flow_at": "2026-06-16T08:58:58+0800",
   "current_flow": {
+    "agents": "/Users/bytedance/Documents/摄影学习/AGENTS.md",
     "skill": "/Users/bytedance/Documents/skill/skills/collected/afrexai-photography-mastery/SKILL.md",
     "rubric": "/Users/bytedance/Documents/摄影学习/SCORING_RUBRIC.md",
     "mode": "manual per-image critique",

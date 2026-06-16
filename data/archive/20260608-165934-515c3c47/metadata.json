@@ -12,25 +12,30 @@
     "width": 6000,
     "height": 4000
   },
-  "orientation_note": "File reports EXIF orientation lower-left; original image was saved without modifying pixels.",
+  "orientation_note": "Available orientation/display checks indicate the visible viewing direction is upright; original pixels were not modified.",
   "scores": {
-    "technical": 5.8,
-    "composition": 6.5,
-    "lighting": 6.6,
-    "story": 6.2,
-    "overall": 6.4
+    "technical": 6.7,
+    "composition": 7.5,
+    "lighting": 7.4,
+    "story": 7.2,
+    "overall": 7.5
   },
-  "basic_problem_tier": "基础问题",
+  "basic_problem_tier": "无",
   "caps_applied": [],
+  "cap_summary": "无",
+  "orientation_cap_applied": false,
+  "direction_judgment": "correct visible viewing direction; no rotation cap applied",
+  "story_evidence_level": "场景/情绪",
+  "high_score_check": "Eligible for 7.5 because composition, light, and city-motion mood are clearly strong; not 8 because the right dark tree mass and distant light landing point still need refinement.",
   "exif_note": "No camera model, lens, exposure settings, or location were inferred.",
   "title": "摄影点评：蓝调道路夜景",
-  "reevaluated_with_current_flow_at": "2026-06-15T03:22:31.001Z",
+  "reevaluated_with_current_flow_at": "2026-06-16T09:37:32+08:00",
   "current_flow": {
     "skill": "/Users/bytedance/Documents/skill/skills/collected/afrexai-photography-mastery/SKILL.md",
     "rubric": "/Users/bytedance/Documents/摄影学习/SCORING_RUBRIC.md",
     "mode": "manual per-image critique",
     "orientation_rule": "Respect EXIF orientation or correctly oriented gallery/user display before judging rotation errors.",
-    "note": "Re-evaluated one image at a time; no distribution correction."
-  },
-  "direction_judgment": "correct; no orientation error under current EXIF/display-aware flow"
+    "note": "Re-generated from the archive original image only; no script, batch template, old critique preservation, or distribution correction was used.",
+    "scoring_precision": "Scores may use one decimal place when the visual evidence supports it."
+  }
 }

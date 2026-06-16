@@ -13,21 +13,24 @@
     "height": 1279
   },
   "scores": {
-    "technical": 5.5,
-    "composition": 4.9,
-    "lighting": 5.1,
-    "story": 5.4,
-    "overall": 5.1
+    "technical": 5.2,
+    "composition": 4.8,
+    "lighting": 5.2,
+    "story": 5,
+    "overall": 5
   },
   "basic_problem_tier": "基础问题",
+  "story_evidence": "场景/情绪",
   "caps_applied": [
-    "main subject is present but weak",
-    "dominant foreground branches and glass reflections compete with the subject",
-    "mostly ordinary documentation with limited photographic intent"
+    "主体存在但偏弱，视觉落点不清楚",
+    "树枝、玻璃脏点和室内反光成为主导干扰"
   ],
+  "cap_summary": "主体弱与主导干扰封顶；无方向或旋转相关封顶。",
+  "direction_rotation_cap_applied": false,
+  "visible_orientation_blocks_viewing": false,
   "exif_note": "No camera model, lens, exposure settings, or location were inferred.",
   "title": "摄影点评：隔窗社区树影与楼群",
-  "reevaluated_with_current_flow_at": "2026-06-09T12:05:21+08:00",
+  "reevaluated_with_current_flow_at": "2026-06-16T09:45:22+08:00",
   "current_flow": {
     "skill": "/Users/bytedance/Documents/skill/skills/collected/afrexai-photography-mastery/SKILL.md",
     "rubric": "/Users/bytedance/Documents/摄影学习/SCORING_RUBRIC.md",

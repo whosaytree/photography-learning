@@ -1,6 +1,7 @@
 {
   "archive_id": "20260609-155507-dining-room-interior",
   "created_at": "2026-06-09T15:55:07+08:00",
+  "reevaluated_at": "2026-06-16T10:03:09+08:00",
   "trigger": "摄影点评",
   "image_source": "/Users/bytedance/Downloads/clay-banks-zCvlyeUfALc-unsplash.jpg",
   "image_file_saved": true,
@@ -10,17 +11,24 @@
     "height": 2267
   },
   "subject": "餐桌餐椅所在的室内餐厅空间",
-  "genre": "室内空间 / 地产环境 / 家居生活照",
+  "genre": "室内空间 / 家居 / 环境记录",
+  "image_kind": "有明确视觉意图",
   "basic_problem_tier": "无",
+  "hard_flaw_cap": "无",
   "hard_cap": "无",
+  "orientation_hard_cap": false,
+  "orientation_summary": "可见方向正常，无旋转相关封顶",
   "intentional_effects": [
-    "居中对称构图",
+    "居中餐桌构图",
+    "梁柱结构组织",
     "室内外环境共同展示"
   ],
+  "story_evidence_level": "场景/情绪",
+  "high_score_check": "达到 7.5；故事性和边缘精简度不足以到 8",
   "scores": {
-    "technical": 7.5,
+    "technical": 8,
     "composition": 7.5,
-    "lighting": 7,
+    "lighting": 7.5,
     "story": 6.5,
     "overall": 7.5
   }

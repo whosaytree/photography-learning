@@ -5,13 +5,31 @@
   "image_file_saved": true,
   "saved_image": "original.jpg",
   "created_at": "2026-06-09",
+  "reevaluated_at": "2026-06-16T10:03:09+08:00",
+  "source_image_dimensions": {
+    "width": 1280,
+    "height": 1920
+  },
+  "subject": "向上延伸的楼梯、两侧栏杆和红色坡道",
+  "genre": "城市建筑 / 几何线条 / 旅行小景",
+  "image_kind": "有明确视觉意图",
+  "basic_problem_tier": "无",
+  "hard_flaw_cap": "无",
+  "hard_cap": "无",
+  "orientation_hard_cap": false,
+  "orientation_summary": "可见方向正常，无旋转相关封顶",
+  "intentional_effects": [
+    "低机位线条引导",
+    "红白色块对比",
+    "栏杆阴影节奏"
+  ],
+  "story_evidence_level": "场景/情绪",
+  "high_score_check": "不进入 7.5 以上；视觉落点和边缘控制不足",
   "scores": {
     "technical": 7,
-    "composition": 7,
+    "composition": 6.5,
     "lighting": 6.5,
     "story": 5.5,
-    "overall": 7
-  },
-  "basic_problem_tier": "无",
-  "hard_flaw_cap": "无"
+    "overall": 6.5
+  }
 }

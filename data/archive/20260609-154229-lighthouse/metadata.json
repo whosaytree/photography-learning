@@ -1,6 +1,7 @@
 {
   "archive_id": "20260609-154229-lighthouse",
   "created_at": "2026-06-09T15:42:29+08:00",
+  "reprocessed_at": "2026-06-16T10:02:29+08:00",
   "trigger": "摄影点评",
   "image_source": "/Users/bytedance/Downloads/max-bohme-LVU7U3dnYSc-unsplash.jpg",
   "image_file_saved": true,
@@ -9,15 +10,24 @@
     "width": 4684,
     "height": 7026
   },
-  "subject": "白色灯塔",
+  "subject": "白色灯塔及海岸草地",
   "genre": "海岸风景 / 建筑风景",
+  "image_type": "有明确视觉意图的风景照片",
   "basic_problem_tier": "无",
+  "story_evidence_level": "场景/情绪",
   "hard_cap": "无",
+  "cap_summary": "无",
+  "orientation_rotation_cap": false,
+  "intentional_effects": [
+    "低机位",
+    "前景虚化",
+    "天空留白"
+  ],
   "scores": {
-    "technical": 7,
+    "technical": 7.5,
     "composition": 7.5,
-    "lighting": 6,
-    "story": 6,
-    "overall": 7
+    "lighting": 6.5,
+    "story": 6.5,
+    "overall": 7.5
   }
 }

@@ -12,18 +12,19 @@
   "notes": "EXIF camera model, lens, shutter, aperture, ISO, and location were not inferred.",
   "title": "楼梯通向红门",
   "scores": {
-    "technical": 6.1,
-    "composition": 6.5,
-    "lighting": 5.6,
-    "story": 6.2,
-    "overall": 6.3
+    "technical": 5.8,
+    "composition": 5.5,
+    "lighting": 5.2,
+    "story": 5.8,
+    "overall": 5.8
   },
-  "basic_problem_tier": "主体可读，引导线成立；遮挡和高光控制限制上限。",
+  "basic_problem_tier": "基础问题。主体可读，但遮挡明显，亮部偏白，底部空地分散注意力。",
   "caps_applied": [
-    "Dominant background distraction competes with the subject"
+    "Dominant distraction, awkward crop, edge cut, or visual imbalance competes with the subject"
   ],
-  "reevaluated_with_current_flow_at": "2026-06-09T16:13:48+0800",
+  "reevaluated_with_current_flow_at": "2026-06-16T08:58:58+0800",
   "current_flow": {
+    "agents": "/Users/bytedance/Documents/摄影学习/AGENTS.md",
     "skill": "/Users/bytedance/Documents/skill/skills/collected/afrexai-photography-mastery/SKILL.md",
     "rubric": "/Users/bytedance/Documents/摄影学习/SCORING_RUBRIC.md",
     "mode": "manual per-image critique",

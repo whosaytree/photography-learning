@@ -5,13 +5,32 @@
   "image_file_saved": true,
   "saved_image": "original.jpg",
   "created_at": "2026-06-09",
+  "reevaluated_at": "2026-06-16T10:03:09+08:00",
+  "source_image_dimensions": {
+    "width": 6000,
+    "height": 4000
+  },
+  "subject": "日落中的海湾、岛屿和山体层次",
+  "genre": "风光 / 日落 / 海岸地貌",
+  "image_kind": "有明确视觉意图",
+  "basic_problem_tier": "无",
+  "hard_flaw_cap": "无",
+  "hard_cap": "无",
+  "orientation_hard_cap": false,
+  "orientation_summary": "可见方向正常，无旋转相关封顶",
+  "intentional_effects": [
+    "低调暗部",
+    "暖色日落",
+    "远近山体叠层",
+    "海湾曲线引导"
+  ],
+  "story_evidence_level": "关系/瞬间/视觉想法",
+  "high_score_check": "达到 8.5；构图、光线和氛围均明显强",
   "scores": {
     "technical": 8,
     "composition": 8,
     "lighting": 8.5,
-    "story": 7.5,
-    "overall": 8
-  },
-  "basic_problem_tier": "无",
-  "hard_flaw_cap": "无"
+    "story": 8,
+    "overall": 8.5
+  }
 }

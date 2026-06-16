@@ -5,13 +5,32 @@
   "image_file_saved": true,
   "saved_image": "original.jpg",
   "created_at": "2026-06-09",
+  "reevaluated_at": "2026-06-16T10:03:09+08:00",
+  "source_image_dimensions": {
+    "width": 4060,
+    "height": 6090
+  },
+  "subject": "玻璃瓶里的粉色花苞和叶片",
+  "genre": "静物 / 花卉 / 室内自然光",
+  "image_kind": "有明确视觉意图",
+  "basic_problem_tier": "无",
+  "hard_flaw_cap": "无",
+  "hard_cap": "无",
+  "orientation_hard_cap": false,
+  "orientation_summary": "可见方向正常，无旋转相关封顶",
+  "intentional_effects": [
+    "侧光",
+    "负空间",
+    "花枝斜线",
+    "投影参与构图"
+  ],
+  "story_evidence_level": "场景/情绪",
+  "high_score_check": "达到 7.5；右侧影子裁切和构图精度限制到 8 以下",
   "scores": {
     "technical": 8,
-    "composition": 7.5,
+    "composition": 7,
     "lighting": 8,
-    "story": 7,
+    "story": 6.5,
     "overall": 7.5
-  },
-  "basic_problem_tier": "无",
-  "hard_flaw_cap": "无"
+  }
 }

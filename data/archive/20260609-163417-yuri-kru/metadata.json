@@ -5,13 +5,32 @@
   "image_file_saved": true,
   "saved_image": "original.jpg",
   "created_at": "2026-06-09",
+  "reevaluated_at": "2026-06-16T10:03:09+08:00",
+  "source_image_dimensions": {
+    "width": 5020,
+    "height": 3347
+  },
+  "subject": "亮门口中的模糊人影和两侧暗门框",
+  "genre": "街头 / 抽象人物 / 氛围照片",
+  "image_kind": "有明确视觉意图",
+  "basic_problem_tier": "无",
+  "hard_flaw_cap": "无",
+  "hard_cap": "无",
+  "orientation_hard_cap": false,
+  "orientation_summary": "可见方向正常，无旋转相关封顶",
+  "intentional_effects": [
+    "有意虚焦",
+    "明暗门框",
+    "冷暖色对比",
+    "窥视感构图"
+  ],
+  "story_evidence_level": "关系/瞬间/视觉想法",
+  "high_score_check": "达到 7.5；主体姿态和动作信息偏少限制到 8 以下",
   "scores": {
-    "technical": 7,
+    "technical": 6.5,
     "composition": 8,
     "lighting": 8,
     "story": 8,
     "overall": 7.5
-  },
-  "basic_problem_tier": "无",
-  "hard_flaw_cap": "无"
+  }
 }

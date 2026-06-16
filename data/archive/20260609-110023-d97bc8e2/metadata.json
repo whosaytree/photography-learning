@@ -13,20 +13,24 @@
     "height": 1706
   },
   "scores": {
-    "technical": 4.9,
-    "composition": 4.5,
-    "lighting": 5.0,
-    "story": 5.1,
-    "overall": 4.8
+    "technical": 4.8,
+    "composition": 4.2,
+    "lighting": 5,
+    "story": 5,
+    "overall": 4.5
   },
   "basic_problem_tier": "严重基础问题",
+  "story_evidence": "场景/情绪",
   "caps_applied": [
-    "main subject is present but blocked by dominant foreground obstruction",
-    "multiple major distractions from railing, glass dirt, and indoor light reflections"
+    "中间栏杆、玻璃脏点和室内反光构成主导干扰",
+    "多个主要问题叠加，正常观看被明显打断"
   ],
+  "cap_summary": "主导前景遮挡与多项主要硬伤封顶；无方向或旋转相关封顶。",
+  "direction_rotation_cap_applied": false,
+  "visible_orientation_blocks_viewing": false,
   "exif_note": "No camera model, lens, exposure settings, or location were inferred.",
   "title": "摄影点评：隔窗住宅楼窗格",
-  "reevaluated_with_current_flow_at": "2026-06-09T12:04:24+08:00",
+  "reevaluated_with_current_flow_at": "2026-06-16T09:45:22+08:00",
   "current_flow": {
     "skill": "/Users/bytedance/Documents/skill/skills/collected/afrexai-photography-mastery/SKILL.md",
     "rubric": "/Users/bytedance/Documents/摄影学习/SCORING_RUBRIC.md",

@@ -5,13 +5,32 @@
   "image_file_saved": true,
   "saved_image": "original.jpg",
   "created_at": "2026-06-09",
+  "reevaluated_at": "2026-06-16T10:03:09+08:00",
+  "source_image_dimensions": {
+    "width": 5467,
+    "height": 8200
+  },
+  "subject": "海面上的风筝冲浪者和上方风筝",
+  "genre": "海景 / 运动 / 极简构图",
+  "image_kind": "有明确视觉意图",
+  "basic_problem_tier": "无",
+  "hard_flaw_cap": "无",
+  "hard_cap": "无",
+  "orientation_hard_cap": false,
+  "orientation_summary": "可见方向正常，无旋转相关封顶",
+  "intentional_effects": [
+    "高调天空",
+    "小主体尺度关系",
+    "负空间",
+    "海面纹理"
+  ],
+  "story_evidence_level": "关系/瞬间/视觉想法",
+  "high_score_check": "达到 8；构图和尺度叙事明显强",
   "scores": {
     "technical": 7.5,
     "composition": 8,
     "lighting": 7,
     "story": 7.5,
-    "overall": 7.5
-  },
-  "basic_problem_tier": "无",
-  "hard_flaw_cap": "无"
+    "overall": 8
+  }
 }
