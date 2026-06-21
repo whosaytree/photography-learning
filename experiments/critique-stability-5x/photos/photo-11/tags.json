@@ -1,0 +1,167 @@
+{
+  "run-1": {
+    "subject": "地铁线路图局部和站点换乘信息",
+    "genre": "城市交通空间记录/标识细节",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "倾斜、偏暗和高反差按非故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "tilted_horizon_or_verticals",
+      "ordinary_documentation",
+      "weak_story",
+      "light_not_supporting_subject",
+      "underexposure_mild",
+      "needs_crop"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "background_distraction",
+      "tilted_horizon_or_verticals"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "straighten",
+      "lift_shadows",
+      "recover_highlights",
+      "local_dodge_burn",
+      "adjust_white_balance",
+      "add_contrast",
+      "use_grid_level"
+    ]
+  },
+  "run-2": {
+    "subject": "地铁线路图区域和红色斜向带状线条",
+    "genre": "城市公共空间记录/几何线条练习/地铁环境细节",
+    "basicProblemTier": "基础问题",
+    "capRule": "multi_issue_overall_max_4_5",
+    "intentionalEffectJudgment": "斜线可能有意但证据不足，偏暗和高亮区域按控制不足处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "tilted_horizon_or_verticals",
+      "ordinary_documentation",
+      "weak_story",
+      "light_not_supporting_subject",
+      "underexposure_mild",
+      "needs_crop"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "tilted_horizon_or_verticals",
+      "background_distraction"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "straighten",
+      "lift_shadows",
+      "recover_highlights",
+      "local_dodge_burn",
+      "adjust_white_balance",
+      "use_grid_level",
+      "change_angle"
+    ]
+  },
+  "run-3": {
+    "subject": "下方地铁线路图与上方红色斜带、灯带形成的几何线条",
+    "genre": "城市空间细节/交通标识/图形构成练习",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "倾斜和留白可能想做几何抽象但证据不足，按无意倾斜和取景未完成处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "tilted_horizon_or_verticals",
+      "ordinary_documentation",
+      "weak_story",
+      "light_not_supporting_subject",
+      "underexposure_mild",
+      "composition_too_loose"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "tilted_horizon_or_verticals",
+      "background_distraction"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "straighten",
+      "lift_shadows",
+      "recover_highlights",
+      "add_contrast",
+      "change_angle",
+      "use_grid_level",
+      "move_closer"
+    ]
+  },
+  "run-4": {
+    "subject": "地铁线路图和换乘信息牌",
+    "genre": "城市交通空间记录/城市细节/图形构成",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "倾斜、偏暗、高亮对比和轻微软感均不像有效故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "tilted_horizon_or_verticals",
+      "ordinary_documentation",
+      "weak_story",
+      "light_not_supporting_subject",
+      "underexposure_mild",
+      "needs_crop"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "tilted_horizon_or_verticals",
+      "light_not_supporting_subject"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "straighten",
+      "lift_shadows",
+      "recover_highlights",
+      "adjust_white_balance",
+      "add_contrast",
+      "use_grid_level",
+      "wait_for_moment"
+    ]
+  },
+  "run-5": {
+    "subject": "地铁线路图/站内导视牌",
+    "genre": "城市空间记录/导视细节",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "倾斜、偏暗、高亮灯箱和模糊均按非故意或控制不足处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "tilted_horizon_or_verticals",
+      "ordinary_documentation",
+      "weak_story",
+      "light_not_supporting_subject",
+      "underexposure_mild",
+      "white_balance_issue"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "tilted_horizon_or_verticals",
+      "light_not_supporting_subject"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "straighten",
+      "lift_shadows",
+      "recover_highlights",
+      "local_dodge_burn",
+      "adjust_white_balance",
+      "use_grid_level",
+      "move_closer"
+    ]
+  }
+}

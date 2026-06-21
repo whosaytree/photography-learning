@@ -1,0 +1,147 @@
+{
+  "photoId": "photo-12",
+  "runCount": 5,
+  "scoreStability": {
+    "technical": {
+      "count": 5,
+      "values": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "min": 5,
+      "max": 5,
+      "range": 0,
+      "mean": 5,
+      "standardDeviation": 0
+    },
+    "composition": {
+      "count": 5,
+      "values": [
+        4.5,
+        4.5,
+        5,
+        4.8,
+        4.5
+      ],
+      "min": 4.5,
+      "max": 5,
+      "range": 0.5,
+      "mean": 4.66,
+      "standardDeviation": 0.206
+    },
+    "lighting": {
+      "count": 5,
+      "values": [
+        4.5,
+        4.5,
+        4.5,
+        4.5,
+        4.5
+      ],
+      "min": 4.5,
+      "max": 4.5,
+      "range": 0,
+      "mean": 4.5,
+      "standardDeviation": 0
+    },
+    "story": {
+      "count": 5,
+      "values": [
+        4,
+        4,
+        5,
+        4.5,
+        4.5
+      ],
+      "min": 4,
+      "max": 5,
+      "range": 1,
+      "mean": 4.4,
+      "standardDeviation": 0.374
+    },
+    "overall": {
+      "count": 5,
+      "values": [
+        4.5,
+        4.8,
+        5,
+        4.8,
+        5
+      ],
+      "min": 4.5,
+      "max": 5,
+      "range": 0.5,
+      "mean": 4.82,
+      "standardDeviation": 0.183
+    }
+  },
+  "textConsistency": {
+    "available": true,
+    "codedRunCount": 5,
+    "categoricalAgreement": {
+      "subject": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "手机上的游戏画面和手持手机本身",
+        "majorityCount": 1
+      },
+      "genre": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "日常记录 / 物件记录 / 屏幕内容记录",
+        "majorityCount": 1
+      },
+      "basicProblemTier": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "基础问题",
+        "majorityCount": 5
+      },
+      "capRule": {
+        "count": 5,
+        "agreement": 0.6,
+        "majorityValue": "ordinary_documentation_and_weak_light_story_overall_max_6",
+        "majorityCount": 3
+      },
+      "intentionalEffectJudgment": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "倾斜、高反差和暗背景更像偶然结果，不是有效故意处理",
+        "majorityCount": 1
+      },
+      "highScoreEligible": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "否",
+        "majorityCount": 5
+      }
+    },
+    "issueTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.711,
+      "min": 0.6,
+      "max": 1
+    },
+    "priorityTop3Overlap": {
+      "pairCount": 10,
+      "mean": 0.333,
+      "min": 0,
+      "max": 0.667
+    },
+    "firstPriorityAgreement": {
+      "count": 5,
+      "agreement": 0.4,
+      "majorityValue": "tilted_horizon_or_verticals",
+      "majorityCount": 2
+    },
+    "recommendationTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.451,
+      "min": 0.333,
+      "max": 0.778
+    }
+  }
+}

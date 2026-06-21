@@ -1,0 +1,167 @@
+{
+  "run-1": {
+    "subject": "云雾中的山脊、峡谷层次和右下角松林前景组成的雾中山景",
+    "genre": "风光 / 山景 / 云雾氛围",
+    "basicProblemTier": "基础问题",
+    "capRule": "无",
+    "intentionalEffectJudgment": "云雾柔化是有效氛围；偏大的天空和白雾留白未形成成功负空间，按构图弱点处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "too_much_empty_space",
+      "weak_visual_path",
+      "subject_weak",
+      "flat_light",
+      "needs_crop",
+      "needs_local_adjustment",
+      "good_atmosphere",
+      "good_depth"
+    ],
+    "priorityIssueTags": [
+      "too_much_empty_space",
+      "weak_visual_path",
+      "flat_light"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "change_angle",
+      "wait_for_moment",
+      "local_dodge_burn",
+      "add_contrast",
+      "recover_highlights",
+      "lift_shadows",
+      "reduce_saturation"
+    ]
+  },
+  "run-2": {
+    "subject": "云雾中的山谷、山脊和右下角松林前景锚点",
+    "genre": "山岳风光 / 云雾风光",
+    "basicProblemTier": "无",
+    "capRule": "无",
+    "intentionalEffectJudgment": "雾化和低反差是有效氛围；偏亮天空和大面积留白部分合理但面积偏大",
+    "highScoreEligible": "部分",
+    "issueTags": [
+      "too_much_empty_space",
+      "weak_visual_path",
+      "flat_light",
+      "edge_distraction",
+      "needs_crop",
+      "needs_local_adjustment",
+      "good_atmosphere",
+      "good_depth"
+    ],
+    "priorityIssueTags": [
+      "too_much_empty_space",
+      "flat_light",
+      "edge_distraction"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "change_angle",
+      "wait_for_moment",
+      "local_dodge_burn",
+      "add_contrast",
+      "recover_highlights",
+      "reduce_saturation",
+      "adjust_white_balance"
+    ]
+  },
+  "run-3": {
+    "subject": "云雾中的山体层次与右下角松树前景，表达雨雾山谷的空间感和清冷气氛",
+    "genre": "自然风光 / 山岳云雾",
+    "basicProblemTier": "基础问题",
+    "capRule": "无",
+    "intentionalEffectJudgment": "雾气和低反差是题材氛围；偏亮天空和竖幅大留白效果不充分，不算成功创作性处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "too_much_empty_space",
+      "subject_weak",
+      "weak_visual_path",
+      "flat_light",
+      "edge_distraction",
+      "needs_crop",
+      "good_atmosphere",
+      "good_depth"
+    ],
+    "priorityIssueTags": [
+      "too_much_empty_space",
+      "weak_visual_path",
+      "flat_light"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "change_angle",
+      "wait_for_moment",
+      "lower_exposure",
+      "local_dodge_burn",
+      "add_contrast",
+      "recover_highlights",
+      "reduce_saturation"
+    ]
+  },
+  "run-4": {
+    "subject": "云雾中的山脊、山谷层次和右下角松树前景构成的雾中山景空间层次",
+    "genre": "自然风光 / 山岳云雾景观",
+    "basicProblemTier": "基础问题",
+    "capRule": "无",
+    "intentionalEffectJudgment": "雾、低对比和远山发灰支持阴雾山景氛围；上方灰白留白不是有效极简留白",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "too_much_empty_space",
+      "weak_visual_path",
+      "edge_distraction",
+      "flat_light",
+      "needs_crop",
+      "needs_local_adjustment",
+      "good_atmosphere",
+      "good_depth"
+    ],
+    "priorityIssueTags": [
+      "too_much_empty_space",
+      "weak_visual_path",
+      "edge_distraction"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "change_angle",
+      "focus_on_subject",
+      "local_dodge_burn",
+      "add_contrast",
+      "recover_highlights",
+      "reduce_saturation",
+      "straighten"
+    ]
+  },
+  "run-5": {
+    "subject": "云雾中的山脊、山谷层次和右下角松林前景",
+    "genre": "山岳风光 / 雾景风光",
+    "basicProblemTier": "基础问题",
+    "capRule": "无",
+    "intentionalEffectJudgment": "雾气造成的低反差和远山偏软是题材效果；大面积浅灰天空有留白意图但留得偏多",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "too_much_empty_space",
+      "weak_visual_path",
+      "subject_weak",
+      "edge_distraction",
+      "flat_light",
+      "needs_crop",
+      "good_atmosphere",
+      "good_depth"
+    ],
+    "priorityIssueTags": [
+      "too_much_empty_space",
+      "weak_visual_path",
+      "edge_distraction"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "change_angle",
+      "focus_on_subject",
+      "local_dodge_burn",
+      "add_contrast",
+      "recover_highlights",
+      "reduce_saturation",
+      "crop_wider"
+    ]
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "run-1": {
+    "subject": "成串彩色灯笼和灯笼引导出的夜市街景氛围",
+    "genre": "夜景旅行街景 / 城市街拍",
+    "basicProblemTier": "基础问题",
+    "capRule": "无",
+    "intentionalEffectJudgment": "夜景黑暗、高反差和仰拍透视基本有效；高光溢出不是主要故意效果",
+    "highScoreEligible": "是",
+    "issueTags": [
+      "clear_subject",
+      "strong_light",
+      "strong_color",
+      "good_depth",
+      "too_much_empty_space",
+      "edge_distraction",
+      "overexposure_mild",
+      "weak_story"
+    ],
+    "priorityIssueTags": [
+      "too_much_empty_space",
+      "edge_distraction",
+      "overexposure_mild"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "simplify_background",
+      "lower_exposure",
+      "recover_highlights",
+      "reduce_saturation",
+      "wait_for_moment",
+      "local_dodge_burn"
+    ]
+  },
+  "run-2": {
+    "subject": "街道上方的彩色灯笼组，尤其是大黄灯笼和粉色灯笼",
+    "genre": "夜间旅行街景 / 城市街拍 / 灯饰氛围照",
+    "basicProblemTier": "无",
+    "capRule": "无",
+    "intentionalEffectJudgment": "黑天空、高反差和仰拍透视符合夜景灯笼街景；局部高亮和饱和有氛围但可优化",
+    "highScoreEligible": "是",
+    "issueTags": [
+      "clear_subject",
+      "strong_light",
+      "strong_color",
+      "good_depth",
+      "too_much_empty_space",
+      "edge_distraction",
+      "overexposure_mild",
+      "weak_story"
+    ],
+    "priorityIssueTags": [
+      "too_much_empty_space",
+      "edge_distraction",
+      "overexposure_mild"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "simplify_background",
+      "lower_exposure",
+      "recover_highlights",
+      "reduce_saturation",
+      "lift_shadows",
+      "wait_for_moment",
+      "local_dodge_burn"
+    ]
+  },
+  "run-3": {
+    "subject": "连续排列的彩色灯笼及其带出的夜市古街氛围",
+    "genre": "旅行街头夜景 / 城市氛围照",
+    "basicProblemTier": "基础问题",
+    "capRule": "无",
+    "intentionalEffectJudgment": "黑暗、高反差和仰拍广角透视基本故意且有效；高光溢出不算故意效果",
+    "highScoreEligible": "是",
+    "issueTags": [
+      "clear_subject",
+      "strong_light",
+      "good_depth",
+      "too_much_empty_space",
+      "edge_distraction",
+      "overexposure_mild",
+      "background_distraction",
+      "weak_story"
+    ],
+    "priorityIssueTags": [
+      "too_much_empty_space",
+      "edge_distraction",
+      "overexposure_mild"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "simplify_background",
+      "lower_exposure",
+      "recover_highlights",
+      "reduce_saturation",
+      "change_angle",
+      "wait_for_moment",
+      "use_grid_level"
+    ]
+  },
+  "run-4": {
+    "subject": "街道上方成串的彩色灯笼，尤其是大黄灯笼和向远处延伸的灯笼队列",
+    "genre": "夜景街头 / 旅行城市记录 / 节庆氛围",
+    "basicProblemTier": "基础问题",
+    "capRule": "无",
+    "intentionalEffectJudgment": "夜空压暗、高对比、彩色灯笼强饱和和仰拍透视基本是有效夜景氛围处理",
+    "highScoreEligible": "是",
+    "issueTags": [
+      "clear_subject",
+      "strong_light",
+      "strong_color",
+      "good_depth",
+      "edge_distraction",
+      "awkward_crop",
+      "overexposure_mild",
+      "weak_story"
+    ],
+    "priorityIssueTags": [
+      "edge_distraction",
+      "awkward_crop",
+      "overexposure_mild"
+    ],
+    "recommendationTags": [
+      "simplify_background",
+      "crop_tighter",
+      "step_back",
+      "lower_exposure",
+      "recover_highlights",
+      "lift_shadows",
+      "wait_for_moment",
+      "use_grid_level"
+    ]
+  },
+  "run-5": {
+    "subject": "悬挂在街道上方的彩色灯笼群及其营造的夜市老街氛围",
+    "genre": "夜景街拍 / 旅行街景 / 城市氛围照",
+    "basicProblemTier": "无",
+    "capRule": "无",
+    "intentionalEffectJudgment": "黑夜、高反差和仰拍透视是有效处理；暗背景突出灯笼并形成清楚视觉路径",
+    "highScoreEligible": "是",
+    "issueTags": [
+      "clear_subject",
+      "strong_light",
+      "strong_color",
+      "good_depth",
+      "too_much_empty_space",
+      "edge_distraction",
+      "overexposure_mild",
+      "weak_story"
+    ],
+    "priorityIssueTags": [
+      "too_much_empty_space",
+      "edge_distraction",
+      "overexposure_mild"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "simplify_background",
+      "lower_exposure",
+      "recover_highlights",
+      "reduce_saturation",
+      "lift_shadows",
+      "wait_for_moment",
+      "focus_on_subject"
+    ]
+  }
+}

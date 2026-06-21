@@ -1,0 +1,167 @@
+{
+  "run-1": {
+    "subject": "秋叶、咖啡、玩偶和书本组成的秋日生活方式静物，单一主角不明确",
+    "genre": "生活方式静物 / 秋日氛围照",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "无明显故意处理；斜向构图按普通拍摄角度处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "weak_story",
+      "background_distraction",
+      "too_much_empty_space",
+      "edge_distraction",
+      "flat_light",
+      "clear_subject",
+      "good_atmosphere"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "too_much_empty_space",
+      "background_distraction"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "simplify_background",
+      "straighten",
+      "shoot_in_better_light",
+      "use_side_light",
+      "local_dodge_burn",
+      "reduce_saturation",
+      "add_contrast"
+    ]
+  },
+  "run-2": {
+    "subject": "咖啡、玩偶、打开的书和落叶组成的秋天咖啡阅读静物场景",
+    "genre": "生活方式静物 / 桌面摆拍 / 秋日氛围记录",
+    "basicProblemTier": "基础问题",
+    "capRule": "tilted_lines_and_background_distraction_overall_max_6_5",
+    "intentionalEffectJudgment": "倾斜按意外问题处理；无明显故意模糊、压暗或高反差",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "tilted_horizon_or_verticals",
+      "background_distraction",
+      "too_much_empty_space",
+      "edge_distraction",
+      "flat_light",
+      "good_atmosphere",
+      "strong_color"
+    ],
+    "priorityIssueTags": [
+      "tilted_horizon_or_verticals",
+      "subject_weak",
+      "background_distraction"
+    ],
+    "recommendationTags": [
+      "use_grid_level",
+      "straighten",
+      "crop_tighter",
+      "simplify_background",
+      "local_dodge_burn",
+      "adjust_white_balance",
+      "recover_highlights",
+      "shoot_in_better_light"
+    ]
+  },
+  "run-3": {
+    "subject": "咖啡杯、书、落叶和玩偶组成的秋天户外生活方式静物，书和咖啡可能是视觉中心",
+    "genre": "静物 / 生活方式 / 秋日氛围照片",
+    "basicProblemTier": "基础问题",
+    "capRule": "tilted_lines_background_distraction_and_ordinary_documentation_overall_max_6_5",
+    "intentionalEffectJudgment": "倾斜证据不足以判断为成功故意处理；无故意模糊、压暗或高反差",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "tilted_horizon_or_verticals",
+      "background_distraction",
+      "too_much_empty_space",
+      "edge_distraction",
+      "ordinary_documentation",
+      "flat_light",
+      "good_atmosphere"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "tilted_horizon_or_verticals",
+      "too_much_empty_space"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "simplify_background",
+      "straighten",
+      "use_grid_level",
+      "adjust_white_balance",
+      "reduce_saturation",
+      "local_dodge_burn",
+      "add_contrast"
+    ]
+  },
+  "run-4": {
+    "subject": "两杯咖啡、两只玩偶、打开的书、银杏叶和松果组成的秋日户外静物",
+    "genre": "生活方式静物 / 秋日氛围照",
+    "basicProblemTier": "基础问题",
+    "capRule": "tilted_lines_and_background_distraction_overall_max_6_5",
+    "intentionalEffectJudgment": "倾斜不认为是成功故意处理；无明显高反差、偏暗或风格化模糊",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "tilted_horizon_or_verticals",
+      "background_distraction",
+      "too_much_empty_space",
+      "flat_light",
+      "weak_story",
+      "good_atmosphere",
+      "strong_color"
+    ],
+    "priorityIssueTags": [
+      "tilted_horizon_or_verticals",
+      "subject_weak",
+      "too_much_empty_space"
+    ],
+    "recommendationTags": [
+      "use_grid_level",
+      "straighten",
+      "crop_tighter",
+      "simplify_background",
+      "move_closer",
+      "use_side_light",
+      "recover_highlights",
+      "adjust_white_balance"
+    ]
+  },
+  "run-5": {
+    "subject": "秋叶、咖啡、玩偶和打开的书组成的秋日休闲静物，单一主角不明确",
+    "genre": "户外生活静物 / 轻产品摆拍 / 秋日氛围记录",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "倾斜构图和大面积木板留白可能有意但不成功；无明显高反差、暗调或虚化处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "weak_story",
+      "background_distraction",
+      "too_much_empty_space",
+      "edge_distraction",
+      "flat_light",
+      "clear_subject",
+      "good_atmosphere"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "too_much_empty_space",
+      "weak_visual_path"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "simplify_background",
+      "straighten",
+      "local_dodge_burn",
+      "add_contrast",
+      "reduce_saturation",
+      "shoot_in_better_light",
+      "use_side_light"
+    ]
+  }
+}

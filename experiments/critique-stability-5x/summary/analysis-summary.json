@@ -1,0 +1,2942 @@
+[
+  {
+    "photoId": "photo-01",
+    "runCount": 5,
+    "scoreStability": {
+      "technical": {
+        "count": 5,
+        "values": [
+          7,
+          7,
+          7.5,
+          7,
+          7
+        ],
+        "min": 7,
+        "max": 7.5,
+        "range": 0.5,
+        "mean": 7.1,
+        "standardDeviation": 0.2
+      },
+      "composition": {
+        "count": 5,
+        "values": [
+          7.2,
+          7.5,
+          7,
+          7,
+          7
+        ],
+        "min": 7,
+        "max": 7.5,
+        "range": 0.5,
+        "mean": 7.14,
+        "standardDeviation": 0.196
+      },
+      "lighting": {
+        "count": 5,
+        "values": [
+          7.8,
+          8,
+          8,
+          7.8,
+          8
+        ],
+        "min": 7.8,
+        "max": 8,
+        "range": 0.2,
+        "mean": 7.92,
+        "standardDeviation": 0.098
+      },
+      "story": {
+        "count": 5,
+        "values": [
+          6.5,
+          6.5,
+          6.5,
+          6.8,
+          6.5
+        ],
+        "min": 6.5,
+        "max": 6.8,
+        "range": 0.3,
+        "mean": 6.56,
+        "standardDeviation": 0.12
+      },
+      "overall": {
+        "count": 5,
+        "values": [
+          7.4,
+          7.5,
+          7.5,
+          7.5,
+          7.5
+        ],
+        "min": 7.4,
+        "max": 7.5,
+        "range": 0.1,
+        "mean": 7.48,
+        "standardDeviation": 0.04
+      }
+    },
+    "textConsistency": {
+      "available": true,
+      "codedRunCount": 5,
+      "categoricalAgreement": {
+        "subject": {
+          "count": 5,
+          "agreement": 0.4,
+          "majorityValue": "教堂正立面，中央玫瑰窗、尖塔和门廊雕刻",
+          "majorityCount": 2
+        },
+        "genre": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "建筑 / 旅行建筑 / 城市地标记录",
+          "majorityCount": 1
+        },
+        "basicProblemTier": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "无",
+          "majorityCount": 5
+        },
+        "capRule": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "无",
+          "majorityCount": 5
+        },
+        "intentionalEffectJudgment": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "仰拍透视和高对比基本有意，后期饱和度偏重",
+          "majorityCount": 1
+        },
+        "highScoreEligible": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "是",
+          "majorityCount": 5
+        }
+      },
+      "issueTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.643,
+        "min": 0.455,
+        "max": 1
+      },
+      "priorityTop3Overlap": {
+        "pairCount": 10,
+        "mean": 0.867,
+        "min": 0.667,
+        "max": 1
+      },
+      "firstPriorityAgreement": {
+        "count": 5,
+        "agreement": 0.8,
+        "majorityValue": "tilted_horizon_or_verticals",
+        "majorityCount": 4
+      },
+      "recommendationTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.729,
+        "min": 0.6,
+        "max": 1
+      }
+    }
+  },
+  {
+    "photoId": "photo-02",
+    "runCount": 5,
+    "scoreStability": {
+      "technical": {
+        "count": 5,
+        "values": [
+          5.5,
+          5.5,
+          5.5,
+          5.5,
+          6
+        ],
+        "min": 5.5,
+        "max": 6,
+        "range": 0.5,
+        "mean": 5.6,
+        "standardDeviation": 0.2
+      },
+      "composition": {
+        "count": 5,
+        "values": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "min": 5,
+        "max": 5,
+        "range": 0,
+        "mean": 5,
+        "standardDeviation": 0
+      },
+      "lighting": {
+        "count": 5,
+        "values": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "min": 5,
+        "max": 5,
+        "range": 0,
+        "mean": 5,
+        "standardDeviation": 0
+      },
+      "story": {
+        "count": 5,
+        "values": [
+          4.5,
+          4.5,
+          4.5,
+          4.5,
+          4.5
+        ],
+        "min": 4.5,
+        "max": 4.5,
+        "range": 0,
+        "mean": 4.5,
+        "standardDeviation": 0
+      },
+      "overall": {
+        "count": 5,
+        "values": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "min": 5,
+        "max": 5,
+        "range": 0,
+        "mean": 5,
+        "standardDeviation": 0
+      }
+    },
+    "textConsistency": {
+      "available": true,
+      "codedRunCount": 5,
+      "categoricalAgreement": {
+        "subject": {
+          "count": 5,
+          "agreement": 0.6,
+          "majorityValue": "左侧高层住宅楼",
+          "majorityCount": 3
+        },
+        "genre": {
+          "count": 5,
+          "agreement": 0.4,
+          "majorityValue": "城市建筑 / 街景建筑记录",
+          "majorityCount": 2
+        },
+        "basicProblemTier": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "基础问题",
+          "majorityCount": 5
+        },
+        "capRule": {
+          "count": 5,
+          "agreement": 0.6,
+          "majorityValue": "subject_weak_overall_max_5",
+          "majorityCount": 3
+        },
+        "intentionalEffectJudgment": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "偏暗、负空间和透视收缩均不像成功的明确故意处理",
+          "majorityCount": 1
+        },
+        "highScoreEligible": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "否",
+          "majorityCount": 5
+        }
+      },
+      "issueTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.827,
+        "min": 0.6,
+        "max": 1
+      },
+      "priorityTop3Overlap": {
+        "pairCount": 10,
+        "mean": 0.633,
+        "min": 0.333,
+        "max": 1
+      },
+      "firstPriorityAgreement": {
+        "count": 5,
+        "agreement": 0.8,
+        "majorityValue": "subject_weak",
+        "majorityCount": 4
+      },
+      "recommendationTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.676,
+        "min": 0.6,
+        "max": 1
+      }
+    }
+  },
+  {
+    "photoId": "photo-03",
+    "runCount": 5,
+    "scoreStability": {
+      "technical": {
+        "count": 5,
+        "values": [
+          5,
+          5.5,
+          5.5,
+          4.5,
+          5
+        ],
+        "min": 4.5,
+        "max": 5.5,
+        "range": 1,
+        "mean": 5.1,
+        "standardDeviation": 0.374
+      },
+      "composition": {
+        "count": 5,
+        "values": [
+          4,
+          4.5,
+          4.5,
+          4,
+          4.5
+        ],
+        "min": 4,
+        "max": 4.5,
+        "range": 0.5,
+        "mean": 4.3,
+        "standardDeviation": 0.245
+      },
+      "lighting": {
+        "count": 5,
+        "values": [
+          4.5,
+          4.5,
+          4.5,
+          4,
+          4.5
+        ],
+        "min": 4,
+        "max": 4.5,
+        "range": 0.5,
+        "mean": 4.4,
+        "standardDeviation": 0.2
+      },
+      "story": {
+        "count": 5,
+        "values": [
+          3.5,
+          3.5,
+          4,
+          3.5,
+          4
+        ],
+        "min": 3.5,
+        "max": 4,
+        "range": 0.5,
+        "mean": 3.7,
+        "standardDeviation": 0.245
+      },
+      "overall": {
+        "count": 5,
+        "values": [
+          4.5,
+          4.5,
+          4.5,
+          4.5,
+          4.5
+        ],
+        "min": 4.5,
+        "max": 4.5,
+        "range": 0,
+        "mean": 4.5,
+        "standardDeviation": 0
+      }
+    },
+    "textConsistency": {
+      "available": true,
+      "codedRunCount": 5,
+      "categoricalAgreement": {
+        "subject": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "树林里的树干和光影，但主角不明确",
+          "majorityCount": 1
+        },
+        "genre": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "户外自然/环境记录，接近风景练习",
+          "majorityCount": 1
+        },
+        "basicProblemTier": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "基础问题",
+          "majorityCount": 5
+        },
+        "capRule": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "subject_weak_overall_max_5",
+          "majorityCount": 5
+        },
+        "intentionalEffectJudgment": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "无明显故意处理；倾斜树干、偏亮背景和杂乱前景按普通拍摄问题处理",
+          "majorityCount": 1
+        },
+        "highScoreEligible": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "否",
+          "majorityCount": 5
+        }
+      },
+      "issueTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.671,
+        "min": 0.6,
+        "max": 0.778
+      },
+      "priorityTop3Overlap": {
+        "pairCount": 10,
+        "mean": 0.767,
+        "min": 0.667,
+        "max": 1
+      },
+      "firstPriorityAgreement": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "subject_weak",
+        "majorityCount": 5
+      },
+      "recommendationTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.782,
+        "min": 0.6,
+        "max": 1
+      }
+    }
+  },
+  {
+    "photoId": "photo-04",
+    "runCount": 5,
+    "scoreStability": {
+      "technical": {
+        "count": 5,
+        "values": [
+          6,
+          6.5,
+          6,
+          6.5,
+          6.5
+        ],
+        "min": 6,
+        "max": 6.5,
+        "range": 0.5,
+        "mean": 6.3,
+        "standardDeviation": 0.245
+      },
+      "composition": {
+        "count": 5,
+        "values": [
+          5,
+          5.5,
+          5,
+          5.5,
+          4.8
+        ],
+        "min": 4.8,
+        "max": 5.5,
+        "range": 0.7,
+        "mean": 5.16,
+        "standardDeviation": 0.287
+      },
+      "lighting": {
+        "count": 5,
+        "values": [
+          5.5,
+          5.8,
+          5.5,
+          5.8,
+          5.5
+        ],
+        "min": 5.5,
+        "max": 5.8,
+        "range": 0.3,
+        "mean": 5.62,
+        "standardDeviation": 0.147
+      },
+      "story": {
+        "count": 5,
+        "values": [
+          5,
+          6,
+          5.8,
+          6,
+          5
+        ],
+        "min": 5,
+        "max": 6,
+        "range": 1,
+        "mean": 5.56,
+        "standardDeviation": 0.463
+      },
+      "overall": {
+        "count": 5,
+        "values": [
+          5,
+          5.8,
+          5.6,
+          5.8,
+          5
+        ],
+        "min": 5,
+        "max": 5.8,
+        "range": 0.8,
+        "mean": 5.44,
+        "standardDeviation": 0.367
+      }
+    },
+    "textConsistency": {
+      "available": true,
+      "codedRunCount": 5,
+      "categoricalAgreement": {
+        "subject": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "秋叶、咖啡、玩偶和书本组成的秋日生活方式静物，单一主角不明确",
+          "majorityCount": 1
+        },
+        "genre": {
+          "count": 5,
+          "agreement": 0.4,
+          "majorityValue": "生活方式静物 / 秋日氛围照",
+          "majorityCount": 2
+        },
+        "basicProblemTier": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "基础问题",
+          "majorityCount": 5
+        },
+        "capRule": {
+          "count": 5,
+          "agreement": 0.4,
+          "majorityValue": "subject_weak_overall_max_5",
+          "majorityCount": 2
+        },
+        "intentionalEffectJudgment": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "无明显故意处理；斜向构图按普通拍摄角度处理",
+          "majorityCount": 1
+        },
+        "highScoreEligible": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "否",
+          "majorityCount": 5
+        }
+      },
+      "issueTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.676,
+        "min": 0.6,
+        "max": 1
+      },
+      "priorityTop3Overlap": {
+        "pairCount": 10,
+        "mean": 0.667,
+        "min": 0.333,
+        "max": 1
+      },
+      "firstPriorityAgreement": {
+        "count": 5,
+        "agreement": 0.6,
+        "majorityValue": "subject_weak",
+        "majorityCount": 3
+      },
+      "recommendationTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.543,
+        "min": 0.333,
+        "max": 1
+      }
+    }
+  },
+  {
+    "photoId": "photo-05",
+    "runCount": 5,
+    "scoreStability": {
+      "technical": {
+        "count": 5,
+        "values": [
+          4,
+          4.5,
+          4.5,
+          4.5,
+          4.5
+        ],
+        "min": 4,
+        "max": 4.5,
+        "range": 0.5,
+        "mean": 4.4,
+        "standardDeviation": 0.2
+      },
+      "composition": {
+        "count": 5,
+        "values": [
+          4.5,
+          4.5,
+          4.5,
+          5,
+          4.5
+        ],
+        "min": 4.5,
+        "max": 5,
+        "range": 0.5,
+        "mean": 4.6,
+        "standardDeviation": 0.2
+      },
+      "lighting": {
+        "count": 5,
+        "values": [
+          4,
+          4.5,
+          4,
+          5.5,
+          4
+        ],
+        "min": 4,
+        "max": 5.5,
+        "range": 1.5,
+        "mean": 4.4,
+        "standardDeviation": 0.583
+      },
+      "story": {
+        "count": 5,
+        "values": [
+          4,
+          4,
+          3.5,
+          4.5,
+          3.5
+        ],
+        "min": 3.5,
+        "max": 4.5,
+        "range": 1,
+        "mean": 3.9,
+        "standardDeviation": 0.374
+      },
+      "overall": {
+        "count": 5,
+        "values": [
+          4.5,
+          4.5,
+          4.5,
+          5,
+          4.5
+        ],
+        "min": 4.5,
+        "max": 5,
+        "range": 0.5,
+        "mean": 4.6,
+        "standardDeviation": 0.2
+      }
+    },
+    "textConsistency": {
+      "available": true,
+      "codedRunCount": 5,
+      "categoricalAgreement": {
+        "subject": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "电线杆顶部、线缆和绝缘子结构",
+          "majorityCount": 1
+        },
+        "genre": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "城市日常 / 街头观察 / 线条构成尝试",
+          "majorityCount": 1
+        },
+        "basicProblemTier": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "基础问题",
+          "majorityCount": 5
+        },
+        "capRule": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "multiple_basic_flaws_overall_max_4.5",
+          "majorityCount": 1
+        },
+        "intentionalEffectJudgment": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "有剪影倾向，但低调和高反差没有充分服务情绪或视觉路径，按偏偶然弱光问题处理",
+          "majorityCount": 1
+        },
+        "highScoreEligible": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "否",
+          "majorityCount": 5
+        }
+      },
+      "issueTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.606,
+        "min": 0.455,
+        "max": 0.778
+      },
+      "priorityTop3Overlap": {
+        "pairCount": 10,
+        "mean": 0.733,
+        "min": 0.333,
+        "max": 1
+      },
+      "firstPriorityAgreement": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "subject_weak",
+        "majorityCount": 5
+      },
+      "recommendationTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.462,
+        "min": 0.333,
+        "max": 0.6
+      }
+    }
+  },
+  {
+    "photoId": "photo-06",
+    "runCount": 5,
+    "scoreStability": {
+      "technical": {
+        "count": 5,
+        "values": [
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "min": 7,
+        "max": 7,
+        "range": 0,
+        "mean": 7,
+        "standardDeviation": 0
+      },
+      "composition": {
+        "count": 5,
+        "values": [
+          7,
+          7.3,
+          7.2,
+          7.3,
+          7.5
+        ],
+        "min": 7,
+        "max": 7.5,
+        "range": 0.5,
+        "mean": 7.26,
+        "standardDeviation": 0.162
+      },
+      "lighting": {
+        "count": 5,
+        "values": [
+          8,
+          7.8,
+          7.6,
+          7.8,
+          8
+        ],
+        "min": 7.6,
+        "max": 8,
+        "range": 0.4,
+        "mean": 7.84,
+        "standardDeviation": 0.15
+      },
+      "story": {
+        "count": 5,
+        "values": [
+          6.5,
+          6.8,
+          6.8,
+          6.8,
+          7
+        ],
+        "min": 6.5,
+        "max": 7,
+        "range": 0.5,
+        "mean": 6.78,
+        "standardDeviation": 0.16
+      },
+      "overall": {
+        "count": 5,
+        "values": [
+          7.5,
+          7.5,
+          7.4,
+          7.5,
+          7.5
+        ],
+        "min": 7.4,
+        "max": 7.5,
+        "range": 0.1,
+        "mean": 7.48,
+        "standardDeviation": 0.04
+      }
+    },
+    "textConsistency": {
+      "available": true,
+      "codedRunCount": 5,
+      "categoricalAgreement": {
+        "subject": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "成串彩色灯笼和灯笼引导出的夜市街景氛围",
+          "majorityCount": 1
+        },
+        "genre": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "夜景旅行街景 / 城市街拍",
+          "majorityCount": 1
+        },
+        "basicProblemTier": {
+          "count": 5,
+          "agreement": 0.6,
+          "majorityValue": "基础问题",
+          "majorityCount": 3
+        },
+        "capRule": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "无",
+          "majorityCount": 5
+        },
+        "intentionalEffectJudgment": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "夜景黑暗、高反差和仰拍透视基本有效；高光溢出不是主要故意效果",
+          "majorityCount": 1
+        },
+        "highScoreEligible": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "是",
+          "majorityCount": 5
+        }
+      },
+      "issueTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.827,
+        "min": 0.6,
+        "max": 1
+      },
+      "priorityTop3Overlap": {
+        "pairCount": 10,
+        "mean": 0.867,
+        "min": 0.667,
+        "max": 1
+      },
+      "firstPriorityAgreement": {
+        "count": 5,
+        "agreement": 0.8,
+        "majorityValue": "too_much_empty_space",
+        "majorityCount": 4
+      },
+      "recommendationTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.649,
+        "min": 0.5,
+        "max": 0.875
+      }
+    }
+  },
+  {
+    "photoId": "photo-07",
+    "runCount": 5,
+    "scoreStability": {
+      "technical": {
+        "count": 5,
+        "values": [
+          7,
+          7.2,
+          7,
+          7,
+          7
+        ],
+        "min": 7,
+        "max": 7.2,
+        "range": 0.2,
+        "mean": 7.04,
+        "standardDeviation": 0.08
+      },
+      "composition": {
+        "count": 5,
+        "values": [
+          8,
+          8,
+          8,
+          8,
+          7.5
+        ],
+        "min": 7.5,
+        "max": 8,
+        "range": 0.5,
+        "mean": 7.9,
+        "standardDeviation": 0.2
+      },
+      "lighting": {
+        "count": 5,
+        "values": [
+          8,
+          7.6,
+          8,
+          7.5,
+          8
+        ],
+        "min": 7.5,
+        "max": 8,
+        "range": 0.5,
+        "mean": 7.82,
+        "standardDeviation": 0.223
+      },
+      "story": {
+        "count": 5,
+        "values": [
+          7.2,
+          7.5,
+          7.5,
+          7.5,
+          7
+        ],
+        "min": 7,
+        "max": 7.5,
+        "range": 0.5,
+        "mean": 7.34,
+        "standardDeviation": 0.206
+      },
+      "overall": {
+        "count": 5,
+        "values": [
+          7.8,
+          7.7,
+          7.8,
+          7.8,
+          7.5
+        ],
+        "min": 7.5,
+        "max": 7.8,
+        "range": 0.3,
+        "mean": 7.72,
+        "standardDeviation": 0.117
+      }
+    },
+    "textConsistency": {
+      "available": true,
+      "codedRunCount": 5,
+      "categoricalAgreement": {
+        "subject": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "两侧高楼夹出的夜市街道整体，包括摊伞、摊位灯光、人流和远处山体",
+          "majorityCount": 1
+        },
+        "genre": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "城市街头 / 旅行纪实 / 蓝调时刻城市景观",
+          "majorityCount": 1
+        },
+        "basicProblemTier": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "无",
+          "majorityCount": 5
+        },
+        "capRule": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "无",
+          "majorityCount": 5
+        },
+        "intentionalEffectJudgment": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "偏暗和高反差为有效蓝调夜景处理，高机位俯拍有效，无明显故意模糊",
+          "majorityCount": 1
+        },
+        "highScoreEligible": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "是",
+          "majorityCount": 5
+        }
+      },
+      "issueTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.791,
+        "min": 0.6,
+        "max": 1
+      },
+      "priorityTop3Overlap": {
+        "pairCount": 10,
+        "mean": 0.733,
+        "min": 0.333,
+        "max": 1
+      },
+      "firstPriorityAgreement": {
+        "count": 5,
+        "agreement": 0.6,
+        "majorityValue": "weak_story",
+        "majorityCount": 3
+      },
+      "recommendationTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.895,
+        "min": 0.75,
+        "max": 1
+      }
+    }
+  },
+  {
+    "photoId": "photo-08",
+    "runCount": 5,
+    "scoreStability": {
+      "technical": {
+        "count": 5,
+        "values": [
+          6.5,
+          7,
+          6.2,
+          6.5,
+          6.5
+        ],
+        "min": 6.2,
+        "max": 7,
+        "range": 0.8,
+        "mean": 6.54,
+        "standardDeviation": 0.258
+      },
+      "composition": {
+        "count": 5,
+        "values": [
+          6.6,
+          7,
+          6.3,
+          6.4,
+          6
+        ],
+        "min": 6,
+        "max": 7,
+        "range": 1,
+        "mean": 6.46,
+        "standardDeviation": 0.332
+      },
+      "lighting": {
+        "count": 5,
+        "values": [
+          6.4,
+          6.8,
+          6.4,
+          7,
+          6.5
+        ],
+        "min": 6.4,
+        "max": 7,
+        "range": 0.6,
+        "mean": 6.62,
+        "standardDeviation": 0.24
+      },
+      "story": {
+        "count": 5,
+        "values": [
+          6.5,
+          7.2,
+          6,
+          6.5,
+          6
+        ],
+        "min": 6,
+        "max": 7.2,
+        "range": 1.2,
+        "mean": 6.44,
+        "standardDeviation": 0.441
+      },
+      "overall": {
+        "count": 5,
+        "values": [
+          6.6,
+          7,
+          6.3,
+          6.6,
+          6.5
+        ],
+        "min": 6.3,
+        "max": 7,
+        "range": 0.7,
+        "mean": 6.6,
+        "standardDeviation": 0.228
+      }
+    },
+    "textConsistency": {
+      "available": true,
+      "codedRunCount": 5,
+      "categoricalAgreement": {
+        "subject": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "云雾中的山脊、峡谷层次和右下角松林前景组成的雾中山景",
+          "majorityCount": 1
+        },
+        "genre": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "风光 / 山景 / 云雾氛围",
+          "majorityCount": 1
+        },
+        "basicProblemTier": {
+          "count": 5,
+          "agreement": 0.8,
+          "majorityValue": "基础问题",
+          "majorityCount": 4
+        },
+        "capRule": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "无",
+          "majorityCount": 5
+        },
+        "intentionalEffectJudgment": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "云雾柔化是有效氛围；偏大的天空和白雾留白未形成成功负空间，按构图弱点处理",
+          "majorityCount": 1
+        },
+        "highScoreEligible": {
+          "count": 5,
+          "agreement": 0.8,
+          "majorityValue": "否",
+          "majorityCount": 4
+        }
+      },
+      "issueTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.822,
+        "min": 0.778,
+        "max": 1
+      },
+      "priorityTop3Overlap": {
+        "pairCount": 10,
+        "mean": 0.733,
+        "min": 0.667,
+        "max": 1
+      },
+      "firstPriorityAgreement": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "too_much_empty_space",
+        "majorityCount": 5
+      },
+      "recommendationTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.671,
+        "min": 0.6,
+        "max": 0.778
+      }
+    }
+  },
+  {
+    "photoId": "photo-09",
+    "runCount": 5,
+    "scoreStability": {
+      "technical": {
+        "count": 5,
+        "values": [
+          6,
+          5.8,
+          6,
+          5.5,
+          6.2
+        ],
+        "min": 5.5,
+        "max": 6.2,
+        "range": 0.7,
+        "mean": 5.9,
+        "standardDeviation": 0.237
+      },
+      "composition": {
+        "count": 5,
+        "values": [
+          6.5,
+          5,
+          5,
+          5,
+          6
+        ],
+        "min": 5,
+        "max": 6.5,
+        "range": 1.5,
+        "mean": 5.5,
+        "standardDeviation": 0.632
+      },
+      "lighting": {
+        "count": 5,
+        "values": [
+          6,
+          5.2,
+          5.5,
+          5,
+          5.6
+        ],
+        "min": 5,
+        "max": 6,
+        "range": 1,
+        "mean": 5.46,
+        "standardDeviation": 0.344
+      },
+      "story": {
+        "count": 5,
+        "values": [
+          5.8,
+          4.8,
+          5,
+          4.5,
+          5.7
+        ],
+        "min": 4.5,
+        "max": 5.8,
+        "range": 1.3,
+        "mean": 5.16,
+        "standardDeviation": 0.508
+      },
+      "overall": {
+        "count": 5,
+        "values": [
+          6.3,
+          5,
+          5,
+          5,
+          6.1
+        ],
+        "min": 5,
+        "max": 6.3,
+        "range": 1.3,
+        "mean": 5.48,
+        "standardDeviation": 0.591
+      }
+    },
+    "textConsistency": {
+      "available": true,
+      "codedRunCount": 5,
+      "categoricalAgreement": {
+        "subject": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "石桥、桥洞及水面倒影，树冠作为天然框景",
+          "majorityCount": 1
+        },
+        "genre": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "园林风景/旅行记录",
+          "majorityCount": 1
+        },
+        "basicProblemTier": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "基础问题",
+          "majorityCount": 5
+        },
+        "capRule": {
+          "count": 5,
+          "agreement": 0.6,
+          "majorityValue": "subject_weak_overall_max_5",
+          "majorityCount": 3
+        },
+        "intentionalEffectJudgment": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "竖幅框景有意图；偏暗和高反差不像成熟的故意处理",
+          "majorityCount": 1
+        },
+        "highScoreEligible": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "否",
+          "majorityCount": 5
+        }
+      },
+      "issueTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.606,
+        "min": 0.455,
+        "max": 0.778
+      },
+      "priorityTop3Overlap": {
+        "pairCount": 10,
+        "mean": 0.433,
+        "min": 0,
+        "max": 1
+      },
+      "firstPriorityAgreement": {
+        "count": 5,
+        "agreement": 0.6,
+        "majorityValue": "subject_weak",
+        "majorityCount": 3
+      },
+      "recommendationTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.747,
+        "min": 0.6,
+        "max": 1
+      }
+    }
+  },
+  {
+    "photoId": "photo-10",
+    "runCount": 5,
+    "scoreStability": {
+      "technical": {
+        "count": 5,
+        "values": [
+          5,
+          3.5,
+          5.5,
+          5,
+          3.5
+        ],
+        "min": 3.5,
+        "max": 5.5,
+        "range": 2,
+        "mean": 4.5,
+        "standardDeviation": 0.837
+      },
+      "composition": {
+        "count": 5,
+        "values": [
+          5.6,
+          4.5,
+          5,
+          5,
+          4
+        ],
+        "min": 4,
+        "max": 5.6,
+        "range": 1.6,
+        "mean": 4.82,
+        "standardDeviation": 0.538
+      },
+      "lighting": {
+        "count": 5,
+        "values": [
+          5.7,
+          5.5,
+          6,
+          6,
+          5
+        ],
+        "min": 5,
+        "max": 6,
+        "range": 1,
+        "mean": 5.64,
+        "standardDeviation": 0.372
+      },
+      "story": {
+        "count": 5,
+        "values": [
+          5.2,
+          4.5,
+          5,
+          5,
+          4
+        ],
+        "min": 4,
+        "max": 5.2,
+        "range": 1.2,
+        "mean": 4.74,
+        "standardDeviation": 0.436
+      },
+      "overall": {
+        "count": 5,
+        "values": [
+          5.5,
+          4.5,
+          5.5,
+          5,
+          4
+        ],
+        "min": 4,
+        "max": 5.5,
+        "range": 1.5,
+        "mean": 4.9,
+        "standardDeviation": 0.583
+      }
+    },
+    "textConsistency": {
+      "available": true,
+      "codedRunCount": 5,
+      "categoricalAgreement": {
+        "subject": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "横向枝条、叶片/花形剪影与天空、建筑形成的抽象关系",
+          "majorityCount": 1
+        },
+        "genre": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "抽象自然/城市细节",
+          "majorityCount": 1
+        },
+        "basicProblemTier": {
+          "count": 5,
+          "agreement": 0.6,
+          "majorityValue": "基础问题",
+          "majorityCount": 3
+        },
+        "capRule": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "无",
+          "majorityCount": 1
+        },
+        "intentionalEffectJudgment": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "模糊、偏蓝、高亮和非常规构图有一定故意处理证据，部分有效",
+          "majorityCount": 1
+        },
+        "highScoreEligible": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "否",
+          "majorityCount": 5
+        }
+      },
+      "issueTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.556,
+        "min": 0.333,
+        "max": 0.778
+      },
+      "priorityTop3Overlap": {
+        "pairCount": 10,
+        "mean": 0.767,
+        "min": 0.667,
+        "max": 1
+      },
+      "firstPriorityAgreement": {
+        "count": 5,
+        "agreement": 0.8,
+        "majorityValue": "subject_weak",
+        "majorityCount": 4
+      },
+      "recommendationTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.565,
+        "min": 0.364,
+        "max": 1
+      }
+    }
+  },
+  {
+    "photoId": "photo-11",
+    "runCount": 5,
+    "scoreStability": {
+      "technical": {
+        "count": 5,
+        "values": [
+          5,
+          5,
+          5.5,
+          5,
+          5.5
+        ],
+        "min": 5,
+        "max": 5.5,
+        "range": 0.5,
+        "mean": 5.2,
+        "standardDeviation": 0.245
+      },
+      "composition": {
+        "count": 5,
+        "values": [
+          4,
+          4.5,
+          4.5,
+          4.5,
+          4
+        ],
+        "min": 4,
+        "max": 4.5,
+        "range": 0.5,
+        "mean": 4.3,
+        "standardDeviation": 0.245
+      },
+      "lighting": {
+        "count": 5,
+        "values": [
+          4.5,
+          4.5,
+          5,
+          4.5,
+          4.5
+        ],
+        "min": 4.5,
+        "max": 5,
+        "range": 0.5,
+        "mean": 4.6,
+        "standardDeviation": 0.2
+      },
+      "story": {
+        "count": 5,
+        "values": [
+          4,
+          4,
+          4,
+          4,
+          3.5
+        ],
+        "min": 3.5,
+        "max": 4,
+        "range": 0.5,
+        "mean": 3.9,
+        "standardDeviation": 0.2
+      },
+      "overall": {
+        "count": 5,
+        "values": [
+          4.5,
+          4.5,
+          4.8,
+          4.5,
+          4.5
+        ],
+        "min": 4.5,
+        "max": 4.8,
+        "range": 0.3,
+        "mean": 4.56,
+        "standardDeviation": 0.12
+      }
+    },
+    "textConsistency": {
+      "available": true,
+      "codedRunCount": 5,
+      "categoricalAgreement": {
+        "subject": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "地铁线路图局部和站点换乘信息",
+          "majorityCount": 1
+        },
+        "genre": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "城市交通空间记录/标识细节",
+          "majorityCount": 1
+        },
+        "basicProblemTier": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "基础问题",
+          "majorityCount": 5
+        },
+        "capRule": {
+          "count": 5,
+          "agreement": 0.8,
+          "majorityValue": "subject_weak_overall_max_5",
+          "majorityCount": 4
+        },
+        "intentionalEffectJudgment": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "倾斜、偏暗和高反差按非故意处理",
+          "majorityCount": 1
+        },
+        "highScoreEligible": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "否",
+          "majorityCount": 5
+        }
+      },
+      "issueTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.844,
+        "min": 0.778,
+        "max": 1
+      },
+      "priorityTop3Overlap": {
+        "pairCount": 10,
+        "mean": 0.8,
+        "min": 0.667,
+        "max": 1
+      },
+      "firstPriorityAgreement": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "subject_weak",
+        "majorityCount": 5
+      },
+      "recommendationTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.671,
+        "min": 0.6,
+        "max": 0.778
+      }
+    }
+  },
+  {
+    "photoId": "photo-12",
+    "runCount": 5,
+    "scoreStability": {
+      "technical": {
+        "count": 5,
+        "values": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "min": 5,
+        "max": 5,
+        "range": 0,
+        "mean": 5,
+        "standardDeviation": 0
+      },
+      "composition": {
+        "count": 5,
+        "values": [
+          4.5,
+          4.5,
+          5,
+          4.8,
+          4.5
+        ],
+        "min": 4.5,
+        "max": 5,
+        "range": 0.5,
+        "mean": 4.66,
+        "standardDeviation": 0.206
+      },
+      "lighting": {
+        "count": 5,
+        "values": [
+          4.5,
+          4.5,
+          4.5,
+          4.5,
+          4.5
+        ],
+        "min": 4.5,
+        "max": 4.5,
+        "range": 0,
+        "mean": 4.5,
+        "standardDeviation": 0
+      },
+      "story": {
+        "count": 5,
+        "values": [
+          4,
+          4,
+          5,
+          4.5,
+          4.5
+        ],
+        "min": 4,
+        "max": 5,
+        "range": 1,
+        "mean": 4.4,
+        "standardDeviation": 0.374
+      },
+      "overall": {
+        "count": 5,
+        "values": [
+          4.5,
+          4.8,
+          5,
+          4.8,
+          5
+        ],
+        "min": 4.5,
+        "max": 5,
+        "range": 0.5,
+        "mean": 4.82,
+        "standardDeviation": 0.183
+      }
+    },
+    "textConsistency": {
+      "available": true,
+      "codedRunCount": 5,
+      "categoricalAgreement": {
+        "subject": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "手机上的游戏画面和手持手机本身",
+          "majorityCount": 1
+        },
+        "genre": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "日常记录 / 物件记录 / 屏幕内容记录",
+          "majorityCount": 1
+        },
+        "basicProblemTier": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "基础问题",
+          "majorityCount": 5
+        },
+        "capRule": {
+          "count": 5,
+          "agreement": 0.6,
+          "majorityValue": "ordinary_documentation_and_weak_light_story_overall_max_6",
+          "majorityCount": 3
+        },
+        "intentionalEffectJudgment": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "倾斜、高反差和暗背景更像偶然结果，不是有效故意处理",
+          "majorityCount": 1
+        },
+        "highScoreEligible": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "否",
+          "majorityCount": 5
+        }
+      },
+      "issueTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.711,
+        "min": 0.6,
+        "max": 1
+      },
+      "priorityTop3Overlap": {
+        "pairCount": 10,
+        "mean": 0.333,
+        "min": 0,
+        "max": 0.667
+      },
+      "firstPriorityAgreement": {
+        "count": 5,
+        "agreement": 0.4,
+        "majorityValue": "tilted_horizon_or_verticals",
+        "majorityCount": 2
+      },
+      "recommendationTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.451,
+        "min": 0.333,
+        "max": 0.778
+      }
+    }
+  },
+  {
+    "photoId": "photo-13",
+    "runCount": 5,
+    "scoreStability": {
+      "technical": {
+        "count": 5,
+        "values": [
+          5.5,
+          6,
+          5.5,
+          5.5,
+          5.5
+        ],
+        "min": 5.5,
+        "max": 6,
+        "range": 0.5,
+        "mean": 5.6,
+        "standardDeviation": 0.2
+      },
+      "composition": {
+        "count": 5,
+        "values": [
+          4.5,
+          4.8,
+          4.5,
+          4.5,
+          4.5
+        ],
+        "min": 4.5,
+        "max": 4.8,
+        "range": 0.3,
+        "mean": 4.56,
+        "standardDeviation": 0.12
+      },
+      "lighting": {
+        "count": 5,
+        "values": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "min": 5,
+        "max": 5,
+        "range": 0,
+        "mean": 5,
+        "standardDeviation": 0
+      },
+      "story": {
+        "count": 5,
+        "values": [
+          4.5,
+          4.5,
+          4.5,
+          4.5,
+          4.5
+        ],
+        "min": 4.5,
+        "max": 4.5,
+        "range": 0,
+        "mean": 4.5,
+        "standardDeviation": 0
+      },
+      "overall": {
+        "count": 5,
+        "values": [
+          4.8,
+          5,
+          4.5,
+          5,
+          5
+        ],
+        "min": 4.5,
+        "max": 5,
+        "range": 0.5,
+        "mean": 4.86,
+        "standardDeviation": 0.196
+      }
+    },
+    "textConsistency": {
+      "available": true,
+      "codedRunCount": 5,
+      "categoricalAgreement": {
+        "subject": {
+          "count": 5,
+          "agreement": 0.4,
+          "majorityValue": "画面右下区域的黑白花猫",
+          "majorityCount": 2
+        },
+        "genre": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "生活记录 / 宠物抓拍",
+          "majorityCount": 1
+        },
+        "basicProblemTier": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "基础问题",
+          "majorityCount": 5
+        },
+        "capRule": {
+          "count": 5,
+          "agreement": 0.6,
+          "majorityValue": "subject_weak_background_distraction_record_overall_max_5",
+          "majorityCount": 3
+        },
+        "intentionalEffectJudgment": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "无明显故意处理",
+          "majorityCount": 5
+        },
+        "highScoreEligible": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "否",
+          "majorityCount": 5
+        }
+      },
+      "issueTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.778,
+        "min": 0.778,
+        "max": 0.778
+      },
+      "priorityTop3Overlap": {
+        "pairCount": 10,
+        "mean": 0.867,
+        "min": 0.667,
+        "max": 1
+      },
+      "firstPriorityAgreement": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "subject_weak",
+        "majorityCount": 5
+      },
+      "recommendationTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.663,
+        "min": 0.455,
+        "max": 0.778
+      }
+    }
+  },
+  {
+    "photoId": "photo-14",
+    "runCount": 5,
+    "scoreStability": {
+      "technical": {
+        "count": 5,
+        "values": [
+          5,
+          5,
+          5,
+          5.5,
+          5
+        ],
+        "min": 5,
+        "max": 5.5,
+        "range": 0.5,
+        "mean": 5.1,
+        "standardDeviation": 0.2
+      },
+      "composition": {
+        "count": 5,
+        "values": [
+          4.5,
+          4.5,
+          4,
+          4.5,
+          4.5
+        ],
+        "min": 4,
+        "max": 4.5,
+        "range": 0.5,
+        "mean": 4.4,
+        "standardDeviation": 0.2
+      },
+      "lighting": {
+        "count": 5,
+        "values": [
+          5,
+          5,
+          4.5,
+          5,
+          4.5
+        ],
+        "min": 4.5,
+        "max": 5,
+        "range": 0.5,
+        "mean": 4.8,
+        "standardDeviation": 0.245
+      },
+      "story": {
+        "count": 5,
+        "values": [
+          5,
+          4.5,
+          4,
+          5,
+          4.5
+        ],
+        "min": 4,
+        "max": 5,
+        "range": 1,
+        "mean": 4.6,
+        "standardDeviation": 0.374
+      },
+      "overall": {
+        "count": 5,
+        "values": [
+          5,
+          4.8,
+          4.5,
+          5,
+          4.8
+        ],
+        "min": 4.5,
+        "max": 5,
+        "range": 0.5,
+        "mean": 4.82,
+        "standardDeviation": 0.183
+      }
+    },
+    "textConsistency": {
+      "available": true,
+      "codedRunCount": 5,
+      "categoricalAgreement": {
+        "subject": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "雪天小区窗外景观/降雪氛围，主体不明确",
+          "majorityCount": 1
+        },
+        "genre": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "城市生活环境 / 雪天风景记录",
+          "majorityCount": 1
+        },
+        "basicProblemTier": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "基础问题",
+          "majorityCount": 5
+        },
+        "capRule": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "subject_weak_overall_max_5",
+          "majorityCount": 5
+        },
+        "intentionalEffectJudgment": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "雪天低对比有自然环境原因，但树枝遮挡、玻璃反光和杂乱构图不是有效故意处理",
+          "majorityCount": 1
+        },
+        "highScoreEligible": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "否",
+          "majorityCount": 5
+        }
+      },
+      "issueTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.911,
+        "min": 0.778,
+        "max": 1
+      },
+      "priorityTop3Overlap": {
+        "pairCount": 10,
+        "mean": 0.867,
+        "min": 0.667,
+        "max": 1
+      },
+      "firstPriorityAgreement": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "subject_weak",
+        "majorityCount": 5
+      },
+      "recommendationTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.711,
+        "min": 0.6,
+        "max": 1
+      }
+    }
+  },
+  {
+    "photoId": "photo-15",
+    "runCount": 5,
+    "scoreStability": {
+      "technical": {
+        "count": 5,
+        "values": [
+          7,
+          6.5,
+          6.5,
+          6.5,
+          6.5
+        ],
+        "min": 6.5,
+        "max": 7,
+        "range": 0.5,
+        "mean": 6.6,
+        "standardDeviation": 0.2
+      },
+      "composition": {
+        "count": 5,
+        "values": [
+          5,
+          5.2,
+          4.5,
+          5,
+          4
+        ],
+        "min": 4,
+        "max": 5.2,
+        "range": 1.2,
+        "mean": 4.74,
+        "standardDeviation": 0.436
+      },
+      "lighting": {
+        "count": 5,
+        "values": [
+          6,
+          5.5,
+          5.5,
+          5.5,
+          5.5
+        ],
+        "min": 5.5,
+        "max": 6,
+        "range": 0.5,
+        "mean": 5.6,
+        "standardDeviation": 0.2
+      },
+      "story": {
+        "count": 5,
+        "values": [
+          5,
+          5,
+          4.5,
+          5,
+          5
+        ],
+        "min": 4.5,
+        "max": 5,
+        "range": 0.5,
+        "mean": 4.9,
+        "standardDeviation": 0.2
+      },
+      "overall": {
+        "count": 5,
+        "values": [
+          5.6,
+          5.8,
+          4.5,
+          5.5,
+          4.5
+        ],
+        "min": 4.5,
+        "max": 5.8,
+        "range": 1.3,
+        "mean": 5.18,
+        "standardDeviation": 0.564
+      }
+    },
+    "textConsistency": {
+      "available": true,
+      "codedRunCount": 5,
+      "categoricalAgreement": {
+        "subject": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "白色清真寺建筑、穹顶、尖塔和前方水景",
+          "majorityCount": 1
+        },
+        "genre": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "旅行建筑 / 地标建筑摄影",
+          "majorityCount": 1
+        },
+        "basicProblemTier": {
+          "count": 5,
+          "agreement": 0.6,
+          "majorityValue": "基础问题",
+          "majorityCount": 3
+        },
+        "capRule": {
+          "count": 5,
+          "agreement": 0.8,
+          "majorityValue": "tilted_horizon_or_verticals_overall_max_6_5",
+          "majorityCount": 4
+        },
+        "intentionalEffectJudgment": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "横倒/旋转不属于有效故意处理；高对比来自强日照",
+          "majorityCount": 1
+        },
+        "highScoreEligible": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "否",
+          "majorityCount": 5
+        }
+      },
+      "issueTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.911,
+        "min": 0.778,
+        "max": 1
+      },
+      "priorityTop3Overlap": {
+        "pairCount": 10,
+        "mean": 0.667,
+        "min": 0.333,
+        "max": 1
+      },
+      "firstPriorityAgreement": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "tilted_horizon_or_verticals",
+        "majorityCount": 5
+      },
+      "recommendationTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.778,
+        "min": 0.778,
+        "max": 0.778
+      }
+    }
+  },
+  {
+    "photoId": "photo-16",
+    "runCount": 5,
+    "scoreStability": {
+      "technical": {
+        "count": 5,
+        "values": [
+          6,
+          6,
+          6,
+          6.5,
+          7
+        ],
+        "min": 6,
+        "max": 7,
+        "range": 1,
+        "mean": 6.3,
+        "standardDeviation": 0.4
+      },
+      "composition": {
+        "count": 5,
+        "values": [
+          5,
+          5,
+          5,
+          5.5,
+          6
+        ],
+        "min": 5,
+        "max": 6,
+        "range": 1,
+        "mean": 5.3,
+        "standardDeviation": 0.4
+      },
+      "lighting": {
+        "count": 5,
+        "values": [
+          5.5,
+          5.5,
+          5.5,
+          6,
+          6.5
+        ],
+        "min": 5.5,
+        "max": 6.5,
+        "range": 1,
+        "mean": 5.8,
+        "standardDeviation": 0.4
+      },
+      "story": {
+        "count": 5,
+        "values": [
+          5,
+          5,
+          5,
+          6.2,
+          6.5
+        ],
+        "min": 5,
+        "max": 6.5,
+        "range": 1.5,
+        "mean": 5.54,
+        "standardDeviation": 0.668
+      },
+      "overall": {
+        "count": 5,
+        "values": [
+          5,
+          5,
+          5,
+          5.8,
+          6.5
+        ],
+        "min": 5,
+        "max": 6.5,
+        "range": 1.5,
+        "mean": 5.46,
+        "standardDeviation": 0.605
+      }
+    },
+    "textConsistency": {
+      "available": true,
+      "codedRunCount": 5,
+      "categoricalAgreement": {
+        "subject": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "秋天、咖啡、书、玩偶和落叶组成的生活静物场景，但主视觉没有唯一中心",
+          "majorityCount": 1
+        },
+        "genre": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "户外生活静物 / 秋日氛围小品",
+          "majorityCount": 1
+        },
+        "basicProblemTier": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "基础问题",
+          "majorityCount": 5
+        },
+        "capRule": {
+          "count": 5,
+          "agreement": 0.6,
+          "majorityValue": "subject_weak_overall_max_5",
+          "majorityCount": 3
+        },
+        "intentionalEffectJudgment": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "倾斜、多物体散布和杂乱边缘不像有效的故意处理",
+          "majorityCount": 1
+        },
+        "highScoreEligible": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "否",
+          "majorityCount": 5
+        }
+      },
+      "issueTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.583,
+        "min": 0.333,
+        "max": 0.778
+      },
+      "priorityTop3Overlap": {
+        "pairCount": 10,
+        "mean": 0.633,
+        "min": 0.333,
+        "max": 1
+      },
+      "firstPriorityAgreement": {
+        "count": 5,
+        "agreement": 0.8,
+        "majorityValue": "subject_weak",
+        "majorityCount": 4
+      },
+      "recommendationTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.661,
+        "min": 0.455,
+        "max": 1
+      }
+    }
+  },
+  {
+    "photoId": "photo-17",
+    "runCount": 5,
+    "scoreStability": {
+      "technical": {
+        "count": 5,
+        "values": [
+          4.8,
+          4.5,
+          5,
+          4.5,
+          5
+        ],
+        "min": 4.5,
+        "max": 5,
+        "range": 0.5,
+        "mean": 4.76,
+        "standardDeviation": 0.224
+      },
+      "composition": {
+        "count": 5,
+        "values": [
+          5,
+          5,
+          5,
+          4.8,
+          5
+        ],
+        "min": 4.8,
+        "max": 5,
+        "range": 0.2,
+        "mean": 4.96,
+        "standardDeviation": 0.08
+      },
+      "lighting": {
+        "count": 5,
+        "values": [
+          5.8,
+          6,
+          6,
+          5.8,
+          5.5
+        ],
+        "min": 5.5,
+        "max": 6,
+        "range": 0.5,
+        "mean": 5.82,
+        "standardDeviation": 0.183
+      },
+      "story": {
+        "count": 5,
+        "values": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "min": 5,
+        "max": 5,
+        "range": 0,
+        "mean": 5,
+        "standardDeviation": 0
+      },
+      "overall": {
+        "count": 5,
+        "values": [
+          5,
+          5,
+          5.5,
+          5,
+          5
+        ],
+        "min": 5,
+        "max": 5.5,
+        "range": 0.5,
+        "mean": 5.1,
+        "standardDeviation": 0.2
+      }
+    },
+    "textConsistency": {
+      "available": true,
+      "codedRunCount": 5,
+      "categoricalAgreement": {
+        "subject": {
+          "count": 5,
+          "agreement": 0.4,
+          "majorityValue": "河岸城市灯光与水面倒影",
+          "majorityCount": 2
+        },
+        "genre": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "城市夜景 / 水面倒影风景",
+          "majorityCount": 1
+        },
+        "basicProblemTier": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "基础问题",
+          "majorityCount": 5
+        },
+        "capRule": {
+          "count": 5,
+          "agreement": 0.8,
+          "majorityValue": "subject_weak_overall_max_5+motion_blur_technical_max_5",
+          "majorityCount": 4
+        },
+        "intentionalEffectJudgment": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "模糊非故意；偏暗属夜景题材；高反差控制不够；树枝框景不成功",
+          "majorityCount": 1
+        },
+        "highScoreEligible": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "否",
+          "majorityCount": 5
+        }
+      },
+      "issueTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.621,
+        "min": 0.455,
+        "max": 0.778
+      },
+      "priorityTop3Overlap": {
+        "pairCount": 10,
+        "mean": 1,
+        "min": 1,
+        "max": 1
+      },
+      "firstPriorityAgreement": {
+        "count": 5,
+        "agreement": 0.6,
+        "majorityValue": "subject_weak",
+        "majorityCount": 3
+      },
+      "recommendationTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.797,
+        "min": 0.667,
+        "max": 1
+      }
+    }
+  },
+  {
+    "photoId": "photo-18",
+    "runCount": 5,
+    "scoreStability": {
+      "technical": {
+        "count": 5,
+        "values": [
+          5,
+          5.5,
+          5.2,
+          4.5,
+          5
+        ],
+        "min": 4.5,
+        "max": 5.5,
+        "range": 1,
+        "mean": 5.04,
+        "standardDeviation": 0.326
+      },
+      "composition": {
+        "count": 5,
+        "values": [
+          5,
+          6.4,
+          5.8,
+          5,
+          6
+        ],
+        "min": 5,
+        "max": 6.4,
+        "range": 1.4,
+        "mean": 5.64,
+        "standardDeviation": 0.557
+      },
+      "lighting": {
+        "count": 5,
+        "values": [
+          6,
+          7.2,
+          6.8,
+          5.5,
+          7
+        ],
+        "min": 5.5,
+        "max": 7.2,
+        "range": 1.7,
+        "mean": 6.5,
+        "standardDeviation": 0.645
+      },
+      "story": {
+        "count": 5,
+        "values": [
+          4.5,
+          5.6,
+          5.8,
+          4.5,
+          5.5
+        ],
+        "min": 4.5,
+        "max": 5.8,
+        "range": 1.3,
+        "mean": 5.18,
+        "standardDeviation": 0.564
+      },
+      "overall": {
+        "count": 5,
+        "values": [
+          5,
+          6.2,
+          5.8,
+          5,
+          6
+        ],
+        "min": 5,
+        "max": 6.2,
+        "range": 1.2,
+        "mean": 5.6,
+        "standardDeviation": 0.506
+      }
+    },
+    "textConsistency": {
+      "available": true,
+      "codedRunCount": 5,
+      "categoricalAgreement": {
+        "subject": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "窗框中的落日与城市天际线",
+          "majorityCount": 1
+        },
+        "genre": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "城市窗景 / 夕阳氛围 / 轻建筑构成",
+          "majorityCount": 1
+        },
+        "basicProblemTier": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "基础问题",
+          "majorityCount": 5
+        },
+        "capRule": {
+          "count": 5,
+          "agreement": 0.6,
+          "majorityValue": "无",
+          "majorityCount": 3
+        },
+        "intentionalEffectJudgment": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "高反差剪影基本有意；太阳过曝倾向可接受但不够精细；远景朦胧可视为氛围",
+          "majorityCount": 1
+        },
+        "highScoreEligible": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "否",
+          "majorityCount": 5
+        }
+      },
+      "issueTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.399,
+        "min": 0.143,
+        "max": 0.778
+      },
+      "priorityTop3Overlap": {
+        "pairCount": 10,
+        "mean": 0.4,
+        "min": 0,
+        "max": 1
+      },
+      "firstPriorityAgreement": {
+        "count": 5,
+        "agreement": 0.6,
+        "majorityValue": "subject_weak",
+        "majorityCount": 3
+      },
+      "recommendationTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.678,
+        "min": 0.455,
+        "max": 0.778
+      }
+    }
+  },
+  {
+    "photoId": "photo-19",
+    "runCount": 5,
+    "scoreStability": {
+      "technical": {
+        "count": 5,
+        "values": [
+          5.8,
+          5.5,
+          5.5,
+          5.5,
+          5.5
+        ],
+        "min": 5.5,
+        "max": 5.8,
+        "range": 0.3,
+        "mean": 5.56,
+        "standardDeviation": 0.12
+      },
+      "composition": {
+        "count": 5,
+        "values": [
+          5,
+          5,
+          5,
+          5,
+          4.5
+        ],
+        "min": 4.5,
+        "max": 5,
+        "range": 0.5,
+        "mean": 4.9,
+        "standardDeviation": 0.2
+      },
+      "lighting": {
+        "count": 5,
+        "values": [
+          5.2,
+          5,
+          5,
+          5,
+          5
+        ],
+        "min": 5,
+        "max": 5.2,
+        "range": 0.2,
+        "mean": 5.04,
+        "standardDeviation": 0.08
+      },
+      "story": {
+        "count": 5,
+        "values": [
+          4.8,
+          4.5,
+          4.5,
+          4.5,
+          4.5
+        ],
+        "min": 4.5,
+        "max": 4.8,
+        "range": 0.3,
+        "mean": 4.56,
+        "standardDeviation": 0.12
+      },
+      "overall": {
+        "count": 5,
+        "values": [
+          5.4,
+          5,
+          5,
+          5,
+          5
+        ],
+        "min": 5,
+        "max": 5.4,
+        "range": 0.4,
+        "mean": 5.08,
+        "standardDeviation": 0.16
+      }
+    },
+    "textConsistency": {
+      "available": true,
+      "codedRunCount": 5,
+      "categoricalAgreement": {
+        "subject": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "盘中红色肉类食材和绿色叶菜",
+          "majorityCount": 1
+        },
+        "genre": {
+          "count": 5,
+          "agreement": 0.6,
+          "majorityValue": "餐桌美食记录",
+          "majorityCount": 3
+        },
+        "basicProblemTier": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "基础问题",
+          "majorityCount": 5
+        },
+        "capRule": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "background_distraction_ordinary_record_light_story_weak_overall_max_6",
+          "majorityCount": 5
+        },
+        "intentionalEffectJudgment": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "无明显故意处理",
+          "majorityCount": 5
+        },
+        "highScoreEligible": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "否",
+          "majorityCount": 5
+        }
+      },
+      "issueTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.657,
+        "min": 0.455,
+        "max": 1
+      },
+      "priorityTop3Overlap": {
+        "pairCount": 10,
+        "mean": 0.567,
+        "min": 0.333,
+        "max": 0.667
+      },
+      "firstPriorityAgreement": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "background_distraction",
+        "majorityCount": 5
+      },
+      "recommendationTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.729,
+        "min": 0.6,
+        "max": 1
+      }
+    }
+  },
+  {
+    "photoId": "photo-20",
+    "runCount": 5,
+    "scoreStability": {
+      "technical": {
+        "count": 5,
+        "values": [
+          6,
+          5.5,
+          6,
+          5.5,
+          5.5
+        ],
+        "min": 5.5,
+        "max": 6,
+        "range": 0.5,
+        "mean": 5.7,
+        "standardDeviation": 0.245
+      },
+      "composition": {
+        "count": 5,
+        "values": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "min": 5,
+        "max": 5,
+        "range": 0,
+        "mean": 5,
+        "standardDeviation": 0
+      },
+      "lighting": {
+        "count": 5,
+        "values": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "min": 5,
+        "max": 5,
+        "range": 0,
+        "mean": 5,
+        "standardDeviation": 0
+      },
+      "story": {
+        "count": 5,
+        "values": [
+          4.8,
+          4.5,
+          4.5,
+          4.5,
+          4.5
+        ],
+        "min": 4.5,
+        "max": 4.8,
+        "range": 0.3,
+        "mean": 4.56,
+        "standardDeviation": 0.12
+      },
+      "overall": {
+        "count": 5,
+        "values": [
+          5.2,
+          5,
+          5,
+          5,
+          5
+        ],
+        "min": 5,
+        "max": 5.2,
+        "range": 0.2,
+        "mean": 5.04,
+        "standardDeviation": 0.08
+      }
+    },
+    "textConsistency": {
+      "available": true,
+      "codedRunCount": 5,
+      "categoricalAgreement": {
+        "subject": {
+          "count": 5,
+          "agreement": 0.4,
+          "majorityValue": "中间偏左的白鹅",
+          "majorityCount": 2
+        },
+        "genre": {
+          "count": 5,
+          "agreement": 0.2,
+          "majorityValue": "动物/生活记录/自然观察小品",
+          "majorityCount": 1
+        },
+        "basicProblemTier": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "基础问题",
+          "majorityCount": 5
+        },
+        "capRule": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "background_distraction_ordinary_documentation_flat_light_weak_story_overall_max_6",
+          "majorityCount": 5
+        },
+        "intentionalEffectJudgment": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "无明显故意处理",
+          "majorityCount": 5
+        },
+        "highScoreEligible": {
+          "count": 5,
+          "agreement": 1,
+          "majorityValue": "否",
+          "majorityCount": 5
+        }
+      },
+      "issueTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.671,
+        "min": 0.6,
+        "max": 0.778
+      },
+      "priorityTop3Overlap": {
+        "pairCount": 10,
+        "mean": 0.567,
+        "min": 0.333,
+        "max": 1
+      },
+      "firstPriorityAgreement": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "background_distraction",
+        "majorityCount": 5
+      },
+      "recommendationTagJaccard": {
+        "pairCount": 10,
+        "mean": 0.657,
+        "min": 0.455,
+        "max": 0.778
+      }
+    }
+  }
+]

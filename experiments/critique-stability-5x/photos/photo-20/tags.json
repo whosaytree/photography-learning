@@ -1,0 +1,167 @@
+{
+  "run-1": {
+    "subject": "偏左中部的白鹅",
+    "genre": "动物/生活记录/自然观察小品",
+    "basicProblemTier": "基础问题",
+    "capRule": "background_distraction_ordinary_documentation_flat_light_weak_story_overall_max_6",
+    "intentionalEffectJudgment": "无明显故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "background_distraction",
+      "ordinary_documentation",
+      "flat_light",
+      "weak_story",
+      "weak_moment",
+      "overexposure_mild",
+      "needs_crop"
+    ],
+    "priorityIssueTags": [
+      "background_distraction",
+      "weak_moment",
+      "overexposure_mild"
+    ],
+    "recommendationTags": [
+      "lower_angle",
+      "change_angle",
+      "crop_tighter",
+      "simplify_background",
+      "wait_for_moment",
+      "recover_highlights",
+      "lift_shadows",
+      "focus_on_subject"
+    ]
+  },
+  "run-2": {
+    "subject": "中间偏左的白鹅",
+    "genre": "动物/日常观察/环境记录",
+    "basicProblemTier": "基础问题",
+    "capRule": "background_distraction_ordinary_documentation_flat_light_weak_story_overall_max_6",
+    "intentionalEffectJudgment": "无明显故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "background_distraction",
+      "subject_too_small",
+      "ordinary_documentation",
+      "flat_light",
+      "weak_story",
+      "weak_moment",
+      "overexposure_mild"
+    ],
+    "priorityIssueTags": [
+      "background_distraction",
+      "subject_too_small",
+      "overexposure_mild"
+    ],
+    "recommendationTags": [
+      "lower_angle",
+      "change_angle",
+      "simplify_background",
+      "move_closer",
+      "crop_tighter",
+      "recover_highlights",
+      "wait_for_moment",
+      "focus_on_subject"
+    ]
+  },
+  "run-3": {
+    "subject": "中间偏左的白鹅",
+    "genre": "动物抓拍/生活记录/入门自然观察",
+    "basicProblemTier": "基础问题",
+    "capRule": "background_distraction_ordinary_documentation_flat_light_weak_story_overall_max_6",
+    "intentionalEffectJudgment": "无明显故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "background_distraction",
+      "edge_distraction",
+      "subject_too_small",
+      "ordinary_documentation",
+      "flat_light",
+      "weak_story",
+      "overexposure_mild"
+    ],
+    "priorityIssueTags": [
+      "background_distraction",
+      "subject_too_small",
+      "overexposure_mild"
+    ],
+    "recommendationTags": [
+      "lower_angle",
+      "change_angle",
+      "simplify_background",
+      "move_closer",
+      "crop_tighter",
+      "focus_on_subject",
+      "recover_highlights",
+      "local_dodge_burn"
+    ]
+  },
+  "run-4": {
+    "subject": "中间偏左的白鸭",
+    "genre": "动物/生活记录/街头观察式环境动物照片",
+    "basicProblemTier": "基础问题",
+    "capRule": "background_distraction_ordinary_documentation_flat_light_weak_story_overall_max_6",
+    "intentionalEffectJudgment": "无明显故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "background_distraction",
+      "edge_distraction",
+      "ordinary_documentation",
+      "flat_light",
+      "light_not_supporting_subject",
+      "weak_story",
+      "weak_moment"
+    ],
+    "priorityIssueTags": [
+      "background_distraction",
+      "light_not_supporting_subject",
+      "weak_moment"
+    ],
+    "recommendationTags": [
+      "change_angle",
+      "lower_angle",
+      "simplify_background",
+      "crop_tighter",
+      "shoot_in_better_light",
+      "use_side_light",
+      "recover_highlights",
+      "wait_for_moment"
+    ]
+  },
+  "run-5": {
+    "subject": "中间偏下的白鹅",
+    "genre": "动物/公园或路边生态记录",
+    "basicProblemTier": "基础问题",
+    "capRule": "background_distraction_ordinary_documentation_flat_light_weak_story_overall_max_6",
+    "intentionalEffectJudgment": "无明显故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "background_distraction",
+      "ordinary_documentation",
+      "flat_light",
+      "weak_story",
+      "weak_moment",
+      "weak_visual_path",
+      "overexposure_mild"
+    ],
+    "priorityIssueTags": [
+      "background_distraction",
+      "weak_visual_path",
+      "weak_moment"
+    ],
+    "recommendationTags": [
+      "lower_angle",
+      "change_angle",
+      "simplify_background",
+      "crop_tighter",
+      "focus_on_subject",
+      "wait_for_moment",
+      "recover_highlights",
+      "reduce_saturation"
+    ]
+  }
+}

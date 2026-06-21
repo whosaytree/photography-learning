@@ -1,0 +1,147 @@
+{
+  "photoId": "photo-07",
+  "runCount": 5,
+  "scoreStability": {
+    "technical": {
+      "count": 5,
+      "values": [
+        7,
+        7.2,
+        7,
+        7,
+        7
+      ],
+      "min": 7,
+      "max": 7.2,
+      "range": 0.2,
+      "mean": 7.04,
+      "standardDeviation": 0.08
+    },
+    "composition": {
+      "count": 5,
+      "values": [
+        8,
+        8,
+        8,
+        8,
+        7.5
+      ],
+      "min": 7.5,
+      "max": 8,
+      "range": 0.5,
+      "mean": 7.9,
+      "standardDeviation": 0.2
+    },
+    "lighting": {
+      "count": 5,
+      "values": [
+        8,
+        7.6,
+        8,
+        7.5,
+        8
+      ],
+      "min": 7.5,
+      "max": 8,
+      "range": 0.5,
+      "mean": 7.82,
+      "standardDeviation": 0.223
+    },
+    "story": {
+      "count": 5,
+      "values": [
+        7.2,
+        7.5,
+        7.5,
+        7.5,
+        7
+      ],
+      "min": 7,
+      "max": 7.5,
+      "range": 0.5,
+      "mean": 7.34,
+      "standardDeviation": 0.206
+    },
+    "overall": {
+      "count": 5,
+      "values": [
+        7.8,
+        7.7,
+        7.8,
+        7.8,
+        7.5
+      ],
+      "min": 7.5,
+      "max": 7.8,
+      "range": 0.3,
+      "mean": 7.72,
+      "standardDeviation": 0.117
+    }
+  },
+  "textConsistency": {
+    "available": true,
+    "codedRunCount": 5,
+    "categoricalAgreement": {
+      "subject": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "两侧高楼夹出的夜市街道整体，包括摊伞、摊位灯光、人流和远处山体",
+        "majorityCount": 1
+      },
+      "genre": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "城市街头 / 旅行纪实 / 蓝调时刻城市景观",
+        "majorityCount": 1
+      },
+      "basicProblemTier": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "无",
+        "majorityCount": 5
+      },
+      "capRule": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "无",
+        "majorityCount": 5
+      },
+      "intentionalEffectJudgment": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "偏暗和高反差为有效蓝调夜景处理，高机位俯拍有效，无明显故意模糊",
+        "majorityCount": 1
+      },
+      "highScoreEligible": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "是",
+        "majorityCount": 5
+      }
+    },
+    "issueTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.791,
+      "min": 0.6,
+      "max": 1
+    },
+    "priorityTop3Overlap": {
+      "pairCount": 10,
+      "mean": 0.733,
+      "min": 0.333,
+      "max": 1
+    },
+    "firstPriorityAgreement": {
+      "count": 5,
+      "agreement": 0.6,
+      "majorityValue": "weak_story",
+      "majorityCount": 3
+    },
+    "recommendationTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.895,
+      "min": 0.75,
+      "max": 1
+    }
+  }
+}

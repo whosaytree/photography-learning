@@ -1,0 +1,147 @@
+{
+  "photoId": "photo-13",
+  "runCount": 5,
+  "scoreStability": {
+    "technical": {
+      "count": 5,
+      "values": [
+        5.5,
+        6,
+        5.5,
+        5.5,
+        5.5
+      ],
+      "min": 5.5,
+      "max": 6,
+      "range": 0.5,
+      "mean": 5.6,
+      "standardDeviation": 0.2
+    },
+    "composition": {
+      "count": 5,
+      "values": [
+        4.5,
+        4.8,
+        4.5,
+        4.5,
+        4.5
+      ],
+      "min": 4.5,
+      "max": 4.8,
+      "range": 0.3,
+      "mean": 4.56,
+      "standardDeviation": 0.12
+    },
+    "lighting": {
+      "count": 5,
+      "values": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "min": 5,
+      "max": 5,
+      "range": 0,
+      "mean": 5,
+      "standardDeviation": 0
+    },
+    "story": {
+      "count": 5,
+      "values": [
+        4.5,
+        4.5,
+        4.5,
+        4.5,
+        4.5
+      ],
+      "min": 4.5,
+      "max": 4.5,
+      "range": 0,
+      "mean": 4.5,
+      "standardDeviation": 0
+    },
+    "overall": {
+      "count": 5,
+      "values": [
+        4.8,
+        5,
+        4.5,
+        5,
+        5
+      ],
+      "min": 4.5,
+      "max": 5,
+      "range": 0.5,
+      "mean": 4.86,
+      "standardDeviation": 0.196
+    }
+  },
+  "textConsistency": {
+    "available": true,
+    "codedRunCount": 5,
+    "categoricalAgreement": {
+      "subject": {
+        "count": 5,
+        "agreement": 0.4,
+        "majorityValue": "画面右下区域的黑白花猫",
+        "majorityCount": 2
+      },
+      "genre": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "生活记录 / 宠物抓拍",
+        "majorityCount": 1
+      },
+      "basicProblemTier": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "基础问题",
+        "majorityCount": 5
+      },
+      "capRule": {
+        "count": 5,
+        "agreement": 0.6,
+        "majorityValue": "subject_weak_background_distraction_record_overall_max_5",
+        "majorityCount": 3
+      },
+      "intentionalEffectJudgment": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "无明显故意处理",
+        "majorityCount": 5
+      },
+      "highScoreEligible": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "否",
+        "majorityCount": 5
+      }
+    },
+    "issueTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.778,
+      "min": 0.778,
+      "max": 0.778
+    },
+    "priorityTop3Overlap": {
+      "pairCount": 10,
+      "mean": 0.867,
+      "min": 0.667,
+      "max": 1
+    },
+    "firstPriorityAgreement": {
+      "count": 5,
+      "agreement": 1,
+      "majorityValue": "subject_weak",
+      "majorityCount": 5
+    },
+    "recommendationTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.663,
+      "min": 0.455,
+      "max": 0.778
+    }
+  }
+}

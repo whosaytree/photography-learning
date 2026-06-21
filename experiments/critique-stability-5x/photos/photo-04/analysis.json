@@ -1,0 +1,147 @@
+{
+  "photoId": "photo-04",
+  "runCount": 5,
+  "scoreStability": {
+    "technical": {
+      "count": 5,
+      "values": [
+        6,
+        6.5,
+        6,
+        6.5,
+        6.5
+      ],
+      "min": 6,
+      "max": 6.5,
+      "range": 0.5,
+      "mean": 6.3,
+      "standardDeviation": 0.245
+    },
+    "composition": {
+      "count": 5,
+      "values": [
+        5,
+        5.5,
+        5,
+        5.5,
+        4.8
+      ],
+      "min": 4.8,
+      "max": 5.5,
+      "range": 0.7,
+      "mean": 5.16,
+      "standardDeviation": 0.287
+    },
+    "lighting": {
+      "count": 5,
+      "values": [
+        5.5,
+        5.8,
+        5.5,
+        5.8,
+        5.5
+      ],
+      "min": 5.5,
+      "max": 5.8,
+      "range": 0.3,
+      "mean": 5.62,
+      "standardDeviation": 0.147
+    },
+    "story": {
+      "count": 5,
+      "values": [
+        5,
+        6,
+        5.8,
+        6,
+        5
+      ],
+      "min": 5,
+      "max": 6,
+      "range": 1,
+      "mean": 5.56,
+      "standardDeviation": 0.463
+    },
+    "overall": {
+      "count": 5,
+      "values": [
+        5,
+        5.8,
+        5.6,
+        5.8,
+        5
+      ],
+      "min": 5,
+      "max": 5.8,
+      "range": 0.8,
+      "mean": 5.44,
+      "standardDeviation": 0.367
+    }
+  },
+  "textConsistency": {
+    "available": true,
+    "codedRunCount": 5,
+    "categoricalAgreement": {
+      "subject": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "秋叶、咖啡、玩偶和书本组成的秋日生活方式静物，单一主角不明确",
+        "majorityCount": 1
+      },
+      "genre": {
+        "count": 5,
+        "agreement": 0.4,
+        "majorityValue": "生活方式静物 / 秋日氛围照",
+        "majorityCount": 2
+      },
+      "basicProblemTier": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "基础问题",
+        "majorityCount": 5
+      },
+      "capRule": {
+        "count": 5,
+        "agreement": 0.4,
+        "majorityValue": "subject_weak_overall_max_5",
+        "majorityCount": 2
+      },
+      "intentionalEffectJudgment": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "无明显故意处理；斜向构图按普通拍摄角度处理",
+        "majorityCount": 1
+      },
+      "highScoreEligible": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "否",
+        "majorityCount": 5
+      }
+    },
+    "issueTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.676,
+      "min": 0.6,
+      "max": 1
+    },
+    "priorityTop3Overlap": {
+      "pairCount": 10,
+      "mean": 0.667,
+      "min": 0.333,
+      "max": 1
+    },
+    "firstPriorityAgreement": {
+      "count": 5,
+      "agreement": 0.6,
+      "majorityValue": "subject_weak",
+      "majorityCount": 3
+    },
+    "recommendationTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.543,
+      "min": 0.333,
+      "max": 1
+    }
+  }
+}

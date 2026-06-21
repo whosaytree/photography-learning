@@ -1,0 +1,162 @@
+{
+  "run-1": {
+    "subject": "两侧高楼夹出的夜市街道整体，包括摊伞、摊位灯光、人流和远处山体",
+    "genre": "城市街头 / 旅行纪实 / 蓝调时刻城市景观",
+    "basicProblemTier": "无",
+    "capRule": "无",
+    "intentionalEffectJudgment": "偏暗和高反差为有效蓝调夜景处理，高机位俯拍有效，无明显故意模糊",
+    "highScoreEligible": "是",
+    "issueTags": [
+      "clear_subject",
+      "strong_composition",
+      "strong_light",
+      "good_atmosphere",
+      "good_depth",
+      "weak_story",
+      "edge_distraction",
+      "underexposure_mild"
+    ],
+    "priorityIssueTags": [
+      "weak_story",
+      "edge_distraction",
+      "underexposure_mild"
+    ],
+    "recommendationTags": [
+      "wait_for_moment",
+      "local_dodge_burn",
+      "crop_tighter",
+      "lift_shadows",
+      "straighten",
+      "reduce_saturation"
+    ]
+  },
+  "run-2": {
+    "subject": "整条夜市街道与夹在高楼之间的城市生活氛围",
+    "genre": "城市街头 / 旅行纪实 / 蓝调时刻夜景",
+    "basicProblemTier": "无",
+    "capRule": "无",
+    "intentionalEffectJudgment": "偏暗和高对比基本可视为有意蓝调夜景处理，高位俯拍和中央透视为核心结构，无明显主体模糊",
+    "highScoreEligible": "是",
+    "issueTags": [
+      "clear_subject",
+      "strong_composition",
+      "strong_light",
+      "good_atmosphere",
+      "good_depth",
+      "edge_distraction",
+      "weak_visual_path",
+      "color_too_heavy"
+    ],
+    "priorityIssueTags": [
+      "edge_distraction",
+      "weak_visual_path",
+      "color_too_heavy"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "wait_for_moment",
+      "local_dodge_burn",
+      "lift_shadows",
+      "reduce_saturation",
+      "recover_highlights",
+      "straighten",
+      "add_contrast"
+    ]
+  },
+  "run-3": {
+    "subject": "两侧高楼夹出的街市通道，以及夜市摊位、人流、远处山体形成的城市生活场景",
+    "genre": "城市风光 / 街头纪实 / 旅行摄影",
+    "basicProblemTier": "无",
+    "capRule": "无",
+    "intentionalEffectJudgment": "偏暗、冷暖对比和较高反差视为有意蓝调夜景处理，视觉路径清楚",
+    "highScoreEligible": "是",
+    "issueTags": [
+      "clear_subject",
+      "strong_composition",
+      "strong_light",
+      "good_atmosphere",
+      "good_depth",
+      "weak_story",
+      "edge_distraction",
+      "color_too_heavy"
+    ],
+    "priorityIssueTags": [
+      "weak_story",
+      "edge_distraction",
+      "underexposure_mild"
+    ],
+    "recommendationTags": [
+      "wait_for_moment",
+      "local_dodge_burn",
+      "crop_tighter",
+      "lift_shadows",
+      "reduce_saturation",
+      "straighten",
+      "recover_highlights"
+    ]
+  },
+  "run-4": {
+    "subject": "傍晚街市整体空间，包括摊位、人流、两侧高楼和远处山体",
+    "genre": "城市街头 / 旅行纪实 / 环境街景",
+    "basicProblemTier": "无",
+    "capRule": "无",
+    "intentionalEffectJudgment": "偏暗更像有意保留蓝调低照度氛围，高对比服务城市夜市氛围，高机位俯拍和中央纵深有效，无明显主体模糊",
+    "highScoreEligible": "是",
+    "issueTags": [
+      "clear_subject",
+      "strong_composition",
+      "strong_light",
+      "good_atmosphere",
+      "good_depth",
+      "underexposure_mild",
+      "weak_story",
+      "edge_distraction"
+    ],
+    "priorityIssueTags": [
+      "underexposure_mild",
+      "weak_story",
+      "edge_distraction"
+    ],
+    "recommendationTags": [
+      "lift_shadows",
+      "wait_for_moment",
+      "local_dodge_burn",
+      "crop_tighter",
+      "recover_highlights",
+      "reduce_saturation",
+      "straighten"
+    ]
+  },
+  "run-5": {
+    "subject": "夹在高楼之间的夜市街道，以及街道中流动的人群与摊位",
+    "genre": "城市街景 / 旅行纪实 / 蓝调时刻夜市",
+    "basicProblemTier": "无",
+    "capRule": "无",
+    "intentionalEffectJudgment": "暗部和高对比更像有意保留的蓝调夜景效果，不按意外欠曝或高反差硬伤处理",
+    "highScoreEligible": "是",
+    "issueTags": [
+      "clear_subject",
+      "strong_light",
+      "strong_composition",
+      "good_atmosphere",
+      "good_depth",
+      "weak_story",
+      "edge_distraction",
+      "underexposure_mild"
+    ],
+    "priorityIssueTags": [
+      "weak_story",
+      "edge_distraction",
+      "underexposure_mild"
+    ],
+    "recommendationTags": [
+      "wait_for_moment",
+      "local_dodge_burn",
+      "crop_tighter",
+      "lift_shadows",
+      "recover_highlights",
+      "reduce_saturation",
+      "straighten"
+    ]
+  }
+}

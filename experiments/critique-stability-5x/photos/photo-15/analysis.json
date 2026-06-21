@@ -1,0 +1,147 @@
+{
+  "photoId": "photo-15",
+  "runCount": 5,
+  "scoreStability": {
+    "technical": {
+      "count": 5,
+      "values": [
+        7,
+        6.5,
+        6.5,
+        6.5,
+        6.5
+      ],
+      "min": 6.5,
+      "max": 7,
+      "range": 0.5,
+      "mean": 6.6,
+      "standardDeviation": 0.2
+    },
+    "composition": {
+      "count": 5,
+      "values": [
+        5,
+        5.2,
+        4.5,
+        5,
+        4
+      ],
+      "min": 4,
+      "max": 5.2,
+      "range": 1.2,
+      "mean": 4.74,
+      "standardDeviation": 0.436
+    },
+    "lighting": {
+      "count": 5,
+      "values": [
+        6,
+        5.5,
+        5.5,
+        5.5,
+        5.5
+      ],
+      "min": 5.5,
+      "max": 6,
+      "range": 0.5,
+      "mean": 5.6,
+      "standardDeviation": 0.2
+    },
+    "story": {
+      "count": 5,
+      "values": [
+        5,
+        5,
+        4.5,
+        5,
+        5
+      ],
+      "min": 4.5,
+      "max": 5,
+      "range": 0.5,
+      "mean": 4.9,
+      "standardDeviation": 0.2
+    },
+    "overall": {
+      "count": 5,
+      "values": [
+        5.6,
+        5.8,
+        4.5,
+        5.5,
+        4.5
+      ],
+      "min": 4.5,
+      "max": 5.8,
+      "range": 1.3,
+      "mean": 5.18,
+      "standardDeviation": 0.564
+    }
+  },
+  "textConsistency": {
+    "available": true,
+    "codedRunCount": 5,
+    "categoricalAgreement": {
+      "subject": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "白色清真寺建筑、穹顶、尖塔和前方水景",
+        "majorityCount": 1
+      },
+      "genre": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "旅行建筑 / 地标建筑摄影",
+        "majorityCount": 1
+      },
+      "basicProblemTier": {
+        "count": 5,
+        "agreement": 0.6,
+        "majorityValue": "基础问题",
+        "majorityCount": 3
+      },
+      "capRule": {
+        "count": 5,
+        "agreement": 0.8,
+        "majorityValue": "tilted_horizon_or_verticals_overall_max_6_5",
+        "majorityCount": 4
+      },
+      "intentionalEffectJudgment": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "横倒/旋转不属于有效故意处理；高对比来自强日照",
+        "majorityCount": 1
+      },
+      "highScoreEligible": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "否",
+        "majorityCount": 5
+      }
+    },
+    "issueTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.911,
+      "min": 0.778,
+      "max": 1
+    },
+    "priorityTop3Overlap": {
+      "pairCount": 10,
+      "mean": 0.667,
+      "min": 0.333,
+      "max": 1
+    },
+    "firstPriorityAgreement": {
+      "count": 5,
+      "agreement": 1,
+      "majorityValue": "tilted_horizon_or_verticals",
+      "majorityCount": 5
+    },
+    "recommendationTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.778,
+      "min": 0.778,
+      "max": 0.778
+    }
+  }
+}

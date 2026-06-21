@@ -1,0 +1,163 @@
+{
+  "run-1": {
+    "subject": "横向枝条、叶片/花形剪影与天空、建筑形成的抽象关系",
+    "genre": "抽象自然/城市细节",
+    "basicProblemTier": "基础问题",
+    "capRule": "无",
+    "intentionalEffectJudgment": "模糊、偏蓝、高亮和非常规构图有一定故意处理证据，部分有效",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "weak_story",
+      "background_distraction",
+      "edge_distraction",
+      "weak_visual_path",
+      "needs_crop",
+      "needs_local_adjustment",
+      "good_atmosphere"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "background_distraction",
+      "weak_visual_path"
+    ],
+    "recommendationTags": [
+      "focus_on_subject",
+      "crop_tighter",
+      "simplify_background",
+      "recover_highlights",
+      "local_dodge_burn",
+      "reduce_saturation",
+      "change_angle"
+    ]
+  },
+  "run-2": {
+    "subject": "画面上方横向延伸的细枝、花朵或叶片剪影",
+    "genre": "植物/城市环境的抽象摄影",
+    "basicProblemTier": "严重基础问题",
+    "capRule": "camera_shake_severe_overall_max_4.5",
+    "intentionalEffectJudgment": "有故意模糊或抽象化尝试，但效果未充分成立，仍按运动模糊封顶",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "missed_focus_readable",
+      "camera_shake_severe",
+      "motion_blur_accidental",
+      "background_distraction",
+      "edge_distraction",
+      "weak_story",
+      "good_atmosphere"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "background_distraction",
+      "motion_blur_accidental"
+    ],
+    "recommendationTags": [
+      "focus_on_subject",
+      "crop_tighter",
+      "simplify_background",
+      "recover_highlights",
+      "add_contrast",
+      "adjust_white_balance",
+      "use_grid_level"
+    ]
+  },
+  "run-3": {
+    "subject": "画面中部横向延伸的一排植物/花朵剪影与模糊线条",
+    "genre": "抽象植物/创意运动模糊实验",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_near_5",
+    "intentionalEffectJudgment": "模糊倾向于有意，支持轻盈漂浮情绪，但因缺少清晰锚点只能部分成立",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "edge_distraction",
+      "motion_blur_accidental",
+      "weak_story",
+      "weak_visual_path",
+      "needs_crop",
+      "good_atmosphere"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "background_distraction",
+      "motion_blur_accidental"
+    ],
+    "recommendationTags": [
+      "focus_on_subject",
+      "crop_tighter",
+      "simplify_background",
+      "recover_highlights",
+      "local_dodge_burn",
+      "reduce_saturation",
+      "change_angle"
+    ]
+  },
+  "run-4": {
+    "subject": "画面上方横向延伸的花枝/植物剪影",
+    "genre": "抽象自然/城市植物运动模糊实验",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "模糊/拖影有一定故意处理证据，制造了轻飘梦幻气氛，但控制未完全成立",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "edge_distraction",
+      "motion_blur_accidental",
+      "weak_visual_path",
+      "needs_crop",
+      "needs_local_adjustment",
+      "good_atmosphere"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "background_distraction",
+      "motion_blur_accidental"
+    ],
+    "recommendationTags": [
+      "focus_on_subject",
+      "crop_tighter",
+      "simplify_background",
+      "recover_highlights",
+      "local_dodge_burn",
+      "reduce_saturation",
+      "change_angle"
+    ]
+  },
+  "run-5": {
+    "subject": "画面上方横向枝条/细杆上的叶片或花苞影子",
+    "genre": "植物/城市环境中的抽象运动模糊小景",
+    "basicProblemTier": "严重基础问题",
+    "capRule": "subject_unreadable_camera_shake_severe_overall_max_4",
+    "intentionalEffectJudgment": "不能认定为成功的故意模糊，按意外手抖或失控运动处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_unreadable",
+      "subject_weak",
+      "camera_shake_severe",
+      "motion_blur_accidental",
+      "background_distraction",
+      "tilted_horizon_or_verticals",
+      "weak_story",
+      "good_atmosphere"
+    ],
+    "priorityIssueTags": [
+      "camera_shake_severe",
+      "subject_weak",
+      "background_distraction"
+    ],
+    "recommendationTags": [
+      "increase_shutter_speed",
+      "focus_on_subject",
+      "move_closer",
+      "crop_tighter",
+      "straighten",
+      "recover_highlights",
+      "simplify_background",
+      "lower_exposure"
+    ]
+  }
+}

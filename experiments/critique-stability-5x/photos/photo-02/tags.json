@@ -1,0 +1,167 @@
+{
+  "run-1": {
+    "subject": "左侧偏中的高层住宅楼",
+    "genre": "城市建筑 / 街景建筑记录",
+    "basicProblemTier": "基础问题",
+    "capRule": "ordinary_light_weak_overall_max_6",
+    "intentionalEffectJudgment": "偏暗、负空间和透视收缩均不像成功的明确故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "subject_weak",
+      "ordinary_documentation",
+      "weak_story",
+      "tilted_horizon_or_verticals",
+      "too_much_empty_space",
+      "background_distraction",
+      "flat_light"
+    ],
+    "priorityIssueTags": [
+      "tilted_horizon_or_verticals",
+      "too_much_empty_space",
+      "background_distraction"
+    ],
+    "recommendationTags": [
+      "use_grid_level",
+      "straighten",
+      "crop_tighter",
+      "simplify_background",
+      "shoot_in_better_light",
+      "lift_shadows",
+      "add_contrast",
+      "local_dodge_burn"
+    ]
+  },
+  "run-2": {
+    "subject": "左侧高层住宅楼",
+    "genre": "城市建筑 / 街头环境观察",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "偏暗、天空留白和透视收拢均未被判断为成功的故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "subject_weak",
+      "ordinary_documentation",
+      "weak_story",
+      "too_much_empty_space",
+      "edge_distraction",
+      "tilted_horizon_or_verticals",
+      "flat_light"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "too_much_empty_space",
+      "edge_distraction"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "simplify_background",
+      "change_angle",
+      "straighten",
+      "use_grid_level",
+      "raise_exposure",
+      "add_contrast",
+      "local_dodge_burn"
+    ]
+  },
+  "run-3": {
+    "subject": "左侧高层住宅楼",
+    "genre": "城市建筑 / 街景建筑记录",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "偏暗、天空留白和轻微透视倾斜均不像成功的明确故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "subject_weak",
+      "ordinary_documentation",
+      "weak_story",
+      "too_much_empty_space",
+      "edge_distraction",
+      "tilted_horizon_or_verticals",
+      "flat_light"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "too_much_empty_space",
+      "tilted_horizon_or_verticals"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "simplify_background",
+      "use_grid_level",
+      "straighten",
+      "shoot_in_better_light",
+      "raise_exposure",
+      "add_contrast",
+      "lift_shadows"
+    ]
+  },
+  "run-4": {
+    "subject": "左侧高层住宅楼及下方屋顶建筑群",
+    "genre": "城市建筑 / 城市风景",
+    "basicProblemTier": "基础问题",
+    "capRule": "ordinary_light_weak_overall_max_6",
+    "intentionalEffectJudgment": "偏暗有傍晚合理性但不构成强优点，天空留白和特殊构图不成立",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "subject_weak",
+      "ordinary_documentation",
+      "weak_story",
+      "too_much_empty_space",
+      "edge_distraction",
+      "flat_light",
+      "underexposure_mild"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "too_much_empty_space",
+      "flat_light"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "simplify_background",
+      "shoot_in_better_light",
+      "wait_for_moment",
+      "straighten",
+      "raise_exposure",
+      "add_contrast",
+      "local_dodge_burn"
+    ]
+  },
+  "run-5": {
+    "subject": "左侧高层住宅楼",
+    "genre": "城市建筑 / 建筑环境记录",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "无明显故意模糊，偏暗和大面积天空不按成功故意处理加分",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "subject_weak",
+      "ordinary_documentation",
+      "weak_story",
+      "tilted_horizon_or_verticals",
+      "too_much_empty_space",
+      "edge_distraction",
+      "flat_light"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "tilted_horizon_or_verticals",
+      "too_much_empty_space"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "straighten",
+      "use_grid_level",
+      "simplify_background",
+      "shoot_in_better_light",
+      "raise_exposure",
+      "lift_shadows",
+      "add_contrast"
+    ]
+  }
+}

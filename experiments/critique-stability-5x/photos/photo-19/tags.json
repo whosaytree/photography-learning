@@ -1,0 +1,167 @@
+{
+  "run-1": {
+    "subject": "盘中红色肉类食材和绿色叶菜",
+    "genre": "餐桌美食记录",
+    "basicProblemTier": "基础问题",
+    "capRule": "background_distraction_ordinary_record_light_story_weak_overall_max_6",
+    "intentionalEffectJudgment": "无明显故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "strong_color",
+      "background_distraction",
+      "edge_distraction",
+      "ordinary_documentation",
+      "weak_story",
+      "flat_light",
+      "white_balance_issue"
+    ],
+    "priorityIssueTags": [
+      "background_distraction",
+      "edge_distraction",
+      "light_not_supporting_subject"
+    ],
+    "recommendationTags": [
+      "simplify_background",
+      "crop_tighter",
+      "use_side_light",
+      "change_angle",
+      "focus_on_subject",
+      "recover_highlights",
+      "adjust_white_balance",
+      "local_dodge_burn"
+    ]
+  },
+  "run-2": {
+    "subject": "前景大盘中的红色肉块和绿色叶菜",
+    "genre": "餐桌美食记录",
+    "basicProblemTier": "基础问题",
+    "capRule": "background_distraction_ordinary_record_light_story_weak_overall_max_6",
+    "intentionalEffectJudgment": "无明显故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "strong_color",
+      "background_distraction",
+      "awkward_crop",
+      "ordinary_documentation",
+      "weak_story",
+      "light_not_supporting_subject",
+      "insufficient_depth"
+    ],
+    "priorityIssueTags": [
+      "background_distraction",
+      "insufficient_depth",
+      "light_not_supporting_subject"
+    ],
+    "recommendationTags": [
+      "simplify_background",
+      "crop_tighter",
+      "change_angle",
+      "shoot_in_better_light",
+      "use_side_light",
+      "recover_highlights",
+      "local_dodge_burn",
+      "adjust_white_balance"
+    ]
+  },
+  "run-3": {
+    "subject": "白盘中的红色食材和绿色叶菜",
+    "genre": "餐桌美食记录",
+    "basicProblemTier": "基础问题",
+    "capRule": "background_distraction_ordinary_record_light_story_weak_overall_max_6",
+    "intentionalEffectJudgment": "无明显故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "strong_color",
+      "background_distraction",
+      "ordinary_documentation",
+      "weak_story",
+      "light_not_supporting_subject",
+      "insufficient_depth",
+      "awkward_crop"
+    ],
+    "priorityIssueTags": [
+      "background_distraction",
+      "unclear_visual_intent",
+      "light_not_supporting_subject"
+    ],
+    "recommendationTags": [
+      "simplify_background",
+      "crop_tighter",
+      "change_angle",
+      "use_side_light",
+      "shoot_in_better_light",
+      "recover_highlights",
+      "local_dodge_burn",
+      "adjust_white_balance"
+    ]
+  },
+  "run-4": {
+    "subject": "白盘里的绿色叶菜和红色食材",
+    "genre": "食物餐桌记录",
+    "basicProblemTier": "基础问题",
+    "capRule": "background_distraction_ordinary_record_light_story_weak_overall_max_6",
+    "intentionalEffectJudgment": "无明显故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "strong_color",
+      "background_distraction",
+      "edge_distraction",
+      "ordinary_documentation",
+      "weak_story",
+      "flat_light",
+      "white_balance_issue"
+    ],
+    "priorityIssueTags": [
+      "background_distraction",
+      "insufficient_depth",
+      "white_balance_issue"
+    ],
+    "recommendationTags": [
+      "simplify_background",
+      "crop_tighter",
+      "change_angle",
+      "recover_highlights",
+      "adjust_white_balance",
+      "lower_exposure",
+      "local_dodge_burn",
+      "focus_on_subject"
+    ]
+  },
+  "run-5": {
+    "subject": "白盘里的红色食材和绿色叶菜",
+    "genre": "餐桌食物生活静物",
+    "basicProblemTier": "基础问题",
+    "capRule": "background_distraction_ordinary_record_light_story_weak_overall_max_6",
+    "intentionalEffectJudgment": "无明显故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "strong_color",
+      "background_distraction",
+      "awkward_crop",
+      "ordinary_documentation",
+      "weak_story",
+      "light_not_supporting_subject",
+      "white_balance_issue"
+    ],
+    "priorityIssueTags": [
+      "background_distraction",
+      "awkward_crop",
+      "light_not_supporting_subject"
+    ],
+    "recommendationTags": [
+      "simplify_background",
+      "crop_tighter",
+      "use_side_light",
+      "recover_highlights",
+      "adjust_white_balance",
+      "lower_exposure",
+      "local_dodge_burn",
+      "focus_on_subject"
+    ]
+  }
+}

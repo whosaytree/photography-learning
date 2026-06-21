@@ -1,0 +1,167 @@
+{
+  "run-1": {
+    "subject": "教堂正立面，中央玫瑰窗、尖塔和大门区域",
+    "genre": "建筑 / 旅行建筑 / 城市地标记录",
+    "basicProblemTier": "无",
+    "capRule": "无",
+    "intentionalEffectJudgment": "仰拍透视和高对比基本有意，后期饱和度偏重",
+    "highScoreEligible": "是",
+    "issueTags": [
+      "clear_subject",
+      "strong_light",
+      "good_atmosphere",
+      "tilted_horizon_or_verticals",
+      "too_much_empty_space",
+      "underexposure_mild",
+      "color_too_heavy",
+      "weak_story"
+    ],
+    "priorityIssueTags": [
+      "tilted_horizon_or_verticals",
+      "too_much_empty_space",
+      "color_too_heavy"
+    ],
+    "recommendationTags": [
+      "step_back",
+      "use_grid_level",
+      "straighten",
+      "crop_tighter",
+      "recover_highlights",
+      "lift_shadows",
+      "reduce_saturation",
+      "wait_for_moment"
+    ]
+  },
+  "run-2": {
+    "subject": "教堂正立面，中央玫瑰窗、尖塔和门廊雕刻",
+    "genre": "旅行建筑 / 城市建筑记录 / 蓝调时刻氛围",
+    "basicProblemTier": "无",
+    "capRule": "无",
+    "intentionalEffectJudgment": "仰拍透视和高对比基本有效，蓝天饱和可能过度",
+    "highScoreEligible": "是",
+    "issueTags": [
+      "clear_subject",
+      "strong_light",
+      "good_atmosphere",
+      "clean_background",
+      "tilted_horizon_or_verticals",
+      "composition_too_tight",
+      "color_too_heavy",
+      "underexposure_mild"
+    ],
+    "priorityIssueTags": [
+      "tilted_horizon_or_verticals",
+      "composition_too_tight",
+      "color_too_heavy"
+    ],
+    "recommendationTags": [
+      "step_back",
+      "use_grid_level",
+      "straighten",
+      "crop_wider",
+      "reduce_saturation",
+      "recover_highlights",
+      "lift_shadows",
+      "focus_on_subject"
+    ]
+  },
+  "run-3": {
+    "subject": "哥特式教堂/大教堂正立面，中央玫瑰窗、尖塔和门廊雕刻",
+    "genre": "建筑旅行照 / 蓝调时刻城市建筑氛围",
+    "basicProblemTier": "无",
+    "capRule": "无",
+    "intentionalEffectJudgment": "暗部、高对比和仰拍基本成立，近距离充满画面的边缘控制不足",
+    "highScoreEligible": "是",
+    "issueTags": [
+      "clear_subject",
+      "strong_light",
+      "good_atmosphere",
+      "tilted_horizon_or_verticals",
+      "composition_too_tight",
+      "color_too_heavy",
+      "contrast_too_heavy",
+      "weak_story"
+    ],
+    "priorityIssueTags": [
+      "composition_too_tight",
+      "tilted_horizon_or_verticals",
+      "color_too_heavy"
+    ],
+    "recommendationTags": [
+      "step_back",
+      "use_grid_level",
+      "straighten",
+      "crop_wider",
+      "reduce_saturation",
+      "recover_highlights",
+      "lift_shadows",
+      "wait_for_moment"
+    ]
+  },
+  "run-4": {
+    "subject": "哥特式教堂正立面，中央玫瑰窗和两侧尖塔",
+    "genre": "建筑 / 旅行城市景观",
+    "basicProblemTier": "无",
+    "capRule": "无",
+    "intentionalEffectJudgment": "低角度仰拍有意，高反差和高饱和有效但后期略重",
+    "highScoreEligible": "是",
+    "issueTags": [
+      "clear_subject",
+      "strong_light",
+      "good_atmosphere",
+      "clean_background",
+      "tilted_horizon_or_verticals",
+      "composition_too_tight",
+      "background_distraction",
+      "color_too_heavy"
+    ],
+    "priorityIssueTags": [
+      "tilted_horizon_or_verticals",
+      "composition_too_tight",
+      "color_too_heavy"
+    ],
+    "recommendationTags": [
+      "step_back",
+      "use_grid_level",
+      "straighten",
+      "crop_tighter",
+      "recover_highlights",
+      "lift_shadows",
+      "reduce_saturation",
+      "wait_for_moment"
+    ]
+  },
+  "run-5": {
+    "subject": "教堂正立面，中央玫瑰窗、尖塔和门廊雕刻",
+    "genre": "建筑 / 旅行建筑记录",
+    "basicProblemTier": "无",
+    "capRule": "无",
+    "intentionalEffectJudgment": "仰拍、强透视和高反差大概率有意，满足主体清楚和强化高度的条件",
+    "highScoreEligible": "是",
+    "issueTags": [
+      "clear_subject",
+      "strong_light",
+      "good_atmosphere",
+      "tilted_horizon_or_verticals",
+      "composition_too_tight",
+      "color_too_heavy",
+      "contrast_too_heavy",
+      "weak_story"
+    ],
+    "priorityIssueTags": [
+      "tilted_horizon_or_verticals",
+      "composition_too_tight",
+      "color_too_heavy"
+    ],
+    "recommendationTags": [
+      "step_back",
+      "use_grid_level",
+      "straighten",
+      "crop_wider",
+      "recover_highlights",
+      "lift_shadows",
+      "reduce_saturation",
+      "local_dodge_burn"
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "run-1": {
+    "subject": "窗框中的落日与城市天际线",
+    "genre": "城市窗景 / 夕阳氛围 / 轻建筑构成",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "高反差剪影基本有意；太阳过曝倾向可接受但不够精细；远景朦胧可视为氛围",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "weak_visual_path",
+      "composition_too_loose",
+      "overexposure_mild",
+      "noise_or_low_image_quality",
+      "strong_light",
+      "good_depth"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "background_distraction",
+      "overexposure_mild"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "change_angle",
+      "simplify_background",
+      "lower_exposure",
+      "recover_highlights",
+      "local_dodge_burn",
+      "add_contrast",
+      "use_grid_level"
+    ]
+  },
+  "run-2": {
+    "subject": "窗外夕阳与被窗框切分的城市剪影",
+    "genre": "室内隔窗城市风景 / 日落氛围 / 几何构图",
+    "basicProblemTier": "基础问题",
+    "capRule": "无",
+    "intentionalEffectJudgment": "高反差和黑色窗框基本有意；远景朦胧部分有效；不规则分割构图有意图但控制不精细",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "overexposure_mild",
+      "noise_or_low_image_quality",
+      "too_much_empty_space",
+      "edge_distraction",
+      "needs_straighten",
+      "strong_light",
+      "strong_composition"
+    ],
+    "priorityIssueTags": [
+      "overexposure_mild",
+      "too_much_empty_space",
+      "edge_distraction"
+    ],
+    "recommendationTags": [
+      "lower_exposure",
+      "recover_highlights",
+      "crop_tighter",
+      "straighten",
+      "local_dodge_burn",
+      "simplify_background",
+      "reduce_saturation",
+      "focus_on_subject"
+    ]
+  },
+  "run-3": {
+    "subject": "左上落日、黑色窗框几何结构与远处城市建筑剪影",
+    "genre": "城市风景 / 窗内视角日落氛围 / 建筑抽象构图",
+    "basicProblemTier": "基础问题",
+    "capRule": "无",
+    "intentionalEffectJudgment": "高反差黑窗框基本有意；太阳过亮可接受但边缘层次不足；城市偏虚偏灰更像画质下降；窗框分割有意图但视觉重心偏散",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "too_much_empty_space",
+      "overexposure_mild",
+      "noise_or_low_image_quality",
+      "edge_distraction",
+      "strong_light",
+      "good_atmosphere"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "background_distraction",
+      "overexposure_mild"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "change_angle",
+      "lower_exposure",
+      "recover_highlights",
+      "local_dodge_burn",
+      "straighten",
+      "reduce_saturation",
+      "focus_on_subject"
+    ]
+  },
+  "run-4": {
+    "subject": "左上方太阳与室内窗框形成的几何分割",
+    "genre": "窗景城市风光 / 夕阳氛围 / 轻抽象构图",
+    "basicProblemTier": "基础问题",
+    "capRule": "overexposure_severe_overall_max_5",
+    "intentionalEffectJudgment": "高对比剪影基本有意；太阳过曝不完全成立；柔和远景可能增加朦胧感但不能完全视为有效故意虚化",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "overexposure_severe",
+      "subject_weak",
+      "background_distraction",
+      "weak_story",
+      "noise_or_low_image_quality",
+      "edge_distraction",
+      "needs_crop",
+      "good_atmosphere"
+    ],
+    "priorityIssueTags": [
+      "overexposure_severe",
+      "background_distraction",
+      "weak_story"
+    ],
+    "recommendationTags": [
+      "lower_exposure",
+      "recover_highlights",
+      "crop_tighter",
+      "change_angle",
+      "local_dodge_burn",
+      "straighten",
+      "reduce_saturation",
+      "simplify_background"
+    ]
+  },
+  "run-5": {
+    "subject": "窗框里的落日氛围与远处城市建筑轮廓",
+    "genre": "城市风景 / 窗景 / 日落剪影 / 轻抽象构图",
+    "basicProblemTier": "基础问题",
+    "capRule": "无",
+    "intentionalEffectJudgment": "高反差窗框黑剪影基本有意；太阳过曝部分可接受但降低技术分；远处建筑模糊更像隔窗、雾气、数码变焦或压缩造成的清晰度下降",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "too_much_empty_space",
+      "noise_or_low_image_quality",
+      "overexposure_mild",
+      "weak_story",
+      "strong_light",
+      "good_atmosphere"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "background_distraction",
+      "noise_or_low_image_quality"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "change_angle",
+      "simplify_background",
+      "local_dodge_burn",
+      "recover_highlights",
+      "lower_exposure",
+      "straighten",
+      "focus_on_subject"
+    ]
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "photoId": "photo-01",
+  "runCount": 5,
+  "scoreStability": {
+    "technical": {
+      "count": 5,
+      "values": [
+        7,
+        7,
+        7.5,
+        7,
+        7
+      ],
+      "min": 7,
+      "max": 7.5,
+      "range": 0.5,
+      "mean": 7.1,
+      "standardDeviation": 0.2
+    },
+    "composition": {
+      "count": 5,
+      "values": [
+        7.2,
+        7.5,
+        7,
+        7,
+        7
+      ],
+      "min": 7,
+      "max": 7.5,
+      "range": 0.5,
+      "mean": 7.14,
+      "standardDeviation": 0.196
+    },
+    "lighting": {
+      "count": 5,
+      "values": [
+        7.8,
+        8,
+        8,
+        7.8,
+        8
+      ],
+      "min": 7.8,
+      "max": 8,
+      "range": 0.2,
+      "mean": 7.92,
+      "standardDeviation": 0.098
+    },
+    "story": {
+      "count": 5,
+      "values": [
+        6.5,
+        6.5,
+        6.5,
+        6.8,
+        6.5
+      ],
+      "min": 6.5,
+      "max": 6.8,
+      "range": 0.3,
+      "mean": 6.56,
+      "standardDeviation": 0.12
+    },
+    "overall": {
+      "count": 5,
+      "values": [
+        7.4,
+        7.5,
+        7.5,
+        7.5,
+        7.5
+      ],
+      "min": 7.4,
+      "max": 7.5,
+      "range": 0.1,
+      "mean": 7.48,
+      "standardDeviation": 0.04
+    }
+  },
+  "textConsistency": {
+    "available": true,
+    "codedRunCount": 5,
+    "categoricalAgreement": {
+      "subject": {
+        "count": 5,
+        "agreement": 0.4,
+        "majorityValue": "教堂正立面，中央玫瑰窗、尖塔和门廊雕刻",
+        "majorityCount": 2
+      },
+      "genre": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "建筑 / 旅行建筑 / 城市地标记录",
+        "majorityCount": 1
+      },
+      "basicProblemTier": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "无",
+        "majorityCount": 5
+      },
+      "capRule": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "无",
+        "majorityCount": 5
+      },
+      "intentionalEffectJudgment": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "仰拍透视和高对比基本有意，后期饱和度偏重",
+        "majorityCount": 1
+      },
+      "highScoreEligible": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "是",
+        "majorityCount": 5
+      }
+    },
+    "issueTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.643,
+      "min": 0.455,
+      "max": 1
+    },
+    "priorityTop3Overlap": {
+      "pairCount": 10,
+      "mean": 0.867,
+      "min": 0.667,
+      "max": 1
+    },
+    "firstPriorityAgreement": {
+      "count": 5,
+      "agreement": 0.8,
+      "majorityValue": "tilted_horizon_or_verticals",
+      "majorityCount": 4
+    },
+    "recommendationTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.729,
+      "min": 0.6,
+      "max": 1
+    }
+  }
+}

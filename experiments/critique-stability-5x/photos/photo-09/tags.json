@@ -1,0 +1,167 @@
+{
+  "run-1": {
+    "subject": "石桥、桥洞及水面倒影，树冠作为天然框景",
+    "genre": "园林风景/旅行记录",
+    "basicProblemTier": "基础问题",
+    "capRule": "无",
+    "intentionalEffectJudgment": "竖幅框景有意图；偏暗和高反差不像成熟的故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_too_small",
+      "background_distraction",
+      "overexposure_mild",
+      "underexposure_mild",
+      "high_contrast_uncontrolled",
+      "composition_too_loose",
+      "weak_story",
+      "good_depth"
+    ],
+    "priorityIssueTags": [
+      "subject_too_small",
+      "background_distraction",
+      "high_contrast_uncontrolled"
+    ],
+    "recommendationTags": [
+      "move_closer",
+      "crop_tighter",
+      "recover_highlights",
+      "lift_shadows",
+      "local_dodge_burn",
+      "reduce_saturation",
+      "simplify_background",
+      "shoot_in_better_light"
+    ]
+  },
+  "run-2": {
+    "subject": "石桥与水面倒影，树冠作为框景但存在感过强",
+    "genre": "园林/公园风景/旅行记录",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "暗桥、高反差、亮天空和复杂树冠不像明确且有效的故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "subject_too_small",
+      "background_distraction",
+      "ordinary_documentation",
+      "high_contrast_uncontrolled",
+      "underexposure_mild",
+      "overexposure_mild",
+      "weak_story"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "background_distraction",
+      "high_contrast_uncontrolled"
+    ],
+    "recommendationTags": [
+      "move_closer",
+      "crop_tighter",
+      "recover_highlights",
+      "lift_shadows",
+      "local_dodge_burn",
+      "simplify_background",
+      "shoot_in_better_light",
+      "lower_angle"
+    ]
+  },
+  "run-3": {
+    "subject": "画面中下部的石桥、水道和倒影，石桥是主要视觉落点",
+    "genre": "园林水景/风景/旅行记录",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "竖幅树冠框景有意图；桥体偏暗和天空发白更像动态范围控制不足",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "subject_too_small",
+      "background_distraction",
+      "overexposure_mild",
+      "underexposure_mild",
+      "high_contrast_uncontrolled",
+      "weak_story",
+      "weak_moment"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "overexposure_mild",
+      "weak_moment"
+    ],
+    "recommendationTags": [
+      "move_closer",
+      "crop_tighter",
+      "recover_highlights",
+      "lift_shadows",
+      "local_dodge_burn",
+      "reduce_saturation",
+      "wait_for_moment",
+      "lower_angle"
+    ]
+  },
+  "run-4": {
+    "subject": "小桥、水面倒影及被树木包围的园林空间，桥是主要视觉落点",
+    "genre": "园林/风景/旅行记录照",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "树荫包围感可能有意图，但高反差、亮斑和暗部没有稳定服务主体",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "subject_too_small",
+      "background_distraction",
+      "edge_distraction",
+      "overexposure_mild",
+      "underexposure_mild",
+      "high_contrast_uncontrolled",
+      "ordinary_documentation"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "overexposure_mild",
+      "edge_distraction"
+    ],
+    "recommendationTags": [
+      "move_closer",
+      "crop_tighter",
+      "recover_highlights",
+      "lift_shadows",
+      "local_dodge_burn",
+      "simplify_background",
+      "shoot_in_better_light",
+      "lower_angle"
+    ]
+  },
+  "run-5": {
+    "subject": "树荫、水面和石桥组成的园林通道，中下部石桥与倒影是视觉落点",
+    "genre": "园林风景/旅行风景",
+    "basicProblemTier": "基础问题",
+    "capRule": "background_distraction_composition_max_6_overall_max_6.5",
+    "intentionalEffectJudgment": "高反差和顶部亮天空不像有意剪影或高调效果；没有明显故意虚化或倾斜",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "background_distraction",
+      "subject_weak",
+      "subject_too_small",
+      "overexposure_mild",
+      "underexposure_mild",
+      "high_contrast_uncontrolled",
+      "weak_visual_path",
+      "good_atmosphere"
+    ],
+    "priorityIssueTags": [
+      "background_distraction",
+      "high_contrast_uncontrolled",
+      "subject_weak"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "recover_highlights",
+      "lift_shadows",
+      "local_dodge_burn",
+      "reduce_saturation",
+      "move_closer",
+      "lower_angle",
+      "simplify_background"
+    ]
+  }
+}

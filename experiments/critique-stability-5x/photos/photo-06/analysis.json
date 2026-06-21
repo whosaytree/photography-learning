@@ -1,0 +1,147 @@
+{
+  "photoId": "photo-06",
+  "runCount": 5,
+  "scoreStability": {
+    "technical": {
+      "count": 5,
+      "values": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "min": 7,
+      "max": 7,
+      "range": 0,
+      "mean": 7,
+      "standardDeviation": 0
+    },
+    "composition": {
+      "count": 5,
+      "values": [
+        7,
+        7.3,
+        7.2,
+        7.3,
+        7.5
+      ],
+      "min": 7,
+      "max": 7.5,
+      "range": 0.5,
+      "mean": 7.26,
+      "standardDeviation": 0.162
+    },
+    "lighting": {
+      "count": 5,
+      "values": [
+        8,
+        7.8,
+        7.6,
+        7.8,
+        8
+      ],
+      "min": 7.6,
+      "max": 8,
+      "range": 0.4,
+      "mean": 7.84,
+      "standardDeviation": 0.15
+    },
+    "story": {
+      "count": 5,
+      "values": [
+        6.5,
+        6.8,
+        6.8,
+        6.8,
+        7
+      ],
+      "min": 6.5,
+      "max": 7,
+      "range": 0.5,
+      "mean": 6.78,
+      "standardDeviation": 0.16
+    },
+    "overall": {
+      "count": 5,
+      "values": [
+        7.5,
+        7.5,
+        7.4,
+        7.5,
+        7.5
+      ],
+      "min": 7.4,
+      "max": 7.5,
+      "range": 0.1,
+      "mean": 7.48,
+      "standardDeviation": 0.04
+    }
+  },
+  "textConsistency": {
+    "available": true,
+    "codedRunCount": 5,
+    "categoricalAgreement": {
+      "subject": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "成串彩色灯笼和灯笼引导出的夜市街景氛围",
+        "majorityCount": 1
+      },
+      "genre": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "夜景旅行街景 / 城市街拍",
+        "majorityCount": 1
+      },
+      "basicProblemTier": {
+        "count": 5,
+        "agreement": 0.6,
+        "majorityValue": "基础问题",
+        "majorityCount": 3
+      },
+      "capRule": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "无",
+        "majorityCount": 5
+      },
+      "intentionalEffectJudgment": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "夜景黑暗、高反差和仰拍透视基本有效；高光溢出不是主要故意效果",
+        "majorityCount": 1
+      },
+      "highScoreEligible": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "是",
+        "majorityCount": 5
+      }
+    },
+    "issueTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.827,
+      "min": 0.6,
+      "max": 1
+    },
+    "priorityTop3Overlap": {
+      "pairCount": 10,
+      "mean": 0.867,
+      "min": 0.667,
+      "max": 1
+    },
+    "firstPriorityAgreement": {
+      "count": 5,
+      "agreement": 0.8,
+      "majorityValue": "too_much_empty_space",
+      "majorityCount": 4
+    },
+    "recommendationTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.649,
+      "min": 0.5,
+      "max": 0.875
+    }
+  }
+}

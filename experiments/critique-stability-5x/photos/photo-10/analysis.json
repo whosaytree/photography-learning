@@ -1,0 +1,147 @@
+{
+  "photoId": "photo-10",
+  "runCount": 5,
+  "scoreStability": {
+    "technical": {
+      "count": 5,
+      "values": [
+        5,
+        3.5,
+        5.5,
+        5,
+        3.5
+      ],
+      "min": 3.5,
+      "max": 5.5,
+      "range": 2,
+      "mean": 4.5,
+      "standardDeviation": 0.837
+    },
+    "composition": {
+      "count": 5,
+      "values": [
+        5.6,
+        4.5,
+        5,
+        5,
+        4
+      ],
+      "min": 4,
+      "max": 5.6,
+      "range": 1.6,
+      "mean": 4.82,
+      "standardDeviation": 0.538
+    },
+    "lighting": {
+      "count": 5,
+      "values": [
+        5.7,
+        5.5,
+        6,
+        6,
+        5
+      ],
+      "min": 5,
+      "max": 6,
+      "range": 1,
+      "mean": 5.64,
+      "standardDeviation": 0.372
+    },
+    "story": {
+      "count": 5,
+      "values": [
+        5.2,
+        4.5,
+        5,
+        5,
+        4
+      ],
+      "min": 4,
+      "max": 5.2,
+      "range": 1.2,
+      "mean": 4.74,
+      "standardDeviation": 0.436
+    },
+    "overall": {
+      "count": 5,
+      "values": [
+        5.5,
+        4.5,
+        5.5,
+        5,
+        4
+      ],
+      "min": 4,
+      "max": 5.5,
+      "range": 1.5,
+      "mean": 4.9,
+      "standardDeviation": 0.583
+    }
+  },
+  "textConsistency": {
+    "available": true,
+    "codedRunCount": 5,
+    "categoricalAgreement": {
+      "subject": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "横向枝条、叶片/花形剪影与天空、建筑形成的抽象关系",
+        "majorityCount": 1
+      },
+      "genre": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "抽象自然/城市细节",
+        "majorityCount": 1
+      },
+      "basicProblemTier": {
+        "count": 5,
+        "agreement": 0.6,
+        "majorityValue": "基础问题",
+        "majorityCount": 3
+      },
+      "capRule": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "无",
+        "majorityCount": 1
+      },
+      "intentionalEffectJudgment": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "模糊、偏蓝、高亮和非常规构图有一定故意处理证据，部分有效",
+        "majorityCount": 1
+      },
+      "highScoreEligible": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "否",
+        "majorityCount": 5
+      }
+    },
+    "issueTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.556,
+      "min": 0.333,
+      "max": 0.778
+    },
+    "priorityTop3Overlap": {
+      "pairCount": 10,
+      "mean": 0.767,
+      "min": 0.667,
+      "max": 1
+    },
+    "firstPriorityAgreement": {
+      "count": 5,
+      "agreement": 0.8,
+      "majorityValue": "subject_weak",
+      "majorityCount": 4
+    },
+    "recommendationTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.565,
+      "min": 0.364,
+      "max": 1
+    }
+  }
+}

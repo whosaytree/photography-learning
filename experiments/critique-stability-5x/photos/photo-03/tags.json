@@ -1,0 +1,167 @@
+{
+  "run-1": {
+    "subject": "树林里的树干和光影，但主角不明确",
+    "genre": "户外自然/环境记录，接近风景练习",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "无明显故意处理；倾斜树干、偏亮背景和杂乱前景按普通拍摄问题处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "ordinary_documentation",
+      "weak_story",
+      "chaotic_framing",
+      "harsh_light",
+      "high_contrast_uncontrolled",
+      "light_not_supporting_subject"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "background_distraction",
+      "harsh_light"
+    ],
+    "recommendationTags": [
+      "change_angle",
+      "lower_angle",
+      "simplify_background",
+      "crop_tighter",
+      "recover_highlights",
+      "lift_shadows",
+      "local_dodge_burn",
+      "reduce_saturation"
+    ]
+  },
+  "run-2": {
+    "subject": "前景树干和树林层次，但主体意图不清",
+    "genre": "环境风景/公园林地记录",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "树干框架和高亮背景不足以成立为有意效果；无明显有意模糊或失焦",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "ordinary_documentation",
+      "weak_story",
+      "harsh_light",
+      "high_contrast_uncontrolled",
+      "light_not_supporting_subject",
+      "good_depth"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "high_contrast_uncontrolled",
+      "background_distraction"
+    ],
+    "recommendationTags": [
+      "change_angle",
+      "lower_angle",
+      "simplify_background",
+      "crop_tighter",
+      "recover_highlights",
+      "lift_shadows",
+      "local_dodge_burn",
+      "shoot_in_better_light"
+    ]
+  },
+  "run-3": {
+    "subject": "前景两三棵树干及林间环境，但没有明确突出元素",
+    "genre": "户外环境记录/树林小景",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "疑似反光/重影和高亮发白没有服务主题，按偶然干扰处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "ordinary_documentation",
+      "weak_story",
+      "composition_too_tight",
+      "harsh_light",
+      "high_contrast_uncontrolled",
+      "noise_or_low_image_quality"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "composition_too_tight",
+      "background_distraction"
+    ],
+    "recommendationTags": [
+      "change_angle",
+      "lower_angle",
+      "simplify_background",
+      "crop_tighter",
+      "recover_highlights",
+      "lift_shadows",
+      "local_dodge_burn",
+      "focus_on_subject"
+    ]
+  },
+  "run-4": {
+    "subject": "前景两棵树干及周围树林环境，主次关系不清",
+    "genre": "城市公园/树林环境记录，接近风景或街景观察",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "无明显故意模糊、黑暗、异常构图或高反差效果；树干框架和亮部泛白不成立为有效故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "ordinary_documentation",
+      "weak_story",
+      "chaotic_framing",
+      "harsh_light",
+      "high_contrast_uncontrolled",
+      "noise_or_low_image_quality"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "harsh_light",
+      "background_distraction"
+    ],
+    "recommendationTags": [
+      "change_angle",
+      "lower_angle",
+      "simplify_background",
+      "crop_tighter",
+      "recover_highlights",
+      "local_dodge_burn",
+      "shoot_in_better_light",
+      "focus_on_subject"
+    ]
+  },
+  "run-5": {
+    "subject": "前景两根粗树干和林地环境，但缺少一眼明确的主角",
+    "genre": "户外自然/园区风景记录，偏环境小景",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "无足够证据支持有意模糊、高调高反差或不规则构图；按无意杂乱处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "ordinary_documentation",
+      "weak_story",
+      "edge_distraction",
+      "harsh_light",
+      "high_contrast_uncontrolled",
+      "good_depth"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "background_distraction",
+      "harsh_light"
+    ],
+    "recommendationTags": [
+      "change_angle",
+      "lower_angle",
+      "simplify_background",
+      "crop_tighter",
+      "recover_highlights",
+      "lift_shadows",
+      "local_dodge_burn",
+      "focus_on_subject"
+    ]
+  }
+}

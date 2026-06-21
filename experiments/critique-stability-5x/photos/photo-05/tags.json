@@ -1,0 +1,167 @@
+{
+  "run-1": {
+    "subject": "电线杆顶部、线缆和绝缘子结构",
+    "genre": "城市日常 / 街头观察 / 线条构成尝试",
+    "basicProblemTier": "基础问题",
+    "capRule": "multiple_basic_flaws_overall_max_4.5",
+    "intentionalEffectJudgment": "有剪影倾向，但低调和高反差没有充分服务情绪或视觉路径，按偏偶然弱光问题处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "ordinary_documentation",
+      "weak_story",
+      "underexposure_mild",
+      "noise_or_low_image_quality",
+      "background_distraction",
+      "edge_distraction",
+      "light_not_supporting_subject"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "underexposure_mild",
+      "background_distraction"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "simplify_background",
+      "straighten",
+      "adjust_white_balance",
+      "add_contrast",
+      "local_dodge_burn",
+      "raise_exposure",
+      "lower_exposure"
+    ]
+  },
+  "run-2": {
+    "subject": "画面中上部的电线杆顶部、绝缘子和横向电线",
+    "genre": "城市街头 / 城市线条 / 剪影小景",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_background_distraction_overall_max_5",
+    "intentionalEffectJudgment": "有剪影尝试，但边缘、底部暗部和主体位置控制不足，剪影完成度不够",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "ordinary_documentation",
+      "weak_story",
+      "underexposure_mild",
+      "noise_or_low_image_quality",
+      "background_distraction",
+      "edge_distraction",
+      "too_much_empty_space"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "underexposure_mild",
+      "background_distraction"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "simplify_background",
+      "change_angle",
+      "lower_exposure",
+      "lift_shadows",
+      "local_dodge_burn",
+      "lower_iso",
+      "focus_on_subject"
+    ]
+  },
+  "run-3": {
+    "subject": "画面中央偏上的电线杆、电线和绝缘子结构",
+    "genre": "城市日常 / 街景细节 / 图形线条练习",
+    "basicProblemTier": "基础问题",
+    "capRule": "underexposure_subject_weak_overall_max_4.5",
+    "intentionalEffectJudgment": "暗部像剪影或线条尝试，但证据不足，按偶然的初学者问题保守处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "ordinary_documentation",
+      "unclear_visual_intent",
+      "weak_story",
+      "underexposure_severe",
+      "background_distraction",
+      "edge_distraction",
+      "noise_or_low_image_quality"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "underexposure_severe",
+      "background_distraction"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "simplify_background",
+      "raise_exposure",
+      "lower_exposure",
+      "straighten",
+      "focus_on_subject",
+      "add_contrast",
+      "change_angle"
+    ]
+  },
+  "run-4": {
+    "subject": "画面上方偏中的电线杆顶部、绝缘子和横向电线",
+    "genre": "城市日常 / 街景观察 / 轻微极简剪影",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_ordinary_documentation_overall_max_5",
+    "intentionalEffectJudgment": "高反差或剪影可能有意或半有意，但暗部噪点、底部死黑和边缘杂物没有被完整控制",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "ordinary_documentation",
+      "weak_story",
+      "underexposure_mild",
+      "noise_or_low_image_quality",
+      "background_distraction",
+      "center_without_purpose",
+      "good_atmosphere"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "underexposure_mild",
+      "center_without_purpose"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "simplify_background",
+      "move_closer",
+      "change_angle",
+      "straighten",
+      "shoot_in_better_light",
+      "local_dodge_burn",
+      "add_contrast"
+    ]
+  },
+  "run-5": {
+    "subject": "画面中央的电线杆、电线和顶部设备",
+    "genre": "城市街头 / 城市细节 / 剪影尝试",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "暗部和高反差可能是剪影尝试，但证据不足，按偶然形成的高反差保守评分",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "ordinary_documentation",
+      "unclear_visual_intent",
+      "weak_story",
+      "underexposure_mild",
+      "background_distraction",
+      "edge_distraction",
+      "too_much_empty_space"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "underexposure_mild",
+      "background_distraction"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "simplify_background",
+      "change_angle",
+      "move_closer",
+      "raise_exposure",
+      "lower_exposure",
+      "add_contrast",
+      "shoot_in_better_light"
+    ]
+  }
+}

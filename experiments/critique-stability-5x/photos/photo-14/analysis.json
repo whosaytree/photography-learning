@@ -1,0 +1,147 @@
+{
+  "photoId": "photo-14",
+  "runCount": 5,
+  "scoreStability": {
+    "technical": {
+      "count": 5,
+      "values": [
+        5,
+        5,
+        5,
+        5.5,
+        5
+      ],
+      "min": 5,
+      "max": 5.5,
+      "range": 0.5,
+      "mean": 5.1,
+      "standardDeviation": 0.2
+    },
+    "composition": {
+      "count": 5,
+      "values": [
+        4.5,
+        4.5,
+        4,
+        4.5,
+        4.5
+      ],
+      "min": 4,
+      "max": 4.5,
+      "range": 0.5,
+      "mean": 4.4,
+      "standardDeviation": 0.2
+    },
+    "lighting": {
+      "count": 5,
+      "values": [
+        5,
+        5,
+        4.5,
+        5,
+        4.5
+      ],
+      "min": 4.5,
+      "max": 5,
+      "range": 0.5,
+      "mean": 4.8,
+      "standardDeviation": 0.245
+    },
+    "story": {
+      "count": 5,
+      "values": [
+        5,
+        4.5,
+        4,
+        5,
+        4.5
+      ],
+      "min": 4,
+      "max": 5,
+      "range": 1,
+      "mean": 4.6,
+      "standardDeviation": 0.374
+    },
+    "overall": {
+      "count": 5,
+      "values": [
+        5,
+        4.8,
+        4.5,
+        5,
+        4.8
+      ],
+      "min": 4.5,
+      "max": 5,
+      "range": 0.5,
+      "mean": 4.82,
+      "standardDeviation": 0.183
+    }
+  },
+  "textConsistency": {
+    "available": true,
+    "codedRunCount": 5,
+    "categoricalAgreement": {
+      "subject": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "雪天小区窗外景观/降雪氛围，主体不明确",
+        "majorityCount": 1
+      },
+      "genre": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "城市生活环境 / 雪天风景记录",
+        "majorityCount": 1
+      },
+      "basicProblemTier": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "基础问题",
+        "majorityCount": 5
+      },
+      "capRule": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "subject_weak_overall_max_5",
+        "majorityCount": 5
+      },
+      "intentionalEffectJudgment": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "雪天低对比有自然环境原因，但树枝遮挡、玻璃反光和杂乱构图不是有效故意处理",
+        "majorityCount": 1
+      },
+      "highScoreEligible": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "否",
+        "majorityCount": 5
+      }
+    },
+    "issueTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.911,
+      "min": 0.778,
+      "max": 1
+    },
+    "priorityTop3Overlap": {
+      "pairCount": 10,
+      "mean": 0.867,
+      "min": 0.667,
+      "max": 1
+    },
+    "firstPriorityAgreement": {
+      "count": 5,
+      "agreement": 1,
+      "majorityValue": "subject_weak",
+      "majorityCount": 5
+    },
+    "recommendationTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.711,
+      "min": 0.6,
+      "max": 1
+    }
+  }
+}

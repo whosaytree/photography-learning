@@ -1,0 +1,147 @@
+{
+  "photoId": "photo-11",
+  "runCount": 5,
+  "scoreStability": {
+    "technical": {
+      "count": 5,
+      "values": [
+        5,
+        5,
+        5.5,
+        5,
+        5.5
+      ],
+      "min": 5,
+      "max": 5.5,
+      "range": 0.5,
+      "mean": 5.2,
+      "standardDeviation": 0.245
+    },
+    "composition": {
+      "count": 5,
+      "values": [
+        4,
+        4.5,
+        4.5,
+        4.5,
+        4
+      ],
+      "min": 4,
+      "max": 4.5,
+      "range": 0.5,
+      "mean": 4.3,
+      "standardDeviation": 0.245
+    },
+    "lighting": {
+      "count": 5,
+      "values": [
+        4.5,
+        4.5,
+        5,
+        4.5,
+        4.5
+      ],
+      "min": 4.5,
+      "max": 5,
+      "range": 0.5,
+      "mean": 4.6,
+      "standardDeviation": 0.2
+    },
+    "story": {
+      "count": 5,
+      "values": [
+        4,
+        4,
+        4,
+        4,
+        3.5
+      ],
+      "min": 3.5,
+      "max": 4,
+      "range": 0.5,
+      "mean": 3.9,
+      "standardDeviation": 0.2
+    },
+    "overall": {
+      "count": 5,
+      "values": [
+        4.5,
+        4.5,
+        4.8,
+        4.5,
+        4.5
+      ],
+      "min": 4.5,
+      "max": 4.8,
+      "range": 0.3,
+      "mean": 4.56,
+      "standardDeviation": 0.12
+    }
+  },
+  "textConsistency": {
+    "available": true,
+    "codedRunCount": 5,
+    "categoricalAgreement": {
+      "subject": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "地铁线路图局部和站点换乘信息",
+        "majorityCount": 1
+      },
+      "genre": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "城市交通空间记录/标识细节",
+        "majorityCount": 1
+      },
+      "basicProblemTier": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "基础问题",
+        "majorityCount": 5
+      },
+      "capRule": {
+        "count": 5,
+        "agreement": 0.8,
+        "majorityValue": "subject_weak_overall_max_5",
+        "majorityCount": 4
+      },
+      "intentionalEffectJudgment": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "倾斜、偏暗和高反差按非故意处理",
+        "majorityCount": 1
+      },
+      "highScoreEligible": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "否",
+        "majorityCount": 5
+      }
+    },
+    "issueTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.844,
+      "min": 0.778,
+      "max": 1
+    },
+    "priorityTop3Overlap": {
+      "pairCount": 10,
+      "mean": 0.8,
+      "min": 0.667,
+      "max": 1
+    },
+    "firstPriorityAgreement": {
+      "count": 5,
+      "agreement": 1,
+      "majorityValue": "subject_weak",
+      "majorityCount": 5
+    },
+    "recommendationTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.671,
+      "min": 0.6,
+      "max": 0.778
+    }
+  }
+}

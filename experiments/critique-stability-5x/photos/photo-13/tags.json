@@ -1,0 +1,167 @@
+{
+  "run-1": {
+    "subject": "右下区域的黑白猫",
+    "genre": "生活记录 / 宠物抓拍",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_background_distraction_record_overall_max_5",
+    "intentionalEffectJudgment": "无明显故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "edge_distraction",
+      "ordinary_documentation",
+      "weak_story",
+      "flat_light",
+      "light_not_supporting_subject",
+      "too_much_empty_space"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "background_distraction",
+      "weak_story"
+    ],
+    "recommendationTags": [
+      "lower_angle",
+      "move_closer",
+      "crop_tighter",
+      "simplify_background",
+      "wait_for_moment",
+      "local_dodge_burn",
+      "lift_shadows",
+      "add_contrast"
+    ]
+  },
+  "run-2": {
+    "subject": "画面右下区域的黑白花猫",
+    "genre": "日常宠物 / 街拍式生活记录",
+    "basicProblemTier": "基础问题",
+    "capRule": "background_distraction_record_light_story_overall_max_6",
+    "intentionalEffectJudgment": "无明显故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "subject_too_small",
+      "background_distraction",
+      "edge_distraction",
+      "ordinary_documentation",
+      "weak_story",
+      "flat_light",
+      "light_not_supporting_subject"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "background_distraction",
+      "weak_story"
+    ],
+    "recommendationTags": [
+      "wait_for_moment",
+      "lower_angle",
+      "simplify_background",
+      "crop_tighter",
+      "lift_shadows",
+      "recover_highlights",
+      "local_dodge_burn",
+      "reduce_saturation"
+    ]
+  },
+  "run-3": {
+    "subject": "右下区域的一只黑白猫",
+    "genre": "宠物 / 街头生活记录",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_background_distraction_record_overall_max_5",
+    "intentionalEffectJudgment": "无明显故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "edge_distraction",
+      "ordinary_documentation",
+      "weak_story",
+      "flat_light",
+      "light_not_supporting_subject",
+      "under_editing"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "background_distraction",
+      "weak_story"
+    ],
+    "recommendationTags": [
+      "lower_angle",
+      "wait_for_moment",
+      "simplify_background",
+      "crop_tighter",
+      "straighten",
+      "local_dodge_burn",
+      "recover_highlights",
+      "reduce_saturation"
+    ]
+  },
+  "run-4": {
+    "subject": "画面右下区域的黑白花猫",
+    "genre": "宠物 / 日常纪实",
+    "basicProblemTier": "基础问题",
+    "capRule": "background_distraction_record_light_story_overall_max_6",
+    "intentionalEffectJudgment": "无明显故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "edge_distraction",
+      "ordinary_documentation",
+      "weak_story",
+      "weak_moment",
+      "flat_light",
+      "light_not_supporting_subject"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "background_distraction",
+      "weak_moment"
+    ],
+    "recommendationTags": [
+      "lower_angle",
+      "focus_on_subject",
+      "simplify_background",
+      "crop_tighter",
+      "wait_for_moment",
+      "recover_highlights",
+      "local_dodge_burn",
+      "reduce_saturation"
+    ]
+  },
+  "run-5": {
+    "subject": "右下方正在行走的猫",
+    "genre": "生活随拍 / 宠物或街头动物记录",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_background_distraction_record_overall_max_5",
+    "intentionalEffectJudgment": "无明显故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "edge_distraction",
+      "ordinary_documentation",
+      "weak_story",
+      "flat_light",
+      "light_not_supporting_subject",
+      "composition_too_loose"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "background_distraction",
+      "weak_story"
+    ],
+    "recommendationTags": [
+      "lower_angle",
+      "step_back",
+      "crop_tighter",
+      "simplify_background",
+      "wait_for_moment",
+      "local_dodge_burn",
+      "recover_highlights",
+      "reduce_saturation"
+    ]
+  }
+}

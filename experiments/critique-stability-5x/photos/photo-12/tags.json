@@ -1,0 +1,167 @@
+{
+  "run-1": {
+    "subject": "手机上的游戏画面和手持手机本身",
+    "genre": "日常记录 / 物件记录 / 屏幕内容记录",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_and_ordinary_record_overall_max_5",
+    "intentionalEffectJudgment": "倾斜、高反差和暗背景更像偶然结果，不是有效故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "subject_weak",
+      "ordinary_documentation",
+      "weak_story",
+      "tilted_horizon_or_verticals",
+      "background_distraction",
+      "awkward_crop",
+      "light_not_supporting_subject"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "awkward_crop",
+      "background_distraction"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "straighten",
+      "simplify_background",
+      "change_angle",
+      "recover_highlights",
+      "local_dodge_burn",
+      "focus_on_subject",
+      "wait_for_moment"
+    ]
+  },
+  "run-2": {
+    "subject": "手持手机上的游戏画面",
+    "genre": "生活记录 / 电子设备静物记录",
+    "basicProblemTier": "基础问题",
+    "capRule": "ordinary_documentation_and_unintentional_tilt_overall_limited",
+    "intentionalEffectJudgment": "倾斜、高对比屏幕和暗背景没有形成有效视觉路径，按偶然问题处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "subject_weak",
+      "ordinary_documentation",
+      "weak_story",
+      "tilted_horizon_or_verticals",
+      "edge_distraction",
+      "background_distraction",
+      "light_not_supporting_subject"
+    ],
+    "priorityIssueTags": [
+      "tilted_horizon_or_verticals",
+      "subject_weak",
+      "light_not_supporting_subject"
+    ],
+    "recommendationTags": [
+      "straighten",
+      "crop_tighter",
+      "simplify_background",
+      "lower_exposure",
+      "recover_highlights",
+      "add_contrast",
+      "adjust_white_balance",
+      "focus_on_subject"
+    ]
+  },
+  "run-3": {
+    "subject": "手持游戏设备的屏幕和屏幕里的游戏画面",
+    "genre": "日常记录 / 手机或掌机屏幕静物",
+    "basicProblemTier": "基础问题",
+    "capRule": "ordinary_documentation_and_weak_light_story_overall_max_6",
+    "intentionalEffectJudgment": "倾斜可能用于填满画面，但反光、裁切和背景未被控制；偏暗和高反差不是有效故意表达",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "ordinary_documentation",
+      "weak_story",
+      "light_not_supporting_subject",
+      "high_contrast_uncontrolled",
+      "edge_distraction",
+      "background_distraction",
+      "awkward_crop"
+    ],
+    "priorityIssueTags": [
+      "light_not_supporting_subject",
+      "edge_distraction",
+      "weak_story"
+    ],
+    "recommendationTags": [
+      "change_angle",
+      "lower_exposure",
+      "recover_highlights",
+      "add_contrast",
+      "crop_tighter",
+      "wait_for_moment",
+      "lift_shadows",
+      "local_dodge_burn"
+    ]
+  },
+  "run-4": {
+    "subject": "手中设备的游戏屏幕，附带手部和设备外壳",
+    "genre": "日常记录 / 电子设备使用场景",
+    "basicProblemTier": "基础问题",
+    "capRule": "ordinary_documentation_and_weak_light_story_overall_max_6",
+    "intentionalEffectJudgment": "倾斜、暗背景、高反差和轻微软都缺少明确设计，按控制不足处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "subject_weak",
+      "ordinary_documentation",
+      "weak_story",
+      "tilted_horizon_or_verticals",
+      "background_distraction",
+      "awkward_crop",
+      "light_not_supporting_subject"
+    ],
+    "priorityIssueTags": [
+      "tilted_horizon_or_verticals",
+      "light_not_supporting_subject",
+      "background_distraction"
+    ],
+    "recommendationTags": [
+      "straighten",
+      "crop_tighter",
+      "simplify_background",
+      "change_angle",
+      "shoot_in_better_light",
+      "lower_exposure",
+      "recover_highlights",
+      "lift_shadows"
+    ]
+  },
+  "run-5": {
+    "subject": "手里拿着的手机屏幕和屏幕上的游戏画面",
+    "genre": "生活记录 / 物品记录 / 游戏场景记录",
+    "basicProblemTier": "基础问题",
+    "capRule": "ordinary_documentation_and_weak_light_story_overall_max_6",
+    "intentionalEffectJudgment": "倾斜、高反差和轻微软更接近日常拍摄结果，不是明确创作效果",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "ordinary_documentation",
+      "unclear_visual_intent",
+      "weak_story",
+      "tilted_horizon_or_verticals",
+      "awkward_crop",
+      "background_distraction",
+      "light_not_supporting_subject"
+    ],
+    "priorityIssueTags": [
+      "unclear_visual_intent",
+      "awkward_crop",
+      "light_not_supporting_subject"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "straighten",
+      "simplify_background",
+      "shoot_in_better_light",
+      "lower_exposure",
+      "recover_highlights",
+      "lift_shadows",
+      "reduce_saturation"
+    ]
+  }
+}

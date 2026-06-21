@@ -1,0 +1,167 @@
+{
+  "run-1": {
+    "subject": "雪天小区窗外景观/降雪氛围，主体不明确",
+    "genre": "城市生活环境 / 雪天风景记录",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "雪天低对比有自然环境原因，但树枝遮挡、玻璃反光和杂乱构图不是有效故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "ordinary_documentation",
+      "flat_light",
+      "weak_story",
+      "chaotic_framing",
+      "needs_crop",
+      "good_depth"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "background_distraction",
+      "flat_light"
+    ],
+    "recommendationTags": [
+      "focus_on_subject",
+      "crop_tighter",
+      "simplify_background",
+      "change_angle",
+      "shoot_in_better_light",
+      "straighten",
+      "add_contrast",
+      "local_dodge_burn"
+    ]
+  },
+  "run-2": {
+    "subject": "冬天小区楼宇与树枝/飘雪氛围，主体不明确",
+    "genre": "城市住宅环境 / 窗边纪实 / 冬日氛围",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "隔窗雾感、偏灰、反光和大量树枝没有服务明确主体，按常见拍摄位置和取景问题处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "ordinary_documentation",
+      "flat_light",
+      "weak_story",
+      "chaotic_framing",
+      "needs_crop",
+      "good_depth"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "background_distraction",
+      "chaotic_framing"
+    ],
+    "recommendationTags": [
+      "focus_on_subject",
+      "crop_tighter",
+      "simplify_background",
+      "change_angle",
+      "shoot_in_better_light",
+      "recover_highlights",
+      "add_contrast",
+      "local_dodge_burn"
+    ]
+  },
+  "run-3": {
+    "subject": "窗外雪景/冬天小区，主体不够明确",
+    "genre": "城市生活 / 小区雪景 / 窗景记录",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "树枝遮挡、玻璃反光、偏灰低对比没有形成稳定视觉锚点，按偶然问题处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "ordinary_documentation",
+      "flat_light",
+      "weak_story",
+      "chaotic_framing",
+      "needs_crop",
+      "good_depth"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "chaotic_framing",
+      "background_distraction"
+    ],
+    "recommendationTags": [
+      "focus_on_subject",
+      "crop_tighter",
+      "simplify_background",
+      "change_angle",
+      "shoot_in_better_light",
+      "raise_exposure",
+      "recover_highlights",
+      "add_contrast"
+    ]
+  },
+  "run-4": {
+    "subject": "窗外小区雪景、树枝和住宅楼之间的冬日氛围，主体不明确",
+    "genre": "城市生活环境 / 雪天街景 / 窗边观察",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "雪雾感可能是氛围选择，但玻璃反光和杂乱枝条没有形成视觉路径，按偶然干扰处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "ordinary_documentation",
+      "flat_light",
+      "weak_story",
+      "chaotic_framing",
+      "good_atmosphere",
+      "good_depth"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "background_distraction",
+      "chaotic_framing"
+    ],
+    "recommendationTags": [
+      "focus_on_subject",
+      "crop_tighter",
+      "simplify_background",
+      "change_angle",
+      "wait_for_moment",
+      "recover_highlights",
+      "add_contrast",
+      "local_dodge_burn"
+    ]
+  },
+  "run-5": {
+    "subject": "窗外小区冬景/雪天住宅楼与树枝层次，主体不明确",
+    "genre": "城市窗景 / 生活环境记录 / 城市风景",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "无明显故意处理；隔窗反光、异常取景和低对比没有服务主题",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "ordinary_documentation",
+      "flat_light",
+      "weak_story",
+      "chaotic_framing",
+      "needs_crop",
+      "good_depth"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "background_distraction",
+      "chaotic_framing"
+    ],
+    "recommendationTags": [
+      "focus_on_subject",
+      "crop_tighter",
+      "simplify_background",
+      "change_angle",
+      "wait_for_moment",
+      "recover_highlights",
+      "add_contrast",
+      "local_dodge_burn"
+    ]
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "run-1": {
+    "subject": "河岸城市灯光与水面倒影",
+    "genre": "城市夜景 / 水面倒影风景",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5+motion_blur_technical_max_5",
+    "intentionalEffectJudgment": "模糊非故意；偏暗属夜景题材；高反差控制不够；树枝框景不成功",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "motion_blur_accidental",
+      "background_distraction",
+      "edge_distraction",
+      "composition_too_loose",
+      "weak_story",
+      "needs_crop",
+      "good_atmosphere"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "motion_blur_accidental",
+      "background_distraction"
+    ],
+    "recommendationTags": [
+      "focus_on_subject",
+      "increase_shutter_speed",
+      "crop_tighter",
+      "simplify_background",
+      "recover_highlights",
+      "local_dodge_burn",
+      "straighten"
+    ]
+  },
+  "run-2": {
+    "subject": "河对岸的城市灯光、建筑轮廓和水面倒影",
+    "genre": "城市夜景 / 水岸风景",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5+motion_blur_technical_max_5",
+    "intentionalEffectJudgment": "模糊非故意；偏暗基本合理；高反差自然但高光控制不足；树枝框景不明确",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "motion_blur_accidental",
+      "background_distraction",
+      "overexposure_mild",
+      "composition_too_loose",
+      "weak_story",
+      "needs_crop",
+      "good_atmosphere"
+    ],
+    "priorityIssueTags": [
+      "motion_blur_accidental",
+      "subject_weak",
+      "background_distraction"
+    ],
+    "recommendationTags": [
+      "increase_shutter_speed",
+      "focus_on_subject",
+      "crop_tighter",
+      "simplify_background",
+      "recover_highlights",
+      "lower_exposure",
+      "straighten",
+      "adjust_white_balance"
+    ]
+  },
+  "run-3": {
+    "subject": "河岸城市灯光与水面倒影",
+    "genre": "夜景风光 / 城市水岸景观",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5+motion_blur_technical_max_5",
+    "intentionalEffectJudgment": "模糊非故意；黑暗属夜景题材；高反差基本可接受；树枝和落叶不是有效故意构图",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "motion_blur_accidental",
+      "background_distraction",
+      "too_much_empty_space",
+      "composition_too_loose",
+      "ordinary_documentation",
+      "weak_story",
+      "good_atmosphere"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "motion_blur_accidental",
+      "background_distraction"
+    ],
+    "recommendationTags": [
+      "focus_on_subject",
+      "increase_shutter_speed",
+      "crop_tighter",
+      "simplify_background",
+      "straighten",
+      "recover_highlights",
+      "adjust_white_balance",
+      "local_dodge_burn"
+    ]
+  },
+  "run-4": {
+    "subject": "河对岸的城市灯光、建筑与水面倒影",
+    "genre": "城市夜景 / 水岸风光 / 倒影练习",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5+motion_blur_technical_max_5",
+    "intentionalEffectJudgment": "虚糊非故意；偏暗符合夜景；高反差未形成明确设计；树枝和河岸不是有效框景",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "motion_blur_accidental",
+      "background_distraction",
+      "awkward_crop",
+      "ordinary_documentation",
+      "weak_story",
+      "needs_crop",
+      "good_atmosphere"
+    ],
+    "priorityIssueTags": [
+      "motion_blur_accidental",
+      "subject_weak",
+      "background_distraction"
+    ],
+    "recommendationTags": [
+      "increase_shutter_speed",
+      "focus_on_subject",
+      "crop_tighter",
+      "simplify_background",
+      "recover_highlights",
+      "local_dodge_burn",
+      "adjust_white_balance",
+      "straighten"
+    ]
+  },
+  "run-5": {
+    "subject": "河对岸的城市灯光、建筑和水面倒影",
+    "genre": "城市夜景 / 水景倒影 / 风光记录",
+    "basicProblemTier": "基础问题",
+    "capRule": "multiple_major_issues_overall_max_4_5",
+    "intentionalEffectJudgment": "模糊按意外问题处理；黑暗属夜景题材；高反差控制不足；大面积天空、前景和树枝不是有效故意构图",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "motion_blur_accidental",
+      "background_distraction",
+      "too_much_empty_space",
+      "overexposure_mild",
+      "ordinary_documentation",
+      "weak_story",
+      "good_atmosphere"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "motion_blur_accidental",
+      "background_distraction"
+    ],
+    "recommendationTags": [
+      "focus_on_subject",
+      "increase_shutter_speed",
+      "crop_tighter",
+      "simplify_background",
+      "recover_highlights",
+      "lower_exposure",
+      "local_dodge_burn",
+      "adjust_white_balance"
+    ]
+  }
+}

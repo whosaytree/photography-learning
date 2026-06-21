@@ -1,0 +1,302 @@
+[
+  {
+    "photoId": "photo-01",
+    "archiveId": "20260604-212802-eef342f2",
+    "bucket": "strong_high_score",
+    "reason": "High-scoring architecture image; tests whether strong images consistently pass high-score eligibility.",
+    "copiedImage": "photos/photo-01/original.jpg",
+    "sourceTitle": "摄影点评：金色侧光下的哥特建筑",
+    "sourceScores": {
+      "technical": 7.8,
+      "composition": 8,
+      "lighting": 8.2,
+      "story": 8,
+      "overall": 8
+    }
+  },
+  {
+    "photoId": "photo-02",
+    "archiveId": "20260608-170809-8225400a",
+    "bucket": "ordinary_record",
+    "reason": "Mid-score record-like building image; tests whether the 5/10 baseline stays stable.",
+    "copiedImage": "photos/photo-02/original.jpg",
+    "sourceTitle": "摄影点评：灰色住宅楼与蓝天",
+    "sourceScores": {
+      "technical": 6.1,
+      "composition": 5.2,
+      "lighting": 5.1,
+      "story": 4.9,
+      "overall": 5.3
+    }
+  },
+  {
+    "photoId": "photo-03",
+    "archiveId": "20260609-153041-44eac2d4",
+    "bucket": "hard_flaw_low_score",
+    "reason": "Low-scoring image with prior hard-flaw behavior; tests cap and low-end consistency.",
+    "copiedImage": "photos/photo-03/original.jpg",
+    "sourceTitle": "20260609-153041-44eac2d4",
+    "sourceScores": {
+      "technical": 5,
+      "composition": 4,
+      "lighting": 4.5,
+      "story": 4,
+      "overall": 4
+    }
+  },
+  {
+    "photoId": "photo-04",
+    "archiveId": "20260604-f10f7388",
+    "bucket": "orientation_or_basic_failure",
+    "reason": "Static-life image with prior orientation/basic-problem behavior; tests basic-problem tier consistency.",
+    "copiedImage": "photos/photo-04/original.jpg",
+    "sourceTitle": "摄影点评：方向错误的秋日咖啡静物",
+    "sourceScores": {
+      "technical": 5.4,
+      "composition": 4,
+      "lighting": 6.1,
+      "story": 6.3,
+      "overall": 4.6
+    }
+  },
+  {
+    "photoId": "photo-05",
+    "archiveId": "20260608-165815-bbc39e31",
+    "bucket": "intent_boundary",
+    "reason": "Silhouette/darkness boundary case; tests intentional-effect vs accidental-flaw consistency.",
+    "copiedImage": "photos/photo-05/original.jpg",
+    "sourceTitle": "摄影点评：暮色电线杆剪影",
+    "sourceScores": {
+      "technical": 4.9,
+      "composition": 5.1,
+      "lighting": 5,
+      "story": 4.8,
+      "overall": 5
+    }
+  },
+  {
+    "photoId": "photo-06",
+    "archiveId": "20260604-135047-7cd48bcf",
+    "bucket": "night_street_light",
+    "reason": "Night street scene with strong light/color; tests stability on atmospheric low-light scenes.",
+    "copiedImage": "photos/photo-06/original.jpg",
+    "sourceTitle": "摄影点评：夜市灯笼街景",
+    "sourceScores": {
+      "technical": 7.4,
+      "composition": 7.8,
+      "lighting": 7.6,
+      "story": 7.8,
+      "overall": 7.7
+    }
+  },
+  {
+    "photoId": "photo-07",
+    "archiveId": "20260604-214217-dusk-street-market",
+    "bucket": "strong_night_street",
+    "reason": "High-scoring dusk street-market image; tests whether strong street atmosphere remains consistently high.",
+    "copiedImage": "photos/photo-07/original.jpg",
+    "sourceTitle": "20260604-214217-dusk-street-market",
+    "sourceScores": {
+      "technical": 7.5,
+      "composition": 8,
+      "lighting": 8,
+      "story": 8,
+      "overall": 8
+    }
+  },
+  {
+    "photoId": "photo-08",
+    "archiveId": "20260604-132642-87888d3c",
+    "bucket": "strong_landscape",
+    "reason": "High-scoring landscape; tests stability on natural scenery with atmosphere.",
+    "copiedImage": "photos/photo-08/original.jpg",
+    "sourceTitle": "云雾山谷",
+    "sourceScores": {
+      "technical": 7.3,
+      "composition": 7.6,
+      "lighting": 7.1,
+      "story": 7.5,
+      "overall": 7.5
+    }
+  },
+  {
+    "photoId": "photo-09",
+    "archiveId": "20260604-047a29d3",
+    "bucket": "strong_garden_composition",
+    "reason": "High-scoring garden/bridge composition; tests stability on layered composition and controlled scenery.",
+    "copiedImage": "photos/photo-09/original.jpg",
+    "sourceTitle": "树冠下的园林桥",
+    "sourceScores": {
+      "technical": 7.3,
+      "composition": 7.8,
+      "lighting": 7.1,
+      "story": 7.5,
+      "overall": 7.6
+    }
+  },
+  {
+    "photoId": "photo-10",
+    "archiveId": "20260604-133429-f47c12fc",
+    "bucket": "missed_focus_low_score",
+    "reason": "Low-scoring out-of-focus foliage image; tests focus hard-flaw cap consistency.",
+    "copiedImage": "photos/photo-10/original.jpg",
+    "sourceTitle": "失焦的枝叶与天空",
+    "sourceScores": {
+      "technical": 3.8,
+      "composition": 4.2,
+      "lighting": 5.4,
+      "story": 4,
+      "overall": 4.1
+    }
+  },
+  {
+    "photoId": "photo-11",
+    "archiveId": "20260609-1103-19645aef",
+    "bucket": "ordinary_signage_record",
+    "reason": "Low-scoring signage/record image; tests ordinary-documentation and subject-control consistency.",
+    "copiedImage": "photos/photo-11/original.jpg",
+    "sourceTitle": "摄影点评：地铁线路牌记录",
+    "sourceScores": {
+      "technical": 5,
+      "composition": 4.1,
+      "lighting": 4.8,
+      "story": 4.3,
+      "overall": 4.6
+    }
+  },
+  {
+    "photoId": "photo-12",
+    "archiveId": "20260604-215739-phone-game-screen",
+    "bucket": "screen_record_hard_flaw",
+    "reason": "Phone-screen record image; tests scoring on non-photographic/documentary screen capture.",
+    "copiedImage": "photos/photo-12/original.jpg",
+    "sourceTitle": "摄影点评：手机游戏画面记录",
+    "sourceScores": {
+      "technical": 4.8,
+      "composition": 4.2,
+      "lighting": 4.8,
+      "story": 4.9,
+      "overall": 4.6
+    }
+  },
+  {
+    "photoId": "photo-13",
+    "archiveId": "20260604-215130-overhead-cat-yard",
+    "bucket": "animal_subject_weak",
+    "reason": "Overhead animal photo with weak subject control; tests subject readability and crop consistency.",
+    "copiedImage": "photos/photo-13/original.jpg",
+    "sourceTitle": "摄影点评：俯拍院子里的猫",
+    "sourceScores": {
+      "technical": 5.2,
+      "composition": 4.5,
+      "lighting": 5.1,
+      "story": 5,
+      "overall": 4.9
+    }
+  },
+  {
+    "photoId": "photo-14",
+    "archiveId": "20260609-105810-44ef555e",
+    "bucket": "ordinary_window_view",
+    "reason": "Window-view community/building record; tests consistency around record-level urban scenes.",
+    "copiedImage": "photos/photo-14/original.jpg",
+    "sourceTitle": "摄影点评：隔窗社区树影与楼群",
+    "sourceScores": {
+      "technical": 5.5,
+      "composition": 4.9,
+      "lighting": 5.1,
+      "story": 5.4,
+      "overall": 5.1
+    }
+  },
+  {
+    "photoId": "photo-15",
+    "archiveId": "20260604-211358-mosque-arcade-water",
+    "bucket": "orientation_architecture",
+    "reason": "Architecture/water scene with prior orientation issue; tests whether orientation and composition caps are stable.",
+    "copiedImage": "photos/photo-15/original.jpg",
+    "sourceTitle": "摄影点评：方向异常的清真寺拱廊水景",
+    "sourceScores": {
+      "technical": 6.1,
+      "composition": 5.1,
+      "lighting": 6.8,
+      "story": 6.4,
+      "overall": 5.8
+    }
+  },
+  {
+    "photoId": "photo-16",
+    "archiveId": "20260604-70ecf563",
+    "bucket": "orientation_still_life",
+    "reason": "Low-scoring still life with prior orientation issue; tests repeated diagnosis of rotation/basic failure.",
+    "copiedImage": "photos/photo-16/original.jpg",
+    "sourceTitle": "摄影点评：方向错误的秋日书桌静物",
+    "sourceScores": {
+      "technical": 5.8,
+      "composition": 4.2,
+      "lighting": 6.3,
+      "story": 6.8,
+      "overall": 4.8
+    }
+  },
+  {
+    "photoId": "photo-17",
+    "archiveId": "20260609-1051-0e9dfe09",
+    "bucket": "low_light_technical_failure",
+    "reason": "Low-scoring night river scene with technical limitations; tests low-light hard-flaw consistency.",
+    "copiedImage": "photos/photo-17/original.jpg",
+    "sourceTitle": "摄影点评：技术受限的河岸夜景",
+    "sourceScores": {
+      "technical": 4.4,
+      "composition": 5,
+      "lighting": 5.2,
+      "story": 5.4,
+      "overall": 4.9
+    }
+  },
+  {
+    "photoId": "photo-18",
+    "archiveId": "20260609-104329-5d59f884",
+    "bucket": "silhouette_intent_boundary",
+    "reason": "Window-framed sunset silhouette; tests intentional silhouette vs exposure-loss consistency.",
+    "copiedImage": "photos/photo-18/original.jpg",
+    "sourceTitle": "摄影点评：窗框中的夕阳城市剪影",
+    "sourceScores": {
+      "technical": 6.5,
+      "composition": 7.2,
+      "lighting": 7.3,
+      "story": 6.9,
+      "overall": 7
+    }
+  },
+  {
+    "photoId": "photo-19",
+    "archiveId": "20260609-103946-5494dad4",
+    "bucket": "food_record_mid_score",
+    "reason": "Food/table close-up at mid score; tests everyday still-life scoring and advice consistency.",
+    "copiedImage": "photos/photo-19/original.jpg",
+    "sourceTitle": "摄影点评：餐桌近拍绿叶菜与肉",
+    "sourceScores": {
+      "technical": 6.2,
+      "composition": 5.5,
+      "lighting": 5.8,
+      "story": 5.8,
+      "overall": 5.9
+    }
+  },
+  {
+    "photoId": "photo-20",
+    "archiveId": "20260604-220423-01685d88",
+    "bucket": "animal_record_mid_score",
+    "reason": "Animal record photo at mid score; tests subject interest versus technical/composition limitations.",
+    "copiedImage": "photos/photo-20/original.jpg",
+    "sourceTitle": "摄影点评：路边白鹅",
+    "sourceScores": {
+      "technical": 6.2,
+      "composition": 5.6,
+      "lighting": 5.8,
+      "story": 6.1,
+      "overall": 5.9
+    }
+  }
+]

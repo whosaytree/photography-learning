@@ -1,0 +1,167 @@
+{
+  "run-1": {
+    "subject": "秋天、咖啡、书、玩偶和落叶组成的生活静物场景，但主视觉没有唯一中心",
+    "genre": "户外生活静物 / 秋日氛围小品",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "倾斜、多物体散布和杂乱边缘不像有效的故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "weak_story",
+      "ordinary_documentation",
+      "background_distraction",
+      "tilted_horizon_or_verticals",
+      "composition_too_loose",
+      "flat_light",
+      "good_atmosphere"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "tilted_horizon_or_verticals",
+      "background_distraction"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "simplify_background",
+      "straighten",
+      "use_grid_level",
+      "use_side_light",
+      "add_contrast",
+      "local_dodge_burn",
+      "adjust_white_balance"
+    ]
+  },
+  "run-2": {
+    "subject": "咖啡杯、两只玩偶、打开的书和银杏叶组成的秋天阅读咖啡场景，主次不够明确",
+    "genre": "户外生活方式静物 / 秋日氛围摆拍",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "倾斜和散乱没有形成稳定视觉路径，柔和低对比光线不是强烈风格化选择",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "tilted_horizon_or_verticals",
+      "composition_too_loose",
+      "weak_story",
+      "flat_light",
+      "good_atmosphere",
+      "strong_color"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "composition_too_loose",
+      "tilted_horizon_or_verticals"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "simplify_background",
+      "change_angle",
+      "straighten",
+      "use_grid_level",
+      "shoot_in_better_light",
+      "local_dodge_burn",
+      "add_contrast"
+    ]
+  },
+  "run-3": {
+    "subject": "书、银杏叶、咖啡杯和玩偶组成的秋日静物，视觉中心在多个物体之间摇摆",
+    "genre": "生活方式静物 / 秋日氛围记录",
+    "basicProblemTier": "基础问题",
+    "capRule": "subject_weak_overall_max_5",
+    "intentionalEffectJudgment": "旋转倾斜、平淡光线和复杂摆放都不像有效的故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "tilted_horizon_or_verticals",
+      "background_distraction",
+      "flat_light",
+      "weak_story",
+      "ordinary_documentation",
+      "strong_color",
+      "good_atmosphere"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "tilted_horizon_or_verticals",
+      "background_distraction"
+    ],
+    "recommendationTags": [
+      "straighten",
+      "crop_tighter",
+      "simplify_background",
+      "use_grid_level",
+      "use_side_light",
+      "add_contrast",
+      "local_dodge_burn",
+      "raise_exposure"
+    ]
+  },
+  "run-4": {
+    "subject": "咖啡杯、公仔、打开的书、银杏叶和木质长椅组成的一组秋日静物",
+    "genre": "生活方式静物 / 秋日氛围摆拍",
+    "basicProblemTier": "基础问题",
+    "capRule": "tilted_horizon_or_verticals_and_background_distraction_overall_max_6_5",
+    "intentionalEffectJudgment": "倾斜旋转不判定为有效故意处理，无明显故意压暗、高反差或模糊",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "tilted_horizon_or_verticals",
+      "background_distraction",
+      "subject_weak",
+      "weak_visual_path",
+      "flat_light",
+      "good_atmosphere",
+      "strong_color",
+      "clear_subject"
+    ],
+    "priorityIssueTags": [
+      "tilted_horizon_or_verticals",
+      "subject_weak",
+      "background_distraction"
+    ],
+    "recommendationTags": [
+      "straighten",
+      "crop_tighter",
+      "simplify_background",
+      "local_dodge_burn",
+      "adjust_white_balance",
+      "add_contrast",
+      "use_grid_level",
+      "use_side_light"
+    ]
+  },
+  "run-5": {
+    "subject": "秋日读书、咖啡、银杏叶和两个玩偶组成的生活方式静物场景",
+    "genre": "静物 / 生活方式摆拍",
+    "basicProblemTier": "基础问题",
+    "capRule": "background_distraction_overall_max_6_5",
+    "intentionalEffectJudgment": "斜向俯拍和道具分散可视为生活感设计，但右侧空木板和左上草地不像完全受控",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "subject_weak",
+      "background_distraction",
+      "too_much_empty_space",
+      "edge_distraction",
+      "flat_light",
+      "good_atmosphere",
+      "strong_color",
+      "clear_subject"
+    ],
+    "priorityIssueTags": [
+      "subject_weak",
+      "too_much_empty_space",
+      "edge_distraction"
+    ],
+    "recommendationTags": [
+      "crop_tighter",
+      "simplify_background",
+      "local_dodge_burn",
+      "add_contrast",
+      "straighten",
+      "use_side_light",
+      "focus_on_subject",
+      "reduce_saturation"
+    ]
+  }
+}

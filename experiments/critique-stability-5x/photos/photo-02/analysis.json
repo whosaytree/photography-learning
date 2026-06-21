@@ -1,0 +1,147 @@
+{
+  "photoId": "photo-02",
+  "runCount": 5,
+  "scoreStability": {
+    "technical": {
+      "count": 5,
+      "values": [
+        5.5,
+        5.5,
+        5.5,
+        5.5,
+        6
+      ],
+      "min": 5.5,
+      "max": 6,
+      "range": 0.5,
+      "mean": 5.6,
+      "standardDeviation": 0.2
+    },
+    "composition": {
+      "count": 5,
+      "values": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "min": 5,
+      "max": 5,
+      "range": 0,
+      "mean": 5,
+      "standardDeviation": 0
+    },
+    "lighting": {
+      "count": 5,
+      "values": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "min": 5,
+      "max": 5,
+      "range": 0,
+      "mean": 5,
+      "standardDeviation": 0
+    },
+    "story": {
+      "count": 5,
+      "values": [
+        4.5,
+        4.5,
+        4.5,
+        4.5,
+        4.5
+      ],
+      "min": 4.5,
+      "max": 4.5,
+      "range": 0,
+      "mean": 4.5,
+      "standardDeviation": 0
+    },
+    "overall": {
+      "count": 5,
+      "values": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "min": 5,
+      "max": 5,
+      "range": 0,
+      "mean": 5,
+      "standardDeviation": 0
+    }
+  },
+  "textConsistency": {
+    "available": true,
+    "codedRunCount": 5,
+    "categoricalAgreement": {
+      "subject": {
+        "count": 5,
+        "agreement": 0.6,
+        "majorityValue": "左侧高层住宅楼",
+        "majorityCount": 3
+      },
+      "genre": {
+        "count": 5,
+        "agreement": 0.4,
+        "majorityValue": "城市建筑 / 街景建筑记录",
+        "majorityCount": 2
+      },
+      "basicProblemTier": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "基础问题",
+        "majorityCount": 5
+      },
+      "capRule": {
+        "count": 5,
+        "agreement": 0.6,
+        "majorityValue": "subject_weak_overall_max_5",
+        "majorityCount": 3
+      },
+      "intentionalEffectJudgment": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "偏暗、负空间和透视收缩均不像成功的明确故意处理",
+        "majorityCount": 1
+      },
+      "highScoreEligible": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "否",
+        "majorityCount": 5
+      }
+    },
+    "issueTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.827,
+      "min": 0.6,
+      "max": 1
+    },
+    "priorityTop3Overlap": {
+      "pairCount": 10,
+      "mean": 0.633,
+      "min": 0.333,
+      "max": 1
+    },
+    "firstPriorityAgreement": {
+      "count": 5,
+      "agreement": 0.8,
+      "majorityValue": "subject_weak",
+      "majorityCount": 4
+    },
+    "recommendationTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.676,
+      "min": 0.6,
+      "max": 1
+    }
+  }
+}

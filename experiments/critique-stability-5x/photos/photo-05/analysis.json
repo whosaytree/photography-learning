@@ -1,0 +1,147 @@
+{
+  "photoId": "photo-05",
+  "runCount": 5,
+  "scoreStability": {
+    "technical": {
+      "count": 5,
+      "values": [
+        4,
+        4.5,
+        4.5,
+        4.5,
+        4.5
+      ],
+      "min": 4,
+      "max": 4.5,
+      "range": 0.5,
+      "mean": 4.4,
+      "standardDeviation": 0.2
+    },
+    "composition": {
+      "count": 5,
+      "values": [
+        4.5,
+        4.5,
+        4.5,
+        5,
+        4.5
+      ],
+      "min": 4.5,
+      "max": 5,
+      "range": 0.5,
+      "mean": 4.6,
+      "standardDeviation": 0.2
+    },
+    "lighting": {
+      "count": 5,
+      "values": [
+        4,
+        4.5,
+        4,
+        5.5,
+        4
+      ],
+      "min": 4,
+      "max": 5.5,
+      "range": 1.5,
+      "mean": 4.4,
+      "standardDeviation": 0.583
+    },
+    "story": {
+      "count": 5,
+      "values": [
+        4,
+        4,
+        3.5,
+        4.5,
+        3.5
+      ],
+      "min": 3.5,
+      "max": 4.5,
+      "range": 1,
+      "mean": 3.9,
+      "standardDeviation": 0.374
+    },
+    "overall": {
+      "count": 5,
+      "values": [
+        4.5,
+        4.5,
+        4.5,
+        5,
+        4.5
+      ],
+      "min": 4.5,
+      "max": 5,
+      "range": 0.5,
+      "mean": 4.6,
+      "standardDeviation": 0.2
+    }
+  },
+  "textConsistency": {
+    "available": true,
+    "codedRunCount": 5,
+    "categoricalAgreement": {
+      "subject": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "电线杆顶部、线缆和绝缘子结构",
+        "majorityCount": 1
+      },
+      "genre": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "城市日常 / 街头观察 / 线条构成尝试",
+        "majorityCount": 1
+      },
+      "basicProblemTier": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "基础问题",
+        "majorityCount": 5
+      },
+      "capRule": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "multiple_basic_flaws_overall_max_4.5",
+        "majorityCount": 1
+      },
+      "intentionalEffectJudgment": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "有剪影倾向，但低调和高反差没有充分服务情绪或视觉路径，按偏偶然弱光问题处理",
+        "majorityCount": 1
+      },
+      "highScoreEligible": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "否",
+        "majorityCount": 5
+      }
+    },
+    "issueTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.606,
+      "min": 0.455,
+      "max": 0.778
+    },
+    "priorityTop3Overlap": {
+      "pairCount": 10,
+      "mean": 0.733,
+      "min": 0.333,
+      "max": 1
+    },
+    "firstPriorityAgreement": {
+      "count": 5,
+      "agreement": 1,
+      "majorityValue": "subject_weak",
+      "majorityCount": 5
+    },
+    "recommendationTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.462,
+      "min": 0.333,
+      "max": 0.6
+    }
+  }
+}

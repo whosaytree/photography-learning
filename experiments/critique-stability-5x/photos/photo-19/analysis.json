@@ -1,0 +1,147 @@
+{
+  "photoId": "photo-19",
+  "runCount": 5,
+  "scoreStability": {
+    "technical": {
+      "count": 5,
+      "values": [
+        5.8,
+        5.5,
+        5.5,
+        5.5,
+        5.5
+      ],
+      "min": 5.5,
+      "max": 5.8,
+      "range": 0.3,
+      "mean": 5.56,
+      "standardDeviation": 0.12
+    },
+    "composition": {
+      "count": 5,
+      "values": [
+        5,
+        5,
+        5,
+        5,
+        4.5
+      ],
+      "min": 4.5,
+      "max": 5,
+      "range": 0.5,
+      "mean": 4.9,
+      "standardDeviation": 0.2
+    },
+    "lighting": {
+      "count": 5,
+      "values": [
+        5.2,
+        5,
+        5,
+        5,
+        5
+      ],
+      "min": 5,
+      "max": 5.2,
+      "range": 0.2,
+      "mean": 5.04,
+      "standardDeviation": 0.08
+    },
+    "story": {
+      "count": 5,
+      "values": [
+        4.8,
+        4.5,
+        4.5,
+        4.5,
+        4.5
+      ],
+      "min": 4.5,
+      "max": 4.8,
+      "range": 0.3,
+      "mean": 4.56,
+      "standardDeviation": 0.12
+    },
+    "overall": {
+      "count": 5,
+      "values": [
+        5.4,
+        5,
+        5,
+        5,
+        5
+      ],
+      "min": 5,
+      "max": 5.4,
+      "range": 0.4,
+      "mean": 5.08,
+      "standardDeviation": 0.16
+    }
+  },
+  "textConsistency": {
+    "available": true,
+    "codedRunCount": 5,
+    "categoricalAgreement": {
+      "subject": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "盘中红色肉类食材和绿色叶菜",
+        "majorityCount": 1
+      },
+      "genre": {
+        "count": 5,
+        "agreement": 0.6,
+        "majorityValue": "餐桌美食记录",
+        "majorityCount": 3
+      },
+      "basicProblemTier": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "基础问题",
+        "majorityCount": 5
+      },
+      "capRule": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "background_distraction_ordinary_record_light_story_weak_overall_max_6",
+        "majorityCount": 5
+      },
+      "intentionalEffectJudgment": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "无明显故意处理",
+        "majorityCount": 5
+      },
+      "highScoreEligible": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "否",
+        "majorityCount": 5
+      }
+    },
+    "issueTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.657,
+      "min": 0.455,
+      "max": 1
+    },
+    "priorityTop3Overlap": {
+      "pairCount": 10,
+      "mean": 0.567,
+      "min": 0.333,
+      "max": 0.667
+    },
+    "firstPriorityAgreement": {
+      "count": 5,
+      "agreement": 1,
+      "majorityValue": "background_distraction",
+      "majorityCount": 5
+    },
+    "recommendationTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.729,
+      "min": 0.6,
+      "max": 1
+    }
+  }
+}

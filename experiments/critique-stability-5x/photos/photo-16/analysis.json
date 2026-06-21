@@ -1,0 +1,147 @@
+{
+  "photoId": "photo-16",
+  "runCount": 5,
+  "scoreStability": {
+    "technical": {
+      "count": 5,
+      "values": [
+        6,
+        6,
+        6,
+        6.5,
+        7
+      ],
+      "min": 6,
+      "max": 7,
+      "range": 1,
+      "mean": 6.3,
+      "standardDeviation": 0.4
+    },
+    "composition": {
+      "count": 5,
+      "values": [
+        5,
+        5,
+        5,
+        5.5,
+        6
+      ],
+      "min": 5,
+      "max": 6,
+      "range": 1,
+      "mean": 5.3,
+      "standardDeviation": 0.4
+    },
+    "lighting": {
+      "count": 5,
+      "values": [
+        5.5,
+        5.5,
+        5.5,
+        6,
+        6.5
+      ],
+      "min": 5.5,
+      "max": 6.5,
+      "range": 1,
+      "mean": 5.8,
+      "standardDeviation": 0.4
+    },
+    "story": {
+      "count": 5,
+      "values": [
+        5,
+        5,
+        5,
+        6.2,
+        6.5
+      ],
+      "min": 5,
+      "max": 6.5,
+      "range": 1.5,
+      "mean": 5.54,
+      "standardDeviation": 0.668
+    },
+    "overall": {
+      "count": 5,
+      "values": [
+        5,
+        5,
+        5,
+        5.8,
+        6.5
+      ],
+      "min": 5,
+      "max": 6.5,
+      "range": 1.5,
+      "mean": 5.46,
+      "standardDeviation": 0.605
+    }
+  },
+  "textConsistency": {
+    "available": true,
+    "codedRunCount": 5,
+    "categoricalAgreement": {
+      "subject": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "秋天、咖啡、书、玩偶和落叶组成的生活静物场景，但主视觉没有唯一中心",
+        "majorityCount": 1
+      },
+      "genre": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "户外生活静物 / 秋日氛围小品",
+        "majorityCount": 1
+      },
+      "basicProblemTier": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "基础问题",
+        "majorityCount": 5
+      },
+      "capRule": {
+        "count": 5,
+        "agreement": 0.6,
+        "majorityValue": "subject_weak_overall_max_5",
+        "majorityCount": 3
+      },
+      "intentionalEffectJudgment": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "倾斜、多物体散布和杂乱边缘不像有效的故意处理",
+        "majorityCount": 1
+      },
+      "highScoreEligible": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "否",
+        "majorityCount": 5
+      }
+    },
+    "issueTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.583,
+      "min": 0.333,
+      "max": 0.778
+    },
+    "priorityTop3Overlap": {
+      "pairCount": 10,
+      "mean": 0.633,
+      "min": 0.333,
+      "max": 1
+    },
+    "firstPriorityAgreement": {
+      "count": 5,
+      "agreement": 0.8,
+      "majorityValue": "subject_weak",
+      "majorityCount": 4
+    },
+    "recommendationTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.661,
+      "min": 0.455,
+      "max": 1
+    }
+  }
+}

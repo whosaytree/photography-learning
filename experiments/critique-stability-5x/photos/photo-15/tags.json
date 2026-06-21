@@ -1,0 +1,167 @@
+{
+  "run-1": {
+    "subject": "白色清真寺建筑、穹顶、尖塔和前方水景",
+    "genre": "旅行建筑 / 地标建筑摄影",
+    "basicProblemTier": "基础问题",
+    "capRule": "tilted_horizon_or_verticals_overall_max_6_5",
+    "intentionalEffectJudgment": "横倒/旋转不属于有效故意处理；高对比来自强日照",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "tilted_horizon_or_verticals",
+      "ordinary_documentation",
+      "harsh_light",
+      "awkward_crop",
+      "background_distraction",
+      "weak_story",
+      "strong_color"
+    ],
+    "priorityIssueTags": [
+      "tilted_horizon_or_verticals",
+      "ordinary_documentation",
+      "harsh_light"
+    ],
+    "recommendationTags": [
+      "straighten",
+      "use_grid_level",
+      "crop_tighter",
+      "simplify_background",
+      "shoot_in_better_light",
+      "recover_highlights",
+      "lift_shadows",
+      "local_dodge_burn"
+    ]
+  },
+  "run-2": {
+    "subject": "白色清真寺建筑群、穹顶、宣礼塔、拱廊和水池",
+    "genre": "建筑 / 旅行摄影",
+    "basicProblemTier": "基础问题",
+    "capRule": "tilted_horizon_or_verticals_overall_max_6_5",
+    "intentionalEffectJudgment": "横倒构图不像有效故意处理；高反差不是明确风格控制",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "tilted_horizon_or_verticals",
+      "awkward_crop",
+      "ordinary_documentation",
+      "harsh_light",
+      "weak_story",
+      "strong_color",
+      "weak_visual_path"
+    ],
+    "priorityIssueTags": [
+      "tilted_horizon_or_verticals",
+      "awkward_crop",
+      "harsh_light"
+    ],
+    "recommendationTags": [
+      "straighten",
+      "use_grid_level",
+      "crop_tighter",
+      "simplify_background",
+      "shoot_in_better_light",
+      "recover_highlights",
+      "lift_shadows",
+      "adjust_white_balance"
+    ]
+  },
+  "run-3": {
+    "subject": "白色清真寺建筑、穹顶、宣礼塔和水池立面",
+    "genre": "旅行建筑 / 建筑外观记录",
+    "basicProblemTier": "严重基础问题",
+    "capRule": "multiple_major_flaws_overall_max_4_5",
+    "intentionalEffectJudgment": "不认为是有效故意倾斜；高反差来自正午强光",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "tilted_horizon_or_verticals",
+      "ordinary_documentation",
+      "harsh_light",
+      "weak_story",
+      "awkward_crop",
+      "background_distraction",
+      "strong_color"
+    ],
+    "priorityIssueTags": [
+      "tilted_horizon_or_verticals",
+      "awkward_crop",
+      "harsh_light"
+    ],
+    "recommendationTags": [
+      "straighten",
+      "use_grid_level",
+      "crop_wider",
+      "crop_tighter",
+      "simplify_background",
+      "shoot_in_better_light",
+      "recover_highlights",
+      "lift_shadows"
+    ]
+  },
+  "run-4": {
+    "subject": "白色清真寺建筑、穹顶、拱廊、宣礼塔和前景水道",
+    "genre": "建筑 / 旅行记录 / 地标摄影",
+    "basicProblemTier": "基础问题",
+    "capRule": "tilted_horizon_or_verticals_overall_max_6_5",
+    "intentionalEffectJudgment": "不认为是有效故意倾斜或抽象构图",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "tilted_horizon_or_verticals",
+      "ordinary_documentation",
+      "harsh_light",
+      "awkward_crop",
+      "background_distraction",
+      "weak_story",
+      "strong_color"
+    ],
+    "priorityIssueTags": [
+      "tilted_horizon_or_verticals",
+      "awkward_crop",
+      "ordinary_documentation"
+    ],
+    "recommendationTags": [
+      "straighten",
+      "use_grid_level",
+      "crop_tighter",
+      "simplify_background",
+      "shoot_in_better_light",
+      "recover_highlights",
+      "lift_shadows",
+      "reduce_saturation"
+    ]
+  },
+  "run-5": {
+    "subject": "白色清真寺建筑立面、圆顶、尖塔和水池边重复柱廊",
+    "genre": "建筑 / 旅行记录 / 城市景观",
+    "basicProblemTier": "严重基础问题",
+    "capRule": "tilted_horizon_or_verticals_overall_max_6_5",
+    "intentionalEffectJudgment": "不把横置/强倾斜当作有效故意处理",
+    "highScoreEligible": "否",
+    "issueTags": [
+      "clear_subject",
+      "tilted_horizon_or_verticals",
+      "ordinary_documentation",
+      "harsh_light",
+      "background_distraction",
+      "awkward_crop",
+      "weak_story",
+      "strong_color"
+    ],
+    "priorityIssueTags": [
+      "tilted_horizon_or_verticals",
+      "background_distraction",
+      "harsh_light"
+    ],
+    "recommendationTags": [
+      "straighten",
+      "use_grid_level",
+      "crop_tighter",
+      "simplify_background",
+      "shoot_in_better_light",
+      "recover_highlights",
+      "lift_shadows",
+      "wait_for_moment"
+    ]
+  }
+}

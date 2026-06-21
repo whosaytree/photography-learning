@@ -1,0 +1,147 @@
+{
+  "photoId": "photo-03",
+  "runCount": 5,
+  "scoreStability": {
+    "technical": {
+      "count": 5,
+      "values": [
+        5,
+        5.5,
+        5.5,
+        4.5,
+        5
+      ],
+      "min": 4.5,
+      "max": 5.5,
+      "range": 1,
+      "mean": 5.1,
+      "standardDeviation": 0.374
+    },
+    "composition": {
+      "count": 5,
+      "values": [
+        4,
+        4.5,
+        4.5,
+        4,
+        4.5
+      ],
+      "min": 4,
+      "max": 4.5,
+      "range": 0.5,
+      "mean": 4.3,
+      "standardDeviation": 0.245
+    },
+    "lighting": {
+      "count": 5,
+      "values": [
+        4.5,
+        4.5,
+        4.5,
+        4,
+        4.5
+      ],
+      "min": 4,
+      "max": 4.5,
+      "range": 0.5,
+      "mean": 4.4,
+      "standardDeviation": 0.2
+    },
+    "story": {
+      "count": 5,
+      "values": [
+        3.5,
+        3.5,
+        4,
+        3.5,
+        4
+      ],
+      "min": 3.5,
+      "max": 4,
+      "range": 0.5,
+      "mean": 3.7,
+      "standardDeviation": 0.245
+    },
+    "overall": {
+      "count": 5,
+      "values": [
+        4.5,
+        4.5,
+        4.5,
+        4.5,
+        4.5
+      ],
+      "min": 4.5,
+      "max": 4.5,
+      "range": 0,
+      "mean": 4.5,
+      "standardDeviation": 0
+    }
+  },
+  "textConsistency": {
+    "available": true,
+    "codedRunCount": 5,
+    "categoricalAgreement": {
+      "subject": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "树林里的树干和光影，但主角不明确",
+        "majorityCount": 1
+      },
+      "genre": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "户外自然/环境记录，接近风景练习",
+        "majorityCount": 1
+      },
+      "basicProblemTier": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "基础问题",
+        "majorityCount": 5
+      },
+      "capRule": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "subject_weak_overall_max_5",
+        "majorityCount": 5
+      },
+      "intentionalEffectJudgment": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "无明显故意处理；倾斜树干、偏亮背景和杂乱前景按普通拍摄问题处理",
+        "majorityCount": 1
+      },
+      "highScoreEligible": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "否",
+        "majorityCount": 5
+      }
+    },
+    "issueTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.671,
+      "min": 0.6,
+      "max": 0.778
+    },
+    "priorityTop3Overlap": {
+      "pairCount": 10,
+      "mean": 0.767,
+      "min": 0.667,
+      "max": 1
+    },
+    "firstPriorityAgreement": {
+      "count": 5,
+      "agreement": 1,
+      "majorityValue": "subject_weak",
+      "majorityCount": 5
+    },
+    "recommendationTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.782,
+      "min": 0.6,
+      "max": 1
+    }
+  }
+}

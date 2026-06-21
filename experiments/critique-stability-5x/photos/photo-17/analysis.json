@@ -1,0 +1,147 @@
+{
+  "photoId": "photo-17",
+  "runCount": 5,
+  "scoreStability": {
+    "technical": {
+      "count": 5,
+      "values": [
+        4.8,
+        4.5,
+        5,
+        4.5,
+        5
+      ],
+      "min": 4.5,
+      "max": 5,
+      "range": 0.5,
+      "mean": 4.76,
+      "standardDeviation": 0.224
+    },
+    "composition": {
+      "count": 5,
+      "values": [
+        5,
+        5,
+        5,
+        4.8,
+        5
+      ],
+      "min": 4.8,
+      "max": 5,
+      "range": 0.2,
+      "mean": 4.96,
+      "standardDeviation": 0.08
+    },
+    "lighting": {
+      "count": 5,
+      "values": [
+        5.8,
+        6,
+        6,
+        5.8,
+        5.5
+      ],
+      "min": 5.5,
+      "max": 6,
+      "range": 0.5,
+      "mean": 5.82,
+      "standardDeviation": 0.183
+    },
+    "story": {
+      "count": 5,
+      "values": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "min": 5,
+      "max": 5,
+      "range": 0,
+      "mean": 5,
+      "standardDeviation": 0
+    },
+    "overall": {
+      "count": 5,
+      "values": [
+        5,
+        5,
+        5.5,
+        5,
+        5
+      ],
+      "min": 5,
+      "max": 5.5,
+      "range": 0.5,
+      "mean": 5.1,
+      "standardDeviation": 0.2
+    }
+  },
+  "textConsistency": {
+    "available": true,
+    "codedRunCount": 5,
+    "categoricalAgreement": {
+      "subject": {
+        "count": 5,
+        "agreement": 0.4,
+        "majorityValue": "河岸城市灯光与水面倒影",
+        "majorityCount": 2
+      },
+      "genre": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "城市夜景 / 水面倒影风景",
+        "majorityCount": 1
+      },
+      "basicProblemTier": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "基础问题",
+        "majorityCount": 5
+      },
+      "capRule": {
+        "count": 5,
+        "agreement": 0.8,
+        "majorityValue": "subject_weak_overall_max_5+motion_blur_technical_max_5",
+        "majorityCount": 4
+      },
+      "intentionalEffectJudgment": {
+        "count": 5,
+        "agreement": 0.2,
+        "majorityValue": "模糊非故意；偏暗属夜景题材；高反差控制不够；树枝框景不成功",
+        "majorityCount": 1
+      },
+      "highScoreEligible": {
+        "count": 5,
+        "agreement": 1,
+        "majorityValue": "否",
+        "majorityCount": 5
+      }
+    },
+    "issueTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.621,
+      "min": 0.455,
+      "max": 0.778
+    },
+    "priorityTop3Overlap": {
+      "pairCount": 10,
+      "mean": 1,
+      "min": 1,
+      "max": 1
+    },
+    "firstPriorityAgreement": {
+      "count": 5,
+      "agreement": 0.6,
+      "majorityValue": "subject_weak",
+      "majorityCount": 3
+    },
+    "recommendationTagJaccard": {
+      "pairCount": 10,
+      "mean": 0.797,
+      "min": 0.667,
+      "max": 1
+    }
+  }
+}
