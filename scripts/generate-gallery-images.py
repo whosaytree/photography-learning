@@ -17,11 +17,12 @@ def main():
         print(f"Archive root not found: {ARCHIVE_ROOT}", file=sys.stderr)
         return 1
 
+    archive_dirs = resolve_archive_dirs(sys.argv[1:])
     generated = 0
     skipped = 0
     missing = 0
 
-    for archive_dir in sorted(path for path in ARCHIVE_ROOT.iterdir() if path.is_dir()):
+    for archive_dir in archive_dirs:
         source = find_source_image(archive_dir)
         if source is None:
             missing += 1
@@ -41,7 +42,24 @@ def main():
     return 0
 
 
+def resolve_archive_dirs(args):
+    if not args:
+        return sorted(path for path in ARCHIVE_ROOT.iterdir() if path.is_dir())
+
+    archive_dirs = []
+    for arg in args:
+        path = Path(arg)
+        if not path.is_absolute():
+            archive_path = ARCHIVE_ROOT / arg
+            path = archive_path if archive_path.exists() else ROOT / arg
+        archive_dirs.append(path.resolve())
+    return archive_dirs
+
+
 def find_source_image(archive_dir):
+    if not archive_dir.exists() or not archive_dir.is_dir():
+        return None
+
     for path in sorted(archive_dir.iterdir()):
         if path.is_file() and path.stem.lower() == "original" and path.suffix.lower() in IMAGE_EXTENSIONS:
             return path
