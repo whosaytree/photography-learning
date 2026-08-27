@@ -150,7 +150,7 @@ h1 {
 .date-list,
 .thumb-list {
   min-height: 0;
-  overflow-y: auto;
+  overflow-y: scroll;
   overflow-x: hidden;
   overscroll-behavior: contain;
   padding: 10px;
@@ -857,16 +857,14 @@ h1 {
   }
 
   .date-list {
-    display: flex;
-    gap: 8px;
-    overflow-x: auto;
-    overflow-y: hidden;
+    max-height: min(34vh, 280px);
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
 
   .date-button {
-    flex: 0 0 auto;
-    width: 148px;
-    margin-bottom: 0;
+    width: 100%;
+    margin-bottom: 7px;
   }
 
   .thumb-list {
