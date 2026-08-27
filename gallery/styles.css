@@ -154,7 +154,15 @@ h1 {
   overflow-x: hidden;
   overscroll-behavior: contain;
   padding: 10px;
+  scrollbar-color: #8fa098 #eef3ef;
+  scrollbar-width: thin;
   scrollbar-gutter: stable;
+}
+
+.date-list {
+  background:
+    linear-gradient(var(--surface), var(--surface)) 0 0 / calc(100% - 10px) 100% no-repeat,
+    linear-gradient(#eef3ef, #eef3ef) right top / 10px 100% no-repeat;
 }
 
 .date-list::-webkit-scrollbar,
