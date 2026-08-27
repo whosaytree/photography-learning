@@ -831,6 +831,17 @@ els.dateList.addEventListener("click", (event) => {
   renderViewer();
 });
 
+els.dateList.addEventListener(
+  "wheel",
+  (event) => {
+    if (els.dateList.scrollHeight <= els.dateList.clientHeight) return;
+    const previousTop = els.dateList.scrollTop;
+    els.dateList.scrollTop += event.deltaY;
+    if (els.dateList.scrollTop !== previousTop) event.preventDefault();
+  },
+  { passive: false }
+);
+
 els.thumbList.addEventListener("click", (event) => {
   const button = event.target.closest("[data-id]");
   if (!button) return;

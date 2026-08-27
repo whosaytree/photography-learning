@@ -131,6 +131,11 @@ h1 {
   overflow: hidden;
 }
 
+.date-panel {
+  height: 100%;
+  max-height: calc(100dvh - 144px);
+}
+
 .panel-title {
   display: flex;
   align-items: center;
@@ -160,6 +165,7 @@ h1 {
 }
 
 .date-list {
+  max-height: calc(100dvh - 210px);
   background:
     linear-gradient(var(--surface), var(--surface)) 0 0 / calc(100% - 10px) 100% no-repeat,
     linear-gradient(#eef3ef, #eef3ef) right top / 10px 100% no-repeat;
