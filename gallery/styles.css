@@ -149,8 +149,34 @@ h1 {
 
 .date-list,
 .thumb-list {
-  overflow: auto;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
   padding: 10px;
+  scrollbar-gutter: stable;
+}
+
+.date-list::-webkit-scrollbar,
+.thumb-list::-webkit-scrollbar {
+  width: 10px;
+}
+
+.date-list::-webkit-scrollbar-track,
+.thumb-list::-webkit-scrollbar-track {
+  background: #eef3ef;
+}
+
+.date-list::-webkit-scrollbar-thumb,
+.thumb-list::-webkit-scrollbar-thumb {
+  border: 2px solid #eef3ef;
+  border-radius: 999px;
+  background: #aebbb4;
+}
+
+.date-list::-webkit-scrollbar-thumb:hover,
+.thumb-list::-webkit-scrollbar-thumb:hover {
+  background: #8fa098;
 }
 
 .date-button {
@@ -826,6 +852,7 @@ h1 {
     display: flex;
     gap: 8px;
     overflow-x: auto;
+    overflow-y: hidden;
   }
 
   .date-button {
