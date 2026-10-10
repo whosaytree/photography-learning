@@ -1,0 +1,28 @@
+{
+  "archive_id": "20260729-171241-overexposed-pond-rock-treeline",
+  "title": "摄影点评：池塘、白石岸与树林",
+  "created_at": "2026-07-29T17:12:41+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-07/9e20f478899dc29eb19741386f9343c8/c086ea87fda359823f7298e7a054b936.jpg",
+  "image_file_saved": true,
+  "original_filename": "c086ea87fda359823f7298e7a054b936.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 5040,
+  "pixel_height": 3784,
+  "image_dimensions": {
+    "width": 5040,
+    "height": 3784
+  },
+  "color_profile": "Display P3 Gamut with sRGB Transfer",
+  "visible_orientation": "upright_landscape",
+  "critique_language": "zh-CN",
+  "scores": {
+    "technical": 4.4,
+    "composition": 4.8,
+    "lighting": 4.3,
+    "story": 4.5,
+    "overall": 4.5
+  }
+}

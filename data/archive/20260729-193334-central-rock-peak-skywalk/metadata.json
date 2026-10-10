@@ -1,0 +1,28 @@
+{
+  "archive_id": "20260729-193334-central-rock-peak-skywalk",
+  "title": "摄影点评：中央岩峰与山体栈道",
+  "created_at": "2026-07-29T19:33:34+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-07/9e20f478899dc29eb19741386f9343c8/3a89f3920ff08b1f04b3de673cbf6bf1.jpg",
+  "image_file_saved": true,
+  "original_filename": "3a89f3920ff08b1f04b3de673cbf6bf1.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 4000,
+  "pixel_height": 6000,
+  "image_dimensions": {
+    "width": 4000,
+    "height": 6000
+  },
+  "color_profile": "sRGB IEC61966-2.1",
+  "visible_orientation": "upright_portrait",
+  "critique_language": "zh-CN",
+  "scores": {
+    "technical": 5.8,
+    "composition": 5.5,
+    "lighting": 5.3,
+    "story": 6.1,
+    "overall": 5.9
+  }
+}

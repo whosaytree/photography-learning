@@ -1,0 +1,36 @@
+{
+  "archive_id": "20260729-193734-barbed-wire-grass-pattern",
+  "title": "摄影点评：草地上的黑色节拍",
+  "created_at": "2026-07-29T19:37:34+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-07/9e20f478899dc29eb19741386f9343c8/87495b45563257856e821b8c75cd33d8.jpg",
+  "image_file_saved": true,
+  "original_filename": "87495b45563257856e821b8c75cd33d8.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 3032,
+  "pixel_height": 1708,
+  "image_dimensions": {
+    "width": 3032,
+    "height": 1708
+  },
+  "color_profile": "sRGB",
+  "visible_orientation": "upright_landscape",
+  "orientation_source": "metadata_and_visible_display_checked",
+  "basic_problem_tier": "无",
+  "story_evidence": "关系/瞬间/视觉想法",
+  "hard_flaw_cap": {
+    "applied": false,
+    "reason": "无"
+  },
+  "critique_language": "zh-CN",
+  "scores": {
+    "technical": 6.4,
+    "composition": 6.1,
+    "lighting": 5.2,
+    "story": 5.8,
+    "overall": 5.8
+  },
+  "sha256": "9389f950c3916a62b5b10e9417722c198922f73638be8b509d322e83733e3919"
+}

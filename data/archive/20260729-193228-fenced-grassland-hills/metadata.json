@@ -1,0 +1,36 @@
+{
+  "archive_id": "20260729-193228-fenced-grassland-hills",
+  "title": "摄影点评：边界之外的草原",
+  "created_at": "2026-07-29T19:32:28+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-07/9e20f478899dc29eb19741386f9343c8/31d275dd511cf1f6a16009458c0fcbe9.jpg",
+  "image_file_saved": true,
+  "original_filename": "31d275dd511cf1f6a16009458c0fcbe9.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 6000,
+  "pixel_height": 4000,
+  "image_dimensions": {
+    "width": 6000,
+    "height": 4000
+  },
+  "color_profile": "sRGB IEC61966-2.1",
+  "visible_orientation": "upright_landscape",
+  "orientation_source": "metadata_and_visible_display_checked",
+  "basic_problem_tier": "无",
+  "story_evidence": "关系/瞬间/视觉想法",
+  "hard_flaw_cap": {
+    "applied": false,
+    "reason": "无"
+  },
+  "critique_language": "zh-CN",
+  "scores": {
+    "technical": 6.4,
+    "composition": 6.8,
+    "lighting": 5.6,
+    "story": 6.4,
+    "overall": 6.5
+  },
+  "sha256": "0163724b46cb5e48e96aab61c09a591ed408b03e210e4601f10cb1cdf52f0031"
+}
