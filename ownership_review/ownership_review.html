@@ -1,0 +1,2968 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>拍摄归属核对</title>
+<style>
+  :root { --bg:#f5f5f2; --card:#fff; --ink:#161616; --muted:#666; --line:#d8d8d2; --red:#b42318; --red-bg:#fff1ef; --green:#1f7a3f; --blue:#0f62fe; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+  header { position:sticky; top:0; z-index:10; padding:14px 18px; background:rgba(245,245,242,.97); border-bottom:1px solid var(--line); }
+  h1 { margin:0 0 8px; font-size:22px; }
+  .summary { display:flex; gap:12px; flex-wrap:wrap; font-size:14px; color:var(--muted); }
+  .actions { display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin-top:10px; }
+  button { border:1px solid var(--line); background:#fff; border-radius:6px; padding:7px 10px; cursor:pointer; }
+  button:hover { border-color:#777; }
+  #selectedCount { font-weight:700; color:var(--red); }
+  main { padding:18px; }
+  .export { background:#fff; border:1px solid var(--line); border-radius:8px; padding:12px; margin-bottom:22px; }
+  textarea { width:min(820px,100%); min-height:120px; display:block; margin-top:10px; font:13px ui-monospace,SFMono-Regular,Menlo,monospace; }
+  section { margin:0 0 34px; }
+  h2 { margin:0 0 12px; font-size:18px; }
+  h2 span { color:var(--muted); font-weight:500; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:14px; }
+  .card { background:var(--card); border:2px solid transparent; border-radius:8px; padding:10px; box-shadow:0 1px 3px rgba(0,0,0,.06); }
+  .card.selected { border-color:var(--red); background:var(--red-bg); }
+  img { display:block; width:100%; height:180px; object-fit:contain; background:#eee; border-radius:5px; }
+  .idrow { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-top:8px; }
+  code { font-size:13px; word-break:break-all; user-select:all; }
+  .copy { padding:5px 8px; white-space:nowrap; font-size:13px; }
+  .tag { margin-top:7px; font-size:13px; color:var(--blue); }
+  .title { margin-top:4px; min-height:36px; font-size:14px; line-height:1.3; }
+  .score { height:18px; color:var(--muted); font-size:13px; }
+  .mark { display:flex; align-items:center; justify-content:center; gap:8px; margin-top:9px; padding:10px; border:1px solid var(--line); border-radius:7px; background:#fff; cursor:pointer; font-weight:700; color:var(--red); }
+  .mark input { width:20px; height:20px; }
+  .card.selected .mark { border-color:var(--red); background:#ffe1dc; }
+</style>
+</head>
+<body>
+<header>
+  <h1>拍摄归属核对</h1>
+  <div class="summary">
+    <span>待核对：172 张</span>
+    <span>已确认你拍：9 张</span>
+    <span>已确认不是你拍：3 张</span>
+    <span>已确认网上下载：12 张</span>
+  </div>
+  <div class="actions">
+    <span>已勾选不是我拍：<span id="selectedCount">0</span> 张</span>
+    <button type="button" id="copyExport">复制清单</button>
+    <button type="button" id="clearChecks">清空勾选</button>
+  </div>
+</header>
+<main>
+  <div class="export">
+    <strong>用法：</strong>在待核对区直接勾选“不是我拍”。勾选后卡片会变红，下面清单会实时更新；ID 也可以单独复制。
+    <textarea id="exportBox" placeholder="你勾选的“不是我拍”ID 会实时出现在这里"></textarea>
+  </div>
+  
+    <section id="pending">
+      <h2>待核对：原第三部分（我暂判“疑似你拍”） <span>172 张</span></h2>
+      <div class="grid">
+    <article class="card review-card" data-id="20260604-047a29d3">
+      <img src="../data/archive/20260604-047a29d3/original.jpg" alt="20260604-047a29d3">
+      <div class="idrow">
+        <code>20260604-047a29d3</code>
+        <button class="copy" type="button" data-copy="20260604-047a29d3">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">树冠下的园林桥</div>
+      <div class="score">总体分：7.0</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-047a29d3">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-05ff1427">
+      <img src="../data/archive/20260604-05ff1427/original.jpg" alt="20260604-05ff1427">
+      <div class="idrow">
+        <code>20260604-05ff1427</code>
+        <button class="copy" type="button" data-copy="20260604-05ff1427">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">园林小桥与倒影</div>
+      <div class="score">总体分：7.0</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-05ff1427">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-097ada51">
+      <img src="../data/archive/20260604-097ada51/original.jpg" alt="20260604-097ada51">
+      <div class="idrow">
+        <code>20260604-097ada51</code>
+        <button class="copy" type="button" data-copy="20260604-097ada51">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">拱门框住的绿意</div>
+      <div class="score">总体分：5.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-097ada51">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-0a436b7f">
+      <img src="../data/archive/20260604-0a436b7f/original.jpg" alt="20260604-0a436b7f">
+      <div class="idrow">
+        <code>20260604-0a436b7f</code>
+        <button class="copy" type="button" data-copy="20260604-0a436b7f">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">树荫下的水面</div>
+      <div class="score">总体分：5.0</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-0a436b7f">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-132230-dc76270f">
+      <img src="../data/archive/20260604-132230-dc76270f/original.jpg" alt="20260604-132230-dc76270f">
+      <div class="idrow">
+        <code>20260604-132230-dc76270f</code>
+        <button class="copy" type="button" data-copy="20260604-132230-dc76270f">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">草地林间小路</div>
+      <div class="score">总体分：6.2</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-132230-dc76270f">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-132642-87888d3c">
+      <img src="../data/archive/20260604-132642-87888d3c/original.jpg" alt="20260604-132642-87888d3c">
+      <div class="idrow">
+        <code>20260604-132642-87888d3c</code>
+        <button class="copy" type="button" data-copy="20260604-132642-87888d3c">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">云雾山谷</div>
+      <div class="score">总体分：7.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-132642-87888d3c">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-1326da7c">
+      <img src="../data/archive/20260604-1326da7c/original.jpg" alt="20260604-1326da7c">
+      <div class="idrow">
+        <code>20260604-1326da7c</code>
+        <button class="copy" type="button" data-copy="20260604-1326da7c">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">楼梯通向红门</div>
+      <div class="score">总体分：5.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-1326da7c">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-132919-0b81aa07">
+      <img src="../data/archive/20260604-132919-0b81aa07/original.jpg" alt="20260604-132919-0b81aa07">
+      <div class="idrow">
+        <code>20260604-132919-0b81aa07</code>
+        <button class="copy" type="button" data-copy="20260604-132919-0b81aa07">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">粉色花枝与松针背景</div>
+      <div class="score">总体分：5.9</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-132919-0b81aa07">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-133103-a5dba018">
+      <img src="../data/archive/20260604-133103-a5dba018/original.jpg" alt="20260604-133103-a5dba018">
+      <div class="idrow">
+        <code>20260604-133103-a5dba018</code>
+        <button class="copy" type="button" data-copy="20260604-133103-a5dba018">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">灰墙前的灌木</div>
+      <div class="score">总体分：4.7</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-133103-a5dba018">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-133238-29389cfc">
+      <img src="../data/archive/20260604-133238-29389cfc/original.jpg" alt="20260604-133238-29389cfc">
+      <div class="idrow">
+        <code>20260604-133238-29389cfc</code>
+        <button class="copy" type="button" data-copy="20260604-133238-29389cfc">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">树木前的灰砖窗墙</div>
+      <div class="score">总体分：5.6</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-133238-29389cfc">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-133429-f47c12fc">
+      <img src="../data/archive/20260604-133429-f47c12fc/original.jpg" alt="20260604-133429-f47c12fc">
+      <div class="idrow">
+        <code>20260604-133429-f47c12fc</code>
+        <button class="copy" type="button" data-copy="20260604-133429-f47c12fc">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">抽象枝叶与天空</div>
+      <div class="score">总体分：4.3</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-133429-f47c12fc">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-133618-b07fc03a">
+      <img src="../data/archive/20260604-133618-b07fc03a/original.jpg" alt="20260604-133618-b07fc03a">
+      <div class="idrow">
+        <code>20260604-133618-b07fc03a</code>
+        <button class="copy" type="button" data-copy="20260604-133618-b07fc03a">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">树影里的老房子</div>
+      <div class="score">总体分：7.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-133618-b07fc03a">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-133750-b2651881">
+      <img src="../data/archive/20260604-133750-b2651881/original.jpg" alt="20260604-133750-b2651881">
+      <div class="idrow">
+        <code>20260604-133750-b2651881</code>
+        <button class="copy" type="button" data-copy="20260604-133750-b2651881">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">树丛里的院落建筑</div>
+      <div class="score">总体分：5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-133750-b2651881">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-134010-5566bac3">
+      <img src="../data/archive/20260604-134010-5566bac3/original.jpg" alt="20260604-134010-5566bac3">
+      <div class="idrow">
+        <code>20260604-134010-5566bac3</code>
+        <button class="copy" type="button" data-copy="20260604-134010-5566bac3">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">蓝调时刻城市路口</div>
+      <div class="score">总体分：6</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-134010-5566bac3">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-134115-12d3735d">
+      <img src="../data/archive/20260604-134115-12d3735d/original.jpg" alt="20260604-134115-12d3735d">
+      <div class="idrow">
+        <code>20260604-134115-12d3735d</code>
+        <button class="copy" type="button" data-copy="20260604-134115-12d3735d">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">低角度霓虹高楼</div>
+      <div class="score">总体分：6</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-134115-12d3735d">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-134245-c88eec36">
+      <img src="../data/archive/20260604-134245-c88eec36/original.jpg" alt="20260604-134245-c88eec36">
+      <div class="idrow">
+        <code>20260604-134245-c88eec36</code>
+        <button class="copy" type="button" data-copy="20260604-134245-c88eec36">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">电线前的霓虹楼</div>
+      <div class="score">总体分：5.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-134245-c88eec36">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-134421-bda1e66d">
+      <img src="../data/archive/20260604-134421-bda1e66d/original.jpg" alt="20260604-134421-bda1e66d">
+      <div class="idrow">
+        <code>20260604-134421-bda1e66d</code>
+        <button class="copy" type="button" data-copy="20260604-134421-bda1e66d">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">雨窗水滴</div>
+      <div class="score">总体分：5.9</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-134421-bda1e66d">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-134626-4e540747">
+      <img src="../data/archive/20260604-134626-4e540747/original.jpg" alt="20260604-134626-4e540747">
+      <div class="idrow">
+        <code>20260604-134626-4e540747</code>
+        <button class="copy" type="button" data-copy="20260604-134626-4e540747">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">树影框住的庭院</div>
+      <div class="score">总体分：6.3</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-134626-4e540747">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-134759-f752555c">
+      <img src="../data/archive/20260604-134759-f752555c/original.jpg" alt="20260604-134759-f752555c">
+      <div class="idrow">
+        <code>20260604-134759-f752555c</code>
+        <button class="copy" type="button" data-copy="20260604-134759-f752555c">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">树冠里的古建局部</div>
+      <div class="score">总体分：5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-134759-f752555c">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-135047-7cd48bcf">
+      <img src="../data/archive/20260604-135047-7cd48bcf/original.jpg" alt="20260604-135047-7cd48bcf">
+      <div class="idrow">
+        <code>20260604-135047-7cd48bcf</code>
+        <button class="copy" type="button" data-copy="20260604-135047-7cd48bcf">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">夜市灯笼街景</div>
+      <div class="score">总体分：7.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-135047-7cd48bcf">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-135215-0365a6d2">
+      <img src="../data/archive/20260604-135215-0365a6d2/original.jpg" alt="20260604-135215-0365a6d2">
+      <div class="idrow">
+        <code>20260604-135215-0365a6d2</code>
+        <button class="copy" type="button" data-copy="20260604-135215-0365a6d2">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：下午茶展示静物</div>
+      <div class="score">总体分：5.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-135215-0365a6d2">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-135317-21b2f52d">
+      <img src="../data/archive/20260604-135317-21b2f52d/original.jpg" alt="20260604-135317-21b2f52d">
+      <div class="idrow">
+        <code>20260604-135317-21b2f52d</code>
+        <button class="copy" type="button" data-copy="20260604-135317-21b2f52d">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：夜色中的中式屋檐</div>
+      <div class="score">总体分：7.2</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-135317-21b2f52d">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-1782c264">
+      <img src="../data/archive/20260604-1782c264/original.jpg" alt="20260604-1782c264">
+      <div class="idrow">
+        <code>20260604-1782c264</code>
+        <button class="copy" type="button" data-copy="20260604-1782c264">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：红窗建筑局部</div>
+      <div class="score">总体分：5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-1782c264">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-1bdb8f1b">
+      <img src="../data/archive/20260604-1bdb8f1b/original.jpg" alt="20260604-1bdb8f1b">
+      <div class="idrow">
+        <code>20260604-1bdb8f1b</code>
+        <button class="copy" type="button" data-copy="20260604-1bdb8f1b">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：园林小桥与水中倒影</div>
+      <div class="score">总体分：6</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-1bdb8f1b">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-1f350ca6">
+      <img src="../data/archive/20260604-1f350ca6/original.jpg" alt="20260604-1f350ca6">
+      <div class="idrow">
+        <code>20260604-1f350ca6</code>
+        <button class="copy" type="button" data-copy="20260604-1f350ca6">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：室内圣诞树</div>
+      <div class="score">总体分：6</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-1f350ca6">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-210028-lake-back-portrait">
+      <img src="../data/archive/20260604-210028-lake-back-portrait/original.jpg" alt="20260604-210028-lake-back-portrait">
+      <div class="idrow">
+        <code>20260604-210028-lake-back-portrait</code>
+        <button class="copy" type="button" data-copy="20260604-210028-lake-back-portrait">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：湖边背影人像</div>
+      <div class="score">总体分：7</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-210028-lake-back-portrait">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-210301-city-church-view">
+      <img src="../data/archive/20260604-210301-city-church-view/original.jpg" alt="20260604-210301-city-church-view">
+      <div class="idrow">
+        <code>20260604-210301-city-church-view</code>
+        <button class="copy" type="button" data-copy="20260604-210301-city-church-view">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：俯瞰城市教堂建筑群</div>
+      <div class="score">总体分：6.6</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-210301-city-church-view">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-210427-mountain-lake-valley">
+      <img src="../data/archive/20260604-210427-mountain-lake-valley/original.jpg" alt="20260604-210427-mountain-lake-valley">
+      <div class="idrow">
+        <code>20260604-210427-mountain-lake-valley</code>
+        <button class="copy" type="button" data-copy="20260604-210427-mountain-lake-valley">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：山谷湖泊与远处雪山</div>
+      <div class="score">总体分：7.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-210427-mountain-lake-valley">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-210553-lake-mountain-sky">
+      <img src="../data/archive/20260604-210553-lake-mountain-sky/original.jpg" alt="20260604-210553-lake-mountain-sky">
+      <div class="idrow">
+        <code>20260604-210553-lake-mountain-sky</code>
+        <button class="copy" type="button" data-copy="20260604-210553-lake-mountain-sky">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：湖面与雪山蓝天</div>
+      <div class="score">总体分：6.2</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-210553-lake-mountain-sky">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-210720-ferry-flag-backlight">
+      <img src="../data/archive/20260604-210720-ferry-flag-backlight/original.jpg" alt="20260604-210720-ferry-flag-backlight">
+      <div class="idrow">
+        <code>20260604-210720-ferry-flag-backlight</code>
+        <button class="copy" type="button" data-copy="20260604-210720-ferry-flag-backlight">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：渡船上的逆光旗帜</div>
+      <div class="score">总体分：7.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-210720-ferry-flag-backlight">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-210858-sunset-city-canal">
+      <img src="../data/archive/20260604-210858-sunset-city-canal/original.jpg" alt="20260604-210858-sunset-city-canal">
+      <div class="idrow">
+        <code>20260604-210858-sunset-city-canal</code>
+        <button class="copy" type="button" data-copy="20260604-210858-sunset-city-canal">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：夕阳城市河道</div>
+      <div class="score">总体分：6</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-210858-sunset-city-canal">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-211036-garden-bridge-river">
+      <img src="../data/archive/20260604-211036-garden-bridge-river/original.jpg" alt="20260604-211036-garden-bridge-river">
+      <div class="idrow">
+        <code>20260604-211036-garden-bridge-river</code>
+        <button class="copy" type="button" data-copy="20260604-211036-garden-bridge-river">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：花园河道与石桥</div>
+      <div class="score">总体分：7.1</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-211036-garden-bridge-river">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-211212-palm-palace-garden">
+      <img src="../data/archive/20260604-211212-palm-palace-garden/original.jpg" alt="20260604-211212-palm-palace-garden">
+      <div class="idrow">
+        <code>20260604-211212-palm-palace-garden</code>
+        <button class="copy" type="button" data-copy="20260604-211212-palm-palace-garden">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：棕榈树前的白色宫殿</div>
+      <div class="score">总体分：5.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-211212-palm-palace-garden">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-211358-mosque-arcade-water">
+      <img src="../data/archive/20260604-211358-mosque-arcade-water/original.jpg" alt="20260604-211358-mosque-arcade-water">
+      <div class="idrow">
+        <code>20260604-211358-mosque-arcade-water</code>
+        <button class="copy" type="button" data-copy="20260604-211358-mosque-arcade-water">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：清真寺拱廊水景</div>
+      <div class="score">总体分：7.6</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-211358-mosque-arcade-water">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-211545-white-sculpture-closeup">
+      <img src="../data/archive/20260604-211545-white-sculpture-closeup/original.jpg" alt="20260604-211545-white-sculpture-closeup">
+      <div class="idrow">
+        <code>20260604-211545-white-sculpture-closeup</code>
+        <button class="copy" type="button" data-copy="20260604-211545-white-sculpture-closeup">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：白色雕塑近景</div>
+      <div class="score">总体分：7.2</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-211545-white-sculpture-closeup">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-211736-night-harbor-hillside">
+      <img src="../data/archive/20260604-211736-night-harbor-hillside/original.jpg" alt="20260604-211736-night-harbor-hillside">
+      <div class="idrow">
+        <code>20260604-211736-night-harbor-hillside</code>
+        <button class="copy" type="button" data-copy="20260604-211736-night-harbor-hillside">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：夜港山城灯火</div>
+      <div class="score">总体分：6.3</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-211736-night-harbor-hillside">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-212244-city-skyline-clouds-window">
+      <img src="../data/archive/20260604-212244-city-skyline-clouds-window/original.jpg" alt="20260604-212244-city-skyline-clouds-window">
+      <div class="idrow">
+        <code>20260604-212244-city-skyline-clouds-window</code>
+        <button class="copy" type="button" data-copy="20260604-212244-city-skyline-clouds-window">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：隔窗拍摄的阴云城市</div>
+      <div class="score">总体分：5.6</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-212244-city-skyline-clouds-window">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-212440-balcony-cat-brick-wall">
+      <img src="../data/archive/20260604-212440-balcony-cat-brick-wall/original.jpg" alt="20260604-212440-balcony-cat-brick-wall">
+      <div class="idrow">
+        <code>20260604-212440-balcony-cat-brick-wall</code>
+        <button class="copy" type="button" data-copy="20260604-212440-balcony-cat-brick-wall">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：阳台栏杆上的猫</div>
+      <div class="score">总体分：5.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-212440-balcony-cat-brick-wall">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-212457-5884ed5b">
+      <img src="../data/archive/20260604-212457-5884ed5b/original.jpg" alt="20260604-212457-5884ed5b">
+      <div class="idrow">
+        <code>20260604-212457-5884ed5b</code>
+        <button class="copy" type="button" data-copy="20260604-212457-5884ed5b">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：海岸城堡与红屋顶城市</div>
+      <div class="score">总体分：7.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-212457-5884ed5b">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-212639-huangshanbei-platform-train">
+      <img src="../data/archive/20260604-212639-huangshanbei-platform-train/original.jpg" alt="20260604-212639-huangshanbei-platform-train">
+      <div class="idrow">
+        <code>20260604-212639-huangshanbei-platform-train</code>
+        <button class="copy" type="button" data-copy="20260604-212639-huangshanbei-platform-train">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：雾中的黄山北站台</div>
+      <div class="score">总体分：7.1</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-212639-huangshanbei-platform-train">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-212802-eef342f2">
+      <img src="../data/archive/20260604-212802-eef342f2/original.jpg" alt="20260604-212802-eef342f2">
+      <div class="idrow">
+        <code>20260604-212802-eef342f2</code>
+        <button class="copy" type="button" data-copy="20260604-212802-eef342f2">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：金色侧光下的哥特建筑</div>
+      <div class="score">总体分：8.0</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-212802-eef342f2">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-212901-night-lit-tour-boat">
+      <img src="../data/archive/20260604-212901-night-lit-tour-boat/original.jpg" alt="20260604-212901-night-lit-tour-boat">
+      <div class="idrow">
+        <code>20260604-212901-night-lit-tour-boat</code>
+        <button class="copy" type="button" data-copy="20260604-212901-night-lit-tour-boat">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：夜色中的灯光游船</div>
+      <div class="score">总体分：7.3</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-212901-night-lit-tour-boat">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-213100-mountain-creek-cabin">
+      <img src="../data/archive/20260604-213100-mountain-creek-cabin/original.jpg" alt="20260604-213100-mountain-creek-cabin">
+      <div class="idrow">
+        <code>20260604-213100-mountain-creek-cabin</code>
+        <button class="copy" type="button" data-copy="20260604-213100-mountain-creek-cabin">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：山溪边的小屋</div>
+      <div class="score">总体分：7.0</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-213100-mountain-creek-cabin">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-214217-dusk-street-market">
+      <img src="../data/archive/20260604-214217-dusk-street-market/original.jpg" alt="20260604-214217-dusk-street-market">
+      <div class="idrow">
+        <code>20260604-214217-dusk-street-market</code>
+        <button class="copy" type="button" data-copy="20260604-214217-dusk-street-market">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：黄昏街市</div>
+      <div class="score">总体分：8.1</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-214217-dusk-street-market">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-215130-overhead-cat-yard">
+      <img src="../data/archive/20260604-215130-overhead-cat-yard/original.jpg" alt="20260604-215130-overhead-cat-yard">
+      <div class="idrow">
+        <code>20260604-215130-overhead-cat-yard</code>
+        <button class="copy" type="button" data-copy="20260604-215130-overhead-cat-yard">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：俯拍院子里的猫</div>
+      <div class="score">总体分：4.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-215130-overhead-cat-yard">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-215340-hotpot-table-service">
+      <img src="../data/archive/20260604-215340-hotpot-table-service/original.jpg" alt="20260604-215340-hotpot-table-service">
+      <div class="idrow">
+        <code>20260604-215340-hotpot-table-service</code>
+        <button class="copy" type="button" data-copy="20260604-215340-hotpot-table-service">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：火锅餐桌服务记录</div>
+      <div class="score">总体分：5.3</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-215340-hotpot-table-service">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-215739-phone-game-screen">
+      <img src="../data/archive/20260604-215739-phone-game-screen/original.jpg" alt="20260604-215739-phone-game-screen">
+      <div class="idrow">
+        <code>20260604-215739-phone-game-screen</code>
+        <button class="copy" type="button" data-copy="20260604-215739-phone-game-screen">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：手机游戏画面记录</div>
+      <div class="score">总体分：4.2</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-215739-phone-game-screen">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-2e5db055">
+      <img src="../data/archive/20260604-2e5db055/original.jpg" alt="20260604-2e5db055">
+      <div class="idrow">
+        <code>20260604-2e5db055</code>
+        <button class="copy" type="button" data-copy="20260604-2e5db055">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：城市背景下的应援物记录</div>
+      <div class="score">总体分：5.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-2e5db055">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-2e64f969">
+      <img src="../data/archive/20260604-2e64f969/original.jpg" alt="20260604-2e64f969">
+      <div class="idrow">
+        <code>20260604-2e64f969</code>
+        <button class="copy" type="button" data-copy="20260604-2e64f969">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：树荫下的园林小桥</div>
+      <div class="score">总体分：6</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-2e64f969">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-4c1cd91e">
+      <img src="../data/archive/20260604-4c1cd91e/original.jpg" alt="20260604-4c1cd91e">
+      <div class="idrow">
+        <code>20260604-4c1cd91e</code>
+        <button class="copy" type="button" data-copy="20260604-4c1cd91e">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：园林小桥与倒影</div>
+      <div class="score">总体分：6</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-4c1cd91e">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-55035f8e">
+      <img src="../data/archive/20260604-55035f8e/original.jpg" alt="20260604-55035f8e">
+      <div class="idrow">
+        <code>20260604-55035f8e</code>
+        <button class="copy" type="button" data-copy="20260604-55035f8e">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：湖畔古塔远景</div>
+      <div class="score">总体分：5.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-55035f8e">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-621fface">
+      <img src="../data/archive/20260604-621fface/original.jpg" alt="20260604-621fface">
+      <div class="idrow">
+        <code>20260604-621fface</code>
+        <button class="copy" type="button" data-copy="20260604-621fface">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：层层门洞的建筑通道</div>
+      <div class="score">总体分：5.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-621fface">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-6ecab46f">
+      <img src="../data/archive/20260604-6ecab46f/original.jpg" alt="20260604-6ecab46f">
+      <div class="idrow">
+        <code>20260604-6ecab46f</code>
+        <button class="copy" type="button" data-copy="20260604-6ecab46f">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：湖边古塔与前景草叶</div>
+      <div class="score">总体分：6.2</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-6ecab46f">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-70ecf563">
+      <img src="../data/archive/20260604-70ecf563/original.jpg" alt="20260604-70ecf563">
+      <div class="idrow">
+        <code>20260604-70ecf563</code>
+        <button class="copy" type="button" data-copy="20260604-70ecf563">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：秋日书桌静物</div>
+      <div class="score">总体分：6.7</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-70ecf563">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-aad49def">
+      <img src="../data/archive/20260604-aad49def/original.jpg" alt="20260604-aad49def">
+      <div class="idrow">
+        <code>20260604-aad49def</code>
+        <button class="copy" type="button" data-copy="20260604-aad49def">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：拱门中的红门</div>
+      <div class="score">总体分：5.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-aad49def">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-bad86595">
+      <img src="../data/archive/20260604-bad86595/original.jpg" alt="20260604-bad86595">
+      <div class="idrow">
+        <code>20260604-bad86595</code>
+        <button class="copy" type="button" data-copy="20260604-bad86595">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：树影遮挡中的建筑入口</div>
+      <div class="score">总体分：5.0</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-bad86595">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-c4088f85">
+      <img src="../data/archive/20260604-c4088f85/original.jpg" alt="20260604-c4088f85">
+      <div class="idrow">
+        <code>20260604-c4088f85</code>
+        <button class="copy" type="button" data-copy="20260604-c4088f85">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：电脑前的小熊玩偶</div>
+      <div class="score">总体分：5.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-c4088f85">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-ceb0eee8">
+      <img src="../data/archive/20260604-ceb0eee8/original.jpg" alt="20260604-ceb0eee8">
+      <div class="idrow">
+        <code>20260604-ceb0eee8</code>
+        <button class="copy" type="button" data-copy="20260604-ceb0eee8">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：园林小桥与树冠倒影</div>
+      <div class="score">总体分：7.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-ceb0eee8">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-e88207ca">
+      <img src="../data/archive/20260604-e88207ca/original.jpg" alt="20260604-e88207ca">
+      <div class="idrow">
+        <code>20260604-e88207ca</code>
+        <button class="copy" type="button" data-copy="20260604-e88207ca">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：古建廊道与台阶引导</div>
+      <div class="score">总体分：7.0</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-e88207ca">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260604-f10f7388">
+      <img src="../data/archive/20260604-f10f7388/original.jpg" alt="20260604-f10f7388">
+      <div class="idrow">
+        <code>20260604-f10f7388</code>
+        <button class="copy" type="button" data-copy="20260604-f10f7388">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：秋日咖啡静物</div>
+      <div class="score">总体分：6.6</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260604-f10f7388">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260608-165646-ae81a0ce">
+      <img src="../data/archive/20260608-165646-ae81a0ce/original.jpg" alt="20260608-165646-ae81a0ce">
+      <div class="idrow">
+        <code>20260608-165646-ae81a0ce</code>
+        <button class="copy" type="button" data-copy="20260608-165646-ae81a0ce">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：蓝调时刻建筑标志</div>
+      <div class="score">总体分：6.0</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260608-165646-ae81a0ce">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260608-165815-bbc39e31">
+      <img src="../data/archive/20260608-165815-bbc39e31/original.jpg" alt="20260608-165815-bbc39e31">
+      <div class="idrow">
+        <code>20260608-165815-bbc39e31</code>
+        <button class="copy" type="button" data-copy="20260608-165815-bbc39e31">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：暮色电线杆剪影</div>
+      <div class="score">总体分：5.0</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260608-165815-bbc39e31">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260608-165934-515c3c47">
+      <img src="../data/archive/20260608-165934-515c3c47/original.jpg" alt="20260608-165934-515c3c47">
+      <div class="idrow">
+        <code>20260608-165934-515c3c47</code>
+        <button class="copy" type="button" data-copy="20260608-165934-515c3c47">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：蓝调道路夜景</div>
+      <div class="score">总体分：7.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260608-165934-515c3c47">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260608-170103-54a618cd">
+      <img src="../data/archive/20260608-170103-54a618cd/original.jpg" alt="20260608-170103-54a618cd">
+      <div class="idrow">
+        <code>20260608-170103-54a618cd</code>
+        <button class="copy" type="button" data-copy="20260608-170103-54a618cd">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：暮色建筑与树影</div>
+      <div class="score">总体分：5.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260608-170103-54a618cd">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260608-170224-3738792c">
+      <img src="../data/archive/20260608-170224-3738792c/original.jpg" alt="20260608-170224-3738792c">
+      <div class="idrow">
+        <code>20260608-170224-3738792c</code>
+        <button class="copy" type="button" data-copy="20260608-170224-3738792c">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：住宅楼窗格正面</div>
+      <div class="score">总体分：5.3</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260608-170224-3738792c">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260608-170347-b0d140c9">
+      <img src="../data/archive/20260608-170347-b0d140c9/original.jpg" alt="20260608-170347-b0d140c9">
+      <div class="idrow">
+        <code>20260608-170347-b0d140c9</code>
+        <button class="copy" type="button" data-copy="20260608-170347-b0d140c9">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：旧墙斜线上的红花</div>
+      <div class="score">总体分：6.4</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260608-170347-b0d140c9">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260608-170511-56238241">
+      <img src="../data/archive/20260608-170511-56238241/original.jpg" alt="20260608-170511-56238241">
+      <div class="idrow">
+        <code>20260608-170511-56238241</code>
+        <button class="copy" type="button" data-copy="20260608-170511-56238241">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：旧墙前的红花</div>
+      <div class="score">总体分：6.6</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260608-170511-56238241">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260608-170640-3a7b0a12">
+      <img src="../data/archive/20260608-170640-3a7b0a12/original.jpg" alt="20260608-170640-3a7b0a12">
+      <div class="idrow">
+        <code>20260608-170640-3a7b0a12</code>
+        <button class="copy" type="button" data-copy="20260608-170640-3a7b0a12">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：屋顶管道与墙面几何</div>
+      <div class="score">总体分：4.9</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260608-170640-3a7b0a12">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260608-170809-8225400a">
+      <img src="../data/archive/20260608-170809-8225400a/original.jpg" alt="20260608-170809-8225400a">
+      <div class="idrow">
+        <code>20260608-170809-8225400a</code>
+        <button class="copy" type="button" data-copy="20260608-170809-8225400a">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：灰色住宅楼与大面积天空</div>
+      <div class="score">总体分：5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260608-170809-8225400a">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-103946-5494dad4">
+      <img src="../data/archive/20260609-103946-5494dad4/original.jpg" alt="20260609-103946-5494dad4">
+      <div class="idrow">
+        <code>20260609-103946-5494dad4</code>
+        <button class="copy" type="button" data-copy="20260609-103946-5494dad4">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：餐桌绿叶菜与肉</div>
+      <div class="score">总体分：5.3</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-103946-5494dad4">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-104132-22fd8070">
+      <img src="../data/archive/20260609-104132-22fd8070/original.jpg" alt="20260609-104132-22fd8070">
+      <div class="idrow">
+        <code>20260609-104132-22fd8070</code>
+        <button class="copy" type="button" data-copy="20260609-104132-22fd8070">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：低机位城市建筑夜景</div>
+      <div class="score">总体分：7.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-104132-22fd8070">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-104329-5d59f884">
+      <img src="../data/archive/20260609-104329-5d59f884/original.jpg" alt="20260609-104329-5d59f884">
+      <div class="idrow">
+        <code>20260609-104329-5d59f884</code>
+        <button class="copy" type="button" data-copy="20260609-104329-5d59f884">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：窗框中的夕阳城市剪影</div>
+      <div class="score">总体分：7.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-104329-5d59f884">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-104538-fdb52014">
+      <img src="../data/archive/20260609-104538-fdb52014/original.jpg" alt="20260609-104538-fdb52014">
+      <div class="idrow">
+        <code>20260609-104538-fdb52014</code>
+        <button class="copy" type="button" data-copy="20260609-104538-fdb52014">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：手办近景人像式静物</div>
+      <div class="score">总体分：6</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-104538-fdb52014">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-1046-8fc0e0fd">
+      <img src="../data/archive/20260609-1046-8fc0e0fd/original.jpg" alt="20260609-1046-8fc0e0fd">
+      <div class="idrow">
+        <code>20260609-1046-8fc0e0fd</code>
+        <button class="copy" type="button" data-copy="20260609-1046-8fc0e0fd">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：透明贴纸包装记录</div>
+      <div class="score">总体分：4.9</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-1046-8fc0e0fd">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-104732-888d0148">
+      <img src="../data/archive/20260609-104732-888d0148/original.jpg" alt="20260609-104732-888d0148">
+      <div class="idrow">
+        <code>20260609-104732-888d0148</code>
+        <button class="copy" type="button" data-copy="20260609-104732-888d0148">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：联名餐垫与角色甜品</div>
+      <div class="score">总体分：5.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-104732-888d0148">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-1049-02593af3">
+      <img src="../data/archive/20260609-1049-02593af3/original.jpg" alt="20260609-1049-02593af3">
+      <div class="idrow">
+        <code>20260609-1049-02593af3</code>
+        <button class="copy" type="button" data-copy="20260609-1049-02593af3">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：城市夜景天际线</div>
+      <div class="score">总体分：6.3</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-1049-02593af3">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-104934-c6286df4">
+      <img src="../data/archive/20260609-104934-c6286df4/original.jpg" alt="20260609-104934-c6286df4">
+      <div class="idrow">
+        <code>20260609-104934-c6286df4</code>
+        <button class="copy" type="button" data-copy="20260609-104934-c6286df4">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：韩国旅游展陈装置</div>
+      <div class="score">总体分：5.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-104934-c6286df4">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-1051-0e9dfe09">
+      <img src="../data/archive/20260609-1051-0e9dfe09/original.jpg" alt="20260609-1051-0e9dfe09">
+      <div class="idrow">
+        <code>20260609-1051-0e9dfe09</code>
+        <button class="copy" type="button" data-copy="20260609-1051-0e9dfe09">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：河岸夜景反光</div>
+      <div class="score">总体分：4.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-1051-0e9dfe09">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-105129-e24140ae">
+      <img src="../data/archive/20260609-105129-e24140ae/original.jpg" alt="20260609-105129-e24140ae">
+      <div class="idrow">
+        <code>20260609-105129-e24140ae</code>
+        <button class="copy" type="button" data-copy="20260609-105129-e24140ae">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：城市夜晚热气球灯光装置</div>
+      <div class="score">总体分：7.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-105129-e24140ae">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-1053-453e31dd">
+      <img src="../data/archive/20260609-1053-453e31dd/original.jpg" alt="20260609-1053-453e31dd">
+      <div class="idrow">
+        <code>20260609-1053-453e31dd</code>
+        <button class="copy" type="button" data-copy="20260609-1053-453e31dd">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：夜间河岸桥与倒影</div>
+      <div class="score">总体分：5.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-1053-453e31dd">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-105348-2c8bc0d5">
+      <img src="../data/archive/20260609-105348-2c8bc0d5/original.jpg" alt="20260609-105348-2c8bc0d5">
+      <div class="idrow">
+        <code>20260609-105348-2c8bc0d5</code>
+        <button class="copy" type="button" data-copy="20260609-105348-2c8bc0d5">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：披萨与沙拉餐桌</div>
+      <div class="score">总体分：5.0</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-105348-2c8bc0d5">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-1055-697fb5d8">
+      <img src="../data/archive/20260609-1055-697fb5d8/original.jpg" alt="20260609-1055-697fb5d8">
+      <div class="idrow">
+        <code>20260609-1055-697fb5d8</code>
+        <button class="copy" type="button" data-copy="20260609-1055-697fb5d8">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：烧鹅与青菜餐桌</div>
+      <div class="score">总体分：5.2</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-1055-697fb5d8">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-105550-097f0d95">
+      <img src="../data/archive/20260609-105550-097f0d95/original.jpg" alt="20260609-105550-097f0d95">
+      <div class="idrow">
+        <code>20260609-105550-097f0d95</code>
+        <button class="copy" type="button" data-copy="20260609-105550-097f0d95">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：室内蘑菇装置</div>
+      <div class="score">总体分：7.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-105550-097f0d95">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-1057-df75d41e">
+      <img src="../data/archive/20260609-1057-df75d41e/original.jpg" alt="20260609-1057-df75d41e">
+      <div class="idrow">
+        <code>20260609-1057-df75d41e</code>
+        <button class="copy" type="button" data-copy="20260609-1057-df75d41e">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：玻璃水壶生活静物</div>
+      <div class="score">总体分：5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-1057-df75d41e">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-105810-44ef555e">
+      <img src="../data/archive/20260609-105810-44ef555e/original.jpg" alt="20260609-105810-44ef555e">
+      <div class="idrow">
+        <code>20260609-105810-44ef555e</code>
+        <button class="copy" type="button" data-copy="20260609-105810-44ef555e">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：隔窗社区树影与楼群</div>
+      <div class="score">总体分：5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-105810-44ef555e">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-1059-5740d193">
+      <img src="../data/archive/20260609-1059-5740d193/original.jpg" alt="20260609-1059-5740d193">
+      <div class="idrow">
+        <code>20260609-1059-5740d193</code>
+        <button class="copy" type="button" data-copy="20260609-1059-5740d193">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：冰淇淋包装近拍</div>
+      <div class="score">总体分：5.4</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-1059-5740d193">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-110023-d97bc8e2">
+      <img src="../data/archive/20260609-110023-d97bc8e2/original.jpg" alt="20260609-110023-d97bc8e2">
+      <div class="idrow">
+        <code>20260609-110023-d97bc8e2</code>
+        <button class="copy" type="button" data-copy="20260609-110023-d97bc8e2">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：隔窗住宅楼窗格</div>
+      <div class="score">总体分：4.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-110023-d97bc8e2">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-1101-3b3f8b25">
+      <img src="../data/archive/20260609-1101-3b3f8b25/original.jpg" alt="20260609-1101-3b3f8b25">
+      <div class="idrow">
+        <code>20260609-1101-3b3f8b25</code>
+        <button class="copy" type="button" data-copy="20260609-1101-3b3f8b25">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：蜜雪冰城店招记录</div>
+      <div class="score">总体分：5.2</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-1101-3b3f8b25">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-110236-5d619f32">
+      <img src="../data/archive/20260609-110236-5d619f32/original.jpg" alt="20260609-110236-5d619f32">
+      <div class="idrow">
+        <code>20260609-110236-5d619f32</code>
+        <button class="copy" type="button" data-copy="20260609-110236-5d619f32">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：玻璃后的雪中楼体</div>
+      <div class="score">总体分：4.7</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-110236-5d619f32">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-1103-19645aef">
+      <img src="../data/archive/20260609-1103-19645aef/original.jpg" alt="20260609-1103-19645aef">
+      <div class="idrow">
+        <code>20260609-1103-19645aef</code>
+        <button class="copy" type="button" data-copy="20260609-1103-19645aef">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：地铁线路牌记录</div>
+      <div class="score">总体分：4.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-1103-19645aef">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-111400-36d38d9d">
+      <img src="../data/archive/20260609-111400-36d38d9d/original.jpg" alt="20260609-111400-36d38d9d">
+      <div class="idrow">
+        <code>20260609-111400-36d38d9d</code>
+        <button class="copy" type="button" data-copy="20260609-111400-36d38d9d">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：佛龛墙面与红门细节</div>
+      <div class="score">总体分：6</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-111400-36d38d9d">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-111632-a8335603">
+      <img src="../data/archive/20260609-111632-a8335603/original.jpg" alt="20260609-111632-a8335603">
+      <div class="idrow">
+        <code>20260609-111632-a8335603</code>
+        <button class="copy" type="button" data-copy="20260609-111632-a8335603">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：树影框景中的古建屋檐</div>
+      <div class="score">总体分：7.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-111632-a8335603">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-111907-5d07c3cd">
+      <img src="../data/archive/20260609-111907-5d07c3cd/original.jpg" alt="20260609-111907-5d07c3cd">
+      <div class="idrow">
+        <code>20260609-111907-5d07c3cd</code>
+        <button class="copy" type="button" data-copy="20260609-111907-5d07c3cd">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：枝头双鸭与湖面</div>
+      <div class="score">总体分：6.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-111907-5d07c3cd">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-112342-d2916690">
+      <img src="../data/archive/20260609-112342-d2916690/original.jpg" alt="20260609-112342-d2916690">
+      <div class="idrow">
+        <code>20260609-112342-d2916690</code>
+        <button class="copy" type="button" data-copy="20260609-112342-d2916690">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：水面双鸟互动</div>
+      <div class="score">总体分：6</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-112342-d2916690">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-112609-6022b98d">
+      <img src="../data/archive/20260609-112609-6022b98d/original.jpg" alt="20260609-112609-6022b98d">
+      <div class="idrow">
+        <code>20260609-112609-6022b98d</code>
+        <button class="copy" type="button" data-copy="20260609-112609-6022b98d">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：水面野鸭与花枝</div>
+      <div class="score">总体分：6</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-112609-6022b98d">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-112850-7d5cf877">
+      <img src="../data/archive/20260609-112850-7d5cf877/original.jpg" alt="20260609-112850-7d5cf877">
+      <div class="idrow">
+        <code>20260609-112850-7d5cf877</code>
+        <button class="copy" type="button" data-copy="20260609-112850-7d5cf877">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：雾天湖心岛与亭子</div>
+      <div class="score">总体分：7</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-112850-7d5cf877">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-113103">
+      <img src="../data/archive/20260609-113103/original.jpg" alt="20260609-113103">
+      <div class="idrow">
+        <code>20260609-113103</code>
+        <button class="copy" type="button" data-copy="20260609-113103">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：仓储长纸箱记录</div>
+      <div class="score">总体分：5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-113103">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-113117-f541d7ab">
+      <img src="../data/archive/20260609-113117-f541d7ab/original.jpg" alt="20260609-113117-f541d7ab">
+      <div class="idrow">
+        <code>20260609-113117-f541d7ab</code>
+        <button class="copy" type="button" data-copy="20260609-113117-f541d7ab">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：逆光古建与松树框景</div>
+      <div class="score">总体分：6</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-113117-f541d7ab">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-113259">
+      <img src="../data/archive/20260609-113259/original.jpg" alt="20260609-113259">
+      <div class="idrow">
+        <code>20260609-113259</code>
+        <button class="copy" type="button" data-copy="20260609-113259">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：开箱损坏记录</div>
+      <div class="score">总体分：5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-113259">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-113438">
+      <img src="../data/archive/20260609-113438/original.jpg" alt="20260609-113438">
+      <div class="idrow">
+        <code>20260609-113438</code>
+        <button class="copy" type="button" data-copy="20260609-113438">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：门口包裹记录</div>
+      <div class="score">总体分：4.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-113438">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-113544-2ae2bf47">
+      <img src="../data/archive/20260609-113544-2ae2bf47/original.jpg" alt="20260609-113544-2ae2bf47">
+      <div class="idrow">
+        <code>20260609-113544-2ae2bf47</code>
+        <button class="copy" type="button" data-copy="20260609-113544-2ae2bf47">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：湖面游船与远山古建</div>
+      <div class="score">总体分：6.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-113544-2ae2bf47">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-115408-f9cad06f">
+      <img src="../data/archive/20260609-115408-f9cad06f/original.jpg" alt="20260609-115408-f9cad06f">
+      <div class="idrow">
+        <code>20260609-115408-f9cad06f</code>
+        <button class="copy" type="button" data-copy="20260609-115408-f9cad06f">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：广场步道与城市建筑</div>
+      <div class="score">总体分：5.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-115408-f9cad06f">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-115634-31475a4e">
+      <img src="../data/archive/20260609-115634-31475a4e/original.jpg" alt="20260609-115634-31475a4e">
+      <div class="idrow">
+        <code>20260609-115634-31475a4e</code>
+        <button class="copy" type="button" data-copy="20260609-115634-31475a4e">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：树影中的城市高楼</div>
+      <div class="score">总体分：6</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-115634-31475a4e">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-115830-8d0d518d">
+      <img src="../data/archive/20260609-115830-8d0d518d/original.jpg" alt="20260609-115830-8d0d518d">
+      <div class="idrow">
+        <code>20260609-115830-8d0d518d</code>
+        <button class="copy" type="button" data-copy="20260609-115830-8d0d518d">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">商场外立面标识</div>
+      <div class="score">总体分：5.2</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-115830-8d0d518d">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-120023-9c2de191">
+      <img src="../data/archive/20260609-120023-9c2de191/original.jpg" alt="20260609-120023-9c2de191">
+      <div class="idrow">
+        <code>20260609-120023-9c2de191</code>
+        <button class="copy" type="button" data-copy="20260609-120023-9c2de191">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">夹缝中的城市高楼</div>
+      <div class="score">总体分：5.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-120023-9c2de191">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-120215-6e16f565">
+      <img src="../data/archive/20260609-120215-6e16f565/original.jpg" alt="20260609-120215-6e16f565">
+      <div class="idrow">
+        <code>20260609-120215-6e16f565</code>
+        <button class="copy" type="button" data-copy="20260609-120215-6e16f565">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">黄花近摄</div>
+      <div class="score">总体分：4.7</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-120215-6e16f565">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-120411-ccd28855">
+      <img src="../data/archive/20260609-120411-ccd28855/original.jpg" alt="20260609-120411-ccd28855">
+      <div class="idrow">
+        <code>20260609-120411-ccd28855</code>
+        <button class="copy" type="button" data-copy="20260609-120411-ccd28855">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">竖幅黄花近摄</div>
+      <div class="score">总体分：6.1</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-120411-ccd28855">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-120623-4f36213b">
+      <img src="../data/archive/20260609-120623-4f36213b/original.jpg" alt="20260609-120623-4f36213b">
+      <div class="idrow">
+        <code>20260609-120623-4f36213b</code>
+        <button class="copy" type="button" data-copy="20260609-120623-4f36213b">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">粉色花簇近摄</div>
+      <div class="score">总体分：6.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-120623-4f36213b">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-120828-3def6ef1">
+      <img src="../data/archive/20260609-120828-3def6ef1/original.jpg" alt="20260609-120828-3def6ef1">
+      <div class="idrow">
+        <code>20260609-120828-3def6ef1</code>
+        <button class="copy" type="button" data-copy="20260609-120828-3def6ef1">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">粉色花朵近景</div>
+      <div class="score">总体分：5.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-120828-3def6ef1">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-121101-98097144">
+      <img src="../data/archive/20260609-121101-98097144/original.jpg" alt="20260609-121101-98097144">
+      <div class="idrow">
+        <code>20260609-121101-98097144</code>
+        <button class="copy" type="button" data-copy="20260609-121101-98097144">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">红粉花簇近摄</div>
+      <div class="score">总体分：6.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-121101-98097144">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-121320-eb0c5942">
+      <img src="../data/archive/20260609-121320-eb0c5942/original.jpg" alt="20260609-121320-eb0c5942">
+      <div class="idrow">
+        <code>20260609-121320-eb0c5942</code>
+        <button class="copy" type="button" data-copy="20260609-121320-eb0c5942">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">旋转模糊的绿叶抽象</div>
+      <div class="score">总体分：5.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-121320-eb0c5942">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-121520-c3bdc9a5">
+      <img src="../data/archive/20260609-121520-c3bdc9a5/original.jpg" alt="20260609-121520-c3bdc9a5">
+      <div class="idrow">
+        <code>20260609-121520-c3bdc9a5</code>
+        <button class="copy" type="button" data-copy="20260609-121520-c3bdc9a5">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">花枝与建筑背景</div>
+      <div class="score">总体分：5.0</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-121520-c3bdc9a5">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-121724-9eaddb65">
+      <img src="../data/archive/20260609-121724-9eaddb65/original.jpg" alt="20260609-121724-9eaddb65">
+      <div class="idrow">
+        <code>20260609-121724-9eaddb65</code>
+        <button class="copy" type="button" data-copy="20260609-121724-9eaddb65">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">绿色旋转抽象</div>
+      <div class="score">总体分：5.9</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-121724-9eaddb65">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-121933-8ee15008">
+      <img src="../data/archive/20260609-121933-8ee15008/original.jpg" alt="20260609-121933-8ee15008">
+      <div class="idrow">
+        <code>20260609-121933-8ee15008</code>
+        <button class="copy" type="button" data-copy="20260609-121933-8ee15008">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">花树与楼墙</div>
+      <div class="score">总体分：5.3</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-121933-8ee15008">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-122149-13362558">
+      <img src="../data/archive/20260609-122149-13362558/original.jpg" alt="20260609-122149-13362558">
+      <div class="idrow">
+        <code>20260609-122149-13362558</code>
+        <button class="copy" type="button" data-copy="20260609-122149-13362558">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">黄色旋转花影</div>
+      <div class="score">总体分：5.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-122149-13362558">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-122402-36a99817">
+      <img src="../data/archive/20260609-122402-36a99817/original.jpg" alt="20260609-122402-36a99817">
+      <div class="idrow">
+        <code>20260609-122402-36a99817</code>
+        <button class="copy" type="button" data-copy="20260609-122402-36a99817">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">雾天湖面与游船</div>
+      <div class="score">总体分：5.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-122402-36a99817">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-122647-75840dfb">
+      <img src="../data/archive/20260609-122647-75840dfb/original.jpg" alt="20260609-122647-75840dfb">
+      <div class="idrow">
+        <code>20260609-122647-75840dfb</code>
+        <button class="copy" type="button" data-copy="20260609-122647-75840dfb">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">城市街道日落</div>
+      <div class="score">总体分：7</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-122647-75840dfb">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-122843-269f0cfc">
+      <img src="../data/archive/20260609-122843-269f0cfc/original.jpg" alt="20260609-122843-269f0cfc">
+      <div class="idrow">
+        <code>20260609-122843-269f0cfc</code>
+        <button class="copy" type="button" data-copy="20260609-122843-269f0cfc">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">湖上游船与画舫</div>
+      <div class="score">总体分：5.9</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-122843-269f0cfc">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-123037-a4fa046a">
+      <img src="../data/archive/20260609-123037-a4fa046a/original.jpg" alt="20260609-123037-a4fa046a">
+      <div class="idrow">
+        <code>20260609-123037-a4fa046a</code>
+        <button class="copy" type="button" data-copy="20260609-123037-a4fa046a">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">竖幅城市道路日落</div>
+      <div class="score">总体分：6.0</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-123037-a4fa046a">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-123238-34f09638">
+      <img src="../data/archive/20260609-123238-34f09638/original.jpg" alt="20260609-123238-34f09638">
+      <div class="idrow">
+        <code>20260609-123238-34f09638</code>
+        <button class="copy" type="button" data-copy="20260609-123238-34f09638">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">雾天湖岸与画舫</div>
+      <div class="score">总体分：7.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-123238-34f09638">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-123430-1376a191">
+      <img src="../data/archive/20260609-123430-1376a191/original.jpg" alt="20260609-123430-1376a191">
+      <div class="idrow">
+        <code>20260609-123430-1376a191</code>
+        <button class="copy" type="button" data-copy="20260609-123430-1376a191">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">树间古建牌楼</div>
+      <div class="score">总体分：5.6</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-123430-1376a191">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-152121-5cbcd00c">
+      <img src="../data/archive/20260609-152121-5cbcd00c/original.jpg" alt="20260609-152121-5cbcd00c">
+      <div class="idrow">
+        <code>20260609-152121-5cbcd00c</code>
+        <button class="copy" type="button" data-copy="20260609-152121-5cbcd00c">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">古建门与雕像</div>
+      <div class="score">总体分：4.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-152121-5cbcd00c">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-152321-e71f8563">
+      <img src="../data/archive/20260609-152321-e71f8563/original.jpg" alt="20260609-152321-e71f8563">
+      <div class="idrow">
+        <code>20260609-152321-e71f8563</code>
+        <button class="copy" type="button" data-copy="20260609-152321-e71f8563">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">日间城市道路透视</div>
+      <div class="score">总体分：6.0</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-152321-e71f8563">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-152540-7836367a">
+      <img src="../data/archive/20260609-152540-7836367a/original.jpg" alt="20260609-152540-7836367a">
+      <div class="idrow">
+        <code>20260609-152540-7836367a</code>
+        <button class="copy" type="button" data-copy="20260609-152540-7836367a">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">街边楼房记录</div>
+      <div class="score">总体分：4.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-152540-7836367a">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-152803-23924196">
+      <img src="../data/archive/20260609-152803-23924196/original.jpg" alt="20260609-152803-23924196">
+      <div class="idrow">
+        <code>20260609-152803-23924196</code>
+        <button class="copy" type="button" data-copy="20260609-152803-23924196">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">院落建筑入口</div>
+      <div class="score">总体分：5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-152803-23924196">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-153041-44eac2d4">
+      <img src="../data/archive/20260609-153041-44eac2d4/original.jpg" alt="20260609-153041-44eac2d4">
+      <div class="idrow">
+        <code>20260609-153041-44eac2d4</code>
+        <button class="copy" type="button" data-copy="20260609-153041-44eac2d4">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">树林与围栏环境</div>
+      <div class="score">总体分：4.2</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-153041-44eac2d4">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-153251-4997f337">
+      <img src="../data/archive/20260609-153251-4997f337/original.jpg" alt="20260609-153251-4997f337">
+      <div class="idrow">
+        <code>20260609-153251-4997f337</code>
+        <button class="copy" type="button" data-copy="20260609-153251-4997f337">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">栏杆与树枝线条</div>
+      <div class="score">总体分：5.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-153251-4997f337">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-153551-ee12dabd">
+      <img src="../data/archive/20260609-153551-ee12dabd/original.jpg" alt="20260609-153551-ee12dabd">
+      <div class="idrow">
+        <code>20260609-153551-ee12dabd</code>
+        <button class="copy" type="button" data-copy="20260609-153551-ee12dabd">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">天桥楼梯与枯枝</div>
+      <div class="score">总体分：6.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-153551-ee12dabd">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-154458-43507fd8">
+      <img src="../data/archive/20260609-154458-43507fd8/original.jpg" alt="20260609-154458-43507fd8">
+      <div class="idrow">
+        <code>20260609-154458-43507fd8</code>
+        <button class="copy" type="button" data-copy="20260609-154458-43507fd8">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score">总体分：6.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-154458-43507fd8">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260609-155124-4a149d61">
+      <img src="../data/archive/20260609-155124-4a149d61/original.jpg" alt="20260609-155124-4a149d61">
+      <div class="idrow">
+        <code>20260609-155124-4a149d61</code>
+        <button class="copy" type="button" data-copy="20260609-155124-4a149d61">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score">总体分：6.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260609-155124-4a149d61">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-112319-30d84393">
+      <img src="../data/archive/20260710-112319-30d84393/original.jpg" alt="20260710-112319-30d84393">
+      <div class="idrow">
+        <code>20260710-112319-30d84393</code>
+        <button class="copy" type="button" data-copy="20260710-112319-30d84393">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-112319-30d84393">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-112829-354e7b0f">
+      <img src="../data/archive/20260710-112829-354e7b0f/original.jpg" alt="20260710-112829-354e7b0f">
+      <div class="idrow">
+        <code>20260710-112829-354e7b0f</code>
+        <button class="copy" type="button" data-copy="20260710-112829-354e7b0f">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-112829-354e7b0f">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-113115-152cc648">
+      <img src="../data/archive/20260710-113115-152cc648/original.jpg" alt="20260710-113115-152cc648">
+      <div class="idrow">
+        <code>20260710-113115-152cc648</code>
+        <button class="copy" type="button" data-copy="20260710-113115-152cc648">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-113115-152cc648">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-113410-249ac5e8">
+      <img src="../data/archive/20260710-113410-249ac5e8/original.jpg" alt="20260710-113410-249ac5e8">
+      <div class="idrow">
+        <code>20260710-113410-249ac5e8</code>
+        <button class="copy" type="button" data-copy="20260710-113410-249ac5e8">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-113410-249ac5e8">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-113648-4e2479c4">
+      <img src="../data/archive/20260710-113648-4e2479c4/original.jpg" alt="20260710-113648-4e2479c4">
+      <div class="idrow">
+        <code>20260710-113648-4e2479c4</code>
+        <button class="copy" type="button" data-copy="20260710-113648-4e2479c4">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-113648-4e2479c4">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-114539-d715de9b">
+      <img src="../data/archive/20260710-114539-d715de9b/original.jpg" alt="20260710-114539-d715de9b">
+      <div class="idrow">
+        <code>20260710-114539-d715de9b</code>
+        <button class="copy" type="button" data-copy="20260710-114539-d715de9b">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-114539-d715de9b">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-114901-009e1ce1">
+      <img src="../data/archive/20260710-114901-009e1ce1/original.jpg" alt="20260710-114901-009e1ce1">
+      <div class="idrow">
+        <code>20260710-114901-009e1ce1</code>
+        <button class="copy" type="button" data-copy="20260710-114901-009e1ce1">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-114901-009e1ce1">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-115208-112f057e">
+      <img src="../data/archive/20260710-115208-112f057e/original.jpg" alt="20260710-115208-112f057e">
+      <div class="idrow">
+        <code>20260710-115208-112f057e</code>
+        <button class="copy" type="button" data-copy="20260710-115208-112f057e">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-115208-112f057e">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-115615-62cfa80f">
+      <img src="../data/archive/20260710-115615-62cfa80f/original.jpg" alt="20260710-115615-62cfa80f">
+      <div class="idrow">
+        <code>20260710-115615-62cfa80f</code>
+        <button class="copy" type="button" data-copy="20260710-115615-62cfa80f">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-115615-62cfa80f">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-115903-372f9164">
+      <img src="../data/archive/20260710-115903-372f9164/original.jpg" alt="20260710-115903-372f9164">
+      <div class="idrow">
+        <code>20260710-115903-372f9164</code>
+        <button class="copy" type="button" data-copy="20260710-115903-372f9164">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-115903-372f9164">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-121611-lotus-flower">
+      <img src="../data/archive/20260710-121611-lotus-flower/original.jpg" alt="20260710-121611-lotus-flower">
+      <div class="idrow">
+        <code>20260710-121611-lotus-flower</code>
+        <button class="copy" type="button" data-copy="20260710-121611-lotus-flower">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-121611-lotus-flower">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-121826-lotus-branch-frame">
+      <img src="../data/archive/20260710-121826-lotus-branch-frame/original.jpg" alt="20260710-121826-lotus-branch-frame">
+      <div class="idrow">
+        <code>20260710-121826-lotus-branch-frame</code>
+        <button class="copy" type="button" data-copy="20260710-121826-lotus-branch-frame">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-121826-lotus-branch-frame">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-122110-white-bridge-lake">
+      <img src="../data/archive/20260710-122110-white-bridge-lake/original.jpg" alt="20260710-122110-white-bridge-lake">
+      <div class="idrow">
+        <code>20260710-122110-white-bridge-lake</code>
+        <button class="copy" type="button" data-copy="20260710-122110-white-bridge-lake">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-122110-white-bridge-lake">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-122335-lotus-buds-backlight">
+      <img src="../data/archive/20260710-122335-lotus-buds-backlight/original.jpg" alt="20260710-122335-lotus-buds-backlight">
+      <div class="idrow">
+        <code>20260710-122335-lotus-buds-backlight</code>
+        <button class="copy" type="button" data-copy="20260710-122335-lotus-buds-backlight">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-122335-lotus-buds-backlight">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-122619-lakeside-dome-building">
+      <img src="../data/archive/20260710-122619-lakeside-dome-building/original.jpg" alt="20260710-122619-lakeside-dome-building">
+      <div class="idrow">
+        <code>20260710-122619-lakeside-dome-building</code>
+        <button class="copy" type="button" data-copy="20260710-122619-lakeside-dome-building">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-122619-lakeside-dome-building">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-122653-railing-lines">
+      <img src="../data/archive/20260710-122653-railing-lines/original.jpg" alt="20260710-122653-railing-lines">
+      <div class="idrow">
+        <code>20260710-122653-railing-lines</code>
+        <button class="copy" type="button" data-copy="20260710-122653-railing-lines">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：栏杆线条与墙面</div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-122653-railing-lines">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-123817-daylily-green-background">
+      <img src="../data/archive/20260710-123817-daylily-green-background/original.jpg" alt="20260710-123817-daylily-green-background">
+      <div class="idrow">
+        <code>20260710-123817-daylily-green-background</code>
+        <button class="copy" type="button" data-copy="20260710-123817-daylily-green-background">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：橙色花与绿色背景</div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-123817-daylily-green-background">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-124026-dark-daylily-bed">
+      <img src="../data/archive/20260710-124026-dark-daylily-bed/original.jpg" alt="20260710-124026-dark-daylily-bed">
+      <div class="idrow">
+        <code>20260710-124026-dark-daylily-bed</code>
+        <button class="copy" type="button" data-copy="20260710-124026-dark-daylily-bed">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：暗调花丛与蓝色背景</div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-124026-dark-daylily-bed">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-124241-lotus-pond-willow-layers">
+      <img src="../data/archive/20260710-124241-lotus-pond-willow-layers/original.jpg" alt="20260710-124241-lotus-pond-willow-layers">
+      <div class="idrow">
+        <code>20260710-124241-lotus-pond-willow-layers</code>
+        <button class="copy" type="button" data-copy="20260710-124241-lotus-pond-willow-layers">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：荷塘与柳树层次</div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-124241-lotus-pond-willow-layers">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-124455-lotus-leaves-water-reflections">
+      <img src="../data/archive/20260710-124455-lotus-leaves-water-reflections/original.jpg" alt="20260710-124455-lotus-leaves-water-reflections">
+      <div class="idrow">
+        <code>20260710-124455-lotus-leaves-water-reflections</code>
+        <button class="copy" type="button" data-copy="20260710-124455-lotus-leaves-water-reflections">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：荷叶与水面反光</div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-124455-lotus-leaves-water-reflections">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-124723-ducklings-reeds-bank">
+      <img src="../data/archive/20260710-124723-ducklings-reeds-bank/original.jpg" alt="20260710-124723-ducklings-reeds-bank">
+      <div class="idrow">
+        <code>20260710-124723-ducklings-reeds-bank</code>
+        <button class="copy" type="button" data-copy="20260710-124723-ducklings-reeds-bank">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：岸边小鸭群</div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-124723-ducklings-reeds-bank">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-124948-lotus-foreground-lake-boats">
+      <img src="../data/archive/20260710-124948-lotus-foreground-lake-boats/original.jpg" alt="20260710-124948-lotus-foreground-lake-boats">
+      <div class="idrow">
+        <code>20260710-124948-lotus-foreground-lake-boats</code>
+        <button class="copy" type="button" data-copy="20260710-124948-lotus-foreground-lake-boats">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：荷叶前景与湖面游船</div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-124948-lotus-foreground-lake-boats">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-130137-city-waterfront">
+      <img src="../data/archive/20260710-130137-city-waterfront/original.jpg" alt="20260710-130137-city-waterfront">
+      <div class="idrow">
+        <code>20260710-130137-city-waterfront</code>
+        <button class="copy" type="button" data-copy="20260710-130137-city-waterfront">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-130137-city-waterfront">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-130314-bridge-canopy-portrait">
+      <img src="../data/archive/20260710-130314-bridge-canopy-portrait/original.jpg" alt="20260710-130314-bridge-canopy-portrait">
+      <div class="idrow">
+        <code>20260710-130314-bridge-canopy-portrait</code>
+        <button class="copy" type="button" data-copy="20260710-130314-bridge-canopy-portrait">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：绿荫桥上回望人像</div>
+      <div class="score">总体分：7.5</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-130314-bridge-canopy-portrait">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-130358-orange-flowers">
+      <img src="../data/archive/20260710-130358-orange-flowers/original.jpg" alt="20260710-130358-orange-flowers">
+      <div class="idrow">
+        <code>20260710-130358-orange-flowers</code>
+        <button class="copy" type="button" data-copy="20260710-130358-orange-flowers">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-130358-orange-flowers">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-130611-bridge-front-portrait">
+      <img src="../data/archive/20260710-130611-bridge-front-portrait/original.jpg" alt="20260710-130611-bridge-front-portrait">
+      <div class="idrow">
+        <code>20260710-130611-bridge-front-portrait</code>
+        <button class="copy" type="button" data-copy="20260710-130611-bridge-front-portrait">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：绿荫桥上正面回望人像</div>
+      <div class="score">总体分：7.1</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-130611-bridge-front-portrait">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-130611-transparent-hedge-sign">
+      <img src="../data/archive/20260710-130611-transparent-hedge-sign/original.jpg" alt="20260710-130611-transparent-hedge-sign">
+      <div class="idrow">
+        <code>20260710-130611-transparent-hedge-sign</code>
+        <button class="copy" type="button" data-copy="20260710-130611-transparent-hedge-sign">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-130611-transparent-hedge-sign">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-130956-riverside-rocks">
+      <img src="../data/archive/20260710-130956-riverside-rocks/original.jpg" alt="20260710-130956-riverside-rocks">
+      <div class="idrow">
+        <code>20260710-130956-riverside-rocks</code>
+        <button class="copy" type="button" data-copy="20260710-130956-riverside-rocks">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-130956-riverside-rocks">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-131156-ivy-brick-door">
+      <img src="../data/archive/20260710-131156-ivy-brick-door/original.jpg" alt="20260710-131156-ivy-brick-door">
+      <div class="idrow">
+        <code>20260710-131156-ivy-brick-door</code>
+        <button class="copy" type="button" data-copy="20260710-131156-ivy-brick-door">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-131156-ivy-brick-door">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-131237-green-dance-graduation-portrait">
+      <img src="../data/archive/20260710-131237-green-dance-graduation-portrait/original.jpg" alt="20260710-131237-green-dance-graduation-portrait">
+      <div class="idrow">
+        <code>20260710-131237-green-dance-graduation-portrait</code>
+        <button class="copy" type="button" data-copy="20260710-131237-green-dance-graduation-portrait">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：绿荫中抛帽舞姿毕业人像</div>
+      <div class="score">总体分：5.0</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-131237-green-dance-graduation-portrait">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-131254-powerline-fields">
+      <img src="../data/archive/20260710-131254-powerline-fields/original.jpg" alt="20260710-131254-powerline-fields">
+      <div class="idrow">
+        <code>20260710-131254-powerline-fields</code>
+        <button class="copy" type="button" data-copy="20260710-131254-powerline-fields">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-131254-powerline-fields">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-131423-park-water-reflection">
+      <img src="../data/archive/20260710-131423-park-water-reflection/original.jpg" alt="20260710-131423-park-water-reflection">
+      <div class="idrow">
+        <code>20260710-131423-park-water-reflection</code>
+        <button class="copy" type="button" data-copy="20260710-131423-park-water-reflection">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-131423-park-water-reflection">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-131526-green-close-graduation-portrait">
+      <img src="../data/archive/20260710-131526-green-close-graduation-portrait/original.jpg" alt="20260710-131526-green-close-graduation-portrait">
+      <div class="idrow">
+        <code>20260710-131526-green-close-graduation-portrait</code>
+        <button class="copy" type="button" data-copy="20260710-131526-green-close-graduation-portrait">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：绿荫近景毕业人像</div>
+      <div class="score">总体分：5.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-131526-green-close-graduation-portrait">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-131526-stairway-hikers">
+      <img src="../data/archive/20260710-131526-stairway-hikers/original.jpg" alt="20260710-131526-stairway-hikers">
+      <div class="idrow">
+        <code>20260710-131526-stairway-hikers</code>
+        <button class="copy" type="button" data-copy="20260710-131526-stairway-hikers">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-131526-stairway-hikers">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-131707-park-waterway-horizontal">
+      <img src="../data/archive/20260710-131707-park-waterway-horizontal/original.jpg" alt="20260710-131707-park-waterway-horizontal">
+      <div class="idrow">
+        <code>20260710-131707-park-waterway-horizontal</code>
+        <button class="copy" type="button" data-copy="20260710-131707-park-waterway-horizontal">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-131707-park-waterway-horizontal">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-131845-horizontal-leaning-graduation-portrait">
+      <img src="../data/archive/20260710-131845-horizontal-leaning-graduation-portrait/original.jpg" alt="20260710-131845-horizontal-leaning-graduation-portrait">
+      <div class="idrow">
+        <code>20260710-131845-horizontal-leaning-graduation-portrait</code>
+        <button class="copy" type="button" data-copy="20260710-131845-horizontal-leaning-graduation-portrait">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：横幅倚栏毕业人像</div>
+      <div class="score">总体分：6.7</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-131845-horizontal-leaning-graduation-portrait">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-131949-willow-hidden-tent">
+      <img src="../data/archive/20260710-131949-willow-hidden-tent/original.jpg" alt="20260710-131949-willow-hidden-tent">
+      <div class="idrow">
+        <code>20260710-131949-willow-hidden-tent</code>
+        <button class="copy" type="button" data-copy="20260710-131949-willow-hidden-tent">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-131949-willow-hidden-tent">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-132210-canyon-signage-tree-plaza">
+      <img src="../data/archive/20260710-132210-canyon-signage-tree-plaza/original.jpg" alt="20260710-132210-canyon-signage-tree-plaza">
+      <div class="idrow">
+        <code>20260710-132210-canyon-signage-tree-plaza</code>
+        <button class="copy" type="button" data-copy="20260710-132210-canyon-signage-tree-plaza">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：峡谷标识与树荫广场</div>
+      <div class="score">总体分：5.0</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-132210-canyon-signage-tree-plaza">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-132238-dusk-city-clouds">
+      <img src="../data/archive/20260710-132238-dusk-city-clouds/original.jpg" alt="20260710-132238-dusk-city-clouds">
+      <div class="idrow">
+        <code>20260710-132238-dusk-city-clouds</code>
+        <button class="copy" type="button" data-copy="20260710-132238-dusk-city-clouds">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title"></div>
+      <div class="score"></div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-132238-dusk-city-clouds">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-132549-powerline-field-mountain">
+      <img src="../data/archive/20260710-132549-powerline-field-mountain/original.jpg" alt="20260710-132549-powerline-field-mountain">
+      <div class="idrow">
+        <code>20260710-132549-powerline-field-mountain</code>
+        <button class="copy" type="button" data-copy="20260710-132549-powerline-field-mountain">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：电塔麦田与远山</div>
+      <div class="score">总体分：6.9</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-132549-powerline-field-mountain">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-132950-riverbend-mountain-tree">
+      <img src="../data/archive/20260710-132950-riverbend-mountain-tree/original.jpg" alt="20260710-132950-riverbend-mountain-tree">
+      <div class="idrow">
+        <code>20260710-132950-riverbend-mountain-tree</code>
+        <button class="copy" type="button" data-copy="20260710-132950-riverbend-mountain-tree">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">摄影点评：河湾远山与岸边大树</div>
+      <div class="score">总体分：6.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-132950-riverbend-mountain-tree">
+          <span>不是我拍</span>
+        </label>
+    </article>
+    <article class="card review-card" data-id="20260710-133412-powerlines-factory-wheat-field">
+      <img src="../data/archive/20260710-133412-powerlines-factory-wheat-field/original.jpg" alt="20260710-133412-powerlines-factory-wheat-field">
+      <div class="idrow">
+        <code>20260710-133412-powerlines-factory-wheat-field</code>
+        <button class="copy" type="button" data-copy="20260710-133412-powerlines-factory-wheat-field">复制ID</button>
+      </div>
+      <div class="tag">标签：待核对-疑似你拍</div>
+      <div class="title">right-side high-voltage tower and power-line network over wheat field, factory, and distant mountains</div>
+      <div class="score">总体分：6.8</div>
+      
+        <label class="mark">
+          <input type="checkbox" class="not-self-check" value="20260710-133412-powerlines-factory-wheat-field">
+          <span>不是我拍</span>
+        </label>
+    </article></div>
+    </section>
+  
+    <section id="confirmed-self">
+      <h2>已按你反馈确认：你拍 <span>9 张</span></h2>
+      <div class="grid">
+    <article class="card" data-id="20260604-214559-b7815c3a">
+      <img src="../data/archive/20260604-214559-b7815c3a/original.jpg" alt="20260604-214559-b7815c3a">
+      <div class="idrow">
+        <code>20260604-214559-b7815c3a</code>
+        <button class="copy" type="button" data-copy="20260604-214559-b7815c3a">复制ID</button>
+      </div>
+      <div class="tag">标签：你拍</div>
+      <div class="title">摄影点评：林中柱廊</div>
+      <div class="score">总体分：6.0</div>
+      
+    </article>
+    <article class="card" data-id="20260604-214853-23346515">
+      <img src="../data/archive/20260604-214853-23346515/original.jpg" alt="20260604-214853-23346515">
+      <div class="idrow">
+        <code>20260604-214853-23346515</code>
+        <button class="copy" type="button" data-copy="20260604-214853-23346515">复制ID</button>
+      </div>
+      <div class="tag">标签：你拍</div>
+      <div class="title">摄影点评：树下的老建筑屋檐</div>
+      <div class="score">总体分：5.3</div>
+      
+    </article>
+    <article class="card" data-id="20260604-215136-e2aaa52b">
+      <img src="../data/archive/20260604-215136-e2aaa52b/original.jpg" alt="20260604-215136-e2aaa52b">
+      <div class="idrow">
+        <code>20260604-215136-e2aaa52b</code>
+        <button class="copy" type="button" data-copy="20260604-215136-e2aaa52b">复制ID</button>
+      </div>
+      <div class="tag">标签：你拍</div>
+      <div class="title">摄影点评：藤蔓覆盖的老建筑</div>
+      <div class="score">总体分：5.7</div>
+      
+    </article>
+    <article class="card" data-id="20260604-215430-5bf121d1">
+      <img src="../data/archive/20260604-215430-5bf121d1/original.jpg" alt="20260604-215430-5bf121d1">
+      <div class="idrow">
+        <code>20260604-215430-5bf121d1</code>
+        <button class="copy" type="button" data-copy="20260604-215430-5bf121d1">复制ID</button>
+      </div>
+      <div class="tag">标签：你拍</div>
+      <div class="title">摄影点评：林中石阶</div>
+      <div class="score">总体分：6.2</div>
+      
+    </article>
+    <article class="card" data-id="20260604-215737-d0d1ab97">
+      <img src="../data/archive/20260604-215737-d0d1ab97/original.jpg" alt="20260604-215737-d0d1ab97">
+      <div class="idrow">
+        <code>20260604-215737-d0d1ab97</code>
+        <button class="copy" type="button" data-copy="20260604-215737-d0d1ab97">复制ID</button>
+      </div>
+      <div class="tag">标签：你拍</div>
+      <div class="title">摄影点评：柳荫湖面园林</div>
+      <div class="score">总体分：5.8</div>
+      
+    </article>
+    <article class="card" data-id="20260604-220035-8240cd33">
+      <img src="../data/archive/20260604-220035-8240cd33/original.jpg" alt="20260604-220035-8240cd33">
+      <div class="idrow">
+        <code>20260604-220035-8240cd33</code>
+        <button class="copy" type="button" data-copy="20260604-220035-8240cd33">复制ID</button>
+      </div>
+      <div class="tag">标签：你拍</div>
+      <div class="title">摄影点评：公园小路与石碑</div>
+      <div class="score">总体分：5.0</div>
+      
+    </article>
+    <article class="card" data-id="20260604-220423-01685d88">
+      <img src="../data/archive/20260604-220423-01685d88/original.jpg" alt="20260604-220423-01685d88">
+      <div class="idrow">
+        <code>20260604-220423-01685d88</code>
+        <button class="copy" type="button" data-copy="20260604-220423-01685d88">复制ID</button>
+      </div>
+      <div class="tag">标签：你拍</div>
+      <div class="title">摄影点评：路边白鹅</div>
+      <div class="score">总体分：5.6</div>
+      
+    </article>
+    <article class="card" data-id="20260604-220722-c0fa3761">
+      <img src="../data/archive/20260604-220722-c0fa3761/original.jpg" alt="20260604-220722-c0fa3761">
+      <div class="idrow">
+        <code>20260604-220722-c0fa3761</code>
+        <button class="copy" type="button" data-copy="20260604-220722-c0fa3761">复制ID</button>
+      </div>
+      <div class="tag">标签：你拍</div>
+      <div class="title">摄影点评：树木中的老建筑立面</div>
+      <div class="score">总体分：5.8</div>
+      
+    </article>
+    <article class="card" data-id="20260604-221008-e4eec785">
+      <img src="../data/archive/20260604-221008-e4eec785/original.jpg" alt="20260604-221008-e4eec785">
+      <div class="idrow">
+        <code>20260604-221008-e4eec785</code>
+        <button class="copy" type="button" data-copy="20260604-221008-e4eec785">复制ID</button>
+      </div>
+      <div class="tag">标签：你拍</div>
+      <div class="title">摄影点评：柳叶框景中的湖畔建筑</div>
+      <div class="score">总体分：5.8</div>
+      
+    </article></div>
+    </section>
+  
+    <section id="confirmed-not-self">
+      <h2>已按你反馈确认：不是你拍 <span>3 张</span></h2>
+      <div class="grid">
+    <article class="card" data-id="20260604-3a548716">
+      <img src="../data/archive/20260604-3a548716/original.jpg" alt="20260604-3a548716">
+      <div class="idrow">
+        <code>20260604-3a548716</code>
+        <button class="copy" type="button" data-copy="20260604-3a548716">复制ID</button>
+      </div>
+      <div class="tag">标签：不是你拍</div>
+      <div class="title">摄影点评：节日场景人像拼图</div>
+      <div class="score">总体分：5.8</div>
+      
+    </article>
+    <article class="card" data-id="20260604-81f3504f">
+      <img src="../data/archive/20260604-81f3504f/original.jpg" alt="20260604-81f3504f">
+      <div class="idrow">
+        <code>20260604-81f3504f</code>
+        <button class="copy" type="button" data-copy="20260604-81f3504f">复制ID</button>
+      </div>
+      <div class="tag">标签：不是你拍</div>
+      <div class="title">摄影点评：拼接对比人像</div>
+      <div class="score">总体分：5.7</div>
+      
+    </article>
+    <article class="card" data-id="20260604-8e2aff40">
+      <img src="../data/archive/20260604-8e2aff40/original.jpg" alt="20260604-8e2aff40">
+      <div class="idrow">
+        <code>20260604-8e2aff40</code>
+        <button class="copy" type="button" data-copy="20260604-8e2aff40">复制ID</button>
+      </div>
+      <div class="tag">标签：不是你拍</div>
+      <div class="title">摄影点评：奖杯人物近景</div>
+      <div class="score">总体分：6.3</div>
+      
+    </article></div>
+    </section>
+  
+    <section id="download">
+      <h2>已确认：网上下载 Unsplash <span>12 张</span></h2>
+      <div class="grid">
+    <article class="card" data-id="20260609-154229-lighthouse">
+      <img src="../data/archive/20260609-154229-lighthouse/original.jpg" alt="20260609-154229-lighthouse">
+      <div class="idrow">
+        <code>20260609-154229-lighthouse</code>
+        <button class="copy" type="button" data-copy="20260609-154229-lighthouse">复制ID</button>
+      </div>
+      <div class="tag">标签：网上下载</div>
+      <div class="title"></div>
+      <div class="score">总体分：7.5</div>
+      
+    </article>
+    <article class="card" data-id="20260609-154445-road-dunes">
+      <img src="../data/archive/20260609-154445-road-dunes/original.jpg" alt="20260609-154445-road-dunes">
+      <div class="idrow">
+        <code>20260609-154445-road-dunes</code>
+        <button class="copy" type="button" data-copy="20260609-154445-road-dunes">复制ID</button>
+      </div>
+      <div class="tag">标签：网上下载</div>
+      <div class="title"></div>
+      <div class="score">总体分：5.5</div>
+      
+    </article>
+    <article class="card" data-id="20260609-154736-starfish-lighthouse">
+      <img src="../data/archive/20260609-154736-starfish-lighthouse/original.jpg" alt="20260609-154736-starfish-lighthouse">
+      <div class="idrow">
+        <code>20260609-154736-starfish-lighthouse</code>
+        <button class="copy" type="button" data-copy="20260609-154736-starfish-lighthouse">复制ID</button>
+      </div>
+      <div class="tag">标签：网上下载</div>
+      <div class="title"></div>
+      <div class="score">总体分：7.5</div>
+      
+    </article>
+    <article class="card" data-id="20260609-154951-backlit-cabin">
+      <img src="../data/archive/20260609-154951-backlit-cabin/original.jpg" alt="20260609-154951-backlit-cabin">
+      <div class="idrow">
+        <code>20260609-154951-backlit-cabin</code>
+        <button class="copy" type="button" data-copy="20260609-154951-backlit-cabin">复制ID</button>
+      </div>
+      <div class="tag">标签：网上下载</div>
+      <div class="title"></div>
+      <div class="score">总体分：7.5</div>
+      
+    </article>
+    <article class="card" data-id="20260609-155244-red-cabin-lifebuoy">
+      <img src="../data/archive/20260609-155244-red-cabin-lifebuoy/original.jpg" alt="20260609-155244-red-cabin-lifebuoy">
+      <div class="idrow">
+        <code>20260609-155244-red-cabin-lifebuoy</code>
+        <button class="copy" type="button" data-copy="20260609-155244-red-cabin-lifebuoy">复制ID</button>
+      </div>
+      <div class="tag">标签：网上下载</div>
+      <div class="title"></div>
+      <div class="score">总体分：7.5</div>
+      
+    </article>
+    <article class="card" data-id="20260609-155507-dining-room-interior">
+      <img src="../data/archive/20260609-155507-dining-room-interior/original.jpg" alt="20260609-155507-dining-room-interior">
+      <div class="idrow">
+        <code>20260609-155507-dining-room-interior</code>
+        <button class="copy" type="button" data-copy="20260609-155507-dining-room-interior">复制ID</button>
+      </div>
+      <div class="tag">标签：网上下载</div>
+      <div class="title"></div>
+      <div class="score">总体分：7.5</div>
+      
+    </article>
+    <article class="card" data-id="20260609-155643-antonin-">
+      <img src="../data/archive/20260609-155643-antonin-/original.jpg" alt="20260609-155643-antonin-">
+      <div class="idrow">
+        <code>20260609-155643-antonin-</code>
+        <button class="copy" type="button" data-copy="20260609-155643-antonin-">复制ID</button>
+      </div>
+      <div class="tag">标签：网上下载</div>
+      <div class="title"></div>
+      <div class="score">总体分：8.5</div>
+      
+    </article>
+    <article class="card" data-id="20260609-160643-kristaps">
+      <img src="../data/archive/20260609-160643-kristaps/original.jpg" alt="20260609-160643-kristaps">
+      <div class="idrow">
+        <code>20260609-160643-kristaps</code>
+        <button class="copy" type="button" data-copy="20260609-160643-kristaps">复制ID</button>
+      </div>
+      <div class="tag">标签：网上下载</div>
+      <div class="title"></div>
+      <div class="score">总体分：8</div>
+      
+    </article>
+    <article class="card" data-id="20260609-161501-maria-lu">
+      <img src="../data/archive/20260609-161501-maria-lu/original.jpg" alt="20260609-161501-maria-lu">
+      <div class="idrow">
+        <code>20260609-161501-maria-lu</code>
+        <button class="copy" type="button" data-copy="20260609-161501-maria-lu">复制ID</button>
+      </div>
+      <div class="tag">标签：网上下载</div>
+      <div class="title"></div>
+      <div class="score">总体分：7.5</div>
+      
+    </article>
+    <article class="card" data-id="20260609-163126-sergey-p">
+      <img src="../data/archive/20260609-163126-sergey-p/original.jpg" alt="20260609-163126-sergey-p">
+      <div class="idrow">
+        <code>20260609-163126-sergey-p</code>
+        <button class="copy" type="button" data-copy="20260609-163126-sergey-p">复制ID</button>
+      </div>
+      <div class="tag">标签：网上下载</div>
+      <div class="title"></div>
+      <div class="score">总体分：8</div>
+      
+    </article>
+    <article class="card" data-id="20260609-163417-yuri-kru">
+      <img src="../data/archive/20260609-163417-yuri-kru/original.jpg" alt="20260609-163417-yuri-kru">
+      <div class="idrow">
+        <code>20260609-163417-yuri-kru</code>
+        <button class="copy" type="button" data-copy="20260609-163417-yuri-kru">复制ID</button>
+      </div>
+      <div class="tag">标签：网上下载</div>
+      <div class="title"></div>
+      <div class="score">总体分：7.5</div>
+      
+    </article>
+    <article class="card" data-id="20260609-164937-cemrecan">
+      <img src="../data/archive/20260609-164937-cemrecan/original.jpg" alt="20260609-164937-cemrecan">
+      <div class="idrow">
+        <code>20260609-164937-cemrecan</code>
+        <button class="copy" type="button" data-copy="20260609-164937-cemrecan">复制ID</button>
+      </div>
+      <div class="tag">标签：网上下载</div>
+      <div class="title"></div>
+      <div class="score">总体分：8</div>
+      
+    </article></div>
+    </section>
+</main>
+<script>
+(function() {
+  const box = document.getElementById('exportBox');
+  const count = document.getElementById('selectedCount');
+  function updateExport() {
+    const checked = Array.from(document.querySelectorAll('.not-self-check:checked'));
+    const ids = checked.map(input => input.value);
+    box.value = ids.join('\n');
+    count.textContent = String(ids.length);
+    document.querySelectorAll('.review-card').forEach(card => card.classList.remove('selected'));
+    checked.forEach(input => input.closest('.card').classList.add('selected'));
+  }
+  document.addEventListener('change', function(event) {
+    if (event.target.classList.contains('not-self-check')) updateExport();
+  });
+  document.addEventListener('click', async function(event) {
+    const button = event.target.closest('[data-copy]');
+    if (!button) return;
+    try {
+      await navigator.clipboard.writeText(button.dataset.copy);
+      button.textContent = '已复制';
+      setTimeout(() => button.textContent = '复制ID', 900);
+    } catch (error) {
+      window.prompt('复制这个 ID：', button.dataset.copy);
+    }
+  });
+  document.getElementById('copyExport').addEventListener('click', async function() {
+    try {
+      await navigator.clipboard.writeText(box.value);
+      this.textContent = '已复制清单';
+      setTimeout(() => this.textContent = '复制清单', 900);
+    } catch (error) {
+      box.focus();
+      box.select();
+    }
+  });
+  document.getElementById('clearChecks').addEventListener('click', function() {
+    document.querySelectorAll('.not-self-check').forEach(input => input.checked = false);
+    updateExport();
+  });
+  updateExport();
+}());
+</script>
+</body>
+</html>

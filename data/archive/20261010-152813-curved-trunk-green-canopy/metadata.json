@@ -1,0 +1,29 @@
+{
+  "id": "20261010-152813-curved-trunk-green-canopy",
+  "title": "弯曲树干与层叠绿荫",
+  "created_at": "2026-10-10T15:28:13+08:00",
+  "image_source": "local_file",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/0c4bbb489b683f6d27a3957e311ec676.jpg",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "image_dimensions": {
+    "width": 4000,
+    "height": 6000
+  },
+  "scores": {
+    "technical": 6,
+    "composition": 5.5,
+    "lighting": 6,
+    "story": 7,
+    "overall": 6
+  },
+  "basic_problem_tier": "基础问题",
+  "hard_flaw_caps": [
+    {
+      "type": "distraction_edge_cut",
+      "composition_max": 5.5,
+      "overall_max": 6
+    }
+  ],
+  "source_sha256": "4888af63906d1b8ed34dbe0142b814f4980ae876da5d10866ed007b8b17e6bd6"
+}

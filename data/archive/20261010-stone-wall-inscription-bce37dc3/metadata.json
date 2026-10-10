@@ -1,0 +1,29 @@
+{
+  "id": "20261010-stone-wall-inscription-bce37dc3",
+  "title": "白墙上的小山水",
+  "created_at": "2026-10-10T16:46:55.759816+08:00",
+  "image_source": "local_file",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/bce37dc3510c174c54173d1f7f870b7f.jpg",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "image_dimensions": {
+    "width": 3550,
+    "height": 2902
+  },
+  "source_sha256": "43537b7e1fee52143a120d1d0c32f9f7ed85006c14c037c7c50214cce7dcf639",
+  "user_request": "摄影点评",
+  "scores": {
+    "technical": 7,
+    "composition": 7.5,
+    "lighting": 6,
+    "story": 7,
+    "overall": 7
+  },
+  "scoring_rubric_version": "v1.1.2",
+  "orientation_check": {
+    "exif_orientation": null,
+    "trusted_user_display": "upright lettering and stone; consistent with local image"
+  },
+  "basic_problem_tier": "无",
+  "hard_flaw_caps": []
+}

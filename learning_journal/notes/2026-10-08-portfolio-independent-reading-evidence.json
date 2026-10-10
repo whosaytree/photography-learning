@@ -1,0 +1,2766 @@
+{
+  "scope": {
+    "gallery": 564,
+    "directories": 564,
+    "excluded": 49,
+    "unconfirmed": [
+      "20260710-220908-canal-corridor",
+      "20260710-221254-garden-pavilion",
+      "20260710-221616-hanging-fabrics",
+      "20260710-221953-vine-brick-wall-canal",
+      "20260710-222320-leaf-framed-village",
+      "20260710-222707-umbrella-green-portrait",
+      "20260710-223106-rose-bottle-still-life",
+      "20260710-223500-single-rose-wall",
+      "20260710-223909-close-single-rose-wall",
+      "20260710-224319-handheld-red-rose"
+    ],
+    "eligible": 505,
+    "confirmed": 147,
+    "later_practice": 358,
+    "missing": [],
+    "incomplete": [
+      "20260729-194028-foreground-rock-hazy-forest-valley",
+      "20260729-194047-rolling-grassland-blue-sky"
+    ],
+    "byte_unique": 502,
+    "duplicate_groups": [
+      [
+        "20260729-194028-foreground-rock-hazy-forest-valley",
+        "20260729-200043-stone-ruin-forest-valley"
+      ],
+      [
+        "20260811-133307-red-wall-bamboo-portrait",
+        "20260811-134326-red-wall-bamboo-blue-dress-environmental-portrait"
+      ]
+    ]
+  },
+  "review_method": "504 available archive images reviewed as contact sheets; 18 additionally viewed larger; no rescoring",
+  "larger_view_entries": [
+    {
+      "id": "20260609-104329-5d59f884",
+      "title": "摄影点评：窗框中的夕阳城市剪影",
+      "createdAt": "2026-06-09T10:43:29+08:00",
+      "dateKey": "2026-06-09",
+      "summary": "这张有明确的光线和构图想法：窗框把夕阳和城市剪影分割成画面结构，情绪成立；不足是右侧空窗格信息偏少，整体还可以更精炼。",
+      "imageFile": "original.jpg",
+      "number": 54,
+      "ownership": "confirmed_self",
+      "files_complete": true
+    },
+    {
+      "id": "20260609-111907-5d07c3cd",
+      "title": "摄影点评：枝头双鸭与湖面",
+      "createdAt": "2026-06-09T11:19:07+08:00",
+      "dateKey": "2026-06-09",
+      "summary": "这张有明确的瞬间和环境关系，两只鸭停在枝头很有看点；可惜枝条太密、主体略暗，画面还不够干净。",
+      "imageFile": "original.jpg",
+      "number": 75,
+      "ownership": "confirmed_self",
+      "files_complete": true
+    },
+    {
+      "id": "20260609-121320-eb0c5942",
+      "title": "旋转模糊的绿叶抽象",
+      "createdAt": "2026-06-09T12:13:20+08:00",
+      "dateKey": "2026-06-09",
+      "summary": "这张不是拍糊的普通植物照，而是在尝试旋转抽象；动势能看出来，但缺少清晰锚点和明确落点，所以更像一次实验草稿。",
+      "imageFile": "original.jpg",
+      "number": 93,
+      "ownership": "confirmed_self",
+      "files_complete": true
+    },
+    {
+      "id": "20260711-160355-946fa606",
+      "title": "窗边植物与夏日绿意",
+      "createdAt": "2026-07-11T16:03:55+08:00",
+      "dateKey": "2026-07-11",
+      "summary": "这张照片有“室内植物望向窗外盛夏”的生活气息，逆光和内外层次是可见优点，但主体群过多、窗框太重、底部杂物没有被筛选，导致视线进入画面后找不到唯一落点。",
+      "imageFile": "original.jpg",
+      "number": 151,
+      "ownership": "later_practice_batch",
+      "files_complete": true
+    },
+    {
+      "id": "20260729-122516-child-sand-play-shadow",
+      "title": "摄影点评：沙地上玩耍的孩子与影子",
+      "createdAt": "2026-07-29T12:25:16+08:00",
+      "dateKey": "2026-07-29",
+      "summary": "孩子蹲下玩沙的动作、朝右的身体方向和完整延伸的影子形成了一个有生命力的瞬间，青绿色衣服也从米色沙地中清楚跳出；上方留白稍多、手和落沙略软，但画面已经具备明确的构图、色彩和叙事优势。",
+      "imageFile": "original.jpg",
+      "number": 195,
+      "ownership": "later_practice_batch",
+      "files_complete": true
+    },
+    {
+      "id": "20260729-193600-birds-on-diagonal-power-lines-blue-sky",
+      "title": "摄影点评：电线上的鸟群与离队飞鸟",
+      "createdAt": "2026-07-29T19:36:00+08:00",
+      "dateKey": "2026-07-29",
+      "summary": "电线从左下斜向右上贯穿蓝天，密集停栖鸟群与两只飞鸟形成了清楚的“聚集—离开”关系，线条、负空间和瞬间都具有明确视觉意图；飞鸟和停栖鸟的细节仍偏软，光线与颜色也较单一，这是照片停在7.5而未达到8分的主要限制。",
+      "imageFile": "original.jpg",
+      "number": 253,
+      "ownership": "later_practice_batch",
+      "files_complete": true
+    },
+    {
+      "id": "20260805-094249-blue-hour-orange-architecture",
+      "title": "摄影点评：蓝时橙墙",
+      "createdAt": "2026-08-05T09:42:49+08:00",
+      "dateKey": "2026-08-05",
+      "summary": "蓝时天空与橙红建筑形成强烈而统一的冷暖对照，多组斜线把视线从灯光带向天空，已经是一张视觉意图清楚、光色与构图都明显成立的建筑抽象照片；若再收紧灯具高光、炫光和右下角边缘细节，完成度还能更高。",
+      "imageFile": "original.jpg",
+      "number": 282,
+      "ownership": "later_practice_batch",
+      "files_complete": true
+    },
+    {
+      "id": "20260809-124331-giant-roots-red-wall-negative-space",
+      "title": "摄影点评：红墙前的巨树根系",
+      "createdAt": "2026-08-09T12:43:31+08:00",
+      "dateKey": "2026-08-09",
+      "summary": "灰白而扭曲的巨树根系压在画面右侧，向左伸入大面积暗红墙面，形成了清楚的重量、方向和“自然对人工”的视觉关系；这是一张构图意图已经成立的照片，主要被树牌、地面小设施和略平的光线挡在 8 分之外。",
+      "imageFile": "original.jpg",
+      "number": 308,
+      "ownership": "later_practice_batch",
+      "files_complete": true
+    },
+    {
+      "id": "20260810-223546-blue-white-teacups-busy-courtyard-parasols",
+      "title": "摄影点评：青花杯前的热闹茶院",
+      "createdAt": "2026-08-10T22:35:46+08:00",
+      "dateKey": "2026-08-10",
+      "summary": "两只青花杯在暖色木桌上成为清晰前景，虚化人群、灯带和白伞则把热闹环境留在后方，形成了“桌边安静、院中忙碌”的空间与情绪对照，是一张达到强初学者水平的环境静物照片；暂时阻止它进入 8 分的是上方白伞亮度过强、下方杯碟裁切不够统一，以及两杯之间的白色器皿让前景轮廓略显拥挤。",
+      "imageFile": "original.jpg",
+      "number": 345,
+      "ownership": "later_practice_batch",
+      "files_complete": true
+    },
+    {
+      "id": "20260811-133307-red-wall-bamboo-portrait",
+      "title": "摄影点评：红墙竹影环境人像",
+      "createdAt": "2026-08-11T13:33:07+08:00",
+      "dateKey": "2026-08-11",
+      "summary": "红墙、蓝裙和青绿竹林建立了很醒目的色块关系，斜向屋檐也让环境人像有了明确结构；当前主要差距是人物面部偏软、上方亮部抢眼，而且人物姿态与表情还不足以完全撑起这么大面积的留白。",
+      "imageFile": "original.jpg",
+      "number": 348,
+      "ownership": "later_practice_batch",
+      "files_complete": true
+    },
+    {
+      "id": "20260811-134455-river-city-skyline-reflection-bird",
+      "title": "摄影点评：河道、楼群与飞鸟",
+      "createdAt": "2026-08-11T13:44:55+08:00",
+      "dateKey": "2026-08-11",
+      "summary": "河道和倒影把视线稳定引向城市深处，左右树岸与楼群构成有秩序的近似对称，云层和飞鸟又为静态城市景观增加了尺度与瞬间感；画面的主要上限不是基础错误，而是光线较均匀、中心楼群稍显拥挤，尚缺一个更有力量的光影落点。",
+      "imageFile": "original.jpg",
+      "number": 357,
+      "ownership": "later_practice_batch",
+      "files_complete": true
+    },
+    {
+      "id": "20260811-140917-giant-panda-climbing-city-facade",
+      "title": "爬上城市立面的巨型熊猫",
+      "createdAt": "2026-08-11T14:09:17+08:00",
+      "dateKey": "2026-08-11",
+      "summary": "巨型多边形熊猫从冷峻商业建筑中探出的视觉想法非常醒目，仰拍线条、黑白体块与树枝框景共同强化了“熊猫攀上城市”的错觉；塔楼穿过主体、阴天天空偏白和底部残缺品牌文字是次要瑕疵，但没有破坏这张照片的记忆点。",
+      "imageFile": "original.jpg",
+      "number": 377,
+      "ownership": "later_practice_batch",
+      "files_complete": true
+    },
+    {
+      "id": "20260824-193626-autumn-leaves-sky-reflection",
+      "title": "摄影点评｜落叶与天空倒影",
+      "createdAt": "2026-08-24T19:36:26+08:00",
+      "dateKey": "2026-08-24",
+      "summary": "这张把水下橙黄落叶与水面竹影、蓝天同时组织进一个画面，暖冷、虚实和上下两个空间自然叠合，既有抽象形式，也保留了秋日水面的真实气息，是一张视觉想法和完成度都明显成立的作品。",
+      "imageFile": "original.jpg",
+      "number": 430,
+      "ownership": "later_practice_batch",
+      "files_complete": true
+    },
+    {
+      "id": "20260825-142626-gold-bird-shaped-artifact-low-key",
+      "title": "摄影点评｜金色鸟形器物的低调展示",
+      "createdAt": "2026-08-25T14:26:26+08:00",
+      "dateKey": "2026-08-25",
+      "summary": "金色器物在近乎纯黑的环境里被光线托出，轮廓、纹理和神秘感都很有效；目前最影响完成度的不是黑，而是上方留黑偏多、底部展架与亮面稍显拖沓，以及弱光下的细节还不够利落。",
+      "imageFile": "original.jpg",
+      "number": 448,
+      "ownership": "later_practice_batch",
+      "files_complete": true
+    },
+    {
+      "id": "20260825-205917-spotlit-branching-bronze-shadows",
+      "title": "摄影点评｜聚光下的枝状金属器与投影",
+      "createdAt": "2026-08-25T20:59:17+08:00",
+      "dateKey": "2026-08-25",
+      "summary": "一束顶光把细长的枝状器物从黑暗中“唤醒”，而地面上像枝爪般向外伸展的投影又让它从展品记录变成了一个带有神话感和生命感的视觉对象；中央亮色支撑条、紫色展台与底边黑带还可以再精简。",
+      "imageFile": "original.jpg",
+      "number": 461,
+      "ownership": "later_practice_batch",
+      "files_complete": true
+    },
+    {
+      "id": "20260825-211747-bronze-creature-head-warm-black",
+      "title": "摄影点评｜暖黑背景中的青铜兽首",
+      "createdAt": "2026-08-25T21:17:47+08:00",
+      "dateKey": "2026-08-25",
+      "summary": "蛇形／龙形兽首从右下沿弧线探向左侧，吻部、眼部和颈部纹样在侧上方光线中形成了清楚的“凝视与伸展”，是一张有动态、有质感的展品肖像；限制它进入8分的，是背景暖棕与黑色竖块在颈后突然分界，以及右下身体截断与局部高光仍不够精炼。",
+      "imageFile": "original.jpg",
+      "number": 470,
+      "ownership": "later_practice_batch",
+      "files_complete": true
+    },
+    {
+      "id": "20261007-234503-red-flowers-grey-wall",
+      "title": "灰墙边的红花",
+      "createdAt": "2026-10-07T23:47:30.854695+08:00",
+      "dateKey": "2026-10-07",
+      "summary": "红花落在绿叶与灰墙的交界处，颜色与材质的对照已经成立；但花瓣缺少可靠清晰细节，黄叶又比花更亮，照片的观察角度值得保留，拍摄执行需要先抓住焦点与主次。",
+      "imageFile": "original.jpg",
+      "number": 482,
+      "ownership": "later_practice_batch",
+      "files_complete": true
+    },
+    {
+      "id": "20261007-green-facade-271b08af",
+      "title": "青绿立面与斜向线缆",
+      "createdAt": "2026-10-07T23:52:23.746298+08:00",
+      "dateKey": "2026-10-07",
+      "summary": "青绿墙面、重复洞口和斜穿的线缆形成了明确的几何秩序，照片有冷静、空旷的气质；左上亮天空与偏闷的中间调，让这套结构还不够集中、通透。",
+      "imageFile": "original.jpg",
+      "number": 485,
+      "ownership": "later_practice_batch",
+      "files_complete": true
+    }
+  ],
+  "inventory": [
+    {
+      "id": "20260604-047a29d3",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-05ff1427",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-097ada51",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-0a436b7f",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-1326da7c",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-1782c264",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-1bdb8f1b",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-1f350ca6",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-2e64f969",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-4c1cd91e",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-55035f8e",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-621fface",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-6ecab46f",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-aad49def",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-bad86595",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-c4088f85",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-ceb0eee8",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-e88207ca",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-132230-dc76270f",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-132642-87888d3c",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-132919-0b81aa07",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-133103-a5dba018",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-133238-29389cfc",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-133429-f47c12fc",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-133750-b2651881",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-134626-4e540747",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-134759-f752555c",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-135047-7cd48bcf",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-135317-21b2f52d",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-214559-b7815c3a",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-214853-23346515",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-215130-overhead-cat-yard",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-215136-e2aaa52b",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-215340-hotpot-table-service",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-215430-5bf121d1",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-215737-d0d1ab97",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-220035-8240cd33",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-220423-01685d88",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-220722-c0fa3761",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260604-221008-e4eec785",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260608-165646-ae81a0ce",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260608-165815-bbc39e31",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260608-165934-515c3c47",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260608-170103-54a618cd",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260608-170224-3738792c",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260608-170347-b0d140c9",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260608-170511-56238241",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260608-170640-3a7b0a12",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260608-170809-8225400a",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-154458-43507fd8",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-155124-4a149d61",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-103946-5494dad4",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-104132-22fd8070",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-104329-5d59f884",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-104538-fdb52014",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-1046-8fc0e0fd",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-104732-888d0148",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-1049-02593af3",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-104934-c6286df4",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-1051-0e9dfe09",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-105129-e24140ae",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-1053-453e31dd",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-105348-2c8bc0d5",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-1055-697fb5d8",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-105550-097f0d95",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-1057-df75d41e",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-105810-44ef555e",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-1059-5740d193",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-110023-d97bc8e2",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-1101-3b3f8b25",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-110236-5d619f32",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-1103-19645aef",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-111400-36d38d9d",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-111632-a8335603",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-111907-5d07c3cd",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-112342-d2916690",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-112609-6022b98d",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-112850-7d5cf877",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-113103",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-113117-f541d7ab",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-113259",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-113438",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-113544-2ae2bf47",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-115408-f9cad06f",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-115634-31475a4e",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-115830-8d0d518d",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-120023-9c2de191",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-120215-6e16f565",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-120411-ccd28855",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-120623-4f36213b",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-120828-3def6ef1",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-121101-98097144",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-121320-eb0c5942",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-121520-c3bdc9a5",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-121724-9eaddb65",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-121933-8ee15008",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-122149-13362558",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-122402-36a99817",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-122647-75840dfb",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-122843-269f0cfc",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-123037-a4fa046a",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-123238-34f09638",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-123430-1376a191",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-152121-5cbcd00c",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-152321-e71f8563",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-152540-7836367a",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-152803-23924196",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-153041-44eac2d4",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-153251-4997f337",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260609-153551-ee12dabd",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-112319-30d84393",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-112829-354e7b0f",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-113115-152cc648",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-113410-249ac5e8",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-113648-4e2479c4",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-114539-d715de9b",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-114901-009e1ce1",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-115208-112f057e",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-115615-62cfa80f",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-115903-372f9164",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-121611-lotus-flower",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-121826-lotus-branch-frame",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-122110-white-bridge-lake",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-122335-lotus-buds-backlight",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-122619-lakeside-dome-building",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-122653-railing-lines",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-123817-daylily-green-background",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-124026-dark-daylily-bed",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-124241-lotus-pond-willow-layers",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-124455-lotus-leaves-water-reflections",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-124723-ducklings-reeds-bank",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-124948-lotus-foreground-lake-boats",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-130137-city-waterfront",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-130358-orange-flowers",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-130611-transparent-hedge-sign",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-130956-riverside-rocks",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-131156-ivy-brick-door",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-131254-powerline-fields",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-131423-park-water-reflection",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-131526-stairway-hikers",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-131707-park-waterway-horizontal",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-131949-willow-hidden-tent",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-132210-canyon-signage-tree-plaza",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-132238-dusk-city-clouds",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-132549-powerline-field-mountain",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-132950-riverbend-mountain-tree",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260710-133412-powerlines-factory-wheat-field",
+      "ownership": "confirmed_self",
+      "image_available": true
+    },
+    {
+      "id": "20260711-135526-sea-breakwater-lighthouses",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260711-143415-concrete-cones-staircase",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260711-143615-39ae4c58",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260711-160355-946fa606",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260711-160425-window-garden-city",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260711-161837-dark-stairwell-sky",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260711-162143-blue-sky-cloud-pattern",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260711-162436-snow-trees-red-lanterns",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260711-171151-seaside-bubble-girl",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260711-171602-rocky-cove-pier",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260711-172025-granite-mountains-sea",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260711-172345-beer-display-wall",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260711-182413-purple-light-corridor-reflection",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260711-184833-cable-bridge-night",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260711-184943-e69ccc8a",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260711-185041-golden-fireworks-night",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260711-185153-fireworks-finale-smoke",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260711-185206-178571dd",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260711-185432-baa06238",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260711-185503-candle-dark-table",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260711-185821-blossom-garden-boardwalk",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260711-190135-riverfront-bridge-skyline-night",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260721-225219-ffa2b7a1",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260721-225306-red-brick-gables",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260721-225709-52a749a5",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260721-225817-backlit-wicker-lamps",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260721-230447-b6b82fe2",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260721-230839-7dab9fb1",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260721-231056-centered-tile-roof-tower",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260721-231619-1940f48c",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260721-231744-red-flowers-brick-balcony",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260721-232628-83a17fe6",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260721-232918-tree-yellow-orbs-gray-facade",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260721-233010-836c7070",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260721-233831-b90c0be6",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260721-234601-patchwork-facades-flower-garlands",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260722-001209-old-modern-building-corner",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260722-002237-goose-head-street-sculpture",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-121605-narrow-alley-end-house",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-121727-pale-dunes-blue-sky",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-121753-desert-safety-flags",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-121901-sand-dune-tracks-blue-sky",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-121906-museum-pottery-relief-display",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-121957-dune-convoy-mountain",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-122056-desert-ridge-blue-sky",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-122210-blue-sky-sand-dune-expanse",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-122330-resting-camel-group",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-122516-child-sand-play-shadow",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-122639-twin-trunk-pine-on-rock",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-122828-camel-herd-handler-tourist",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-123239-rock-slope-safety-route",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-123304-mountain-ridge-railing-overlook",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-123309-mountain-cableway-blue-sky",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-123311-rocky-overlook-green-plain",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-123557-green-valley-layered-ridges",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-123557-mountain-slope-rail-track",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-123943-86e4f585c53a",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-124311-93eb1bf2b2ca",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-132609-granite-climbing-route",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-132913-sunlit-green-valley-rock-ridge",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-133259-244e39c96c93",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-153142-stone-table-woodland-park",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-153423-lotus-flowers-vertical-depth",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-153444-pink-lotus-leaf-pattern",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-153601-lotus-among-leaves",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-153643-pink-lotus-green-leaves",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-153648-lotus-triangle-bloom",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-153717-four-lotus-among-leaves",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-153826-centered-lotus-bud-seedpod",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-154132-sunlit-green-sapling-red-groundcover",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-154220-lotus-bloom-and-bud",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-154452-yellow-water-flowers-pattern",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-154630-blue-sky-treeline-negative-space",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-154647-lotus-leaf-yellow-flowers-overhead",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-155112-magenta-water-lily-green-leaves",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-155126-yellow-flowers-framed-by-lotus-leaves",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-155525-rock-wall-pond-reflection-yellow-flowers",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-171230-pond-rocks-tree-reflection",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-171241-overexposed-pond-rock-treeline",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-171241-stone-bank-tree-reflection",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-171306-child-running-park-path",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-171453-wooden-bridge-mountain-arch",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-171606-wooden-arch-bridge-mountain",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-171642-wooden-bridge-pier-reflections",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-171719-child-running-into-park",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-171746-bridge-pillars-reflection",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-171934-paired-reeds-water-reflection",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-172017-child-running-green-corridor",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-172044-yellow-tree-rock-bank-reflection",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-172353-wooden-bridge-arch-rocks",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-192421-grassland-sky-thistles",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-192450-mountain-valley-vista",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-192545-green-valley-winding-road",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-192733-four-yurts-grassland",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-192742-sunset-road-windshield-reflection",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-192815-birch-grove-dappled-green",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-192903-hilltop-pavilion-leading-path",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-192925-zigzag-stairs-mountain-ascent",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-193040-mountain-rock-pillars-wildflower-meadow",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-193058-moonlit-yurt-blue-hour",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-193202-layered-rock-gateway-blue-sky",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-193228-fenced-grassland-hills",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-193244-pavilion-lattice-tree-rhythm",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-193334-central-rock-peak-skywalk",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-193453-colorful-prayer-flags-grassland",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-193600-birds-on-diagonal-power-lines-blue-sky",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-193621-purple-wildflower-meadow-vertical",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-193644-open-grassland-foreground-wildflowers",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-193734-barbed-wire-grass-pattern",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-193839-red-pattern-yurt-grassland",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-193912-prayer-flags-mountain-pavilion",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-194028-foreground-rock-hazy-forest-valley",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-194047-rolling-grassland-blue-sky",
+      "ownership": "later_practice_batch",
+      "image_available": false
+    },
+    {
+      "id": "20260729-195554-green-farmland-mountain-ridge",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-195947-suspension-bridge-granite-peaks",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-200043-stone-ruin-forest-valley",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-200521-rock-pillars-blue-sky",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-200718-diagonal-green-ridge-valley",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-201126-vivid-blue-sky-green-grassland",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-201447-layered-valley-lone-rock-pillar",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-201533-four-yurts-yellow-flag",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-201904-burgundy-flower-heads-meadow",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-202307-pair-of-birches-meadow",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-202643-birch-grove-dappled-light",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-203107-two-birches-open-meadow",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-223208-purple-flower-closeup",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-223220-monumental-layered-rock",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-223647-meadow-pavilion-hazy-hills",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-224036-yellow-flower-green-bokeh",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-224116-yellow-flowers-soft-focus",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-224410-windswept-tree-line-blue-sky",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-224528-profile-rock-negative-space",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-224748-cattle-drinking-pasture-pond",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260729-224928-purple-wildflowers-busy-grass",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260805-094249-blue-hour-orange-architecture",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260805-094444-night-lanterns-neon-signs",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260805-094724-low-key-geometric-signature-wall",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260805-094944-blue-hour-vine-mural-wall",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260805-095143-old-tree-traditional-courtyard",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260805-095424-dark-apartment-bright-shops",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260805-095547-ceremonial-statue-dark-wood-frame",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260805-095826-blue-hour-surveillance-poles",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260805-095949-beaded-crown-golden-statue",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260805-100605-red-panda-floral-storefront",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260805-100733-glass-covered-calligraphy-panel",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260805-101007-bamboo-warm-backlight-eaves",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260805-101128-mossy-old-tree-layered-roofs",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260805-101523-warm-lit-bamboo-dark-courtyard",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260805-102346-night-tree-protective-net",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260805-102401-night-tree-old-facade-storefront",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260805-102428-night-lamp-ginkgo-light-rays",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260805-102745-lanterns-tree-gray-roofs-night",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260805-102921-night-building-balcony-foliage",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260805-103124-river-boats-lantern-reflections-night",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260805-103445-night-balconies-wet-sidewalk-streetlamp",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260805-103645-curving-lantern-canal-blue-trees",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260805-104705-two-bank-night-canal-color-reflections",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260805-105129-night-leaves-emergency-sign-building",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260809-123752-mossy-temple-gate-canopy",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260809-124247-temple-plaque-moss-roof",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260809-124331-giant-roots-red-wall-negative-space",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260809-124519-ancient-tree-temple-walls",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260809-124704-forest-framed-tile-roof-gate-lanterns",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260809-124718-layered-temple-roof-plaque-statue",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260809-124816-hanging-lantern-cypress-eaves",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260809-124832-new-leaves-mossy-temple-roof",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260809-125015-mossy-tile-roof-palms-red-wall",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260809-125034-temple-roof-buddha-dragons-sky",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260809-125100-leafy-moss-roof-red-wall",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260809-125328-stacked-pomegranate-stone-vessels",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260809-125329-banyan-roots-red-wall",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260809-125341-hanging-foliage-temple-eave-shadow",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260809-125341-low-angle-red-gate-curved-eaves-canopy",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260809-125630-tree-framed-wuhou-shrine-entrance",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260809-125641-arched-red-wall-bronze-stele",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260809-125642-red-wall-bamboo-curved-path",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260809-125852-blue-toned-plaque-palace-lantern",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260809-125950-purple-flower-clusters-dark-green",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260809-130645-koi-crowd-water-ripples",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260809-130902-feather-fan-gilded-statue-portrait",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260809-131411-bamboo-corridor-red-walls",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260809-131915-red-wall-bamboo-eaves-lamp",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260809-132139-koi-swirling-water",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260810-221609-blue-lit-underpass-walkway",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260810-221610-night-blue-walkway",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260810-221910-pale-green-fluorite",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260810-221912-two-gaiwan-tea-table",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260810-222009-blue-aragonite-mineral-exhibit",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260810-222155-ivy-old-brick-trees",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260810-222230-natural-sulfur-druse",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260810-222344-green-display-sphere-wooden-stand",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260810-222447-red-lanterns-old-gray-building",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260810-222514-overlapping-parasol-radials",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260810-222721-jinli-gate-fish-installation",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260810-222739-tea-performance-long-spout-action",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260810-223125-overlapping-white-parasols-radial-pattern",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260810-223332-rainy-courtyard-tree-eaves",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260810-223546-blue-white-teacups-busy-courtyard-parasols",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260810-223644-warm-eaves-foreground-pillar",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260810-223924-courtyard-parasol-canopy",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-133307-red-wall-bamboo-portrait",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-133714-red-wall-bamboo-environmental-portrait",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-133722-lakeside-mountain-travel-portrait",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-133752-western-sichuan-first-mountain-gate",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-134018-two-drinks-window-laptop",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-134031-three-pandas-four-frame-eating-sequence",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-134126-rainy-window-two-tea-cups",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-134326-red-wall-bamboo-blue-dress-environmental-portrait",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-134328-city-tower-reflections-green-canal",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-134455-river-city-skyline-reflection-bird",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-134512-sleeping-panda-wood-platform",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-134549-bamboo-archway-tunnel",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-134615-mountain-lake-temple-panorama",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-134656-forest-river-rapids-pebble-bank",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-134814-three-pandas-eating-bamboo",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-134858-qingcheng-mountain-rooftop-sign-negative-space",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-134903-memorial-stele-pavilion-railing",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-134945-dense-fern-texture",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-135000-river-valley-city-cloudscape-overlook",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-135111-panda-chewing-bamboo-portrait",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-135150-bamboo-canopy-tunnel-upward-view",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-135257-river-hills-stone-finial",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-135312-sleepy-panda-log-platform",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-135428-panda-resting-back-view",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-135439-resting-panda-log-platform-high-angle",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-135632-forest-river-rapids-pebble-bank",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-135725-panda-back-bamboo-enclosure",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-135744-panda-facing-metal-door",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-140458-park-curved-roof-cloudscape",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260811-140917-giant-panda-climbing-city-facade",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-141735-red-door-staircase-tree",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-171320-temple-eaves-layered-patterns",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-171323-pailou-painted-archway",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-180937-ivy-covered-brick-cabin",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-181017-ivy-covered-brick-cabin",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-204821-rushing-river-cliffside-pavilion",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-204856-hilltop-pagoda-cloudscape",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-205006-layered-mountains-braided-river",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-205019-river-valley-layered-mountains",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-205110-wooden-pagoda-above-forest",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-205150-river-city-cloudscape",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-205229-riverside-inscribed-stone",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-205235-turquoise-arch-bridge-river-city",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-205246-tiny-birds-over-pale-water",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-205356-riverside-forest-red-inscription",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-205500-turquoise-river-treetop-overlook",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-205507-forest-framed-mossy-temple-roof",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-205512-forested-riverbank-diagonal",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-205629-curving-riverbank-grass-water-texture",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-205729-city-river-island-arch-bridge",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-205744-crowded-suspension-bridge-over-river",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-205832-forest-hidden-traditional-building",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-205918-crowded-suspension-bridge-garden-pavilion",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-205944-forest-temple-by-water",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-210019-river-control-pattern-outflow",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-210219-red-lantern-framed-mountain-lake",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-210500-ornate-temple-roof-forest",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-210515-shadowed-forest-waterfall",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-210658-river-valley-village-mountain-panorama",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260812-210827-sunlit-mossy-temple-facade",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-161554-lotus-four-panel-collage",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-161626-sunlit-lotus-layered-leaves",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-161658-pink-lotus-green-leaves",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-161800-dappled-bamboo-against-wall",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-161815-shaded-stone-table-tree-frame",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-162001-dufu-thatched-cottage-triptych",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-162257-lotus-lifecycle-triangle",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-162329-summer-lotus-pond-wide-layers",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-162441-two-stone-tables-shaded-garden",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-162923-hidden-pavilion-lotus-waterway",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-163608-covered-corridor-bamboo-perspective",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-164225-curved-eave-bell-green-canopy",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-164909-bamboo-rhythm",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-165434-bamboo-path",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-165526-bamboo-bridge-waterway",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-165740-forest-pavilion-water",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-165855-dark-corridor-green-exit",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-170043-dark-hall-bamboo-frame",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-193047-red-wall-bamboo-contrast",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-193206-lantern-eave-garden",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-193347-moon-gate-garden-frame",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-193520-lantern-corridor-perspective",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-193626-autumn-leaves-sky-reflection",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-193936-hanging-lantern-under-eaves",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-194218-palm-leaves-wall-negative-space",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-212847-garden-waterfall-foliage-frame",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-212942-rooftop-garden-canopy",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-213234-canopy-framed-garden-lake",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-213352-worn-red-wooden-staircase",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-213559-ancient-bell-symmetry-backlight",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-213809-foliage-framed-traditional-tower",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-213906-red-pavilion-frame-green-forest",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-214128-forest-stream-fern-rock",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-214151-roof-ridge-ornament-forest",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260824-214515-garden-channel-orange-leaf",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-142431-gold-artifact-collage",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-142529-gilded-relief-low-key-diagonal",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-142549-gold-openwork-object",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-142620-gold-mask-shadow",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-142623-yellow-fragment-black-ground",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-142626-gold-bird-shaped-artifact-low-key",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-142839-three-view-face-form-artifact",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-142951-blade-shaped-artifact-low-key",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-143103-museum-ceramic-array-reflections",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-143141-gold-fish-diagonal-pattern",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-143605-museum-tripod-vessel-low-angle",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-143953-illuminated-character-wall-installation",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-144634-museum-ceramics-glass-reflection",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-205232-museum-jade-triptych",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-205320-museum-ritual-tree-low-key",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-205330-museum-bronze-tree-repeated-ornaments",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-205611-museum-metal-ornament-axis",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-205709-museum-mask-grid-glass-reflections",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-205917-spotlit-branching-bronze-shadows",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-205934-bronze-figures-gesture",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-210115-monumental-mask-profile-low-key-reflection",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-210242-museum-masks-procession",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-210441-bronze-figurative-scene-cropped-detail",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-210526-circular-bronze-five-spoke-low-key",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-210549-museum-three-rings",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-210832-museum-gold-line-panel-documentation-blue-glare",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-211310-spotlit-round-bronze-support-lines",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-211747-bronze-creature-head-warm-black",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20260825-212238-tall-bronze-figure-background-clutter",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261007-233659-window-and-greenery",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261007-totoro-red-umbrella-48aff238",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261007-233833-red-yellow-pipes",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261007-street-pipes-f64f87ae",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261007-233932-street-pause",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261007-234046-woven-lamps-street",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261007-tree-lined-lane-12ee18e3",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261007-tree-wires-b90ea729",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261007-234211-bicycle-paint-cans",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261007-234345-tree-street",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261007-234503-red-flowers-grey-wall",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261007-window-pole-571b7106",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261007-234804-window-layers",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261007-green-facade-271b08af",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261007-empty-bench-980e12a3",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261008-jingyuan-459b7a5c",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261008-courtyard-arch-be3ec753",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261008-backlit-pergola-79a98510",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261008-twin-windows-43974144",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261008-wall-and-towers-c69efb80",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261008-arched-garden-0f22d086",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261008-sunlit-arcade-e48e1522",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261008-stained-glass-clock-ea712882",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261008-glass-rhythm-85530b0c",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261008-city-road-41caf19d",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261008-brick-arch-a5e77768",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261008-burgundy-awnings-6b759624",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261008-amber-windows-88dabfa8",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261008-white-structures-green-gap-23a7b73b",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261008-cb4c9a65-trees",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261008-swimmer-under-bridge-813b4e30",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261008-3caf420d-riverfront",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261008-bd003f86-swimmers",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    },
+    {
+      "id": "20261008-c7f10a2c-red-buoy",
+      "ownership": "later_practice_batch",
+      "image_available": true
+    }
+  ]
+}

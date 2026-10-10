@@ -1,0 +1,23 @@
+{
+  "id": "20261010-153153-brick-facade-under-canopy",
+  "title": "树冠下的砖墙与白门",
+  "created_at": "2026-10-10T15:31:53+08:00",
+  "image_source": "local_file",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/0783d3aa592077768acf6bc8b4fdfd4f.jpg",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "image_dimensions": {
+    "width": 3914,
+    "height": 5581
+  },
+  "scores": {
+    "technical": 7,
+    "composition": 7,
+    "lighting": 6.5,
+    "story": 7,
+    "overall": 7
+  },
+  "basic_problem_tier": "无",
+  "hard_flaw_caps": [],
+  "source_sha256": "ef871841c97f46d649de214caa8d184fcc449e5be9cbf73fd1b56e0397355e8b"
+}

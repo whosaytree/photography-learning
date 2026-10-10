@@ -1,0 +1,24 @@
+{
+  "id": "20261010-153155-cat-iron-railing",
+  "title": "铁栏间的猫与回望",
+  "created_at": "2026-10-10T15:31:55+08:00",
+  "image_source": "local_file",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/bc5ec093dc8697896f8cb955110a1c39.jpg",
+  "image_dimensions": {
+    "width": 6000,
+    "height": 4000
+  },
+  "scores": {
+    "technical": 7,
+    "composition": 7,
+    "lighting": 6.5,
+    "story": 7.5,
+    "overall": 7
+  },
+  "user_request": "摄影点评",
+  "scoring_rubric": "v1.1.2",
+  "orientation_check": "Pillow EXIF no orientation tag; local and user display upright.",
+  "capture_date": null
+}

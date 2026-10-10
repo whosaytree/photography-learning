@@ -1,0 +1,22 @@
+{
+  "id": "20261010-twin-spires-6de50205",
+  "title": "树冠间的双尖塔",
+  "created_at": "2026-10-10T15:33:30.030711+08:00",
+  "image_source": "local_file",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "image_dimensions": {
+    "width": 2678,
+    "height": 5649
+  },
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/6de50205aacd647543f873857d5f6cb5.jpg",
+  "scores": {
+    "technical": 6,
+    "composition": 5.5,
+    "lighting": 6,
+    "story": 6,
+    "overall": 5.5
+  },
+  "orientation_check": "Pillow reports no EXIF orientation; user upright display and local tower detail agree.",
+  "original_sha256": "7ac07c826f5c5b9ad955ec3a7c7f92b7ee1aea9c19c96233188de235b8ac557f"
+}

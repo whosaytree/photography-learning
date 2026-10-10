@@ -1,0 +1,871 @@
+{
+  "threshold": 7.5,
+  "stats": {
+    "count": 70,
+    "distribution": {
+      "7.5": 51,
+      "7.8": 2,
+      "8": 17
+    },
+    "means": {
+      "technical": 6.971,
+      "composition": 7.689,
+      "lighting": 7.169,
+      "story": 7.296,
+      "overall": 7.63
+    },
+    "unique_files": 70,
+    "duplicates": [],
+    "score_mismatches": [],
+    "strong_dimensions": {
+      "technical": 7,
+      "composition": 64,
+      "lighting": 27,
+      "story": 30
+    }
+  },
+  "verified_score_values": 350,
+  "notes": "All 70 images viewed as orientation-corrected contact sheets; all 70 original critique summaries read; 350 stored scores verified including story alias. No rescoring.",
+  "entries": [
+    {
+      "id": "20260604-ceb0eee8",
+      "title": "摄影点评：园林小桥与树冠倒影",
+      "scores": {
+        "technical": 7.2,
+        "composition": 7.7,
+        "lighting": 7.2,
+        "story": 7.4,
+        "overall": 7.5
+      },
+      "number": 1
+    },
+    {
+      "id": "20260604-132642-87888d3c",
+      "title": "云雾山谷",
+      "scores": {
+        "technical": 7.4,
+        "composition": 7.8,
+        "lighting": 7.5,
+        "story": 7.7,
+        "overall": 7.8
+      },
+      "number": 2
+    },
+    {
+      "id": "20260604-135047-7cd48bcf",
+      "title": "夜市灯笼街景",
+      "scores": {
+        "technical": 7.4,
+        "composition": 7.8,
+        "lighting": 8,
+        "story": 7.6,
+        "overall": 7.8
+      },
+      "number": 3
+    },
+    {
+      "id": "20260608-165934-515c3c47",
+      "title": "摄影点评：蓝调道路夜景",
+      "scores": {
+        "technical": 6.7,
+        "composition": 7.5,
+        "lighting": 7.4,
+        "story": 7.2,
+        "overall": 7.5
+      },
+      "number": 4
+    },
+    {
+      "id": "20260609-104132-22fd8070",
+      "title": "摄影点评：低机位城市建筑夜景",
+      "scores": {
+        "technical": 7.2,
+        "composition": 7.5,
+        "lighting": 7.4,
+        "story": 7.2,
+        "overall": 7.5
+      },
+      "number": 5
+    },
+    {
+      "id": "20260609-104329-5d59f884",
+      "title": "摄影点评：窗框中的夕阳城市剪影",
+      "scores": {
+        "technical": 6.8,
+        "composition": 7.4,
+        "lighting": 7.8,
+        "story": 7.2,
+        "overall": 7.5
+      },
+      "number": 6
+    },
+    {
+      "id": "20260609-105129-e24140ae",
+      "title": "摄影点评：城市夜晚热气球灯光装置",
+      "scores": {
+        "technical": 7.2,
+        "composition": 7.2,
+        "lighting": 7.8,
+        "story": 6.8,
+        "overall": 7.5
+      },
+      "number": 7
+    },
+    {
+      "id": "20260609-105550-097f0d95",
+      "title": "摄影点评：室内蘑菇装置",
+      "scores": {
+        "technical": 7,
+        "composition": 7.5,
+        "lighting": 7,
+        "story": 6.6,
+        "overall": 7.5
+      },
+      "number": 8
+    },
+    {
+      "id": "20260609-111632-a8335603",
+      "title": "摄影点评：树影框景中的古建屋檐",
+      "scores": {
+        "technical": 7,
+        "composition": 7.5,
+        "lighting": 6.5,
+        "story": 6.8,
+        "overall": 7.5
+      },
+      "number": 9
+    },
+    {
+      "id": "20260609-123238-34f09638",
+      "title": "雾天湖岸与画舫",
+      "scores": {
+        "technical": 7,
+        "composition": 7.5,
+        "lighting": 7.2,
+        "story": 7.2,
+        "overall": 7.5
+      },
+      "number": 10
+    },
+    {
+      "id": "20260711-143415-concrete-cones-staircase",
+      "title": "摄影点评：锥形立柱间的楼梯与门",
+      "scores": {
+        "technical": 7,
+        "composition": 7.8,
+        "lighting": 6,
+        "story": 7,
+        "overall": 7.5
+      },
+      "number": 11
+    },
+    {
+      "id": "20260711-143615-39ae4c58",
+      "title": "巨柱之间的蓝门",
+      "scores": {
+        "technical": 7,
+        "composition": 7.5,
+        "lighting": 6.5,
+        "story": 7,
+        "overall": 7.5
+      },
+      "number": 12
+    },
+    {
+      "id": "20260711-162436-snow-trees-red-lanterns",
+      "title": "摄影点评：雪树间的红灯笼街景",
+      "scores": {
+        "technical": 7.2,
+        "composition": 7.6,
+        "lighting": 6.8,
+        "story": 7.5,
+        "overall": 7.5
+      },
+      "number": 13
+    },
+    {
+      "id": "20260711-182413-purple-light-corridor-reflection",
+      "title": "摄影点评：紫色灯廊与水面倒影",
+      "scores": {
+        "technical": 7,
+        "composition": 8.4,
+        "lighting": 8,
+        "story": 7.8,
+        "overall": 8
+      },
+      "number": 14
+    },
+    {
+      "id": "20260711-184833-cable-bridge-night",
+      "title": "摄影点评：斜拉桥双塔夜景",
+      "scores": {
+        "technical": 6.7,
+        "composition": 7.8,
+        "lighting": 7.2,
+        "story": 6.7,
+        "overall": 7.5
+      },
+      "number": 15
+    },
+    {
+      "id": "20260711-185041-golden-fireworks-night",
+      "title": "摄影点评｜金色烟花夜空",
+      "scores": {
+        "technical": 6.5,
+        "composition": 7.5,
+        "lighting": 7.2,
+        "story": 7,
+        "overall": 7.5
+      },
+      "number": 16
+    },
+    {
+      "id": "20260711-185206-178571dd",
+      "title": "蓝色星穹下的吊灯",
+      "scores": {
+        "technical": 6.5,
+        "composition": 8,
+        "lighting": 7.5,
+        "story": 7.5,
+        "overall": 8
+      },
+      "number": 17
+    },
+    {
+      "id": "20260711-185432-baa06238",
+      "title": "积云、赤岩与横桥",
+      "scores": {
+        "technical": 7,
+        "composition": 7.5,
+        "lighting": 7,
+        "story": 6.5,
+        "overall": 7.5
+      },
+      "number": 18
+    },
+    {
+      "id": "20260711-185503-candle-dark-table",
+      "title": "摄影点评：黑暗桌角的一盏烛火",
+      "scores": {
+        "technical": 6.5,
+        "composition": 7.6,
+        "lighting": 7.8,
+        "story": 7.2,
+        "overall": 7.5
+      },
+      "number": 19
+    },
+    {
+      "id": "20260711-190135-riverfront-bridge-skyline-night",
+      "title": "摄影点评：滨河步道、桥梁与城市夜景",
+      "scores": {
+        "technical": 7.1,
+        "composition": 7.7,
+        "lighting": 7.4,
+        "story": 6.8,
+        "overall": 7.5
+      },
+      "number": 20
+    },
+    {
+      "id": "20260721-225306-red-brick-gables",
+      "title": "摄影点评：蓝天下的红砖山墙",
+      "scores": {
+        "technical": 7.3,
+        "composition": 7.8,
+        "lighting": 7.2,
+        "story": 6.7,
+        "overall": 7.5
+      },
+      "number": 21
+    },
+    {
+      "id": "20260721-230447-b6b82fe2",
+      "title": "天使雕塑与翼形投影",
+      "scores": {
+        "technical": 6,
+        "composition": 7,
+        "lighting": 7.5,
+        "story": 7.5,
+        "overall": 7.5
+      },
+      "number": 22
+    },
+    {
+      "id": "20260729-122516-child-sand-play-shadow",
+      "title": "摄影点评：沙地上玩耍的孩子与影子",
+      "scores": {
+        "technical": 6.7,
+        "composition": 7.6,
+        "lighting": 6.8,
+        "story": 7.7,
+        "overall": 7.5
+      },
+      "number": 23
+    },
+    {
+      "id": "20260729-124311-93eb1bf2b2ca",
+      "title": "摄影点评：逆光山谷",
+      "scores": {
+        "technical": 6.6,
+        "composition": 7.5,
+        "lighting": 7.1,
+        "story": 7,
+        "overall": 7.5
+      },
+      "number": 24
+    },
+    {
+      "id": "20260729-153826-centered-lotus-bud-seedpod",
+      "title": "摄影点评｜荷花、花苞与莲蓬",
+      "scores": {
+        "technical": 7.5,
+        "composition": 7,
+        "lighting": 6,
+        "story": 6.5,
+        "overall": 7.5
+      },
+      "number": 25
+    },
+    {
+      "id": "20260729-172017-child-running-green-corridor",
+      "title": "摄影点评：跑向绿意深处",
+      "scores": {
+        "technical": 6.8,
+        "composition": 7.4,
+        "lighting": 6.1,
+        "story": 7.6,
+        "overall": 7.5
+      },
+      "number": 26
+    },
+    {
+      "id": "20260729-193040-mountain-rock-pillars-wildflower-meadow",
+      "title": "摄影点评：蓝天下的岩柱与高山花坡",
+      "scores": {
+        "technical": 6.8,
+        "composition": 7.6,
+        "lighting": 6.3,
+        "story": 7.2,
+        "overall": 7.5
+      },
+      "number": 27
+    },
+    {
+      "id": "20260729-193600-birds-on-diagonal-power-lines-blue-sky",
+      "title": "摄影点评：电线上的鸟群与离队飞鸟",
+      "scores": {
+        "technical": 6.5,
+        "composition": 7.8,
+        "lighting": 5.8,
+        "story": 7.7,
+        "overall": 7.5
+      },
+      "number": 28
+    },
+    {
+      "id": "20260729-193912-prayer-flags-mountain-pavilion",
+      "title": "摄影点评：山顶经幡、山脊与凉亭",
+      "scores": {
+        "technical": 7.4,
+        "composition": 8.2,
+        "lighting": 6.6,
+        "story": 8,
+        "overall": 8
+      },
+      "number": 29
+    },
+    {
+      "id": "20260729-200521-rock-pillars-blue-sky",
+      "title": "摄影点评：蓝天下的岩柱群",
+      "scores": {
+        "technical": 7,
+        "composition": 7.6,
+        "lighting": 6.3,
+        "story": 7.1,
+        "overall": 7.5
+      },
+      "number": 30
+    },
+    {
+      "id": "20260805-094249-blue-hour-orange-architecture",
+      "title": "摄影点评：蓝时橙墙",
+      "scores": {
+        "technical": 7.2,
+        "composition": 8.1,
+        "lighting": 8.2,
+        "story": 7.8,
+        "overall": 8
+      },
+      "number": 31
+    },
+    {
+      "id": "20260805-101523-warm-lit-bamboo-dark-courtyard",
+      "title": "摄影点评：暗竹后的暖光",
+      "scores": {
+        "technical": 6.8,
+        "composition": 7.9,
+        "lighting": 8.3,
+        "story": 8,
+        "overall": 8
+      },
+      "number": 32
+    },
+    {
+      "id": "20260805-102428-night-lamp-ginkgo-light-rays",
+      "title": "摄影点评：穿过银杏叶的夜灯",
+      "scores": {
+        "technical": 6.6,
+        "composition": 7.5,
+        "lighting": 8.1,
+        "story": 7.2,
+        "overall": 7.5
+      },
+      "number": 33
+    },
+    {
+      "id": "20260805-103645-curving-lantern-canal-blue-trees",
+      "title": "摄影点评：蓝树下的红灯河湾",
+      "scores": {
+        "technical": 7.1,
+        "composition": 8.3,
+        "lighting": 8.1,
+        "story": 7.8,
+        "overall": 8
+      },
+      "number": 34
+    },
+    {
+      "id": "20260805-104705-two-bank-night-canal-color-reflections",
+      "title": "摄影点评：两岸灯火汇入夜河",
+      "scores": {
+        "technical": 7,
+        "composition": 8.2,
+        "lighting": 7.7,
+        "story": 7.8,
+        "overall": 8
+      },
+      "number": 35
+    },
+    {
+      "id": "20260809-124331-giant-roots-red-wall-negative-space",
+      "title": "摄影点评：红墙前的巨树根系",
+      "scores": {
+        "technical": 7.2,
+        "composition": 7.7,
+        "lighting": 6.6,
+        "story": 7.4,
+        "overall": 7.5
+      },
+      "number": 36
+    },
+    {
+      "id": "20260809-125329-banyan-roots-red-wall",
+      "title": "摄影点评：红墙前铺展的古树根系",
+      "scores": {
+        "technical": 7.2,
+        "composition": 7.5,
+        "lighting": 6.4,
+        "story": 7.4,
+        "overall": 7.5
+      },
+      "number": 37
+    },
+    {
+      "id": "20260809-125341-hanging-foliage-temple-eave-shadow",
+      "title": "摄影点评：垂枝掩映的古寺檐下",
+      "scores": {
+        "technical": 6.6,
+        "composition": 7.5,
+        "lighting": 6.8,
+        "story": 7.2,
+        "overall": 7.5
+      },
+      "number": 38
+    },
+    {
+      "id": "20260809-125630-tree-framed-wuhou-shrine-entrance",
+      "title": "摄影点评：古树框景中的武侯祠入口",
+      "scores": {
+        "technical": 7.2,
+        "composition": 8.2,
+        "lighting": 7.3,
+        "story": 7.9,
+        "overall": 8
+      },
+      "number": 39
+    },
+    {
+      "id": "20260809-130902-feather-fan-gilded-statue-portrait",
+      "title": "摄影点评：黑背景中的持羽扇金身塑像",
+      "scores": {
+        "technical": 7.4,
+        "composition": 7.6,
+        "lighting": 7.4,
+        "story": 7,
+        "overall": 7.5
+      },
+      "number": 40
+    },
+    {
+      "id": "20260810-223125-overlapping-white-parasols-radial-pattern",
+      "title": "摄影点评：交叠白伞的放射结构",
+      "scores": {
+        "technical": 7.2,
+        "composition": 7.8,
+        "lighting": 7.1,
+        "story": 7,
+        "overall": 7.5
+      },
+      "number": 41
+    },
+    {
+      "id": "20260810-223546-blue-white-teacups-busy-courtyard-parasols",
+      "title": "摄影点评：青花杯前的热闹茶院",
+      "scores": {
+        "technical": 7.3,
+        "composition": 7.7,
+        "lighting": 6.8,
+        "story": 7.2,
+        "overall": 7.5
+      },
+      "number": 42
+    },
+    {
+      "id": "20260811-133714-red-wall-bamboo-environmental-portrait",
+      "title": "摄影点评：红墙竹影中的持相机少女",
+      "scores": {
+        "technical": 6.8,
+        "composition": 7.7,
+        "lighting": 6.7,
+        "story": 7,
+        "overall": 7.5
+      },
+      "number": 43
+    },
+    {
+      "id": "20260811-134455-river-city-skyline-reflection-bird",
+      "title": "摄影点评：河道、楼群与飞鸟",
+      "scores": {
+        "technical": 7.8,
+        "composition": 8.2,
+        "lighting": 7.2,
+        "story": 7.3,
+        "overall": 8
+      },
+      "number": 44
+    },
+    {
+      "id": "20260811-134549-bamboo-archway-tunnel",
+      "title": "竹林拱廊",
+      "scores": {
+        "technical": 6.5,
+        "composition": 8,
+        "lighting": 7,
+        "story": 6.5,
+        "overall": 7.5
+      },
+      "number": 45
+    },
+    {
+      "id": "20260811-135000-river-valley-city-cloudscape-overlook",
+      "title": "摄影点评：云天下的河谷与城市",
+      "scores": {
+        "technical": 7.5,
+        "composition": 8,
+        "lighting": 7.2,
+        "story": 7.7,
+        "overall": 8
+      },
+      "number": 46
+    },
+    {
+      "id": "20260811-135632-forest-river-rapids-pebble-bank",
+      "title": "摄影点评：森林边的急流",
+      "scores": {
+        "technical": 7.6,
+        "composition": 7.5,
+        "lighting": 6.4,
+        "story": 6.9,
+        "overall": 7.5
+      },
+      "number": 47
+    },
+    {
+      "id": "20260811-140917-giant-panda-climbing-city-facade",
+      "title": "爬上城市立面的巨型熊猫",
+      "scores": {
+        "technical": 7,
+        "composition": 7.5,
+        "lighting": 6.5,
+        "story": 8,
+        "overall": 8
+      },
+      "number": 48
+    },
+    {
+      "id": "20260812-204856-hilltop-pagoda-cloudscape",
+      "title": "摄影点评：云下山巅塔楼",
+      "scores": {
+        "technical": 6.8,
+        "composition": 7.8,
+        "lighting": 6.7,
+        "story": 7.5,
+        "overall": 7.5
+      },
+      "number": 49
+    },
+    {
+      "id": "20260812-205744-crowded-suspension-bridge-over-river",
+      "title": "摄影点评：急流上拥挤的吊桥",
+      "scores": {
+        "technical": 7,
+        "composition": 8,
+        "lighting": 6.4,
+        "story": 7.8,
+        "overall": 7.5
+      },
+      "number": 50
+    },
+    {
+      "id": "20260812-205918-crowded-suspension-bridge-garden-pavilion",
+      "title": "摄影点评：人流穿过吊桥通向古亭",
+      "scores": {
+        "technical": 6.8,
+        "composition": 8,
+        "lighting": 6.2,
+        "story": 8.1,
+        "overall": 7.5
+      },
+      "number": 51
+    },
+    {
+      "id": "20260812-210827-sunlit-mossy-temple-facade",
+      "title": "摄影点评：阳光下的苔瓦门楼",
+      "scores": {
+        "technical": 7.2,
+        "composition": 7.6,
+        "lighting": 7.3,
+        "story": 7.2,
+        "overall": 7.5
+      },
+      "number": 52
+    },
+    {
+      "id": "20260824-161658-pink-lotus-green-leaves",
+      "title": "摄影点评：层叠荷叶中的粉荷",
+      "scores": {
+        "technical": 7.4,
+        "composition": 7.6,
+        "lighting": 7.5,
+        "story": 6.5,
+        "overall": 7.5
+      },
+      "number": 53
+    },
+    {
+      "id": "20260824-162923-hidden-pavilion-lotus-waterway",
+      "title": "摄影点评：水道深处的荷塘与亭屋",
+      "scores": {
+        "technical": 7.8,
+        "composition": 8.2,
+        "lighting": 7.4,
+        "story": 7.8,
+        "overall": 8
+      },
+      "number": 54
+    },
+    {
+      "id": "20260824-163608-covered-corridor-bamboo-perspective",
+      "title": "摄影点评：竹林边的深长廊道",
+      "scores": {
+        "technical": 7.7,
+        "composition": 7.8,
+        "lighting": 7.1,
+        "story": 7.5,
+        "overall": 7.5
+      },
+      "number": 55
+    },
+    {
+      "id": "20260824-164909-bamboo-rhythm",
+      "title": "摄影点评｜竹影节奏",
+      "scores": {
+        "technical": 6.8,
+        "composition": 7.5,
+        "lighting": 7.5,
+        "story": 7,
+        "overall": 7.5
+      },
+      "number": 56
+    },
+    {
+      "id": "20260824-193047-red-wall-bamboo-contrast",
+      "title": "摄影点评｜红墙与竹林",
+      "scores": {
+        "technical": 7,
+        "composition": 7.5,
+        "lighting": 6.5,
+        "story": 7.5,
+        "overall": 7.5
+      },
+      "number": 57
+    },
+    {
+      "id": "20260824-193206-lantern-eave-garden",
+      "title": "摄影点评｜檐下暖灯与深绿庭院",
+      "scores": {
+        "technical": 6.5,
+        "composition": 7.5,
+        "lighting": 7.5,
+        "story": 7,
+        "overall": 7.5
+      },
+      "number": 58
+    },
+    {
+      "id": "20260824-193520-lantern-corridor-perspective",
+      "title": "摄影点评｜灯笼长廊的纵深节奏",
+      "scores": {
+        "technical": 6.5,
+        "composition": 8,
+        "lighting": 7.5,
+        "story": 7.5,
+        "overall": 8
+      },
+      "number": 59
+    },
+    {
+      "id": "20260824-193626-autumn-leaves-sky-reflection",
+      "title": "摄影点评｜落叶与天空倒影",
+      "scores": {
+        "technical": 7.5,
+        "composition": 8,
+        "lighting": 7.5,
+        "story": 8,
+        "overall": 8
+      },
+      "number": 60
+    },
+    {
+      "id": "20260824-194218-palm-leaves-wall-negative-space",
+      "title": "摄影点评｜墙前棕榈叶",
+      "scores": {
+        "technical": 6.5,
+        "composition": 7.5,
+        "lighting": 7.5,
+        "story": 7,
+        "overall": 7.5
+      },
+      "number": 61
+    },
+    {
+      "id": "20260825-142620-gold-mask-shadow",
+      "title": "摄影点评｜金色面具与影子",
+      "scores": {
+        "technical": 7,
+        "composition": 7.5,
+        "lighting": 8,
+        "story": 7.5,
+        "overall": 7.5
+      },
+      "number": 62
+    },
+    {
+      "id": "20260825-144634-museum-ceramics-glass-reflection",
+      "title": "摄影点评｜展柜中的修复陶器与镜像",
+      "scores": {
+        "technical": 5.5,
+        "composition": 7.5,
+        "lighting": 6.5,
+        "story": 7.5,
+        "overall": 7.5
+      },
+      "number": 63
+    },
+    {
+      "id": "20260825-205320-museum-ritual-tree-low-key",
+      "title": "摄影点评｜黑暗展柜中的仪式树形器",
+      "scores": {
+        "technical": 6.5,
+        "composition": 7.5,
+        "lighting": 7.5,
+        "story": 7,
+        "overall": 7.5
+      },
+      "number": 64
+    },
+    {
+      "id": "20260825-205917-spotlit-branching-bronze-shadows",
+      "title": "摄影点评｜聚光下的枝状金属器与投影",
+      "scores": {
+        "technical": 6.5,
+        "composition": 7.5,
+        "lighting": 8,
+        "story": 7.5,
+        "overall": 8
+      },
+      "number": 65
+    },
+    {
+      "id": "20260825-211747-bronze-creature-head-warm-black",
+      "title": "摄影点评｜暖黑背景中的青铜兽首",
+      "scores": {
+        "technical": 7,
+        "composition": 7.5,
+        "lighting": 7.5,
+        "story": 7.5,
+        "overall": 7.5
+      },
+      "number": 66
+    },
+    {
+      "id": "20261008-arched-garden-0f22d086",
+      "title": "拱门里的窄庭院",
+      "scores": {
+        "technical": 7,
+        "composition": 7.5,
+        "lighting": 7.5,
+        "story": 7,
+        "overall": 7.5
+      },
+      "number": 67
+    },
+    {
+      "id": "20261008-sunlit-arcade-e48e1522",
+      "title": "光影走廊",
+      "scores": {
+        "technical": 7,
+        "composition": 8,
+        "lighting": 8,
+        "story": 7,
+        "overall": 8
+      },
+      "number": 68
+    },
+    {
+      "id": "20261008-amber-windows-88dabfa8",
+      "title": "双窗、吊灯与琥珀色的光",
+      "scores": {
+        "technical": 7,
+        "composition": 8,
+        "lighting": 8,
+        "story": 7,
+        "overall": 8
+      },
+      "number": 69
+    },
+    {
+      "id": "20261008-swimmer-under-bridge-813b4e30",
+      "title": "桥影中的游泳者",
+      "scores": {
+        "technical": 7,
+        "composition": 7,
+        "lighting": 7.5,
+        "story": 7.5,
+        "overall": 7.5
+      },
+      "number": 70
+    }
+  ]
+}

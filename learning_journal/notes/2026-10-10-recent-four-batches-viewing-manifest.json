@@ -1,0 +1,1402 @@
+{
+  "scope": "2026-10-07..2026-10-10 Asia/Shanghai archive creation dates",
+  "count": 84,
+  "contact_sheet_viewed_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84
+  ],
+  "single_image_1500px_viewed_numbers": [
+    61,
+    69,
+    84,
+    41,
+    46,
+    63,
+    14,
+    15,
+    39,
+    31,
+    40,
+    83,
+    12,
+    29,
+    51,
+    28,
+    52,
+    77,
+    1,
+    22,
+    42,
+    48,
+    66,
+    70
+  ],
+  "face_detail_viewed_numbers": [
+    67,
+    74
+  ],
+  "rescored": false,
+  "entries": [
+    {
+      "id": "20261007-233659-window-and-greenery",
+      "title": "绿意围窗",
+      "date": "2026-10-07T23:39:08.830465+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261007-233659-window-and-greenery/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 1,
+      "pillow_orientation": null,
+      "size": [
+        6000,
+        4000
+      ]
+    },
+    {
+      "id": "20261007-totoro-red-umbrella-48aff238",
+      "title": "车顶上方的龙猫与红伞",
+      "date": "2026-10-07T23:40:20.951611+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261007-totoro-red-umbrella-48aff238/original.jpg",
+      "orientation_note": {
+        "pillow_exif_orientation": null,
+        "sips_orientation": null,
+        "trusted_chat_display": "upright landscape"
+      },
+      "metadata_orientation": null,
+      "number": 2,
+      "pillow_orientation": null,
+      "size": [
+        6000,
+        4000
+      ]
+    },
+    {
+      "id": "20261007-233833-red-yellow-pipes",
+      "title": "灰墙与红黄管线",
+      "date": "2026-10-07T23:40:37+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261007-233833-red-yellow-pipes/original.jpg",
+      "orientation_note": {
+        "pillow_exif_orientation": null,
+        "sips_orientation": null,
+        "trusted_user_display": "upright",
+        "rotation_cap_applied": false
+      },
+      "metadata_orientation": null,
+      "number": 3,
+      "pillow_orientation": null,
+      "size": [
+        889,
+        1261
+      ]
+    },
+    {
+      "id": "20261007-street-pipes-f64f87ae",
+      "title": "管线与树荫下的街巷",
+      "date": "2026-10-07T23:40:50.950847+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261007-street-pipes-f64f87ae/original.jpg",
+      "orientation_note": {
+        "exif_orientation": 0,
+        "trusted_chat_display": "upright landscape",
+        "local_display": "upright landscape"
+      },
+      "metadata_orientation": null,
+      "number": 4,
+      "pillow_orientation": 0,
+      "size": [
+        4000,
+        2248
+      ]
+    },
+    {
+      "id": "20261007-233932-street-pause",
+      "title": "街边的片刻停留",
+      "date": "2026-10-07T23:41:35.829696+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261007-233932-street-pause/original.jpg",
+      "orientation_note": "Pillow EXIF plus supplied visible image and local image verified upright; no rotation applied",
+      "metadata_orientation": null,
+      "number": 5,
+      "pillow_orientation": 0,
+      "size": [
+        932,
+        1656
+      ]
+    },
+    {
+      "id": "20261007-234046-woven-lamps-street",
+      "title": "檐下编织灯与街景",
+      "date": "2026-10-07T23:43:20.831363+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261007-234046-woven-lamps-street/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 6,
+      "pillow_orientation": null,
+      "size": [
+        4000,
+        6000
+      ]
+    },
+    {
+      "id": "20261007-tree-lined-lane-12ee18e3",
+      "title": "树荫里的街巷日常",
+      "date": "2026-10-07T23:43:55.145467+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261007-tree-lined-lane-12ee18e3/original.jpg",
+      "orientation_note": {
+        "pillow_exif_orientation": null,
+        "sips_orientation": null,
+        "trusted_chat_display": "upright portrait"
+      },
+      "metadata_orientation": null,
+      "number": 7,
+      "pillow_orientation": null,
+      "size": [
+        4000,
+        6000
+      ]
+    },
+    {
+      "id": "20261007-tree-wires-b90ea729",
+      "title": "树冠、电线与砖墙",
+      "date": "2026-10-07T23:44:39.138207+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261007-tree-wires-b90ea729/original.jpg",
+      "orientation_note": {
+        "exif_orientation": null,
+        "trusted_chat_display": "upright portrait",
+        "local_display": "upright portrait"
+      },
+      "metadata_orientation": null,
+      "number": 8,
+      "pillow_orientation": null,
+      "size": [
+        4000,
+        6000
+      ]
+    },
+    {
+      "id": "20261007-234211-bicycle-paint-cans",
+      "title": "旧自行车与漆桶",
+      "date": "2026-10-07T23:44:49+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261007-234211-bicycle-paint-cans/original.jpg",
+      "orientation_note": {
+        "pillow_exif_orientation": null,
+        "sips_orientation": null,
+        "trusted_user_display": "upright",
+        "rotation_cap_applied": false
+      },
+      "metadata_orientation": null,
+      "number": 9,
+      "pillow_orientation": null,
+      "size": [
+        1409,
+        1092
+      ]
+    },
+    {
+      "id": "20261007-234345-tree-street",
+      "title": "树荫下的街角",
+      "date": "2026-10-07T23:46:12.390779+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261007-234345-tree-street/original.jpg",
+      "orientation_note": "Pillow metadata and user supplied display and local view checked; upright, no rotation necessary",
+      "metadata_orientation": null,
+      "number": 10,
+      "pillow_orientation": null,
+      "size": [
+        4000,
+        6000
+      ]
+    },
+    {
+      "id": "20261007-234503-red-flowers-grey-wall",
+      "title": "灰墙边的红花",
+      "date": "2026-10-07T23:47:30.854695+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261007-234503-red-flowers-grey-wall/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 11,
+      "pillow_orientation": null,
+      "size": [
+        4000,
+        6000
+      ]
+    },
+    {
+      "id": "20261007-window-pole-571b7106",
+      "title": "枝叶与线缆后的窗",
+      "date": "2026-10-07T23:48:32.824642+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261007-window-pole-571b7106/original.jpg",
+      "orientation_note": {
+        "exif_orientation": null,
+        "trusted_chat_display": "upright portrait",
+        "local_display": "upright portrait"
+      },
+      "metadata_orientation": null,
+      "number": 12,
+      "pillow_orientation": null,
+      "size": [
+        2123,
+        3776
+      ]
+    },
+    {
+      "id": "20261007-234804-window-layers",
+      "title": "枝叶与砖窗",
+      "date": "2026-10-07T23:50:20.447660+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261007-234804-window-layers/original.jpg",
+      "orientation_note": "Pillow metadata inspected; user display and local view upright; no rotation necessary",
+      "metadata_orientation": null,
+      "number": 13,
+      "pillow_orientation": null,
+      "size": [
+        3030,
+        6000
+      ]
+    },
+    {
+      "id": "20261007-green-facade-271b08af",
+      "title": "青绿立面与斜向线缆",
+      "date": "2026-10-07T23:52:23.746298+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261007-green-facade-271b08af/original.jpg",
+      "orientation_note": {
+        "exif_orientation": null,
+        "trusted_chat_display": "upright landscape",
+        "local_display": "upright landscape"
+      },
+      "metadata_orientation": null,
+      "number": 14,
+      "pillow_orientation": null,
+      "size": [
+        6000,
+        4000
+      ]
+    },
+    {
+      "id": "20261007-empty-bench-980e12a3",
+      "title": "暗色路面上的白色空椅",
+      "date": "2026-10-07T23:55:54.627316+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261007-empty-bench-980e12a3/original.jpg",
+      "orientation_note": {
+        "exif_orientation": null,
+        "trusted_chat_display": "upright landscape",
+        "local_display": "upright landscape"
+      },
+      "metadata_orientation": null,
+      "number": 15,
+      "pillow_orientation": null,
+      "size": [
+        6000,
+        4000
+      ]
+    },
+    {
+      "id": "20261008-jingyuan-459b7a5c",
+      "title": "绿篱前的“静园”牌架",
+      "date": "2026-10-08T17:32:49.400457+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261008-jingyuan-459b7a5c/original.jpg",
+      "orientation_note": {
+        "pillow_orientation": null,
+        "sips_orientation": null,
+        "visible_orientation": "upright; consistent with user attachment"
+      },
+      "metadata_orientation": null,
+      "number": 16,
+      "pillow_orientation": null,
+      "size": [
+        4000,
+        6000
+      ]
+    },
+    {
+      "id": "20261008-courtyard-arch-be3ec753",
+      "title": "拱门里的小院",
+      "date": "2026-10-08T17:33:04.522747+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261008-courtyard-arch-be3ec753/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 17,
+      "pillow_orientation": null,
+      "size": [
+        2466,
+        4869
+      ]
+    },
+    {
+      "id": "20261008-backlit-pergola-79a98510",
+      "title": "木架上的透光绿叶",
+      "date": "2026-10-08T17:37:16.365170+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261008-backlit-pergola-79a98510/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 18,
+      "pillow_orientation": null,
+      "size": [
+        6000,
+        3571
+      ]
+    },
+    {
+      "id": "20261008-twin-windows-43974144",
+      "title": "浅墙、双窗与绿植",
+      "date": "2026-10-08T17:37:20.025902+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261008-twin-windows-43974144/original.jpg",
+      "orientation_note": {
+        "pillow_orientation": null,
+        "sips_orientation": null,
+        "visible_orientation": "upright; consistent with user attachment"
+      },
+      "metadata_orientation": null,
+      "number": 19,
+      "pillow_orientation": null,
+      "size": [
+        3646,
+        2215
+      ]
+    },
+    {
+      "id": "20261008-wall-and-towers-c69efb80",
+      "title": "瓦墙与高楼",
+      "date": "2026-10-08T17:41:36.176066+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261008-wall-and-towers-c69efb80/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 20,
+      "pillow_orientation": null,
+      "size": [
+        4000,
+        6000
+      ]
+    },
+    {
+      "id": "20261008-arched-garden-0f22d086",
+      "title": "拱门里的窄庭院",
+      "date": "2026-10-08T17:41:44.283154+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261008-arched-garden-0f22d086/original.jpg",
+      "orientation_note": {
+        "pillow_orientation": null,
+        "sips_orientation": null,
+        "visible_orientation": "upright; consistent with user attachment"
+      },
+      "metadata_orientation": null,
+      "number": 21,
+      "pillow_orientation": null,
+      "size": [
+        2466,
+        4869
+      ]
+    },
+    {
+      "id": "20261008-sunlit-arcade-e48e1522",
+      "title": "光影走廊",
+      "date": "2026-10-08T17:46:39.769885+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261008-sunlit-arcade-e48e1522/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 22,
+      "pillow_orientation": null,
+      "size": [
+        2728,
+        3360
+      ]
+    },
+    {
+      "id": "20261008-stained-glass-clock-ea712882",
+      "title": "彩窗、座钟与棋盘",
+      "date": "2026-10-08T17:49:20.699113+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261008-stained-glass-clock-ea712882/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 23,
+      "pillow_orientation": null,
+      "size": [
+        4000,
+        6000
+      ]
+    },
+    {
+      "id": "20261008-glass-rhythm-85530b0c",
+      "title": "彩色玻璃的节奏",
+      "date": "2026-10-08T17:54:23.607508+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261008-glass-rhythm-85530b0c/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 24,
+      "pillow_orientation": null,
+      "size": [
+        4000,
+        6000
+      ]
+    },
+    {
+      "id": "20261008-city-road-41caf19d",
+      "title": "弯道、楼群与蓝天",
+      "date": "2026-10-08T18:16:09.691376+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261008-city-road-41caf19d/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 25,
+      "pillow_orientation": null,
+      "size": [
+        2048,
+        3640
+      ]
+    },
+    {
+      "id": "20261008-brick-arch-a5e77768",
+      "title": "蓝天下的红砖拱廊",
+      "date": "2026-10-08T18:19:58.104639+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261008-brick-arch-a5e77768/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 26,
+      "pillow_orientation": null,
+      "size": [
+        2258,
+        1921
+      ]
+    },
+    {
+      "id": "20261008-burgundy-awnings-6b759624",
+      "title": "酒红窗篷与墙上投影",
+      "date": "2026-10-08T18:24:30.885786+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261008-burgundy-awnings-6b759624/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 27,
+      "pillow_orientation": null,
+      "size": [
+        4054,
+        2507
+      ]
+    },
+    {
+      "id": "20261008-amber-windows-88dabfa8",
+      "title": "双窗、吊灯与琥珀色的光",
+      "date": "2026-10-08T18:28:24.689969+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261008-amber-windows-88dabfa8/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 28,
+      "pillow_orientation": null,
+      "size": [
+        2528,
+        4092
+      ]
+    },
+    {
+      "id": "20261008-white-structures-green-gap-23a7b73b",
+      "title": "白色结构之间的绿地",
+      "date": "2026-10-08T19:09:12.261394+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261008-white-structures-green-gap-23a7b73b/original.jpg",
+      "orientation_note": {
+        "pillow_orientation": 0,
+        "trusted_chat_display": "upright landscape",
+        "rotation_cap_applied": false
+      },
+      "metadata_orientation": null,
+      "number": 29,
+      "pillow_orientation": 0,
+      "size": [
+        4096,
+        2728
+      ]
+    },
+    {
+      "id": "20261008-cb4c9a65-trees",
+      "title": "白色栏杆之间的绿树",
+      "date": "2026-10-08T19:09:30.280735+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261008-cb4c9a65-trees/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 30,
+      "pillow_orientation": 0,
+      "size": [
+        2728,
+        4092
+      ]
+    },
+    {
+      "id": "20261008-swimmer-under-bridge-813b4e30",
+      "title": "桥影中的游泳者",
+      "date": "2026-10-08T19:13:14.116252+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261008-swimmer-under-bridge-813b4e30/original.jpg",
+      "orientation_note": {
+        "pillow_orientation": null,
+        "trusted_chat_display": "upright landscape",
+        "rotation_cap_applied": false
+      },
+      "metadata_orientation": null,
+      "number": 31,
+      "pillow_orientation": null,
+      "size": [
+        6000,
+        4000
+      ]
+    },
+    {
+      "id": "20261008-3caf420d-riverfront",
+      "title": "河湾、钟楼与岸边日常",
+      "date": "2026-10-08T19:13:21.313714+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261008-3caf420d-riverfront/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 32,
+      "pillow_orientation": null,
+      "size": [
+        4000,
+        6000
+      ]
+    },
+    {
+      "id": "20261008-bd003f86-swimmers",
+      "title": "水中的泳者与橙色浮具",
+      "date": "2026-10-08T19:17:31.384352+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261008-bd003f86-swimmers/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 33,
+      "pillow_orientation": null,
+      "size": [
+        4096,
+        3072
+      ]
+    },
+    {
+      "id": "20261008-c7f10a2c-red-buoy",
+      "title": "蓝色水面上的红浮标",
+      "date": "2026-10-08T19:21:47.074181+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261008-c7f10a2c-red-buoy/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 34,
+      "pillow_orientation": null,
+      "size": [
+        1272,
+        1272
+      ]
+    },
+    {
+      "id": "20261009-river-workboat-235a0f35",
+      "title": "河岸驶过的作业船",
+      "date": "2026-10-09T16:30:31.947487+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-river-workboat-235a0f35/original.jpg",
+      "orientation_note": {
+        "pillow_orientation": null,
+        "sips_orientation": null,
+        "trusted_user_display": "upright landscape"
+      },
+      "metadata_orientation": null,
+      "number": 35,
+      "pillow_orientation": null,
+      "size": [
+        6000,
+        4000
+      ]
+    },
+    {
+      "id": "20261009-riverside-layers-881d5074",
+      "title": "河岸低层建筑与高楼的叠置",
+      "date": "2026-10-09T16:30:58.093244+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-riverside-layers-881d5074/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 36,
+      "pillow_orientation": null,
+      "size": [
+        6000,
+        4000
+      ]
+    },
+    {
+      "id": "20261009-vine-berries-e63e9142",
+      "title": "绿叶、红茎与蓝紫果实",
+      "date": "2026-10-09T16:31:24.820612+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-vine-berries-e63e9142/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 37,
+      "pillow_orientation": 0,
+      "size": [
+        4096,
+        3008
+      ]
+    },
+    {
+      "id": "20261009-colorful-berries-a6f2c6ad",
+      "title": "绿叶间的彩色果串",
+      "date": "2026-10-09T16:34:14.426636+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-colorful-berries-a6f2c6ad/original.jpg",
+      "orientation_note": {
+        "pillow_orientation": null,
+        "sips_orientation": null,
+        "trusted_user_display": "matches source; no viewing-direction obstruction"
+      },
+      "metadata_orientation": null,
+      "number": 38,
+      "pillow_orientation": null,
+      "size": [
+        3999,
+        4000
+      ]
+    },
+    {
+      "id": "20261009-vines-stone-benches-69ec4955",
+      "title": "绿藤下的空石凳",
+      "date": "2026-10-09T16:34:24.313659+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-vines-stone-benches-69ec4955/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 39,
+      "pillow_orientation": null,
+      "size": [
+        4000,
+        3999
+      ]
+    },
+    {
+      "id": "20261009-riverside-layers-eee407a4",
+      "title": "锈色岸边与城市桥梁",
+      "date": "2026-10-09T16:35:11.358606+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-riverside-layers-eee407a4/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 40,
+      "pillow_orientation": null,
+      "size": [
+        2527,
+        2526
+      ]
+    },
+    {
+      "id": "20261009-industrial-colors-07a6096b",
+      "title": "工业柱体的三原色节奏",
+      "date": "2026-10-09T16:37:40.262702+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-industrial-colors-07a6096b/original.jpg",
+      "orientation_note": {
+        "pillow_orientation": null,
+        "sips_orientation": null,
+        "trusted_user_display": "upright portrait, matching source"
+      },
+      "metadata_orientation": null,
+      "number": 41,
+      "pillow_orientation": null,
+      "size": [
+        4000,
+        6000
+      ]
+    },
+    {
+      "id": "20261009-stone-color-vine-shadows-f6a66e0f",
+      "title": "石墙上的色块、藤枝与影子",
+      "date": "2026-10-09T16:37:56.947780+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-stone-color-vine-shadows-f6a66e0f/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 42,
+      "pillow_orientation": null,
+      "size": [
+        3582,
+        2015
+      ]
+    },
+    {
+      "id": "20261009-waterfront-skyline-df8197a8",
+      "title": "红顶街区与滨水天际线",
+      "date": "2026-10-09T16:38:41.237604+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-waterfront-skyline-df8197a8/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 43,
+      "pillow_orientation": null,
+      "size": [
+        4417,
+        2484
+      ]
+    },
+    {
+      "id": "20261009-riverside-pipes-dcd62b33",
+      "title": "彩色管道与河岸小伞",
+      "date": "2026-10-09T16:41:04.844587+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-riverside-pipes-dcd62b33/original.jpg",
+      "orientation_note": {
+        "pillow_orientation": null,
+        "sips_orientation": null,
+        "trusted_user_display": "upright landscape, matching source"
+      },
+      "metadata_orientation": null,
+      "number": 44,
+      "pillow_orientation": null,
+      "size": [
+        4602,
+        2588
+      ]
+    },
+    {
+      "id": "20261009-river-platform-bridge-towers-2965561a",
+      "title": "锈蚀平台、桥梁与高楼",
+      "date": "2026-10-09T16:41:41.652923+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-river-platform-bridge-towers-2965561a/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 45,
+      "pillow_orientation": null,
+      "size": [
+        1570,
+        2718
+      ]
+    },
+    {
+      "id": "20261009-primary-color-pipes-dfbbc8bc",
+      "title": "红黄蓝管体与斜影",
+      "date": "2026-10-09T16:42:15.231101+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-primary-color-pipes-dfbbc8bc/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 46,
+      "pillow_orientation": null,
+      "size": [
+        6000,
+        4000
+      ]
+    },
+    {
+      "id": "20261009-pipe-promenade-13e77402",
+      "title": "彩色管道下的步道",
+      "date": "2026-10-09T16:44:44.359932+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-pipe-promenade-13e77402/original.jpg",
+      "orientation_note": {
+        "pillow_orientation": null,
+        "sips_orientation": null,
+        "trusted_user_display": "upright, matching source"
+      },
+      "metadata_orientation": null,
+      "number": 47,
+      "pillow_orientation": null,
+      "size": [
+        4208,
+        4000
+      ]
+    },
+    {
+      "id": "20261009-primary-color-pipes-8f79fba7",
+      "title": "仰望红黄蓝管道",
+      "date": "2026-10-09T16:45:24.826986+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-primary-color-pipes-8f79fba7/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 48,
+      "pillow_orientation": null,
+      "size": [
+        3596,
+        5394
+      ]
+    },
+    {
+      "id": "20261009-color-pipes-reflection-a8ffd1dd",
+      "title": "彩色弯管与水面倒影",
+      "date": "2026-10-09T16:45:32.079008+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-color-pipes-reflection-a8ffd1dd/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 49,
+      "pillow_orientation": null,
+      "size": [
+        2648,
+        1492
+      ]
+    },
+    {
+      "id": "20261009-194510-city-housing-layers-8d6d5889",
+      "title": "屋顶、旧住宅与远处高楼",
+      "date": "2026-10-09T19:46:55+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-194510-city-housing-layers-8d6d5889/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 50,
+      "pillow_orientation": null,
+      "size": [
+        2070,
+        2069
+      ]
+    },
+    {
+      "id": "20261009-riverfront-reflection-51a7a238",
+      "title": "河岸建筑与水中倒影",
+      "date": "2026-10-09T19:47:18.103569+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-riverfront-reflection-51a7a238/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 51,
+      "pillow_orientation": null,
+      "size": [
+        4000,
+        6000
+      ]
+    },
+    {
+      "id": "20261009-wall-leaves-e944ed9f",
+      "title": "墙格里的绿叶",
+      "date": "2026-10-09T19:47:29.821768+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-wall-leaves-e944ed9f/original.jpg",
+      "orientation_note": {
+        "exif_orientation": null,
+        "trusted_chat_display": "upright",
+        "local_display": "upright"
+      },
+      "metadata_orientation": null,
+      "number": 52,
+      "pillow_orientation": null,
+      "size": [
+        4000,
+        5236
+      ]
+    },
+    {
+      "id": "20261009-bridge-cityscape-548af20f",
+      "title": "桥梁引导线与城市建筑",
+      "date": "2026-10-09T19:50:04+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-bridge-cityscape-548af20f/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 53,
+      "pillow_orientation": null,
+      "size": [
+        6000,
+        4000
+      ]
+    },
+    {
+      "id": "20261009-sculpture-city-d40cdd0d",
+      "title": "金色雕塑与灰色城市立面",
+      "date": "2026-10-09T19:50:36.611783+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-sculpture-city-d40cdd0d/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 54,
+      "pillow_orientation": null,
+      "size": [
+        2590,
+        3627
+      ]
+    },
+    {
+      "id": "20261009-buoy-12-riverside-a6a7061a",
+      "title": "12号浮标与河面",
+      "date": "2026-10-09T19:53:31+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-buoy-12-riverside-a6a7061a/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 55,
+      "pillow_orientation": null,
+      "size": [
+        1357,
+        1357
+      ]
+    },
+    {
+      "id": "20261009-riverside-walk-e1f4e883",
+      "title": "水边台阶上的两个人",
+      "date": "2026-10-09T19:53:48.903091+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-riverside-walk-e1f4e883/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 56,
+      "pillow_orientation": null,
+      "size": [
+        1724,
+        1174
+      ]
+    },
+    {
+      "id": "20261009-underbridge-stairs-river-40be1c95",
+      "title": "桥下水面与阶梯空间",
+      "date": "2026-10-09T19:56:39+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-underbridge-stairs-river-40be1c95/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 57,
+      "pillow_orientation": null,
+      "size": [
+        6000,
+        3375
+      ]
+    },
+    {
+      "id": "20261009-underbridge-red-4de38e85",
+      "title": "桥底的秩序与红色呼应",
+      "date": "2026-10-09T19:56:56.683295+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-underbridge-red-4de38e85/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 58,
+      "pillow_orientation": null,
+      "size": [
+        6000,
+        4000
+      ]
+    },
+    {
+      "id": "20261009-vine-stone-cacbf650",
+      "title": "藤叶与石墙",
+      "date": "2026-10-09T19:59:46.287765+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-vine-stone-cacbf650/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 59,
+      "pillow_orientation": null,
+      "size": [
+        3219,
+        5722
+      ]
+    },
+    {
+      "id": "20261009-riverfront-facade-bce657dd",
+      "title": "河岸立面与树冠层次",
+      "date": "2026-10-09T19:59:52+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261009-riverfront-facade-bce657dd/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 60,
+      "pillow_orientation": null,
+      "size": [
+        3144,
+        1481
+      ]
+    },
+    {
+      "id": "20261010-152127-lantern-canopy",
+      "title": "层叠灯笼的色彩天幕",
+      "date": "2026-10-10T15:21:27+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261010-152127-lantern-canopy/original.jpg",
+      "orientation_note": "Pillow EXIF contains no orientation tag; local image and user display both upright.",
+      "metadata_orientation": null,
+      "number": 61,
+      "pillow_orientation": null,
+      "size": [
+        2184,
+        2185
+      ]
+    },
+    {
+      "id": "20261010-152252-sunlit-green-drink",
+      "title": "木桌上的透光饮品",
+      "date": "2026-10-10T15:22:52.276339+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261010-152252-sunlit-green-drink/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 62,
+      "pillow_orientation": null,
+      "size": [
+        4000,
+        6000
+      ]
+    },
+    {
+      "id": "20261010-vine-covered-alley-c667e033",
+      "title": "绿荫下的红色弯路",
+      "date": "2026-10-10T15:23:12.370142+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261010-vine-covered-alley-c667e033/original.jpg",
+      "orientation_note": "Pillow EXIF contains no orientation tag; user-displayed image is upright and agrees with pixel dimensions.",
+      "metadata_orientation": null,
+      "number": 63,
+      "pillow_orientation": null,
+      "size": [
+        1180,
+        1953
+      ]
+    },
+    {
+      "id": "20261010-152407-cat-by-iron-fence",
+      "title": "铁栏前侧望的黑白猫",
+      "date": "2026-10-10T15:24:07+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261010-152407-cat-by-iron-fence/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 64,
+      "pillow_orientation": null,
+      "size": [
+        6000,
+        4000
+      ]
+    },
+    {
+      "id": "20261010-152455-red-lantern-rhythm",
+      "title": "灰墙前的红灯笼节奏",
+      "date": "2026-10-10T15:24:55+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261010-152455-red-lantern-rhythm/original.jpg",
+      "orientation_note": "Pillow EXIF contains no orientation tag; local view and user display are upright.",
+      "metadata_orientation": null,
+      "number": 65,
+      "pillow_orientation": null,
+      "size": [
+        5998,
+        3375
+      ]
+    },
+    {
+      "id": "20261010-152551-brick-wall-colorful-stools",
+      "title": "灰砖墙与彩色凳子的叠放",
+      "date": "2026-10-10T15:25:51.120066+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261010-152551-brick-wall-colorful-stools/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 66,
+      "pillow_orientation": 0,
+      "size": [
+        932,
+        1660
+      ]
+    },
+    {
+      "id": "20261010-cat-behind-railings-48263bdb",
+      "title": "铁栏间的回望",
+      "date": "2026-10-10T15:26:47.928997+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261010-cat-behind-railings-48263bdb/original.jpg",
+      "orientation_note": "No EXIF orientation reported by Pillow; upright user display agrees with local face detail inspection.",
+      "metadata_orientation": null,
+      "number": 67,
+      "pillow_orientation": null,
+      "size": [
+        6000,
+        4000
+      ]
+    },
+    {
+      "id": "20261010-152812-layered-drink",
+      "title": "木桌上的黄绿分层饮品",
+      "date": "2026-10-10T15:28:12+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261010-152812-layered-drink/original.jpg",
+      "orientation_note": "Pillow EXIF has no orientation tag; trusted user display and local image upright.",
+      "metadata_orientation": null,
+      "number": 68,
+      "pillow_orientation": null,
+      "size": [
+        4000,
+        6000
+      ]
+    },
+    {
+      "id": "20261010-152813-curved-trunk-green-canopy",
+      "title": "弯曲树干与层叠绿荫",
+      "date": "2026-10-10T15:28:13+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261010-152813-curved-trunk-green-canopy/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 69,
+      "pillow_orientation": null,
+      "size": [
+        4000,
+        6000
+      ]
+    },
+    {
+      "id": "20261010-152846-vine-canopy-alley",
+      "title": "藤蔓拱棚下的小巷",
+      "date": "2026-10-10T15:28:46.413651+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261010-152846-vine-canopy-alley/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 70,
+      "pillow_orientation": 0,
+      "size": [
+        3356,
+        2712
+      ]
+    },
+    {
+      "id": "20261010-brick-facade-b0f467ee",
+      "title": "灰砖立面的秩序",
+      "date": "2026-10-10T15:30:20.566422+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261010-brick-facade-b0f467ee/original.jpg",
+      "orientation_note": "Pillow has no EXIF orientation tag. User upright display and local detail rendering agree.",
+      "metadata_orientation": null,
+      "number": 71,
+      "pillow_orientation": null,
+      "size": [
+        5833,
+        4000
+      ]
+    },
+    {
+      "id": "20261010-153138-cat-behind-ironwork",
+      "title": "铁栏后的黑白猫",
+      "date": "2026-10-10T15:31:38.303230+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261010-153138-cat-behind-ironwork/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 72,
+      "pillow_orientation": null,
+      "size": [
+        6000,
+        4000
+      ]
+    },
+    {
+      "id": "20261010-153153-brick-facade-under-canopy",
+      "title": "树冠下的砖墙与白门",
+      "date": "2026-10-10T15:31:53+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261010-153153-brick-facade-under-canopy/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 73,
+      "pillow_orientation": null,
+      "size": [
+        3914,
+        5581
+      ]
+    },
+    {
+      "id": "20261010-153155-cat-iron-railing",
+      "title": "铁栏间的猫与回望",
+      "date": "2026-10-10T15:31:55+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261010-153155-cat-iron-railing/original.jpg",
+      "orientation_note": "Pillow EXIF no orientation tag; local and user display upright.",
+      "metadata_orientation": null,
+      "number": 74,
+      "pillow_orientation": null,
+      "size": [
+        6000,
+        4000
+      ]
+    },
+    {
+      "id": "20261010-twin-spires-6de50205",
+      "title": "树冠间的双尖塔",
+      "date": "2026-10-10T15:33:30.030711+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261010-twin-spires-6de50205/original.jpg",
+      "orientation_note": "Pillow reports no EXIF orientation; user upright display and local tower detail agree.",
+      "metadata_orientation": null,
+      "number": 75,
+      "pillow_orientation": null,
+      "size": [
+        2678,
+        5649
+      ]
+    },
+    {
+      "id": "20261010-153441-green-canopy-street",
+      "title": "街道上方的绿色树冠",
+      "date": "2026-10-10T15:34:41.815865+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261010-153441-green-canopy-street/original.jpg",
+      "orientation_note": null,
+      "metadata_orientation": null,
+      "number": 76,
+      "pillow_orientation": null,
+      "size": [
+        4884,
+        3946
+      ]
+    },
+    {
+      "id": "20261010-153515-brick-stone-shadows",
+      "title": "红砖、石构与斑驳光影",
+      "date": "2026-10-10T15:35:15+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261010-153515-brick-stone-shadows/original.jpg",
+      "orientation_note": "No orientation tag in Pillow EXIF; trusted user display and local image upright.",
+      "metadata_orientation": null,
+      "number": 77,
+      "pillow_orientation": null,
+      "size": [
+        3598,
+        3156
+      ]
+    },
+    {
+      "id": "20261010-green-canopy-d6b3ceef",
+      "title": "街边绿荫与枝干",
+      "date": "2026-10-10T15:36:37.813271+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261010-green-canopy-d6b3ceef/original.jpg",
+      "orientation_note": "Pillow reports no EXIF orientation tag; upright user display agrees with local detail inspection.",
+      "metadata_orientation": null,
+      "number": 78,
+      "pillow_orientation": null,
+      "size": [
+        3480,
+        3933
+      ]
+    },
+    {
+      "id": "20261010-round-window-bamboo-a117af8c",
+      "title": "圆窗里的竹影",
+      "date": "2026-10-10T16:43:39.883613+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261010-round-window-bamboo-a117af8c/original.jpg",
+      "orientation_note": {
+        "exif_orientation": null,
+        "trusted_user_display": "upright landscape; consistent with local image"
+      },
+      "metadata_orientation": null,
+      "number": 79,
+      "pillow_orientation": null,
+      "size": [
+        3822,
+        3031
+      ]
+    },
+    {
+      "id": "20261010-164341-round-window-bamboo",
+      "title": "圆窗里的竹影",
+      "date": "2026-10-10T16:43:41+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261010-164341-round-window-bamboo/original.jpg",
+      "orientation_note": {
+        "pillow_orientation": null,
+        "sips_orientation": null,
+        "matches_user_display": true
+      },
+      "metadata_orientation": null,
+      "number": 80,
+      "pillow_orientation": null,
+      "size": [
+        2301,
+        2301
+      ]
+    },
+    {
+      "id": "20261010-stone-wall-inscription-bce37dc3",
+      "title": "白墙上的小山水",
+      "date": "2026-10-10T16:46:55.759816+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261010-stone-wall-inscription-bce37dc3/original.jpg",
+      "orientation_note": {
+        "exif_orientation": null,
+        "trusted_user_display": "upright lettering and stone; consistent with local image"
+      },
+      "metadata_orientation": null,
+      "number": 81,
+      "pillow_orientation": null,
+      "size": [
+        3550,
+        2902
+      ]
+    },
+    {
+      "id": "20261010-164706-gatehouse-street",
+      "title": "城楼与街道",
+      "date": "2026-10-10T16:47:06+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261010-164706-gatehouse-street/original.jpg",
+      "orientation_note": {
+        "pillow_orientation": null,
+        "sips_orientation": null,
+        "matches_user_display": true
+      },
+      "metadata_orientation": null,
+      "number": 82,
+      "pillow_orientation": null,
+      "size": [
+        3872,
+        2728
+      ]
+    },
+    {
+      "id": "20261010-165011-backlit-cafe-facade",
+      "title": "逆光里的红绿咖啡店立面",
+      "date": "2026-10-10T16:50:11+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261010-165011-backlit-cafe-facade/original.jpg",
+      "orientation_note": {
+        "pillow_orientation": 0,
+        "sips_orientation": null,
+        "orientation_note": "Nonstandard orientation 0; local view matches upright user display."
+      },
+      "metadata_orientation": null,
+      "number": 83,
+      "pillow_orientation": 0,
+      "size": [
+        3636,
+        2332
+      ]
+    },
+    {
+      "id": "20261010-green-bus-pink-roof-2884a7cb",
+      "title": "绿树下的粉顶绿车",
+      "date": "2026-10-10T16:50:11.668172+08:00",
+      "original": "/Users/bytedance/Documents/摄影学习/data/archive/20261010-green-bus-pink-roof-2884a7cb/original.jpg",
+      "orientation_note": {
+        "exif_orientation": null,
+        "trusted_user_display": "upright road vehicle; consistent with local image"
+      },
+      "metadata_orientation": null,
+      "number": 84,
+      "pillow_orientation": null,
+      "size": [
+        5019,
+        3096
+      ]
+    }
+  ]
+}

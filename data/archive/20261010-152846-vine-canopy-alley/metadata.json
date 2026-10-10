@@ -1,0 +1,21 @@
+{
+  "id": "20261010-152846-vine-canopy-alley",
+  "title": "藤蔓拱棚下的小巷",
+  "created_at": "2026-10-10T15:28:46.413651+08:00",
+  "image_source": "local_file",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/980ea6032bd527fdbd2966e028082a17.jpg",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "image_dimensions": {
+    "width": 3356,
+    "height": 2712
+  },
+  "scores": {
+    "technical": 6.5,
+    "composition": 7,
+    "lighting": 6.5,
+    "story": 7,
+    "overall": 7
+  },
+  "source_sha256": "eae97d4d5376df9e789487848ea734b1caa338e7c10ea0dcd43f366b656314bf"
+}

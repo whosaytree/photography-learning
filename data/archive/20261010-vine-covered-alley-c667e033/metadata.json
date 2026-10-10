@@ -1,0 +1,22 @@
+{
+  "id": "20261010-vine-covered-alley-c667e033",
+  "title": "绿荫下的红色弯路",
+  "created_at": "2026-10-10T15:23:12.370142+08:00",
+  "image_source": "local_file",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "image_dimensions": {
+    "width": 1180,
+    "height": 1953
+  },
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/c667e033c0abf95c95a0d30bc7e16d6b.jpg",
+  "scores": {
+    "technical": 6,
+    "composition": 5.5,
+    "lighting": 7,
+    "story": 6.5,
+    "overall": 6
+  },
+  "orientation_check": "Pillow EXIF contains no orientation tag; user-displayed image is upright and agrees with pixel dimensions.",
+  "original_sha256": "dcefeb0da86a8d07f7a49bcd02005874a4240965702cf14719f4a6ad65309d39"
+}

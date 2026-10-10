@@ -1,0 +1,21 @@
+{
+  "id": "20261010-153441-green-canopy-street",
+  "title": "街道上方的绿色树冠",
+  "created_at": "2026-10-10T15:34:41.815865+08:00",
+  "image_source": "local_file",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/208b1b690d29a3223dec294f2f9e6564.jpg",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "image_dimensions": {
+    "width": 4884,
+    "height": 3946
+  },
+  "scores": {
+    "technical": 6,
+    "composition": 5,
+    "lighting": 6,
+    "story": 6,
+    "overall": 5.5
+  },
+  "source_sha256": "a76f737f3a7f398edb03df9680315ae41b2fbc48d473a89e796d850fb4ce5fe2"
+}

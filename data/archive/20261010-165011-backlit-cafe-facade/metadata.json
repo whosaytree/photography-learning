@@ -1,0 +1,27 @@
+{
+  "id": "20261010-165011-backlit-cafe-facade",
+  "title": "逆光里的红绿咖啡店立面",
+  "created_at": "2026-10-10T16:50:11+08:00",
+  "image_source": "local_file",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/a736e428aa5f31a6d253e523cfdc01fd.jpg",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "image_dimensions": {
+    "width": 3636,
+    "height": 2332
+  },
+  "scores": {
+    "technical": 6,
+    "composition": 4.5,
+    "lighting": 6,
+    "story": 6,
+    "overall": 5.5
+  },
+  "user_request": "摄影点评",
+  "orientation_check": {
+    "pillow_orientation": 0,
+    "sips_orientation": null,
+    "orientation_note": "Nonstandard orientation 0; local view matches upright user display."
+  },
+  "source_sha256": "a680c778f74cb4c2a069e4c2605df682f1601431514801cc994ddbd34b0f80de"
+}
