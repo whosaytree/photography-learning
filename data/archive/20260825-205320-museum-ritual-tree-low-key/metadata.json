@@ -1,0 +1,25 @@
+{
+  "archive_id": "20260825-205320-museum-ritual-tree-low-key",
+  "created_at": "2026-08-25T20:53:20+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/329f6752a95d7b47f7f8824a86dae575.jpg",
+  "image_file_saved": true,
+  "original_filename": "329f6752a95d7b47f7f8824a86dae575.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 2728,
+  "pixel_height": 4092,
+  "visible_orientation": "upright_portrait",
+  "orientation_sources_checked": [
+    "trusted_visible_display",
+    "system_image_properties",
+    "spotlight_image_properties",
+    "jpeg_exif_structure"
+  ],
+  "orientation_check_summary": "System image properties, Spotlight image properties, JPEG EXIF structure, and the trusted visible display were checked; the visible viewing direction does not block normal viewing.",
+  "sha256": "983fe14cb2b529f3d2c8c1d3253149d5f333d0ecae7e6afe2b44eda004df9add",
+  "capture_settings_confirmed": false,
+  "capture_settings": null,
+  "critique_language": "zh-CN"
+}

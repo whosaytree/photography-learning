@@ -1,0 +1,25 @@
+{
+  "archive_id": "20260825-210832-museum-gold-line-panel-documentation-blue-glare",
+  "created_at": "2026-08-25T21:08:32+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/8de953ef3da58f86591014ed4a542b52.jpg",
+  "image_file_saved": true,
+  "original_filename": "8de953ef3da58f86591014ed4a542b52.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 2728,
+  "pixel_height": 3716,
+  "visible_orientation": "upright_portrait",
+  "orientation_sources_checked": [
+    "trusted_visible_display",
+    "system_image_properties",
+    "spotlight_image_properties",
+    "jpeg_exif_structure"
+  ],
+  "orientation_check_summary": "System image properties, Spotlight image properties, JPEG EXIF structure, and the trusted visible display were checked; the visible viewing direction does not block normal viewing.",
+  "sha256": "afbf97206e24afb67229a7af24901437a4e5c83375d944810db5a166dbc12087",
+  "capture_settings_confirmed": false,
+  "capture_settings": null,
+  "critique_language": "zh-CN"
+}

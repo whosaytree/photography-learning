@@ -1,0 +1,28 @@
+{
+  "id": "20261007-street-pipes-f64f87ae",
+  "title": "管线与树荫下的街巷",
+  "created_at": "2026-10-07T23:40:50.950847+08:00",
+  "image_source": "local_file",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/f64f87aef686c36fe71f73996973b50e.jpg",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "image_dimensions": {
+    "width": 4000,
+    "height": 2248
+  },
+  "source_sha256": "1adf2915f74c922f17af29cbd4cac8d3e61722cad81f0850628b003f4d1b3c98",
+  "orientation_check": {
+    "exif_orientation": 0,
+    "trusted_chat_display": "upright landscape",
+    "local_display": "upright landscape"
+  },
+  "scores": {
+    "technical": 7,
+    "composition": 5,
+    "lighting": 6,
+    "story": 6,
+    "overall": 5.5
+  },
+  "rubric_version": "1.1.2",
+  "photo_taken_at": null
+}

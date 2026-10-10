@@ -1,0 +1,27 @@
+{
+  "id": "20261008-swimmer-under-bridge-813b4e30",
+  "title": "桥影中的游泳者",
+  "created_at": "2026-10-08T19:13:14.116252+08:00",
+  "image_source": "user_provided_local_image",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/813b4e3018c5fe6e948ca1508a1eb3c3.jpg",
+  "image_file_saved": true,
+  "saved_image": "original.jpg",
+  "image_dimensions": {
+    "width": 6000,
+    "height": 4000
+  },
+  "photo_date": null,
+  "orientation_check": {
+    "pillow_orientation": null,
+    "trusted_chat_display": "upright landscape",
+    "rotation_cap_applied": false
+  },
+  "scores": {
+    "technical": 7,
+    "composition": 7,
+    "lighting": 7.5,
+    "story": 7.5,
+    "overall": 7.5
+  },
+  "rubric_version": "1.1.2"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "20261009-buoy-12-riverside-a6a7061a",
+  "title": "12号浮标与河面",
+  "created_at": "2026-10-09T19:53:31+08:00",
+  "image_source": "local_file",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/a6a7061a2db70193d5fd4735f6982751.jpg",
+  "image_file_saved": true,
+  "saved_image": "original.jpg",
+  "image_dimensions": {
+    "width": 1357,
+    "height": 1357
+  },
+  "scores": {
+    "technical": 6,
+    "composition": 6,
+    "lighting": 5.5,
+    "story": 6,
+    "overall": 6
+  },
+  "rubric_version": "v1.1.2",
+  "orientation_checked": true,
+  "visible_orientation": "upright; matches user attachment display",
+  "photo_taken_at": null,
+  "source_sha256": "6148a0203df53e4a9b847e612fbf33e6803a9cadc0723093d2d4166f8bb4d6cf"
+}

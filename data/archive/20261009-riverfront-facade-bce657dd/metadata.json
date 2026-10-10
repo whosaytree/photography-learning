@@ -1,0 +1,25 @@
+{
+  "id": "20261009-riverfront-facade-bce657dd",
+  "title": "河岸立面与树冠层次",
+  "created_at": "2026-10-09T19:59:52+08:00",
+  "image_source": "local_file",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/bce657dde9e3e0bcccb65e80c67664bd.jpg",
+  "image_file_saved": true,
+  "saved_image": "original.jpg",
+  "image_dimensions": {
+    "width": 3144,
+    "height": 1481
+  },
+  "scores": {
+    "technical": 6.5,
+    "composition": 7,
+    "lighting": 6,
+    "story": 6,
+    "overall": 6.5
+  },
+  "rubric_version": "v1.1.2",
+  "orientation_checked": true,
+  "visible_orientation": "upright; matches user attachment display",
+  "photo_taken_at": null,
+  "source_sha256": "1c4c168b93d711eaa36661703d1030be72c2225577d05bb92b01d68fa87276e7"
+}

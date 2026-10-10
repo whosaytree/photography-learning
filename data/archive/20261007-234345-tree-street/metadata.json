@@ -1,0 +1,24 @@
+{
+  "id": "20261007-234345-tree-street",
+  "title": "树荫下的街角",
+  "created_at": "2026-10-07T23:46:12.390779+08:00",
+  "image_source": "local_file",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/02942712e34f7458fd86df1a2121131e.jpg",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "image_dimensions": {
+    "width": 4000,
+    "height": 6000
+  },
+  "photo_taken_at": null,
+  "scores": {
+    "technical": 6,
+    "composition": 5,
+    "lighting": 6,
+    "story": 6,
+    "overall": 5
+  },
+  "orientation_check": "Pillow metadata and user supplied display and local view checked; upright, no rotation necessary",
+  "rubric_version": "v1.1.2",
+  "original_sha256": "201d0f4d07734acd682fba780979fd015c59a9c108e7a35ab6f7cfca729e428c"
+}

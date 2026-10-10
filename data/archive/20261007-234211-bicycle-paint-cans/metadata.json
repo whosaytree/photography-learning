@@ -1,0 +1,29 @@
+{
+  "id": "20261007-234211-bicycle-paint-cans",
+  "title": "旧自行车与漆桶",
+  "created_at": "2026-10-07T23:44:49+08:00",
+  "image_source": "local_file",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/4c7eb3f1fc22c750e318b7f28c563e32.jpg",
+  "image_file_saved": true,
+  "saved_image": "original.jpg",
+  "image_dimensions": {
+    "width": 1409,
+    "height": 1092
+  },
+  "shooting_date": null,
+  "user_request": "摄影点评",
+  "scores": {
+    "technical": 4.5,
+    "composition": 4.5,
+    "lighting": 6,
+    "story": 6,
+    "overall": 4.5
+  },
+  "orientation_check": {
+    "pillow_exif_orientation": null,
+    "sips_orientation": null,
+    "trusted_user_display": "upright",
+    "rotation_cap_applied": false
+  },
+  "source_sha256": "f6fb84e493018620f5eb3897c23a763a8e16a17ee22debbd77c381e382e103d2"
+}

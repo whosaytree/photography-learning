@@ -1,0 +1,28 @@
+{
+  "id": "20261007-empty-bench-980e12a3",
+  "title": "暗色路面上的白色空椅",
+  "created_at": "2026-10-07T23:55:54.627316+08:00",
+  "image_source": "local_file",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/980e12a3e47451df28f515657dd72531.jpg",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "image_dimensions": {
+    "width": 6000,
+    "height": 4000
+  },
+  "source_sha256": "e6c2a15e9a032c41fb157e54263640d6a56261501b579e14cbc30b2769796d3a",
+  "orientation_check": {
+    "exif_orientation": null,
+    "trusted_chat_display": "upright landscape",
+    "local_display": "upright landscape"
+  },
+  "photo_taken_at": null,
+  "scores": {
+    "technical": 7,
+    "composition": 5.5,
+    "lighting": 6.5,
+    "story": 6,
+    "overall": 6
+  },
+  "rubric_version": "1.1.2"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "20261008-jingyuan-459b7a5c",
+  "title": "绿篱前的“静园”牌架",
+  "created_at": "2026-10-08T17:32:49.400457+08:00",
+  "image_source": "local_file",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "image_dimensions": {
+    "width": 4000,
+    "height": 6000
+  },
+  "scores": {
+    "technical": 7,
+    "composition": 5.5,
+    "lighting": 6.5,
+    "story": 5.5,
+    "overall": 5.5
+  },
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/459b7a5c53e559d865b54d7cb407d357.jpg",
+  "orientation_check": {
+    "pillow_orientation": null,
+    "sips_orientation": null,
+    "visible_orientation": "upright; consistent with user attachment"
+  },
+  "photo_date": null
+}

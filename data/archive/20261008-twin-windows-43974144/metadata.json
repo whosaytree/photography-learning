@@ -1,0 +1,27 @@
+{
+  "id": "20261008-twin-windows-43974144",
+  "title": "浅墙、双窗与绿植",
+  "created_at": "2026-10-08T17:37:20.025902+08:00",
+  "image_source": "local_file",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "image_dimensions": {
+    "width": 3646,
+    "height": 2215
+  },
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/4397414417d54db19df3c06d926eebe2.jpg",
+  "scores": {
+    "technical": 7,
+    "composition": 7,
+    "lighting": 6.5,
+    "story": 6.5,
+    "overall": 6.5
+  },
+  "photo_date": null,
+  "orientation_check": {
+    "pillow_orientation": null,
+    "sips_orientation": null,
+    "visible_orientation": "upright; consistent with user attachment"
+  },
+  "rubric_version": "v1.1.2"
+}

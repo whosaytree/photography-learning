@@ -1,0 +1,33 @@
+{
+  "id": "20261009-colorful-berries-a6f2c6ad",
+  "title": "绿叶间的彩色果串",
+  "created_at": "2026-10-09T16:34:14.426636+08:00",
+  "image_source": "user_provided_local_image",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "image_dimensions": {
+    "width": 3999,
+    "height": 4000
+  },
+  "scores": {
+    "technical": 6,
+    "composition": 4.5,
+    "lighting": 5,
+    "story": 5.5,
+    "overall": 5
+  },
+  "orientation_check": {
+    "pillow_orientation": null,
+    "sips_orientation": null,
+    "trusted_user_display": "matches source; no viewing-direction obstruction"
+  },
+  "observed_exif": {
+    "ExposureTime": 0.0013333333333333333,
+    "FNumber": 4.5,
+    "ISO": 160,
+    "FocalLength": 16,
+    "FocalLengthIn35mmFilm": 24
+  },
+  "source_filename": "a6f2c6adfcc21d840b5ae04be2942a1d.jpg",
+  "original_sha256": "c0af5bb7401e21ea1c5399ffeec0894357b7aac66a40e481deb19ccec2246c0c"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "20261009-underbridge-red-4de38e85",
+  "title": "桥底的秩序与红色呼应",
+  "created_at": "2026-10-09T19:56:56.683295+08:00",
+  "photo_taken_at": null,
+  "image_source": "local_file",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/4de38e85cb6720f66dc2349ed2933d72.jpg",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "image_dimensions": {
+    "width": 6000,
+    "height": 4000
+  },
+  "scores": {
+    "technical": 7,
+    "composition": 7,
+    "lighting": 6.5,
+    "story": 7,
+    "overall": 7
+  },
+  "rubric_version": "v1.1.2",
+  "orientation_checked": true,
+  "source_sha256": "a1443d94a9adc3bde3b9ff9e34c719bc5b7026d1cda4be8efdef6bc969e2b49e"
+}

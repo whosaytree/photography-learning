@@ -1,0 +1,27 @@
+{
+  "id": "20261008-arched-garden-0f22d086",
+  "title": "拱门里的窄庭院",
+  "created_at": "2026-10-08T17:41:44.283154+08:00",
+  "image_source": "local_file",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "image_dimensions": {
+    "width": 2466,
+    "height": 4869
+  },
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/0f22d086d268f6b94a640baa3184ef8c.jpg",
+  "photo_date": null,
+  "scores": {
+    "technical": 7,
+    "composition": 7.5,
+    "lighting": 7.5,
+    "story": 7,
+    "overall": 7.5
+  },
+  "orientation_check": {
+    "pillow_orientation": null,
+    "sips_orientation": null,
+    "visible_orientation": "upright; consistent with user attachment"
+  },
+  "rubric_version": "v1.1.2"
+}

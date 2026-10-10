@@ -1,0 +1,28 @@
+{
+  "id": "20261007-window-pole-571b7106",
+  "title": "枝叶与线缆后的窗",
+  "created_at": "2026-10-07T23:48:32.824642+08:00",
+  "image_source": "local_file",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/571b7106c3134fb7f64a2d99aabcdacf.jpg",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "image_dimensions": {
+    "width": 2123,
+    "height": 3776
+  },
+  "source_sha256": "4c414037a0d0d884ac3051231240bf2b2d953bd4f5660318be72e51ae9d6fbca",
+  "orientation_check": {
+    "exif_orientation": null,
+    "trusted_chat_display": "upright portrait",
+    "local_display": "upright portrait"
+  },
+  "photo_taken_at": null,
+  "scores": {
+    "technical": 5.5,
+    "composition": 4.5,
+    "lighting": 5.5,
+    "story": 5.5,
+    "overall": 5
+  },
+  "rubric_version": "1.1.2"
+}

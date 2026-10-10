@@ -1,0 +1,24 @@
+{
+  "id": "20261007-234804-window-layers",
+  "title": "枝叶与砖窗",
+  "created_at": "2026-10-07T23:50:20.447660+08:00",
+  "image_source": "local_file",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/c8f116f2696b22dd4ec9a279eb30f291.jpg",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "image_dimensions": {
+    "width": 3030,
+    "height": 6000
+  },
+  "photo_taken_at": null,
+  "scores": {
+    "technical": 7,
+    "composition": 4.5,
+    "lighting": 6,
+    "story": 5.5,
+    "overall": 5
+  },
+  "orientation_check": "Pillow metadata inspected; user display and local view upright; no rotation necessary",
+  "rubric_version": "v1.1.2",
+  "original_sha256": "bfbee95b87c1c19563dec11c43e4261f8e336fac33721d2699cf898050303977"
+}

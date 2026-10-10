@@ -1,0 +1,29 @@
+{
+  "id": "20261009-riverside-layers-881d5074",
+  "title": "河岸低层建筑与高楼的叠置",
+  "created_at": "2026-10-09T16:30:58.093244+08:00",
+  "image_source": "local_file",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/881d5074dcbb93502c5c522048a0a401.jpg",
+  "image_file_saved": true,
+  "saved_image": "original.jpg",
+  "image_dimensions": {
+    "width": 6000,
+    "height": 4000
+  },
+  "scores": {
+    "technical": 7,
+    "composition": 6.5,
+    "lighting": 5.5,
+    "story": 7,
+    "overall": 6.5
+  },
+  "exif": {
+    "focal_length_mm": 50,
+    "equivalent_focal_length_mm": 75,
+    "f_number": 9.5,
+    "exposure_time": "1/350",
+    "iso": 160
+  },
+  "orientation_checked": true,
+  "scoring_rubric_version": "1.1.2"
+}

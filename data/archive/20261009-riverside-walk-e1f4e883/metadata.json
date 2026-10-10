@@ -1,0 +1,24 @@
+{
+  "id": "20261009-riverside-walk-e1f4e883",
+  "title": "水边台阶上的两个人",
+  "created_at": "2026-10-09T19:53:48.903091+08:00",
+  "photo_taken_at": null,
+  "image_source": "local_file",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/e1f4e8839f91942a51da4ed0f9ab5c5e.jpg",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "image_dimensions": {
+    "width": 1724,
+    "height": 1174
+  },
+  "scores": {
+    "technical": 5.5,
+    "composition": 5,
+    "lighting": 5.5,
+    "story": 6.5,
+    "overall": 5
+  },
+  "rubric_version": "v1.1.2",
+  "orientation_checked": true,
+  "source_sha256": "cf4ca9d1dd544043525783d56f96d317da42523eaffcecb6c477f3247c2c7c06"
+}

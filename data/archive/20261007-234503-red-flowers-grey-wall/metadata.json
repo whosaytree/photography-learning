@@ -1,0 +1,24 @@
+{
+  "id": "20261007-234503-red-flowers-grey-wall",
+  "title": "灰墙边的红花",
+  "created_at": "2026-10-07T23:47:30.854695+08:00",
+  "image_source": "user_provided_local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/8c8c653a19097feece7cb92d0d74034c.jpg",
+  "image_file_saved": true,
+  "saved_image": "original.jpg",
+  "image_dimensions": {
+    "width": 4000,
+    "height": 6000
+  },
+  "shooting_date": null,
+  "scores": {
+    "technical": 4.5,
+    "composition": 6.5,
+    "lighting": 6,
+    "story": 6.5,
+    "overall": 5
+  },
+  "orientation_verified": true,
+  "orientation_note": "Pillow and sips report no orientation tag; upright local layout agrees with supplied display.",
+  "sha256": "11e8105aec9cb5f4471b075cff60fa3392b8b61aa073ee525fd2610ebf7ad63a"
+}

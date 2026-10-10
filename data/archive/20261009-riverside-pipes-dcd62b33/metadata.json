@@ -1,0 +1,33 @@
+{
+  "id": "20261009-riverside-pipes-dcd62b33",
+  "title": "彩色管道与河岸小伞",
+  "created_at": "2026-10-09T16:41:04.844587+08:00",
+  "image_source": "user_provided_local_image",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "image_dimensions": {
+    "width": 4602,
+    "height": 2588
+  },
+  "scores": {
+    "technical": 7,
+    "composition": 6.5,
+    "lighting": 6.5,
+    "story": 7,
+    "overall": 6.5
+  },
+  "orientation_check": {
+    "pillow_orientation": null,
+    "sips_orientation": null,
+    "trusted_user_display": "upright landscape, matching source"
+  },
+  "observed_exif": {
+    "ExposureTime": 0.002,
+    "FNumber": 13,
+    "ISO": 100,
+    "FocalLength": 50,
+    "FocalLengthIn35mmFilm": 75
+  },
+  "source_filename": "dcd62b33e3a8743cca3c02dd0a3089ed.jpg",
+  "original_sha256": "77cb16f2c6b9a1564ffcfde13b371085909f4a712a8fd30e4cf02761c205bc33"
+}

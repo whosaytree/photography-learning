@@ -1,0 +1,24 @@
+{
+  "id": "20261009-riverfront-reflection-51a7a238",
+  "title": "河岸建筑与水中倒影",
+  "created_at": "2026-10-09T19:47:18.103569+08:00",
+  "photo_taken_at": null,
+  "image_source": "local_file",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/51a7a238123906227b6908cf0c17370b.jpg",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "image_dimensions": {
+    "width": 4000,
+    "height": 6000
+  },
+  "scores": {
+    "technical": 7,
+    "composition": 4.5,
+    "lighting": 5,
+    "story": 6,
+    "overall": 5
+  },
+  "rubric_version": "v1.1.2",
+  "orientation_checked": true,
+  "source_sha256": "6f76b93781b619d588836fdd7075d397f6b660e3aac339567e429c1b448437f7"
+}

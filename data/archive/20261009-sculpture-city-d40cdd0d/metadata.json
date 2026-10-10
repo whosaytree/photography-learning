@@ -1,0 +1,24 @@
+{
+  "id": "20261009-sculpture-city-d40cdd0d",
+  "title": "金色雕塑与灰色城市立面",
+  "created_at": "2026-10-09T19:50:36.611783+08:00",
+  "photo_taken_at": null,
+  "image_source": "local_file",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/d40cdd0d2f207962c0d825c2d7b0319e.jpg",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "image_dimensions": {
+    "width": 2590,
+    "height": 3627
+  },
+  "scores": {
+    "technical": 7,
+    "composition": 5.5,
+    "lighting": 6.5,
+    "story": 6.5,
+    "overall": 5.5
+  },
+  "rubric_version": "v1.1.2",
+  "orientation_checked": true,
+  "source_sha256": "4fcaf2b6ce8ccb14ba7e33ee43873c4620d71f7ef53d369bfdc0b329360e8f4e"
+}

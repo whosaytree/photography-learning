@@ -1,0 +1,25 @@
+{
+  "id": "20261009-194510-city-housing-layers-8d6d5889",
+  "title": "屋顶、旧住宅与远处高楼",
+  "created_at": "2026-10-09T19:46:55+08:00",
+  "image_source": "local_file",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/8d6d588999b52fc156dde85dc971be43.jpg",
+  "image_file_saved": true,
+  "saved_image": "original.jpg",
+  "image_dimensions": {
+    "width": 2070,
+    "height": 2069
+  },
+  "scores": {
+    "technical": 6.5,
+    "composition": 6,
+    "lighting": 6,
+    "story": 7,
+    "overall": 6.5
+  },
+  "rubric_version": "v1.1.2",
+  "orientation_checked": true,
+  "visible_orientation": "upright; matches user attachment display",
+  "photo_taken_at": null,
+  "source_sha256": "982ae06ad8906c2833674678fcce3c2ffb8aaec16ff92146b96ce39a17b7ebe3"
+}

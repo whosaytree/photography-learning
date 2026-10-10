@@ -1,0 +1,29 @@
+{
+  "id": "20261009-wall-leaves-e944ed9f",
+  "title": "墙格里的绿叶",
+  "created_at": "2026-10-09T19:47:29.821768+08:00",
+  "image_source": "user_local_image",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/e944ed9f4f46adc5d2549f67f836986e.jpg",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "image_dimensions": {
+    "width": 4000,
+    "height": 5236
+  },
+  "photo_date": null,
+  "scores": {
+    "technical": 7.5,
+    "composition": 7,
+    "lighting": 6.5,
+    "story": 7,
+    "overall": 7
+  },
+  "rubric_version": "v1.1.2",
+  "orientation_check": {
+    "exif_orientation": null,
+    "trusted_chat_display": "upright",
+    "local_display": "upright"
+  },
+  "basic_problem_tier": "无",
+  "caps": []
+}

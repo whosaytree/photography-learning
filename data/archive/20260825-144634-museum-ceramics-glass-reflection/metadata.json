@@ -1,0 +1,25 @@
+{
+  "archive_id": "20260825-144634-museum-ceramics-glass-reflection",
+  "created_at": "2026-08-25T14:46:34+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/35ccadc625bf759eb68090ec1610c0e7.jpg",
+  "image_file_saved": true,
+  "original_filename": "35ccadc625bf759eb68090ec1610c0e7.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 4096,
+  "pixel_height": 2728,
+  "visible_orientation": "upright_landscape",
+  "orientation_sources_checked": [
+    "trusted_visible_display",
+    "system_image_properties",
+    "spotlight_image_properties",
+    "jpeg_exif_structure"
+  ],
+  "orientation_check_summary": "System image properties, Spotlight image properties, JPEG EXIF structure, and the trusted visible display were checked; the visible viewing direction does not block normal viewing.",
+  "sha256": "3f8ef9b95df56f2fb6047b6bc28e6b5206749629ea647f91dd4fe44deb72648a",
+  "capture_settings_confirmed": false,
+  "capture_settings": null,
+  "critique_language": "zh-CN"
+}

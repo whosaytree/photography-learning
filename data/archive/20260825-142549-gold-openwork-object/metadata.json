@@ -1,0 +1,25 @@
+{
+  "archive_id": "20260825-142549-gold-openwork-object",
+  "created_at": "2026-08-25T14:25:49+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/99308ba812f114089f760ca047510f7a.jpg",
+  "image_file_saved": true,
+  "original_filename": "99308ba812f114089f760ca047510f7a.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 3232,
+  "pixel_height": 3232,
+  "visible_orientation": "upright_square",
+  "orientation_sources_checked": [
+    "trusted_visible_display",
+    "system_image_properties",
+    "spotlight_image_properties",
+    "jpeg_exif_structure"
+  ],
+  "orientation_check_summary": "The trusted visible display, system image properties, Spotlight image properties, and the JPEG EXIF structure were checked; no orientation source indicates that the visible viewing direction blocks normal viewing.",
+  "sha256": "3224eaa51944a70eb8fcdc8d1b67daa0299c27a72c7b55a9d75dcabc3ac019cb",
+  "capture_settings_confirmed": false,
+  "capture_settings": null,
+  "critique_language": "zh-CN"
+}

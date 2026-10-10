@@ -1,0 +1,25 @@
+{
+  "id": "20261009-underbridge-stairs-river-40be1c95",
+  "title": "桥下水面与阶梯空间",
+  "created_at": "2026-10-09T19:56:39+08:00",
+  "image_source": "local_file",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/40be1c959b4d7709edff49955f13027d.jpg",
+  "image_file_saved": true,
+  "saved_image": "original.jpg",
+  "image_dimensions": {
+    "width": 6000,
+    "height": 3375
+  },
+  "scores": {
+    "technical": 7,
+    "composition": 6.5,
+    "lighting": 6.5,
+    "story": 6.5,
+    "overall": 6.5
+  },
+  "rubric_version": "v1.1.2",
+  "orientation_checked": true,
+  "visible_orientation": "upright; matches user attachment display",
+  "photo_taken_at": null,
+  "source_sha256": "497ac028651d062cb7f9a75836e9ce027c0455d5a03e408057380995db43b871"
+}

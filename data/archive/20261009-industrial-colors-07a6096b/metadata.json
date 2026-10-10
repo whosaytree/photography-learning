@@ -1,0 +1,33 @@
+{
+  "id": "20261009-industrial-colors-07a6096b",
+  "title": "工业柱体的三原色节奏",
+  "created_at": "2026-10-09T16:37:40.262702+08:00",
+  "image_source": "user_provided_local_image",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "image_dimensions": {
+    "width": 4000,
+    "height": 6000
+  },
+  "scores": {
+    "technical": 7,
+    "composition": 5.5,
+    "lighting": 7.5,
+    "story": 7,
+    "overall": 6
+  },
+  "orientation_check": {
+    "pillow_orientation": null,
+    "sips_orientation": null,
+    "trusted_user_display": "upright portrait, matching source"
+  },
+  "observed_exif": {
+    "ExposureTime": 0.002,
+    "FNumber": 13,
+    "ISO": 100,
+    "FocalLength": 29,
+    "FocalLengthIn35mmFilm": 43
+  },
+  "source_filename": "07a6096b3258dd6d37527716a3ab9aa7.jpg",
+  "original_sha256": "5ae7cb2d2e1d950cac9e83dd5da29fbed017cef5679caff4515d8991ecc7415c"
+}

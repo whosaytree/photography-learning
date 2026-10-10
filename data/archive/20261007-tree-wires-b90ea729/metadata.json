@@ -1,0 +1,28 @@
+{
+  "id": "20261007-tree-wires-b90ea729",
+  "title": "树冠、电线与砖墙",
+  "created_at": "2026-10-07T23:44:39.138207+08:00",
+  "image_source": "local_file",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/b90ea72924146f2df79d8ee94791a533.jpg",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "image_dimensions": {
+    "width": 4000,
+    "height": 6000
+  },
+  "source_sha256": "041c6c8e4fbf31f16f3d3565f8cf1f63aa9d7bb31285b3af27e1138319cd2c47",
+  "orientation_check": {
+    "exif_orientation": null,
+    "trusted_chat_display": "upright portrait",
+    "local_display": "upright portrait"
+  },
+  "photo_taken_at": null,
+  "scores": {
+    "technical": 6,
+    "composition": 5,
+    "lighting": 6,
+    "story": 6.5,
+    "overall": 5.5
+  },
+  "rubric_version": "1.1.2"
+}

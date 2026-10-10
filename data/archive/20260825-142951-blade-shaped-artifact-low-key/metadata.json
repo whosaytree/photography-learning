@@ -1,0 +1,23 @@
+{
+  "archive_id": "20260825-142951-blade-shaped-artifact-low-key",
+  "created_at": "2026-08-25T14:29:51+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/7476cd99c36f60bcfe94dbfe918f2e36.jpg",
+  "image_file_saved": true,
+  "original_filename": "7476cd99c36f60bcfe94dbfe918f2e36.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 2752,
+  "pixel_height": 4096,
+  "visible_orientation": "upright_portrait",
+  "orientation_sources_checked": [
+    "trusted_visible_display",
+    "system_image_properties",
+    "jpeg_exif_structure"
+  ],
+  "orientation_check_summary": "Available image properties and the trusted visible display were checked; the visible viewing direction does not block normal viewing.",
+  "sha256": "96cad916f27a95d6198a67464d3fda4d79e573d18a6fe84005d03acf63b8195a",
+  "capture_settings_confirmed": false,
+  "critique_language": "zh-CN"
+}
