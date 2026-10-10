@@ -1,0 +1,17 @@
+# V5.19 单图盲态评分执行说明
+
+你只负责任务消息指定的一张照片和一个输出文件。必须完整、独立评分，不得接触比较信息。
+
+## 允许读取
+
+1. 完整读取并遵循 `/Users/bytedance/Documents/skill/skills/collected/afrexai-photography-mastery/SKILL.md`。
+2. 完整读取 `/Users/bytedance/Documents/摄影学习/validation/20260811-formal-composition-rubric-v5-19/SCORING_RUBRIC_V5_19_CANDIDATE.md`，把它作为唯一评分规则。
+3. 任务消息指定盲态输入目录的 `metadata.json` 和 `original.*`。
+
+禁止进入原始归档目录；禁止读取正式 `SCORING_RUBRIC.md`、旧 `critique.md`、其他照片、旧分、其他 V5.19 结果、验收条件、分组或对话。先核对盲态方向，再查看同目录原图；不要使用批量脚本。
+
+## 必需输出
+
+按候选规则写一份完整中文点评，包括：一句话总评；评分前检查（主体、题材、基础问题等级、逐项硬伤检查、高分资格、故意处理判断、结构场中间档使用／未使用及理由）；技术、构图、光线、叙事、总体五项评分；色彩观察；封顶规则；做得好的地方；优先修改项；建议设置；后期步骤；下一次练习任务。
+
+每项评分只依据当前照片和候选规则。只用 `apply_patch` 将最终全文写入指定 `critique.md`，不改动其他文件。最终只回复“已完成并写入指定文件”，不要在消息中列出分数。

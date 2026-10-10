@@ -1,0 +1,20 @@
+{
+  "id": "validation-multi-similar-image-a",
+  "source_archive_id": "20260710-121611-lotus-flower",
+  "created_at": "2026-07-10T00:00:00+08:00",
+  "title": "独立评分验证 A：开放荷花",
+  "image_source": "/Users/bytedance/Documents/摄影学习/data/archive/20260710-121611-lotus-flower/original.jpg",
+  "image_file_saved": true,
+  "image_file": "original.jpg",
+  "validation_only": true,
+  "gallery_update_skipped": true,
+  "visible_orientation_checked": true,
+  "visible_orientation_note": "displayed upright; no rotation issue blocks normal viewing",
+  "scores": {
+    "technical": 6.5,
+    "composition": 5.5,
+    "lighting": 6.0,
+    "story": 5.8,
+    "overall": 5.9
+  }
+}
