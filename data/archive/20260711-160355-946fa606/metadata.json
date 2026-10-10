@@ -1,0 +1,46 @@
+{
+  "archive_id": "20260711-160355-946fa606",
+  "created_at": "2026-07-11T16:03:55+08:00",
+  "trigger": "摄影点评",
+  "language": "zh-CN",
+  "skill_used": "/Users/bytedance/Documents/skill/skills/collected/afrexai-photography-mastery/SKILL.md",
+  "rubric_used": "/Users/bytedance/Documents/摄影学习/SCORING_RUBRIC.md",
+  "image_source": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-07/9e20f478899dc29eb19741386f9343c8/0742e33b635d266b5946883b6f14d4ef.jpg",
+  "image_file_saved": true,
+  "saved_image": "original.jpg",
+  "image_format": "JPEG",
+  "image_dimensions": {
+    "width": 2668,
+    "height": 1908
+  },
+  "title": "窗边植物与夏日绿意",
+  "main_subject": "窗台植物群与窗外树木形成的室内外绿色关系",
+  "genre": "生活静物 / 窗景 / 室内环境摄影",
+  "image_type": "environmental_still_life_attempt_with_weak_landing_point",
+  "basic_problem_tier": "基础问题",
+  "story_evidence_level": "场景/情绪",
+  "scores": {
+    "technical": 5.5,
+    "composition": 5.5,
+    "lighting": 5.5,
+    "story": 6,
+    "overall": 5.5
+  },
+  "caps_applied": [
+    "中央粗窗框、底部杂物与右侧密集盆栽形成主导干扰",
+    "画面右重左轻且缺少唯一视觉落点",
+    "干扰物与视觉失衡限制构图最高 5.5、总体最高 6"
+  ],
+  "cap_rule_summary": "主导干扰物与视觉失衡封顶生效；无方向或旋转封顶。",
+  "orientation_check": {
+    "metadata_reviewed": true,
+    "image_metadata_checked_with_multiple_sources": true,
+    "trusted_user_display_reviewed": true,
+    "visible_orientation_blocks_viewing": false,
+    "rotation_or_orientation_cap_applied": false
+  },
+  "intentional_effect_judgment": "逆光有稳定窗框与可读植物轮廓支持，属于有意尝试；但高亮天空、深暗前景和分散构图使效果只部分成立。",
+  "high_score_eligibility": "不具备：边缘、杂物、视觉重量和主体落点尚未得到充分控制。",
+  "color_observation": "绿色与青蓝灰构成夏日基调，红花和橙色物体提供暖色点；暖色落点过多，青灰雾感、脏暗部和边缘紫色需要修正。",
+  "exif_note": "未推断相机、镜头、曝光参数或地点。"
+}

@@ -95,7 +95,15 @@ gallery/index.html
 https://whosaytree.github.io/photography-learning/
 ```
 
-每次归档有新增后，重新生成看板数据：
+单张归档新增后，让这一张进入看板：
+
+```bash
+node scripts/update-gallery-entry.mjs data/archive/<归档ID>/
+```
+
+这个脚本只处理指定归档：生成该目录下的 `thumb.jpg`、`preview.jpg`，并把这一条记录写入 `gallery/data.js`。
+
+批量补齐或修复看板时，重新生成全部看板数据：
 
 ```bash
 node scripts/generate-gallery-images.mjs

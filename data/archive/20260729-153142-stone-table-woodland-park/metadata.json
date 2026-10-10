@@ -1,0 +1,28 @@
+{
+  "archive_id": "20260729-153142-stone-table-woodland-park",
+  "title": "摄影点评：林荫下的石桌石凳",
+  "created_at": "2026-07-29T15:31:42+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-07/9e20f478899dc29eb19741386f9343c8/c4a0e5d20df76b9c8fefb76d5428da5c.jpg",
+  "image_file_saved": true,
+  "original_filename": "c4a0e5d20df76b9c8fefb76d5428da5c.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 5328,
+  "pixel_height": 4000,
+  "image_dimensions": {
+    "width": 5328,
+    "height": 4000
+  },
+  "color_profile": "Display P3 Gamut with sRGB Transfer",
+  "visible_orientation": "upright_landscape",
+  "critique_language": "zh-CN",
+  "scores": {
+    "technical": 5.4,
+    "composition": 5.0,
+    "lighting": 4.8,
+    "story": 4.5,
+    "overall": 5.0
+  }
+}

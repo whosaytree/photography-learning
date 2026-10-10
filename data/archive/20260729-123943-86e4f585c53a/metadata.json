@@ -1,0 +1,44 @@
+{
+  "archive_id": "20260729-123943-86e4f585c53a",
+  "created_at": "2026-07-29T12:39:43+08:00",
+  "trigger": "摄影点评",
+  "language": "zh-CN",
+  "title": "摄影点评：仰望巨岩",
+  "skill_used": "/Users/bytedance/Documents/skill/skills/collected/afrexai-photography-mastery/SKILL.md",
+  "rubric_used": "/Users/bytedance/Documents/摄影学习/SCORING_RUBRIC.md",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-07/9e20f478899dc29eb19741386f9343c8/fe27ea8a8aa454f6fc25bf315ea94b8e.jpg",
+  "image_file_saved": true,
+  "original_filename": "fe27ea8a8aa454f6fc25bf315ea94b8e.jpg",
+  "saved_image": "original.jpg",
+  "image_format": "JPEG",
+  "mime_type": "image/jpeg",
+  "image_dimensions": {
+    "width": 2274,
+    "height": 1280
+  },
+  "visible_orientation": "upright_landscape",
+  "orientation_note": "Available orientation and visible-display checks indicate the photograph is upright; no rotation issue blocks normal viewing.",
+  "scores": {
+    "technical": 6.5,
+    "composition": 5.4,
+    "lighting": 5.7,
+    "story": 6.1,
+    "overall": 5.9
+  },
+  "basic_problem_tier": "基础问题",
+  "caps_applied": [
+    "dominant_edge_and_background_distractions",
+    "awkward_edge_cuts_and_visual_imbalance"
+  ],
+  "cap_summary": "Left eave, power lines, right-side equipment, and a clipped dark boulder cap composition at 5.5 and overall at 6.0.",
+  "orientation_cap_applied": false,
+  "story_evidence_level": "场景/情绪",
+  "high_score_check": "Not eligible for 7.5 or above because edge and background control is visibly incomplete despite the strong subject scale and cool-warm separation.",
+  "intentional_effects": [
+    "low-angle viewpoint",
+    "central monumental subject placement",
+    "blue-sky negative space"
+  ],
+  "exif_note": "No camera model, lens, exposure settings, or location were inferred."
+}

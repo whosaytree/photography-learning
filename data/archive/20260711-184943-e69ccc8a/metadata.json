@@ -1,0 +1,47 @@
+{
+  "archive_id": "20260711-184943-e69ccc8a",
+  "created_at": "2026-07-11T18:49:43+08:00",
+  "trigger": "摄影点评",
+  "language": "zh-CN",
+  "skill_used": "/Users/bytedance/Documents/skill/skills/collected/afrexai-photography-mastery/SKILL.md",
+  "rubric_used": "/Users/bytedance/Documents/摄影学习/SCORING_RUBRIC.md",
+  "image_source": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-07/9e20f478899dc29eb19741386f9343c8/e3a6e62ca9c82a6f5edf1afc86c9603d.jpg",
+  "image_file_saved": true,
+  "saved_image": "original.jpg",
+  "image_format": "JPEG",
+  "image_dimensions": {
+    "width": 1280,
+    "height": 1280
+  },
+  "title": "烟花高潮与漫天彩点",
+  "main_subject": "夜空中同时绽放的多层彩色烟花",
+  "genre": "夜景 / 烟花 / 活动现场摄影",
+  "image_type": "strong_event_moment_with_dominant_edge_distraction",
+  "basic_problem_tier": "基础问题",
+  "story_evidence_level": "关系/瞬间/视觉想法",
+  "scores": {
+    "technical": 6.5,
+    "composition": 5.5,
+    "lighting": 7,
+    "story": 7,
+    "overall": 6
+  },
+  "caps_applied": [
+    "右下大面积人物头部形成主导干扰物",
+    "突兀边缘切入遮挡低空烟花与树线",
+    "主导干扰物与边缘切入限制构图最高 5.5、总体最高 6"
+  ],
+  "cap_rule_summary": "主导干扰物和突兀边缘切入封顶生效；无方向或旋转封顶。",
+  "orientation_check": {
+    "metadata_reviewed": true,
+    "image_metadata_checked_with_multiple_sources": true,
+    "trusted_user_display_reviewed": true,
+    "visible_orientation_blocks_viewing": false,
+    "rotation_or_orientation_cap_applied": false
+  },
+  "intentional_effect_judgment": "深黑夜空、高反差彩点与烟雾符合烟花摄影惯例，且有清楚烟花轮廓与稳定树群参照，属于有效的有意处理；右下人头属于意外干扰。",
+  "basic_flaw_escape_judgment": "烟花高潮、光色和现场尺度是明确补偿强项，因此总体从基础问题区间逃逸至封顶上限 6，但不绕过真实构图封顶。",
+  "high_score_eligibility": "不具备：右下主导干扰物触发真实硬伤封顶，边缘控制不满足高分条件。",
+  "color_observation": "黑蓝夜空中红绿蓝彩点与暖金烟花构成节庆冷暖关系；烟雾略显灰紫浑浊，路灯形成无关黄色亮点。",
+  "exif_note": "未推断相机、镜头、曝光参数或地点。"
+}

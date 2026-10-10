@@ -1,0 +1,36 @@
+{
+  "archive_id": "20260729-121957-dune-convoy-mountain",
+  "title": "摄影点评：沙丘、远山与车队",
+  "created_at": "2026-07-29T12:19:57+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-07/9e20f478899dc29eb19741386f9343c8/ad8b9ba612aa0d02c6d68b248948fb59.jpg",
+  "image_file_saved": true,
+  "original_filename": "ad8b9ba612aa0d02c6d68b248948fb59.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 1920,
+  "pixel_height": 1280,
+  "image_dimensions": {
+    "width": 1920,
+    "height": 1280
+  },
+  "visible_orientation": "upright_landscape",
+  "orientation_source": "trusted_user_display_and_local_metadata_capable_checks",
+  "critique_language": "zh-CN",
+  "scores": {
+    "technical": 5.6,
+    "composition": 5.3,
+    "lighting": 5.0,
+    "story": 5.8,
+    "overall": 5.5
+  },
+  "hard_flaw_cap": {
+    "applied": true,
+    "type": "dominant_distraction_or_visual_imbalance",
+    "composition_max": 5.5,
+    "overall_max": 6.0
+  },
+  "story_evidence": "场景/情绪",
+  "basic_problem_tier": "基础问题"
+}

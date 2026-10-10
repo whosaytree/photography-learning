@@ -1,0 +1,45 @@
+{
+  "archive_id": "20260721-225219-ffa2b7a1",
+  "created_at": "2026-07-21T22:52:19+08:00",
+  "trigger": "摄影点评",
+  "language": "zh-CN",
+  "skill_used": "/Users/bytedance/Documents/skill/skills/collected/afrexai-photography-mastery/SKILL.md",
+  "rubric_used": "/Users/bytedance/Documents/摄影学习/SCORING_RUBRIC.md",
+  "image_source": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-07/9e20f478899dc29eb19741386f9343c8/ffa2b7a1fa2503412ae67daa430dc84a.jpg",
+  "image_file_saved": true,
+  "saved_image": "original.jpg",
+  "image_format": "JPEG",
+  "image_dimensions": {
+    "width": 1279,
+    "height": 1748
+  },
+  "sha256": "5d356190e12cbb6fef3e39cee4054111ab3586db9e586fb18de9150cb93e7b8f",
+  "title": "高调音乐厅穹顶",
+  "main_subject": "带穹顶和古典柱式的音乐厅建筑",
+  "genre": "建筑摄影 / 城市旅行记录",
+  "image_type": "architectural_record_with_high_key_attempt",
+  "basic_problem_tier": "基础问题",
+  "story_evidence_level": "记录信息",
+  "scores": {
+    "technical": 5,
+    "composition": 5.5,
+    "lighting": 4.5,
+    "story": 5,
+    "overall": 5
+  },
+  "caps_applied": [
+    "下缘与右缘的建筑裁切及左下角杂物造成边缘控制不足，构图最高 5.5、总体最高 6",
+    "光线偏平且叙事较弱，总体最高 5.5"
+  ],
+  "cap_rule_summary": "边缘裁切与视觉不平衡限制构图和总体；平光与弱叙事进一步限制总体。重要建筑细节仍可辨认，因此不套用严重过曝封顶。",
+  "orientation_check": {
+    "source_metadata_reviewed": true,
+    "metadata_capable_inspection_completed": true,
+    "trusted_user_display_checked": true,
+    "visible_orientation_blocks_viewing": false,
+    "rotation_or_orientation_cap_applied": false
+  },
+  "intentional_effect_judgment": "高调亮度、中央穹顶和留白有一定视觉意图，主体也有稳定锚点；但亮度未能选择性地保留建筑层次，边缘和裁切控制不足，所以只视为部分成立。",
+  "high_score_eligibility": "不具备：虽然主体立即清楚，但光线、边缘裁切、建筑透视和叙事没有形成至少两项明确强项。",
+  "exif_note": "未发现可用于确认相机、镜头和曝光参数的信息；建议设置均为估计。"
+}

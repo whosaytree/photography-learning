@@ -1,0 +1,42 @@
+{
+  "archive_id": "20260729-124311-93eb1bf2b2ca",
+  "created_at": "2026-07-29T12:43:11+08:00",
+  "trigger": "摄影点评",
+  "language": "zh-CN",
+  "title": "摄影点评：逆光山谷",
+  "skill_used": "/Users/bytedance/Documents/skill/skills/collected/afrexai-photography-mastery/SKILL.md",
+  "rubric_used": "/Users/bytedance/Documents/摄影学习/SCORING_RUBRIC.md",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-07/9e20f478899dc29eb19741386f9343c8/5ede40dfac06635d4bde45006bf3a2d7.jpg",
+  "image_file_saved": true,
+  "original_filename": "5ede40dfac06635d4bde45006bf3a2d7.jpg",
+  "saved_image": "original.jpg",
+  "image_format": "JPEG",
+  "mime_type": "image/jpeg",
+  "image_dimensions": {
+    "width": 1706,
+    "height": 1279
+  },
+  "visible_orientation": "upright_landscape",
+  "orientation_note": "Available orientation and visible-display checks indicate the photograph is upright; no rotation issue blocks normal viewing.",
+  "scores": {
+    "technical": 6.6,
+    "composition": 7.5,
+    "lighting": 7.1,
+    "story": 7.0,
+    "overall": 7.5
+  },
+  "basic_problem_tier": "无",
+  "caps_applied": [],
+  "cap_summary": "无",
+  "orientation_cap_applied": false,
+  "story_evidence_level": "场景/情绪",
+  "high_score_check": "Eligible for 7.5 because the layered composition, leading path, and backlit atmosphere are clearly strong. Not 8 because the sun-adjacent highlights are compressed, the ridge shadows are heavy, the bottom flare is visible, and the greens are over-saturated.",
+  "intentional_effects": [
+    "backlit landscape",
+    "large sky area",
+    "high-contrast ridge silhouette",
+    "foreground path as a leading line"
+  ],
+  "exif_note": "No camera model, lens, exposure settings, or location were inferred."
+}

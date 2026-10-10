@@ -1,4 +1,4 @@
-# 摄影点评评分 Rubric
+# 摄影点评评分 Rubric v1.1.2
 
 Use this rubric for every `摄影点评` critique. The goal is learning diagnosis for beginner photography, not contest judging. Scores must be discriminative; avoid clustering most images at 6-7.
 
@@ -48,8 +48,8 @@ Evaluate subject clarity, simplification, edge control, horizon/verticals, crop,
 - 1-2: No readable subject or chaotic framing.
 - 3-4: Subject exists but is badly blocked, too small, cut awkwardly, or surrounded by dominant distractions.
 - 5: Record-level framing; subject is present but not visually controlled.
-- 6: Clear subject with some visual organization, but crop, edge control, visual balance, or landing point is visibly weak. A merely centered/readable subject or line without clear destination stays around 5.
-- 7: Deliberate framing with acceptable edge/background control, stable visual weight, and a clear visual path or landing point; the image should feel intentionally organized, not just legible.
+- 6: Clear subject with some visual organization, but crop, edge control, visual balance, or the intended reading structure is visibly weak. A merely centered/readable subject or line without a useful destination stays around 5. For an immediately legible frame-wide relationship, do not require a local landing point; judge whether its division, rhythm, and visual weight remain coherent.
+- 7: Deliberate framing with acceptable edge/background control and stable visual weight, plus either a clear visual path or landing point when directional viewing is intended, or a coherent frame-wide relationship with controlled division and rhythm; the image should feel intentionally organized, not just legible.
 - 8: Strong visual organization, depth, and eye guidance.
 - 9-10: Highly refined composition; every major element feels intentional.
 
@@ -79,6 +79,21 @@ No people does not mean no story: light, scale, space, negative space, weather, 
 - 8: Strong mood, relationship, timing, narrative tension, or memorable visual idea from the image itself.
 - 9-10: Memorable story or visual idea; rare.
 
+### Color Observation
+
+Color is not a sixth score. Evaluate it explicitly in every critique as a visible experience that can affect lighting, composition, story, technical quality, and editing advice.
+
+Check:
+
+- dominant color impression: warm, cool, neutral, high-saturation, low-saturation, monochrome, mixed, or muddy;
+- harmony: whether the main colors support each other, clash productively, or compete without order;
+- color hierarchy: whether color helps the viewer find the subject, creates separation, or creates distraction;
+- emotional effect: whether color supports mood, season, time of day, place, intimacy, distance, tension, calmness, or visual style;
+- technical/editing issue: white balance, color cast, oversaturation, dull grayness, clipped color channels, skin tone, dirty shadows, or inconsistent local edits;
+- post-processing direction: whether the image should be warmed, cooled, desaturated, selectively saturated, simplified, contrast-adjusted, or color-balanced.
+
+Do not reward color only because it is vivid. Strong color must support subject, mood, structure, or story. Do not punish unusual color when it is intentional and visually coherent. If color is ordinary but harmless, say so briefly and focus advice elsewhere.
+
 ### Overall
 
 Overall is not a simple average. It measures whether the photo works as a photograph.
@@ -106,15 +121,15 @@ Only treat rotation as a hard flaw when the correctly oriented display still has
 | Condition | Required cap |
 | --- | --- |
 | Main subject is unreadable | Overall max 4.0; Composition max 4.0; Story max 4.0 |
-| Main subject is present but unclear or weak | Overall max 5.0; Composition max 5.0; Story max 5.0 |
+| Main subject is present but unclear or weak. Do not use this cap solely because no discrete object is primary: when a frame-wide visual relationship is immediately legible at normal viewing size, treat that relationship as the subject. Apply the cap only when neither a discrete subject nor a frame-wide relationship provides a clear reading. This removes only this cap; it does not establish strength or high-score eligibility. | Overall max 5.0; Composition max 5.0; Story max 5.0 |
 | Main subject is severely out of focus by accident | Technical max 3.5; Overall max 4.0 |
-| Main subject is clearly out of focus by accident but still readable | Technical max 4.5; Overall max 5.0 |
+| When a photograph has a discrete main subject or intended focal area that is expected to be sharp, treat it as clearly out of focus when that area has no reliable sharp detail. Recognizable outline, color separation, or sharper unrelated background detail does not count as a sharp anchor and must not be used to downgrade the failure to ordinary softness. Do not apply this condition when the blur passes the intentional-effect tests, or solely because a frame-wide visual relationship has no local sharp point. | Technical max 4.5; Overall max 5.0 |
 | Severe hand shake or motion blur makes the intended subject hard to read | Technical max 4.0; Overall max 4.5 |
 | Obvious hand shake or motion blur weakens the intended subject | Technical max 5.0; Overall max 5.5 |
 | Severe overexposure clips important subject detail | Technical max 4.5; Lighting max 4.5; Overall max 5.0 |
 | Severe underexposure hides important subject detail | Technical max 4.5; Lighting max 4.5; Overall max 5.0 |
 | Horizon/verticals are unintentionally tilted and visible | Composition max 6.0; Overall max 6.5 |
-| Dominant distraction, awkward crop, edge cut, or visual imbalance competes with the subject | Composition max 5.5; Overall max 6.0 |
+| A distraction, awkward crop, edge cut, or visual imbalance is a hard flaw when either (1) a clearly recognizable element unrelated to the intended reading is accidentally truncated at the frame edge, or (2) an unintended foreground or edge element, overlap, crop, shadow, or tonal mass creates competing visual weight and removing or excluding it would clearly restore the intended subject, main path, repetition, separation, or balance. If removal would only make the frame tidier, treat it as an ordinary flaw. Related content or natural continuation is not exempt when the restoration test is met; breadth, brightness, or darkness alone is not enough. | Composition max 5.5; Overall max 6.0 |
 | Subject is too small and cannot be recovered by crop | Composition max 5.5; Story max 5.5; Overall max 6.0 |
 | Photo is mostly ordinary documentation, evidence, product/signage record, damage/usefulness record, or event explanation with no visible photographic story | Story max 5.0; Overall max 5.5 |
 | Light is flat/ordinary and story is weak | Lighting max 5.5; Story max 5.5; Overall max 5.5 |
@@ -140,8 +155,8 @@ Before giving 7.5, 8, or 8.5, confirm the photo meets all of these:
 
 - subject is immediately clear;
 - no severe technical hard flaw;
-- at least two dimensions are clearly strong, not merely acceptable;
-- background, edges, crop, and visual weight are controlled enough that distractions are secondary, and images relying on lines, symmetry, or negative space have a clear landing point;
+- at least two dimension scores are already 7.5 or higher before this check. Technical counts only at 8, and no score may be raised or rounded to qualify. State each counted strength as one decisive chain: `distinct visible property or relationship → dimension-specific result`. The same subject may appear in both chains, but a property, relationship, or result used in one cannot support the other. If either dimension falls below 7.5 without shared evidence, count that evidence once and do not use 7.5 overall. If a main limitation contradicts eligibility, do not use 7.5 or above;
+- background, edges, crop, and visual weight are controlled enough that distractions are secondary. A composition directing the eye toward a destination needs a clear landing point; an immediately legible frame-wide relationship needs coherent division, rhythm, and visual weight instead, not a local landing point;
 - the image has visual intention beyond record value.
 
 Use 7.5 when the image is strong but still has one visible limitation that meaningfully holds it back. Use 8 when the image is strong across at least two dimensions and the remaining flaws are minor and fixable. Use 8.5 when the image has a clear memory point: a strong moment, mood, subject relationship, light, composition, or visual idea that makes it stand out from ordinary strong beginner work.

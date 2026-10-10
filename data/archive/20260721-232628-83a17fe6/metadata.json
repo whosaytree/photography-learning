@@ -1,0 +1,46 @@
+{
+  "archive_id": "20260721-232628-83a17fe6",
+  "created_at": "2026-07-21T23:26:28+08:00",
+  "trigger": "摄影点评",
+  "language": "zh-CN",
+  "skill_used": "/Users/bytedance/Documents/skill/skills/collected/afrexai-photography-mastery/SKILL.md",
+  "rubric_used": "/Users/bytedance/Documents/摄影学习/SCORING_RUBRIC.md",
+  "image_source": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-07/9e20f478899dc29eb19741386f9343c8/83a17fe6d5010b3c1c8d377ed362214c.jpg",
+  "image_file_saved": true,
+  "saved_image": "original.jpg",
+  "image_format": "JPEG",
+  "image_dimensions": {
+    "width": 1364,
+    "height": 1024
+  },
+  "sha256": "40930418eed373c52817b7d9ea5db805b9cd5ebadc5892166f67c8ca4f665f36",
+  "title": "红砖窗列与蓝色反光",
+  "main_subject": "红砖立面上重复排列的窗户与蓝色玻璃反光",
+  "genre": "建筑细节 / 几何图案观察",
+  "image_type": "architectural_pattern_attempt_with_severe_highlight_loss",
+  "basic_problem_tier": "严重基础问题",
+  "story_evidence_level": "记录信息",
+  "scores": {
+    "technical": 4.5,
+    "composition": 5.5,
+    "lighting": 4,
+    "story": 5,
+    "overall": 4.5
+  },
+  "caps_applied": [
+    "左侧大面积建筑亮部丢失重要纹理，技术最高 4.5、光线最高 4.5、总体最高 5",
+    "高光干扰、顶部底部与右缘随机截断共同造成视觉不平衡，构图最高 5.5、总体最高 6",
+    "严重曝光问题与构图边缘问题同时存在，总体最高 4.5"
+  ],
+  "cap_rule_summary": "严重高光丢失叠加边缘裁切与视觉不平衡，总体封顶 4.5；无方向、严重失焦或严重抖动封顶。",
+  "orientation_check": {
+    "source_metadata_reviewed": true,
+    "metadata_capable_inspection_completed": true,
+    "trusted_user_display_checked": true,
+    "visible_orientation_blocks_viewing": false,
+    "rotation_or_orientation_cap_applied": false
+  },
+  "intentional_effect_judgment": "重复窗格和局部截取显示一定几何图案意图，但左侧过亮既未选择性强调主体，也没有形成完整高调风格，且重要砖墙和窗框纹理消失，因此过曝判断为意外基础问题。",
+  "high_score_eligibility": "不具备：大面积高光损失属于硬伤，边缘与图案落点也未受控；任何形式潜力都不能绕过曝光封顶。",
+  "exif_note": "未发现可用于确认相机、镜头和曝光参数的信息；建议设置均为估计。"
+}

@@ -1,0 +1,42 @@
+{
+  "archive_id": "20260711-143615-39ae4c58",
+  "created_at": "2026-07-11T14:36:15+08:00",
+  "trigger": "摄影点评",
+  "language": "zh-CN",
+  "skill_used": "/Users/bytedance/Documents/skill/skills/collected/afrexai-photography-mastery/SKILL.md",
+  "rubric_used": "/Users/bytedance/Documents/摄影学习/SCORING_RUBRIC.md",
+  "image_source": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-07/9e20f478899dc29eb19741386f9343c8/122605ed30e4dd32df9f0ef9ee279cd2.jpg",
+  "image_file_saved": true,
+  "saved_image": "original.jpg",
+  "image_format": "JPEG",
+  "image_dimensions": {
+    "width": 1706,
+    "height": 1279
+  },
+  "title": "巨柱之间的蓝门",
+  "main_subject": "巨大混凝土拱柱之间的蓝色双开门，以及通向门的斜向楼梯",
+  "genre": "建筑摄影 / 几何构成 / 工业空间观察",
+  "image_type": "photograph_with_clear_visual_intent",
+  "basic_problem_tier": "无",
+  "story_evidence_level": "关系/瞬间/视觉想法",
+  "scores": {
+    "technical": 7,
+    "composition": 7.5,
+    "lighting": 6.5,
+    "story": 7,
+    "overall": 7.5
+  },
+  "caps_applied": [],
+  "cap_rule_summary": "无",
+  "orientation_check": {
+    "metadata_reviewed": true,
+    "image_metadata_checked_with_multiple_sources": true,
+    "trusted_user_display_reviewed": true,
+    "visible_orientation_blocks_viewing": false,
+    "rotation_or_orientation_cap_applied": false
+  },
+  "intentional_effect_judgment": "大片浅灰负空间、重复拱柱、斜向楼梯和偏右门体构成稳定路径与落点，属于有效的有意建筑几何处理。",
+  "high_score_eligibility": "具备 7.5 分资格：构图与视觉想法清楚成立，技术基础稳定且无严重硬伤；未到 8 分，因为底边结构稍杂且光线塑形偏弱。",
+  "color_observation": "低饱和暖灰与冷灰为主，暗红褐砖拱稳定分隔空间，蓝灰门与黄色窄窗形成克制的冷暖落点。",
+  "exif_note": "未推断相机、镜头、曝光参数或地点。"
+}

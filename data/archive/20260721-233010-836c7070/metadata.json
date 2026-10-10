@@ -1,0 +1,42 @@
+{
+  "archive_id": "20260721-233010-836c7070",
+  "created_at": "2026-07-21T23:30:10+08:00",
+  "trigger": "摄影点评",
+  "language": "zh-CN",
+  "skill_used": "/Users/bytedance/Documents/skill/skills/collected/afrexai-photography-mastery/SKILL.md",
+  "rubric_used": "/Users/bytedance/Documents/摄影学习/SCORING_RUBRIC.md",
+  "image_source": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-07/9e20f478899dc29eb19741386f9343c8/836c707074ad319104d70d9aa88b955b.jpg",
+  "image_file_saved": true,
+  "saved_image": "original.jpg",
+  "image_format": "JPEG",
+  "image_dimensions": {
+    "width": 1815,
+    "height": 1279
+  },
+  "sha256": "0bbb76778f219aebbd58df1fbe06f3306400b705d2013dc4337245795522cb0b",
+  "title": "柱廊壁灯与林荫街道",
+  "main_subject": "石材柱廊、连续壁灯与林荫人行道形成的纵深关系",
+  "genre": "城市街景 / 建筑环境 / 引导线构图",
+  "image_type": "urban_architectural_corridor_with_depth_and_mood",
+  "basic_problem_tier": "无",
+  "story_evidence_level": "场景/情绪",
+  "scores": {
+    "technical": 6.5,
+    "composition": 6.5,
+    "lighting": 5.5,
+    "story": 6,
+    "overall": 6.5
+  },
+  "caps_applied": [],
+  "cap_rule_summary": "无",
+  "orientation_check": {
+    "source_metadata_reviewed": true,
+    "metadata_capable_inspection_completed": true,
+    "trusted_user_display_checked": true,
+    "visible_orientation_blocks_viewing": false,
+    "rotation_or_orientation_cap_applied": false
+  },
+  "intentional_effect_judgment": "阴影中的柱廊和树冠共同建立清凉、安静的街道气氛；墙面与壁灯是稳定锚点，暗部仍有细节，引导线和框景关系可读，因此低调阴影基本属于有效处理，但树冠重量和远端杂物削弱完成度。",
+  "high_score_eligibility": "不具备 7.5 资格：构图纵深明确，但光线不是强项，远端落点、右侧街道边缘与树冠视觉重量仍未控制到强作品水平。",
+  "exif_note": "未发现可用于确认相机、镜头和曝光参数的信息；建议设置均为估计。"
+}

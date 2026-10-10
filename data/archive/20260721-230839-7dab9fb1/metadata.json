@@ -1,0 +1,45 @@
+{
+  "archive_id": "20260721-230839-7dab9fb1",
+  "created_at": "2026-07-21T23:08:39+08:00",
+  "trigger": "摄影点评",
+  "language": "zh-CN",
+  "skill_used": "/Users/bytedance/Documents/skill/skills/collected/afrexai-photography-mastery/SKILL.md",
+  "rubric_used": "/Users/bytedance/Documents/摄影学习/SCORING_RUBRIC.md",
+  "image_source": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-07/9e20f478899dc29eb19741386f9343c8/7dab9fb1667fbdc0f50f7ad0a9696f0a.jpg",
+  "image_file_saved": true,
+  "saved_image": "original.jpg",
+  "image_format": "JPEG",
+  "image_dimensions": {
+    "width": 1920,
+    "height": 1280
+  },
+  "sha256": "35ed727c8a73f9c13b8c8fa5f1d6da9ae785fb75b1cdcf86c6e7c64d402279d0",
+  "title": "红砖窗区与黑色雨篷",
+  "main_subject": "建筑中央红砖窗区上的两块黑色餐厅雨篷",
+  "genre": "建筑细节 / 城市店铺记录",
+  "image_type": "architectural_signage_record_with_color_and_geometry_attempt",
+  "basic_problem_tier": "基础问题",
+  "story_evidence_level": "记录信息",
+  "scores": {
+    "technical": 5.5,
+    "composition": 5.5,
+    "lighting": 5,
+    "story": 5,
+    "overall": 5.5
+  },
+  "caps_applied": [
+    "四周建筑在缺少明确结构线的位置被截断，左右视觉重量分散，构图最高 5.5、总体最高 6",
+    "画面主要提供建筑与餐厅标识记录，缺少明确场景、关系或视觉想法，故事最高 5、总体最高 5.5"
+  ],
+  "cap_rule_summary": "边缘裁切与视觉不平衡限制构图；普通店铺建筑记录限制故事和总体。无方向、严重失焦、严重抖动或严重曝光封顶。",
+  "orientation_check": {
+    "source_metadata_reviewed": true,
+    "metadata_capable_inspection_completed": true,
+    "trusted_user_display_checked": true,
+    "visible_orientation_blocks_viewing": false,
+    "rotation_or_orientation_cap_applied": false
+  },
+  "intentional_effect_judgment": "低角度透视、几何切割与蓝—红—黑色块关系显示一定构图意图，中央雨篷也是稳定锚点；但画面边缘、结构截断和视觉范围没有形成完整秩序，因此只视为部分成立。",
+  "high_score_eligibility": "不具备：主体虽可辨，但构图范围、边缘、建筑透视、光线层次和叙事都未形成至少两项明确强项。",
+  "exif_note": "未发现可用于确认相机、镜头和曝光参数的信息；建议设置均为估计。"
+}

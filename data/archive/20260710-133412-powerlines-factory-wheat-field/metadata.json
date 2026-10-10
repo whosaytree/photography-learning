@@ -1,0 +1,25 @@
+{
+  "archive_id": "20260710-133412-powerlines-factory-wheat-field",
+  "created_at": "2026-07-10T13:34:12+08:00",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-07/9e20f478899dc29eb19741386f9343c8/f4d67415350b2ba864ee3d2283b0663f.jpg",
+  "image_source": "local_path",
+  "image_file_saved": true,
+  "original_file": "original.jpg",
+  "sha256": "8f578e078343e919c569ddc0452babe5026beb5406a190f1aa029d8d414d8d7d",
+  "width": 1706,
+  "height": 1279,
+  "visible_orientation_checked": true,
+  "visible_orientation_note": "landscape orientation displays normally",
+  "main_subject": "right-side high-voltage tower and power-line network over wheat field, factory, and distant mountains",
+  "genre": "industrial rural landscape",
+  "basic_problem_tier": "无",
+  "story_evidence_level": "场景/情绪",
+  "hard_cap": "无",
+  "scores": {
+    "technical": 6.8,
+    "composition": 6.9,
+    "lighting": 6.2,
+    "story": 7.1,
+    "overall": 6.8
+  }
+}

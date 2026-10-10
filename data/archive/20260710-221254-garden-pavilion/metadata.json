@@ -1,0 +1,24 @@
+{
+  "archive_id": "20260710-221254-garden-pavilion",
+  "created_at": "2026-07-10T22:12:54+08:00",
+  "title": "摄影点评：廊下看水院",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-07/9e20f478899dc29eb19741386f9343c8/fae6ba549476e8e7f69403b3634d17c3.jpg",
+  "image_source": "local_path",
+  "image_file_saved": true,
+  "original_filename": "fae6ba549476e8e7f69403b3634d17c3.jpg",
+  "original_sha256": "d300c84482e322b9549932c0d0f15e2a94a4a166ea74b755a81258cc4c586765",
+  "file_size_bytes": 1202544,
+  "pixel_width": 1746,
+  "pixel_height": 1279,
+  "visible_orientation_checked": "upright landscape display; no rotation blocks normal viewing",
+  "scores": {
+    "technical": 5.4,
+    "composition": 5.5,
+    "lighting": 4.8,
+    "story": 6.0,
+    "overall": 5.5
+  },
+  "basic_problem_tier": "基础问题",
+  "story_evidence": "场景/情绪",
+  "hard_cap": "视觉失衡和主体竞争：构图最高 5.5，总体最高 6.0"
+}

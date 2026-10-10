@@ -1,0 +1,44 @@
+{
+  "archive_id": "20260721-233831-b90c0be6",
+  "created_at": "2026-07-21T23:38:31+08:00",
+  "trigger": "摄影点评",
+  "language": "zh-CN",
+  "skill_used": "/Users/bytedance/Documents/skill/skills/collected/afrexai-photography-mastery/SKILL.md",
+  "rubric_used": "/Users/bytedance/Documents/摄影学习/SCORING_RUBRIC.md",
+  "image_source": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-07/9e20f478899dc29eb19741386f9343c8/b90c0be69a2563c6899f9cbc0041ed1f.jpg",
+  "image_file_saved": true,
+  "saved_image": "original.jpg",
+  "image_format": "JPEG",
+  "image_dimensions": {
+    "width": 1920,
+    "height": 1280
+  },
+  "sha256": "d198e23fb338e7fad2569fd2bad06815eafe6c64ef110bd2188c68280644f90c",
+  "title": "旧建筑与新高楼",
+  "main_subject": "前景灰色历史建筑与右后方现代高楼的并置",
+  "genre": "城市建筑摄影",
+  "image_type": "带有新旧建筑对照意图的城市建筑照片",
+  "basic_problem_tier": "基础问题",
+  "story_evidence_level": "关系/瞬间/视觉想法",
+  "scores": {
+    "technical": 5.0,
+    "composition": 5.5,
+    "lighting": 4.5,
+    "story": 6.0,
+    "overall": 5.5
+  },
+  "caps_applied": [
+    "主导干扰物、边缘裁切与视觉失衡：构图最高5.5，总体最高6.0"
+  ],
+  "cap_rule_summary": "旗杆、大面积空白天空及底部零碎设施与裁切共同分散主体，触发视觉失衡与边缘控制封顶。",
+  "orientation_check": {
+    "source_metadata_reviewed": true,
+    "metadata_capable_inspection_completed": true,
+    "trusted_user_display_checked": true,
+    "visible_orientation_blocks_viewing": false,
+    "rotation_or_orientation_cap_applied": false
+  },
+  "intentional_effect_judgment": "仰拍与新旧建筑并置具有明确视觉意图；但高亮天空、松散留白和旗杆干扰缺少足够控制证据，按非故意基础问题处理。",
+  "high_score_eligibility": "不符合。虽然新旧建筑关系明确，但技术、光线与边缘控制均未达到强项，且构图封顶生效。",
+  "exif_note": "未发现可用的拍摄参数；建议设置均为估计。"
+}

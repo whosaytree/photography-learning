@@ -1,0 +1,24 @@
+{
+  "archive_id": "20260710-224319-handheld-red-rose",
+  "created_at": "2026-07-10T22:43:19+08:00",
+  "title": "摄影点评：手持红玫瑰",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-07/9e20f478899dc29eb19741386f9343c8/618e2f7543634fb8d4f5901d86bac1d4.jpg",
+  "image_source": "local_path",
+  "image_file_saved": true,
+  "original_filename": "618e2f7543634fb8d4f5901d86bac1d4.jpg",
+  "original_sha256": "d0416448ffcfb3bd9d54cb44cab30836f221925d4c403e37b074f4c1f98691fc",
+  "file_size_bytes": 193204,
+  "pixel_width": 810,
+  "pixel_height": 1080,
+  "visible_orientation_checked": "upright portrait display; no rotation blocks normal viewing",
+  "scores": {
+    "technical": 5.8,
+    "composition": 5.7,
+    "lighting": 5.3,
+    "story": 6.3,
+    "overall": 5.9
+  },
+  "basic_problem_tier": "基础问题",
+  "story_evidence": "关系/瞬间/视觉想法",
+  "hard_cap": "花茎底部截断、手和下方叶片偏虚，以及背景轻微干扰与主体竞争：构图最高 6.0，总体最高 6.0"
+}

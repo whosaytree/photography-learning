@@ -1,0 +1,42 @@
+{
+  "archive_id": "20260711-185432-baa06238",
+  "created_at": "2026-07-11T18:54:32+08:00",
+  "trigger": "摄影点评",
+  "language": "zh-CN",
+  "skill_used": "/Users/bytedance/Documents/skill/skills/collected/afrexai-photography-mastery/SKILL.md",
+  "rubric_used": "/Users/bytedance/Documents/摄影学习/SCORING_RUBRIC.md",
+  "image_source": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-07/9e20f478899dc29eb19741386f9343c8/7f1a97d1515ca55be312e7f23a17f378.jpg",
+  "image_file_saved": true,
+  "saved_image": "original.jpg",
+  "image_format": "JPEG",
+  "image_dimensions": {
+    "width": 1280,
+    "height": 1280
+  },
+  "title": "积云、赤岩与横桥",
+  "main_subject": "巨大积云、红褐山脊与横向桥梁形成的山地景观关系",
+  "genre": "自然风光 / 山地景观 / 人工结构与自然关系",
+  "image_type": "photograph_with_clear_landscape_layering_intent",
+  "basic_problem_tier": "无",
+  "story_evidence_level": "场景/情绪",
+  "scores": {
+    "technical": 7,
+    "composition": 7.5,
+    "lighting": 7,
+    "story": 6.5,
+    "overall": 7.5
+  },
+  "caps_applied": [],
+  "cap_rule_summary": "无",
+  "orientation_check": {
+    "metadata_reviewed": true,
+    "image_metadata_checked_with_multiple_sources": true,
+    "trusted_user_display_reviewed": true,
+    "visible_orientation_blocks_viewing": false,
+    "rotation_or_orientation_cap_applied": false
+  },
+  "intentional_effect_judgment": "大比例天空、横向山脊、桥梁分层与方形画幅具有稳定锚点、清楚路径和风光摄影惯例，属于有效的有意处理。",
+  "high_score_eligibility": "具备 7.5 分资格：主体明确、无严重硬伤，构图分层和天空光影明显成立，边缘总体可控；未到 8 分，因为前景草地缺少强落点，桥梁横向阻隔空间，右侧道路将视线带出画外。",
+  "color_observation": "蓝天、白云、红褐岩山与黄绿色草地形成明快冷暖关系；蓝绿略饱和、草地暗部略显黄绿发闷。",
+  "exif_note": "未推断相机、镜头、曝光参数或地点。"
+}
