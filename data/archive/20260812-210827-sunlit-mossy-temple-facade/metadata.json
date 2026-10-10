@@ -1,0 +1,22 @@
+{
+  "archive_id": "20260812-210827-sunlit-mossy-temple-facade",
+  "created_at": "2026-08-12T21:08:27+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/ce90be3208bff66f6783b9232bcc9e0e.jpg",
+  "image_file_saved": true,
+  "original_filename": "ce90be3208bff66f6783b9232bcc9e0e.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 4780,
+  "pixel_height": 2708,
+  "visible_orientation": "upright_landscape",
+  "orientation_sources_checked": [
+    "trusted_visible_display",
+    "system_image_properties",
+    "jpeg_exif_structure"
+  ],
+  "orientation_check_summary": "Available image properties and the trusted visible display were checked; the visible viewing direction does not block normal viewing.",
+  "sha256": "6ca811b02d5363fdbc0775274b51e4bd65ed219c30c06c504ca38bf669e0d0a6",
+  "critique_language": "zh-CN"
+}

@@ -1,0 +1,23 @@
+{
+  "archive_id": "20260824-164225-curved-eave-bell-green-canopy",
+  "created_at": "2026-08-24T16:42:25+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/c8e0b260694091b2e0f6da29cbf7cde3.jpg",
+  "image_file_saved": true,
+  "original_filename": "c8e0b260694091b2e0f6da29cbf7cde3.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 3996,
+  "pixel_height": 4000,
+  "visible_orientation": "upright_near_square",
+  "orientation_sources_checked": [
+    "trusted_visible_display",
+    "system_image_properties",
+    "jpeg_exif_structure"
+  ],
+  "orientation_check_summary": "Available image properties and the trusted visible display were checked; the visible viewing direction does not block normal viewing.",
+  "sha256": "f8500601187e4448a04b611dedb1a028d943b403d71609713854cee014849a97",
+  "capture_settings_confirmed": false,
+  "critique_language": "zh-CN"
+}

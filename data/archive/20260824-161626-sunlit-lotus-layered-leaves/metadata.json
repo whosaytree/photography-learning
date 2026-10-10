@@ -1,0 +1,23 @@
+{
+  "archive_id": "20260824-161626-sunlit-lotus-layered-leaves",
+  "created_at": "2026-08-24T16:16:26+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/2bd5f07acf638d58d7c5fa8a60fc9cb2.jpg",
+  "image_file_saved": true,
+  "original_filename": "2bd5f07acf638d58d7c5fa8a60fc9cb2.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 1408,
+  "pixel_height": 1500,
+  "visible_orientation": "upright_near_square",
+  "orientation_sources_checked": [
+    "trusted_visible_display",
+    "system_image_properties",
+    "jpeg_exif_structure"
+  ],
+  "orientation_check_summary": "Available image properties and the trusted visible display were checked; the visible viewing direction does not block normal viewing.",
+  "sha256": "e69a4f178ef7c1216fd376de41efbe13bf4b4bed5dcf1b125abb7d5f2624fa2a",
+  "capture_settings_confirmed": false,
+  "critique_language": "zh-CN"
+}

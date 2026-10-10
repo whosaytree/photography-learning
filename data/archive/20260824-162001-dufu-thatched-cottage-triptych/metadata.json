@@ -1,0 +1,36 @@
+{
+  "archive_id": "20260824-162001-dufu-thatched-cottage-triptych",
+  "created_at": "2026-08-24T16:20:01+08:00",
+  "title": "杜甫草堂三联：入口与园林",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/d02663c12f5767f41409458a0d70c68b.jpg",
+  "image_file_saved": true,
+  "original_filename": "d02663c12f5767f41409458a0d70c68b.jpg",
+  "original_file": "original.jpg",
+  "image_file": "original.jpg",
+  "saved_image": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 1500,
+  "pixel_height": 2000,
+  "image_dimensions": {
+    "width": 1500,
+    "height": 2000
+  },
+  "visible_orientation": "upright_portrait_triptych",
+  "orientation_sources_checked": [
+    "trusted_visible_display",
+    "system_image_properties",
+    "filesystem_metadata"
+  ],
+  "orientation_check_summary": "The trusted visible display and two metadata-capable system sources were checked; the three-panel collage is upright and its viewing direction does not block normal viewing.",
+  "sha256": "81e3c64e70f995cc57867feabfd84fd3eac31159fbed9a64caf0c9ddce0bc72b",
+  "scores": {
+    "technical": 6.3,
+    "composition": 5.5,
+    "lighting": 6.4,
+    "story": 7.2,
+    "overall": 6.0
+  },
+  "critique_language": "zh-CN"
+}

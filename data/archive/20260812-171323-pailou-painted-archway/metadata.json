@@ -1,0 +1,17 @@
+{
+  "archive_id": "20260812-171323-pailou-painted-archway",
+  "created_at": "2026-08-12T17:13:23+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/d62891899f3fbab2156b2ee7d71ca958.jpg",
+  "image_file_saved": true,
+  "original_filename": "d62891899f3fbab2156b2ee7d71ca958.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 5207,
+  "pixel_height": 2603,
+  "visible_orientation": "upright_landscape",
+  "orientation_check": "upright_in_trusted_display_and_metadata_capable_sources",
+  "sha256": "4201c0c507d26a8dfcbaa7d393aecc30d0bbcd0ef3f7dbe1efc1627975c42357",
+  "critique_language": "zh-CN"
+}

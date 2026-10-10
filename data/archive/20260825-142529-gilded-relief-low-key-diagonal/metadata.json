@@ -1,0 +1,23 @@
+{
+  "archive_id": "20260825-142529-gilded-relief-low-key-diagonal",
+  "created_at": "2026-08-25T14:25:29+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/9f8868769de4af9b5668876b2f75cde6.jpg",
+  "image_file_saved": true,
+  "original_filename": "9f8868769de4af9b5668876b2f75cde6.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 4096,
+  "pixel_height": 2752,
+  "visible_orientation": "upright_landscape",
+  "orientation_sources_checked": [
+    "trusted_visible_display",
+    "system_image_properties",
+    "jpeg_exif_structure"
+  ],
+  "orientation_check_summary": "Available image properties and the trusted visible display were checked; the visible viewing direction does not block normal viewing.",
+  "sha256": "9e7ae8d0a4d9667557348f1b8e8d9e36270012bcff92d4709255d82bdc438399",
+  "capture_settings_confirmed": false,
+  "critique_language": "zh-CN"
+}

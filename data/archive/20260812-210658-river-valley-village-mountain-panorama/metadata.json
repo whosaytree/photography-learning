@@ -1,0 +1,17 @@
+{
+  "archive_id": "20260812-210658-river-valley-village-mountain-panorama",
+  "created_at": "2026-08-12T21:06:58+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/01f99396fc087d9f89d0e3e8e395bf6e.jpg",
+  "image_file_saved": true,
+  "original_filename": "01f99396fc087d9f89d0e3e8e395bf6e.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 4000,
+  "pixel_height": 4264,
+  "visible_orientation": "upright_near_square_portrait",
+  "orientation_check": "upright_in_trusted_display_and_metadata_capable_sources",
+  "sha256": "68fce5a44de9869701e11f6d08f2b592d09bc0259b524157bfa76bc811aac252",
+  "critique_language": "zh-CN"
+}

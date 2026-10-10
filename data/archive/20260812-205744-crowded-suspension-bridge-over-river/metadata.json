@@ -1,0 +1,17 @@
+{
+  "archive_id": "20260812-205744-crowded-suspension-bridge-over-river",
+  "created_at": "2026-08-12T20:57:44+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/0a589722cc629a445c6eff77a120539e.jpg",
+  "image_file_saved": true,
+  "original_filename": "0a589722cc629a445c6eff77a120539e.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 2308,
+  "pixel_height": 2260,
+  "visible_orientation": "upright_square_landscape",
+  "orientation_check": "upright_in_trusted_display_and_metadata_capable_sources",
+  "sha256": "803f30ed4470bdb3bce5b3c0795f9741d38207baa4a624f9706994cad5d91b53",
+  "critique_language": "zh-CN"
+}

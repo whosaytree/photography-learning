@@ -1,0 +1,23 @@
+{
+  "archive_id": "20260824-165434-bamboo-path",
+  "created_at": "2026-08-24T16:54:34+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/05d2263a19ee7e6414b07effa48b1583.jpg",
+  "image_file_saved": true,
+  "original_filename": "05d2263a19ee7e6414b07effa48b1583.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 4000,
+  "pixel_height": 6000,
+  "visible_orientation": "upright_portrait",
+  "orientation_sources_checked": [
+    "trusted_visible_display",
+    "system_image_properties",
+    "jpeg_exif_structure"
+  ],
+  "orientation_check_summary": "Available image properties and the trusted visible display were checked; the visible viewing direction does not block normal viewing.",
+  "sha256": "0b2cfcc0dbbfcdd5118ecb0cb3e139947d4f4a25fe3f227e8b54f8cacad7614c",
+  "capture_settings_confirmed": false,
+  "critique_language": "zh-CN"
+}

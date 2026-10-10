@@ -1,0 +1,22 @@
+{
+  "archive_id": "20260812-205918-crowded-suspension-bridge-garden-pavilion",
+  "created_at": "2026-08-12T20:59:18+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/6e28debcf4a2ec211ef79ab8c9f1ad9a.jpg",
+  "image_file_saved": true,
+  "original_filename": "6e28debcf4a2ec211ef79ab8c9f1ad9a.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 1680,
+  "pixel_height": 2340,
+  "visible_orientation": "upright_portrait",
+  "orientation_sources_checked": [
+    "visible_display",
+    "system_image_properties",
+    "jpeg_exif_structure"
+  ],
+  "orientation_check_summary": "Available image properties and the trusted visible display were checked; the visible viewing direction does not block normal viewing.",
+  "sha256": "0065bf20284d205e1dea9b13bcb3e69a189017d28a19c417fc6899ea7e218077",
+  "critique_language": "zh-CN"
+}

@@ -1,0 +1,22 @@
+{
+  "archive_id": "20260812-205110-wooden-pagoda-above-forest",
+  "created_at": "2026-08-12T20:51:10+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/4b3f376a2845cc09eca267d96d262724.jpg",
+  "image_file_saved": true,
+  "original_filename": "4b3f376a2845cc09eca267d96d262724.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 912,
+  "pixel_height": 1212,
+  "visible_orientation": "upright_portrait",
+  "orientation_sources_checked": [
+    "visible_display",
+    "system_image_properties",
+    "jpeg_exif_structure"
+  ],
+  "orientation_check_summary": "Available image properties and the trusted visible display were checked; the visible viewing direction does not block normal viewing.",
+  "sha256": "8ad2acc824014fae4dfb8e36eead15190cb57ecbdc00c9ea0c6e3e314884c7ea",
+  "critique_language": "zh-CN"
+}

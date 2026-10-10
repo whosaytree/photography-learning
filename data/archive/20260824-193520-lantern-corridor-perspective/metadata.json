@@ -1,0 +1,23 @@
+{
+  "archive_id": "20260824-193520-lantern-corridor-perspective",
+  "created_at": "2026-08-24T19:35:20+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/f44a5383fc7293e779688e4c829e9efc.jpg",
+  "image_file_saved": true,
+  "original_filename": "f44a5383fc7293e779688e4c829e9efc.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 2701,
+  "pixel_height": 4052,
+  "visible_orientation": "upright_portrait",
+  "orientation_sources_checked": [
+    "trusted_visible_display",
+    "system_image_properties",
+    "jpeg_exif_structure"
+  ],
+  "orientation_check_summary": "Available image properties and the trusted visible display were checked; the visible viewing direction does not block normal viewing.",
+  "sha256": "2f46622342ba7461811928f1fe2c8ffe343ed82bc202d83b31653fbf7815c509",
+  "capture_settings_confirmed": false,
+  "critique_language": "zh-CN"
+}

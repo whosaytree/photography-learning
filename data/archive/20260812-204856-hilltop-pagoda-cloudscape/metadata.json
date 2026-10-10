@@ -1,0 +1,17 @@
+{
+  "archive_id": "20260812-204856-hilltop-pagoda-cloudscape",
+  "created_at": "2026-08-12T20:48:56+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/566ff67ee4246be45e6c167fff39c6df.jpg",
+  "image_file_saved": true,
+  "original_filename": "566ff67ee4246be45e6c167fff39c6df.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 2560,
+  "pixel_height": 3184,
+  "visible_orientation": "upright_portrait",
+  "orientation_check": "upright_in_trusted_display_and_metadata_capable_sources",
+  "sha256": "e14e92801ad221e6ed3cc414d7207f0ab6a26394427297bde0ff3d69d7504caf",
+  "critique_language": "zh-CN"
+}

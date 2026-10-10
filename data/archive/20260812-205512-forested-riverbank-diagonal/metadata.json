@@ -1,0 +1,22 @@
+{
+  "archive_id": "20260812-205512-forested-riverbank-diagonal",
+  "created_at": "2026-08-12T20:55:12+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/715969d997c759e222940c9094376187.jpg",
+  "image_file_saved": true,
+  "original_filename": "715969d997c759e222940c9094376187.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 1384,
+  "pixel_height": 780,
+  "visible_orientation": "upright_landscape",
+  "orientation_sources_checked": [
+    "trusted_visible_display",
+    "system_image_properties",
+    "jpeg_exif_structure"
+  ],
+  "orientation_check_summary": "The trusted visible display and two metadata-capable sources were checked; the visible viewing direction does not block normal viewing.",
+  "sha256": "45148f68d8b8bb370ce57a096cee3ec68dc3237cec0c85efd18f88e0f8b18c0f",
+  "critique_language": "zh-CN"
+}

@@ -1,0 +1,23 @@
+{
+  "archive_id": "20260824-193626-autumn-leaves-sky-reflection",
+  "created_at": "2026-08-24T19:36:26+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/e2eb05d19b6977855235ca3bb2555769.jpg",
+  "image_file_saved": true,
+  "original_filename": "e2eb05d19b6977855235ca3bb2555769.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 6000,
+  "pixel_height": 4000,
+  "visible_orientation": "upright_landscape_abstract",
+  "orientation_sources_checked": [
+    "trusted_visible_display",
+    "system_image_properties",
+    "jpeg_exif_structure"
+  ],
+  "orientation_check_summary": "Available image properties and the trusted visible display were checked; the abstract reflection reads coherently and the visible viewing direction does not block normal viewing.",
+  "sha256": "9a15967a3a02e1662d2d1cace7af32f8439c7af7e860d5e0011c6a82e18bef3d",
+  "capture_settings_confirmed": false,
+  "critique_language": "zh-CN"
+}

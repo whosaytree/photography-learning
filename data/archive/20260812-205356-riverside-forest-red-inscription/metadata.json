@@ -1,0 +1,22 @@
+{
+  "archive_id": "20260812-205356-riverside-forest-red-inscription",
+  "created_at": "2026-08-12T20:53:56+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/02fafd780b959c1499a7002e2f78a316.jpg",
+  "image_file_saved": true,
+  "original_filename": "02fafd780b959c1499a7002e2f78a316.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 4644,
+  "pixel_height": 2852,
+  "visible_orientation": "upright_landscape",
+  "orientation_sources_checked": [
+    "visible_display",
+    "system_image_properties",
+    "jpeg_exif_structure"
+  ],
+  "orientation_check_summary": "Available image properties and the trusted visible display were checked; the visible viewing direction does not block normal viewing.",
+  "sha256": "f99cc37b989b8a077a92aa26ccef735a0cb6ae46764aa03452a805ce79d6f8ab",
+  "critique_language": "zh-CN"
+}

@@ -1,0 +1,23 @@
+{
+  "archive_id": "20260824-214151-roof-ridge-ornament-forest",
+  "created_at": "2026-08-24T21:41:51+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/6ff199b669387be821e01dad88767dbc.jpg",
+  "image_file_saved": true,
+  "original_filename": "6ff199b669387be821e01dad88767dbc.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 3676,
+  "pixel_height": 3680,
+  "visible_orientation": "upright_square",
+  "orientation_sources_checked": [
+    "trusted_visible_display",
+    "system_image_properties",
+    "jpeg_exif_structure"
+  ],
+  "orientation_check_summary": "Available image properties and the trusted visible display were checked; the visible viewing direction does not block normal viewing.",
+  "sha256": "809a05a81d1a9451e843c1eba0798bc309fac49104be926b7300c2e118d7c8b6",
+  "capture_settings_confirmed": false,
+  "critique_language": "zh-CN"
+}

@@ -1,0 +1,17 @@
+{
+  "archive_id": "20260812-141735-red-door-staircase-tree",
+  "created_at": "2026-08-12T14:17:35+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/f51c345231ec103380671aafd0043868.jpg",
+  "image_file_saved": true,
+  "original_filename": "f51c345231ec103380671aafd0043868.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 3176,
+  "pixel_height": 4480,
+  "visible_orientation": "upright_portrait",
+  "orientation_check": "upright_in_trusted_display_and_metadata_capable_source",
+  "sha256": "c73d3bdd813d6393c56a6f2602d7bfdabb760a530d00a05403d384bd3c33bc81",
+  "critique_language": "zh-CN"
+}

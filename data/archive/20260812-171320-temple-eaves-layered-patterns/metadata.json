@@ -1,0 +1,22 @@
+{
+  "archive_id": "20260812-171320-temple-eaves-layered-patterns",
+  "created_at": "2026-08-12T17:13:20+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/fbeea94e28a3e254c9f13b2e3d639172.jpg",
+  "image_file_saved": true,
+  "original_filename": "fbeea94e28a3e254c9f13b2e3d639172.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 2000,
+  "pixel_height": 2052,
+  "visible_orientation": "upright_near_square_portrait",
+  "orientation_sources_checked": [
+    "visible_display",
+    "system_image_properties",
+    "jpeg_exif_structure"
+  ],
+  "orientation_check_summary": "Available image properties and the trusted visible display were checked; the visible viewing direction does not block normal viewing.",
+  "sha256": "8f6fcdfe307b7406e966fa877d0b525f364851cbd702d442adce37ea5573f6e5",
+  "critique_language": "zh-CN"
+}

@@ -1,0 +1,23 @@
+{
+  "archive_id": "20260824-164909-bamboo-rhythm",
+  "created_at": "2026-08-24T16:49:09+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/f7b683e18095b9636f3647f59437acec.jpg",
+  "image_file_saved": true,
+  "original_filename": "f7b683e18095b9636f3647f59437acec.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 5712,
+  "pixel_height": 3216,
+  "visible_orientation": "upright_landscape",
+  "orientation_sources_checked": [
+    "trusted_visible_display",
+    "system_image_properties",
+    "jpeg_exif_structure"
+  ],
+  "orientation_check_summary": "Available image properties and the trusted visible display were checked; the visible viewing direction does not block normal viewing.",
+  "sha256": "6b2e56552b5c8bc0eb163108f7786f67af4cc1443e87acc351f3af8a7da3be3f",
+  "capture_settings_confirmed": false,
+  "critique_language": "zh-CN"
+}
