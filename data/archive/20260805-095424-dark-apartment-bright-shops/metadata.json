@@ -1,0 +1,22 @@
+{
+  "archive_id": "20260805-095424-dark-apartment-bright-shops",
+  "created_at": "2026-08-05T09:54:24+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/74473b01cf7c8fb595033f8f03ce6b14.jpg",
+  "image_file_saved": true,
+  "original_filename": "74473b01cf7c8fb595033f8f03ce6b14.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 4096,
+  "pixel_height": 2730,
+  "visible_orientation": "upright_landscape",
+  "critique_language": "zh-CN",
+  "scores": {
+    "technical": 3.9,
+    "composition": 5.1,
+    "lighting": 4.2,
+    "story": 5.8,
+    "overall": 4.5
+  }
+}

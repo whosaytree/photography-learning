@@ -1,0 +1,22 @@
+{
+  "archive_id": "20260810-221610-night-blue-walkway",
+  "created_at": "2026-08-10T22:16:10+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/67b2b4c54fd9c5efc84b8d580799ae6e.jpg",
+  "image_file_saved": true,
+  "original_filename": "67b2b4c54fd9c5efc84b8d580799ae6e.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 3740,
+  "pixel_height": 4000,
+  "visible_orientation": "upright_landscape_near_square",
+  "capture_settings_confirmed": {
+    "f_number": 6.7,
+    "exposure_time_seconds": 0.0167,
+    "iso": 640,
+    "focal_length_mm": 41,
+    "white_balance": "auto"
+  },
+  "critique_language": "zh-CN"
+}

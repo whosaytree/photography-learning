@@ -1,0 +1,22 @@
+{
+  "archive_id": "20260805-102346-night-tree-protective-net",
+  "created_at": "2026-08-05T10:23:46+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/679db361e1cd07388a17dc837ca0410f.jpg",
+  "image_file_saved": true,
+  "original_filename": "679db361e1cd07388a17dc837ca0410f.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 4000,
+  "pixel_height": 6000,
+  "visible_orientation": "upright_portrait",
+  "critique_language": "zh-CN",
+  "scores": {
+    "technical": 5.0,
+    "composition": 5.5,
+    "lighting": 5.4,
+    "story": 5.8,
+    "overall": 5.5
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "archive_id": "20260810-222447-red-lanterns-old-gray-building",
+  "created_at": "2026-08-10T22:24:47+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/c9b14f485ef05aee87be25e4d0f9c0e4.jpg",
+  "image_file_saved": true,
+  "original_filename": "c9b14f485ef05aee87be25e4d0f9c0e4.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 1964,
+  "pixel_height": 2616,
+  "visible_orientation": "upright_portrait",
+  "orientation_sources_checked": [
+    "visible_display",
+    "system_image_properties",
+    "spotlight_metadata"
+  ],
+  "sha256": "56ad152ec7a49809baf12890cfb41b3c9b82870c292882529e8c281cd4ec9ac7",
+  "critique_language": "zh-CN"
+}

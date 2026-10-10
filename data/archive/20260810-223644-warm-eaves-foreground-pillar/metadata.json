@@ -1,0 +1,22 @@
+{
+  "archive_id": "20260810-223644-warm-eaves-foreground-pillar",
+  "created_at": "2026-08-10T22:36:44+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/f9b9b97ac5929e0a38aee9754c8198bf.jpg",
+  "image_file_saved": true,
+  "original_filename": "f9b9b97ac5929e0a38aee9754c8198bf.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 6000,
+  "pixel_height": 4000,
+  "visible_orientation": "upright_landscape",
+  "capture_settings_confirmed": {
+    "f_number": 4.5,
+    "exposure_time_seconds": 0.01111111111111111,
+    "iso": 250,
+    "focal_length_mm": 33,
+    "white_balance": "auto"
+  },
+  "critique_language": "zh-CN"
+}

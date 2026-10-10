@@ -1,0 +1,22 @@
+{
+  "archive_id": "20260810-223332-rainy-courtyard-tree-eaves",
+  "created_at": "2026-08-10T22:33:32+08:00",
+  "trigger": "摄影点评",
+  "image_source": "local_path",
+  "source_path": "/Users/bytedance/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_74dxmxipp3mp22_51e7/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/f441861e17611761b1355069b2a340ec.jpg",
+  "image_file_saved": true,
+  "original_filename": "f441861e17611761b1355069b2a340ec.jpg",
+  "original_file": "original.jpg",
+  "mime_type": "image/jpeg",
+  "pixel_width": 2264,
+  "pixel_height": 3020,
+  "visible_orientation": "upright_portrait",
+  "capture_settings_confirmed": {
+    "f_number": 4.5,
+    "exposure_time_seconds": 0.01111111111111111,
+    "iso": 250,
+    "focal_length_mm": 24,
+    "white_balance": "auto"
+  },
+  "critique_language": "zh-CN"
+}
